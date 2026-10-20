@@ -1,0 +1,4098 @@
+{
+ "key": "tic144277542_P12.9812",
+ "tic_id": 144277542,
+ "rank": 2150,
+ "survey_period": 12.98117406363673,
+ "survey_depth_ppt": 2.4649233383520364,
+ "generated_utc": "2026-09-23T17:06:15Z",
+ "rules_version": "p8.0",
+ "events": {
+  "survey": {
+   "ephemeris": {
+    "period": 12.98117406363673,
+    "t0": 3167.2967431067227,
+    "duration": 0.07187627327609256,
+    "source": "survey",
+    "ref_depth_ppt": 2.4649233383520364
+   },
+   "n_observed": 11,
+   "n_excluded": 8,
+   "n_kept": 3,
+   "det_all": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 2.69,
+    "err_ppt": 0.266,
+    "snr": 10.1,
+    "chi2_const": 11.2,
+    "dof": 6,
+    "p_const": 0.2005327091266805,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.31,
+    "snr_without_top_event": 8.48,
+    "n_events_depth_above_2sigma": 6,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.864,
+     "odd_err": 0.445,
+     "even_ppt": 2.593,
+     "even_err": 0.333,
+     "sigma": 0.49
+    },
+    "p_const_white": 0.08301086829638259,
+    "chi2_const_white": 11.2,
+    "snr_white": 10.1,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.216,
+    "weighted_mean_depth_ppt_inflated": 2.699,
+    "err_ppt_inflated": 0.293,
+    "snr_inflated": 9.21,
+    "chi2_const_inflated": 8.5,
+    "p_const_inflated": 0.2005327091266805
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 2.91,
+    "err_ppt": 0.369,
+    "snr": 7.89,
+    "chi2_const": 4.4,
+    "dof": 2,
+    "p_const": 0.1413581866656208,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.52,
+    "snr_without_top_event": 5.61,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.117,
+     "odd_err": 0.697,
+     "even_ppt": 2.441,
+     "even_err": 0.435,
+     "sigma": 2.04
+    },
+    "p_const_white": 0.11173866409299726,
+    "chi2_const_white": 4.4,
+    "snr_white": 7.89,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.082,
+    "weighted_mean_depth_ppt_inflated": 2.87,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.42,
+    "chi2_const_inflated": 3.9,
+    "p_const_inflated": 0.1413581866656208
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 2.959,
+    "err_ppt": 0.37,
+    "snr": 8.0,
+    "chi2_const": 11.8,
+    "dof": 2,
+    "p_const": 0.00424806338947507,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 5.74,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.486,
+     "odd_err": 0.741,
+     "even_ppt": 2.452,
+     "even_err": 0.427,
+     "sigma": 2.38
+    },
+    "p_const_white": 0.0027820655350143785,
+    "chi2_const_white": 11.8,
+    "snr_white": 8.0,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.082,
+    "weighted_mean_depth_ppt_inflated": 2.862,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.4,
+    "chi2_const_inflated": 10.9,
+    "p_const_inflated": 0.00424806338947507
+   },
+   "flags": [
+    "one event carries > 50% of the signal",
+    "SNR < 7 without the strongest event",
+    "more than half of the observed events coincide with dumps/edges/ramps"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3167.2967,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3180.2779,
+     "sector": 68,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 19.918,
+     "sap_depth_err_ppt": 3.165,
+     "edge_distance_days": 1.864,
+     "pdc_gap_distance_days": 1.569,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.91,
+     "ramp_over_depth": 3.15,
+     "bkg_over_sector_median": 72.59,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "91% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3193.2591,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.944,
+     "sap_depth_err_ppt": 1.01,
+     "edge_distance_days": 10.904,
+     "pdc_gap_distance_days": 0.518,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.06,
+     "bkg_over_sector_median": 3.39,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3206.2403,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.009,
+     "det_depth_err_ppt": 1.087,
+     "sap_depth_ppt": 0.609,
+     "sap_depth_err_ppt": 0.854,
+     "edge_distance_days": 1.901,
+     "pdc_gap_distance_days": 0.006,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.51,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 1.94,
+     "excluded": true,
+     "exclusion_reasons": [
+      "51% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.01 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3219.2214,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3232.2026,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3245.1838,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3258.165,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3271.1461,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3284.1273,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3297.1085,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3310.0897,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3323.0708,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3336.052,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3349.0332,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3362.0144,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3374.9955,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3387.9767,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3400.9579,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3413.9391,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3426.9202,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3439.9014,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3452.8826,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3465.8637,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3478.8449,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3491.8261,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3504.8073,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3517.7884,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3530.7696,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3543.7508,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3556.732,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3569.7131,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3582.6943,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3595.6755,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3608.6567,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3621.6378,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3634.619,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3647.6002,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3660.5814,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3673.5625,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3686.5437,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3699.5249,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3712.5061,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3725.4872,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3738.4684,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3751.4496,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3764.4308,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3777.4119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3790.3931,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3803.3743,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3816.3554,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3829.3366,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3842.3178,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3855.299,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3868.2801,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3881.2613,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3894.2425,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.54,
+     "det_depth_err_ppt": 0.763,
+     "sap_depth_ppt": 1.678,
+     "sap_depth_err_ppt": 0.774,
+     "edge_distance_days": 11.911,
+     "pdc_gap_distance_days": 11.911,
+     "desat": false,
+     "q_frac": 0.19,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 2.34,
+     "bkg_over_sector_median": 3.42,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3907.2237,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 0.768,
+     "sap_depth_err_ppt": 1.025,
+     "edge_distance_days": 0.338,
+     "pdc_gap_distance_days": 0.338,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.82,
+     "bkg_over_sector_median": 5.34,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3920.2048,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.037,
+     "det_depth_err_ppt": 0.703,
+     "sap_depth_ppt": 5.035,
+     "sap_depth_err_ppt": 0.679,
+     "edge_distance_days": 12.43,
+     "pdc_gap_distance_days": 12.43,
+     "desat": false,
+     "q_frac": 0.29,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.45,
+     "bkg_over_sector_median": 1.92,
+     "excluded": true,
+     "exclusion_reasons": [
+      "29% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3933.186,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.214,
+     "det_depth_err_ppt": 0.682,
+     "sap_depth_ppt": 0.412,
+     "sap_depth_err_ppt": 0.775,
+     "edge_distance_days": 0.262,
+     "pdc_gap_distance_days": 0.262,
+     "desat": false,
+     "q_frac": 0.39,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.14,
+     "bkg_over_sector_median": 1.66,
+     "excluded": true,
+     "exclusion_reasons": [
+      "39% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3946.1672,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3959.1484,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 3972.1295,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 3985.1107,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 3998.0919,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4011.0731,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4024.0542,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4037.0354,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4050.0166,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4062.9978,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4075.9789,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4088.9601,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4101.9413,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4114.9224,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4127.9036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4140.8848,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4153.866,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.66,
+     "det_depth_err_ppt": 0.638,
+     "sap_depth_ppt": 3.644,
+     "sap_depth_err_ppt": 0.644,
+     "edge_distance_days": 1.839,
+     "pdc_gap_distance_days": 1.839,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.49,
+     "bkg_over_sector_median": 1.2,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 77,
+     "tc_btjd": 4166.8471,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.117,
+     "det_depth_err_ppt": 0.697,
+     "sap_depth_ppt": 4.486,
+     "sap_depth_err_ppt": 0.741,
+     "edge_distance_days": 4.717,
+     "pdc_gap_distance_days": 4.717,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.42,
+     "bkg_over_sector_median": 1.18,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 78,
+     "tc_btjd": 4179.8283,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.251,
+     "det_depth_err_ppt": 0.594,
+     "sap_depth_ppt": 1.518,
+     "sap_depth_err_ppt": 0.57,
+     "edge_distance_days": 1.246,
+     "pdc_gap_distance_days": 1.246,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.64,
+     "bkg_over_sector_median": 1.44,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 79,
+     "tc_btjd": 4192.8095,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -44.677,
+     "sap_depth_err_ppt": 0.615,
+     "edge_distance_days": 12.391,
+     "pdc_gap_distance_days": 12.391,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.4,
+     "ramp_over_depth": 7.38,
+     "bkg_over_sector_median": 3.37,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "40% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 12.981356096822823,
+    "t0": 3167.283253396794,
+    "duration": 0.07187627327609256,
+    "source": "tls_forced",
+    "ref_depth_ppt": 2.4649233383520364
+   },
+   "n_observed": 11,
+   "n_excluded": 8,
+   "n_kept": 3,
+   "det_all": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 2.759,
+    "err_ppt": 0.263,
+    "snr": 10.49,
+    "chi2_const": 7.3,
+    "dof": 6,
+    "p_const": 0.4603629060863982,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.28,
+    "snr_without_top_event": 9.0,
+    "n_events_depth_above_2sigma": 7,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.93,
+     "odd_err": 0.424,
+     "even_ppt": 2.652,
+     "even_err": 0.336,
+     "sigma": 0.51
+    },
+    "p_const_white": 0.2899468182875831,
+    "chi2_const_white": 7.3,
+    "snr_white": 10.49,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.215,
+    "weighted_mean_depth_ppt_inflated": 2.773,
+    "err_ppt_inflated": 0.289,
+    "snr_inflated": 9.58,
+    "chi2_const_inflated": 5.7,
+    "p_const_inflated": 0.4603629060863982
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.003,
+    "err_ppt": 0.371,
+    "snr": 8.1,
+    "chi2_const": 2.9,
+    "dof": 2,
+    "p_const": 0.2753721889346781,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 5.98,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.981,
+     "odd_err": 0.697,
+     "even_ppt": 2.616,
+     "even_err": 0.438,
+     "sigma": 1.66
+    },
+    "p_const_white": 0.2384267688033737,
+    "chi2_const_white": 2.9,
+    "snr_white": 8.1,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.075,
+    "weighted_mean_depth_ppt_inflated": 2.972,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.68,
+    "chi2_const_inflated": 2.6,
+    "p_const_inflated": 0.2753721889346781
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.058,
+    "err_ppt": 0.372,
+    "snr": 8.23,
+    "chi2_const": 9.4,
+    "dof": 2,
+    "p_const": 0.012502233922690219,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.45,
+    "snr_without_top_event": 6.1,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.353,
+     "odd_err": 0.741,
+     "even_ppt": 2.623,
+     "even_err": 0.43,
+     "sigma": 2.02
+    },
+    "p_const_white": 0.00921332209105107,
+    "chi2_const_white": 9.4,
+    "snr_white": 8.23,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.075,
+    "weighted_mean_depth_ppt_inflated": 2.977,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.69,
+    "chi2_const_inflated": 8.8,
+    "p_const_inflated": 0.012502233922690219
+   },
+   "flags": [
+    "SNR < 7 without the strongest event",
+    "more than half of the observed events coincide with dumps/edges/ramps"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3167.2833,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3180.2646,
+     "sector": 68,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 10.331,
+     "sap_depth_err_ppt": 3.112,
+     "edge_distance_days": 1.877,
+     "pdc_gap_distance_days": 1.556,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.94,
+     "ramp_over_depth": 2.79,
+     "bkg_over_sector_median": 58.61,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "94% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3193.246,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.21,
+     "sap_depth_err_ppt": 1.01,
+     "edge_distance_days": 10.891,
+     "pdc_gap_distance_days": 0.505,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 3.35,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3206.2273,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.511,
+     "det_depth_err_ppt": 0.858,
+     "sap_depth_ppt": 0.537,
+     "sap_depth_err_ppt": 0.837,
+     "edge_distance_days": 1.914,
+     "pdc_gap_distance_days": 0.007,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.49,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 1.93,
+     "excluded": true,
+     "exclusion_reasons": [
+      "49% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.01 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3219.2087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3232.19,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3245.1714,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3258.1527,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3271.1341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3284.1155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3297.0968,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3310.0782,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3323.0595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3336.0409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3349.0222,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3362.0036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3374.985,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3387.9663,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3400.9477,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3413.929,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3426.9104,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3439.8917,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3452.8731,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3465.8544,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3478.8358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3491.8172,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3504.7985,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3517.7799,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3530.7612,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3543.7426,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3556.7239,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3569.7053,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3582.6866,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3595.668,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3608.6494,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3621.6307,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3634.6121,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3647.5934,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3660.5748,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3673.5561,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3686.5375,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3699.5189,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3712.5002,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3725.4816,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3738.4629,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3751.4443,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3764.4256,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3777.407,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3790.3883,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3803.3697,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3816.3511,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3829.3324,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3842.3138,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3855.2951,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3868.2765,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3881.2578,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3894.2392,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.484,
+     "det_depth_err_ppt": 0.761,
+     "sap_depth_ppt": 1.605,
+     "sap_depth_err_ppt": 0.815,
+     "edge_distance_days": 11.907,
+     "pdc_gap_distance_days": 11.907,
+     "desat": false,
+     "q_frac": 0.19,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 2.32,
+     "bkg_over_sector_median": 3.39,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3907.2206,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.035,
+     "sap_depth_err_ppt": 1.06,
+     "edge_distance_days": 0.341,
+     "pdc_gap_distance_days": 0.341,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.83,
+     "bkg_over_sector_median": 5.29,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3920.2019,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.899,
+     "det_depth_err_ppt": 0.718,
+     "sap_depth_ppt": 4.672,
+     "sap_depth_err_ppt": 0.704,
+     "edge_distance_days": 12.427,
+     "pdc_gap_distance_days": 12.427,
+     "desat": false,
+     "q_frac": 0.29,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.44,
+     "bkg_over_sector_median": 1.9,
+     "excluded": true,
+     "exclusion_reasons": [
+      "29% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3933.1833,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.556,
+     "det_depth_err_ppt": 0.682,
+     "sap_depth_ppt": 0.72,
+     "sap_depth_err_ppt": 0.76,
+     "edge_distance_days": 0.265,
+     "pdc_gap_distance_days": 0.265,
+     "desat": false,
+     "q_frac": 0.39,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.13,
+     "bkg_over_sector_median": 1.65,
+     "excluded": true,
+     "exclusion_reasons": [
+      "39% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3946.1646,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3959.146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 3972.1273,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 3985.1087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 3998.09,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4011.0714,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4024.0528,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4037.0341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4050.0155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4062.9968,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4075.9782,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4088.9595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4101.9409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4114.9222,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4127.9036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4140.885,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4153.8663,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.781,
+     "det_depth_err_ppt": 0.648,
+     "sap_depth_ppt": 3.757,
+     "sap_depth_err_ppt": 0.654,
+     "edge_distance_days": 1.839,
+     "pdc_gap_distance_days": 1.839,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.49,
+     "bkg_over_sector_median": 1.19,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 77,
+     "tc_btjd": 4166.8477,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.981,
+     "det_depth_err_ppt": 0.697,
+     "sap_depth_ppt": 4.353,
+     "sap_depth_err_ppt": 0.741,
+     "edge_distance_days": 4.716,
+     "pdc_gap_distance_days": 4.716,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.42,
+     "bkg_over_sector_median": 1.18,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 78,
+     "tc_btjd": 4179.829,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.478,
+     "det_depth_err_ppt": 0.594,
+     "sap_depth_ppt": 1.761,
+     "sap_depth_err_ppt": 0.57,
+     "edge_distance_days": 1.247,
+     "pdc_gap_distance_days": 1.247,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.64,
+     "bkg_over_sector_median": 1.43,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 79,
+     "tc_btjd": 4192.8104,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -44.526,
+     "sap_depth_err_ppt": 0.605,
+     "edge_distance_days": 12.39,
+     "pdc_gap_distance_days": 12.39,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.4,
+     "ramp_over_depth": 7.37,
+     "bkg_over_sector_median": 3.35,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "40% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  }
+ },
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "neighbours_summary": "Gaia: 1 sources within 1 arcmin; target RUWE 1.2617647647857666, var flag VARIABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class SOLAR_LIKE; 0 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 0 (); VSX 1",
+ "gaia": {
+  "gaia_error": null,
+  "n_within_1arcmin": 1,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.2617647647857666,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 3.476106882095337,
+  "phot_variable_flag": "VARIABLE",
+  "vari_class": "SOLAR_LIKE",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 1.1899994611740112,
+  "rv_n_transits": 46.0,
+  "n_neighbours_could_produce_depth_within_3px": 0,
+  "simbad_otypes": [],
+  "n_vsx_within_1arcmin": 1,
+  "vsx_types": [
+   "ROT"
+  ],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "astrometric_excess_noise_sig 3.5 > 2.0",
+   "Gaia phot_variable_flag VARIABLE (SOLAR_LIKE)",
+   "VSX entry within 1 arcmin (ROT)"
+  ]
+ },
+ "simbad": [],
+ "vsx": [
+  {
+   "_q": 304.0,
+   "_r": 0.0003,
+   "recno": 10241766.0,
+   "OID": 8236456.0,
+   "Name": "Gaia DR3 6524996886834125952",
+   "V": 0.0,
+   "RAJ2000": 353.976318359375,
+   "DEJ2000": -47.803890228271484,
+   "Type": "ROT",
+   "l_max": "",
+   "max": 13.79,
+   "u_max": "",
+   "n_max": "G",
+   "f_min": "",
+   "l_min": "",
+   "min": 13.82,
+   "u_min": "",
+   "n_min": "G",
+   "Epoch": null,
+   "u_Epoch": "",
+   "l_Period": "",
+   "Period": null,
+   "u_Period": "",
+   "Sp": "M",
+   "n_OID": "",
+   "sep_arcsec": 0.0
+  }
+ ],
+ "crossmatch": {
+  "catalog_stamp": "ctoi=2026-09-22:f6964541;nasa_ps=2026-09-22:71372b8b;nasa_pscomppars=2026-09-22:e93884ea;spoc_tce=2026-09-22:065b1283;tess_eb=2026-09-22:43555226;toi=2026-09-22:1d0ee15b",
+  "star": {
+   "tic_id": 144277542,
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "catalog_stamp": "ctoi=2026-09-22:f6964541;nasa_ps=2026-09-22:71372b8b;nasa_pscomppars=2026-09-22:e93884ea;spoc_tce=2026-09-22:065b1283;tess_eb=2026-09-22:43555226;toi=2026-09-22:1d0ee15b",
+   "neighbours_resolved": false,
+   "rejected": false,
+   "flagged": false,
+   "summary": "CLEAN: TIC 144277542 absent from all sources (neighbour TICs not supplied)",
+   "checked_utc": "2026-09-22T23:32:30.660401+00:00",
+   "source_set": "p8_2000",
+   "hard_stop_p12": "CLEAN"
+  }
+ },
+ "fit": {
+  "adopted": {
+   "t0_btjd": 3167.287570139451,
+   "t0_err": 0.008577592364062256,
+   "epoch_bjd": 2460167.2875701394,
+   "period": 12.981388999463034,
+   "period_err": 0.00012624287275869294,
+   "rp_rs": 0.04781008763562296,
+   "rp_rs_err": 0.002747812910824613,
+   "a_rs": 40.531495036805296,
+   "a_rs_err": 4.05314950368053,
+   "b": 1.9340107484769516e-05,
+   "b_err": 2362.0151252802166,
+   "inc_deg": 89.99997266060547,
+   "depth_max_ppt": 2.672,
+   "depth_avg_ppt": 2.322,
+   "depth_err_ppt": 0.263,
+   "t14_hours": 2.563,
+   "t14_err_hours": 2.574,
+   "rp_rearth": 2.253,
+   "rp_rearth_err": 0.26,
+   "rho_fit_cgs": 7.47468649060768,
+   "density_ratio_fit_over_cat": 0.9999949308046285,
+   "grazing": false,
+   "delta_chi2_vs_flat": 88.44704710163978,
+   "n_transits": 7
+  },
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 1.0988087863213423,
+  "delta_chi2_vs_flat": 88.44704710163978,
+  "beta_red_noise": 1.14,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.04878394719900502,
+    "rp_rs_err": 0.004148967791507522,
+    "depth_ppt": 2.38,
+    "n_transits": 4
+   },
+   "even": {
+    "rp_rs": 0.047243371669670624,
+    "rp_rs_err": 0.003231272224419871,
+    "depth_ppt": 2.232,
+    "n_transits": 4
+   },
+   "sigma": 0.29
+  },
+  "stellar": {
+   "radius": 0.432,
+   "radius_err": 0.0432,
+   "mass": 0.428,
+   "rho_cgs": 7.474724381445918,
+   "rho_err": 2.242417314433775,
+   "a_rs_catalog": 40.531495036805296
+  },
+  "uncertainty_issues": []
+ },
+ "ctoi_fields_path": null,
+ "stageA": {
+  "decision": "PASS",
+  "reason": "tls ephemeris, 3 kept events, SNR 8.1, top share 0.48, SNR w/o top 5.98, depth 3.003 ppt = 1.218x survey, p_const 0.28; all six criteria pass",
+  "max_verdict": null
+ },
+ "stageB": {
+  "decision": "PASS",
+  "reason": "6 sector(s) could test the period phase-independently, none excludes it; 3 star-level flag(s): astrometric_excess_noise_sig 3.5 > 2.0; Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); VSX entry within 1 arcmin (ROT)",
+  "max_verdict": "HOLD"
+ },
+ "stageC": {
+  "decision": "PASS",
+  "reason": "strongest peak 12.98136 d is within 1% of the survey period at SDE 14.9",
+  "max_verdict": null
+ },
+ "provisional_verdict": "KILL",
+ "provisional_reason": "Stage B star-level flags stand: astrometric_excess_noise_sig 3.5 > 2.0; Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); VSX entry within 1 arcmin (ROT)",
+ "verdict": null,
+ "reason": "awaiting the human-read verdict (revet_p6.py verdict ...)",
+ "seconds": 0.5,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "tiers_by_rules": {
+  "p10.0": {
+   "rules_version": "p10.0",
+   "key": "tic144277542_P12.9812",
+   "verdict": "KILL",
+   "deciding_condition": "K9",
+   "deciding_detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+   "reference_depth": {
+    "depth_ppt": 2.322,
+    "err_ppt": 0.263,
+    "source": "fit.adopted.depth_avg_ppt"
+   },
+   "ephemeris": {
+    "period": 12.981388999463034,
+    "t0": 3167.287570139451,
+    "duration": 0.10679166666666667,
+    "source": "fit.adopted"
+   },
+   "conditions": {
+    "K0": {
+     "fired": false,
+     "measurable": true,
+     "detail": "hard stop CLEAN",
+     "status": "CLEAN"
+    },
+    "K1": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Stage A PASS",
+     "decision": "PASS",
+     "failed_criteria": []
+    },
+    "K2": {
+     "fired": false,
+     "measurable": true,
+     "detail": "secondary gate PASS (mode bound)",
+     "gate": "PASS",
+     "mode": "bound"
+    },
+    "K3": {
+     "fired": false,
+     "measurable": true,
+     "detail": "phase-independent exclusion False (6 sector(s) tested)",
+     "excluded": false,
+     "n_sectors_tested": 6
+    },
+    "K4": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Stage C PASS (strongest): strongest peak 12.98136 d is within 1% of the survey period at SDE 14.9",
+     "decision": "PASS",
+     "peak_rule": "strongest"
+    },
+    "K5": {
+     "fired": false,
+     "measurable": true,
+     "detail": "no alias match among 10 accepted signals and 0 catalogued periods",
+     "matches": [],
+     "n_catalogue_periods": 0
+    },
+    "K6": {
+     "fired": false,
+     "measurable": true,
+     "detail": "odd/even 0.29 sigma (4 odd, 4 even transits)",
+     "sigma": 0.29,
+     "n_odd": 4,
+     "n_even": 4
+    },
+    "K7": {
+     "fired": false,
+     "measurable": true,
+     "detail": "K7a in 0 sector(s) (literal whole-cutout form: 1), K7b in 0 sector(s) (5 K7a-measurable, 0 K7b-measurable)",
+     "n_elsewhere": 0,
+     "n_elsewhere_literal": 1,
+     "n_absent": 0,
+     "elsewhere": [
+      {
+       "sector": 68,
+       "fired": null,
+       "row": 11,
+       "column": 13,
+       "difference_e_per_s": 5678.277729279235,
+       "literal": {
+        "fired": null,
+        "row": 16,
+        "column": 3,
+        "difference_e_per_s": 5756.900521223092,
+        "dist_target_px": 9.61,
+        "dist_nearest_neighbour_px": 1.05,
+        "nearest_neighbour_source_id": 6524985543820891520,
+        "nearest_neighbour_G": 20.36676597595215,
+        "event_scatter_e_per_s": 0.0,
+        "significance": null,
+        "detail": "event scatter unavailable at the maximum pixel"
+       },
+       "dist_target_px": 2.235,
+       "dist_nearest_neighbour_px": 3.524,
+       "nearest_neighbour_source_id": 6524995370706283008,
+       "nearest_neighbour_G": 19.249685287475586,
+       "event_scatter_e_per_s": 0.0,
+       "significance": null,
+       "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+      },
+      {
+       "sector": 69,
+       "fired": false,
+       "row": 10,
+       "column": 10,
+       "difference_e_per_s": 6.2273453524549325,
+       "literal": {
+        "fired": true,
+        "row": 19,
+        "column": 5,
+        "difference_e_per_s": 6.749940073853452,
+        "dist_target_px": 9.755,
+        "dist_nearest_neighbour_px": 0.566,
+        "nearest_neighbour_source_id": 6524985097144510592,
+        "nearest_neighbour_G": 19.18869972229004,
+        "event_scatter_e_per_s": 0.22595263434621687,
+        "significance": 29.87,
+        "detail": "max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+       },
+       "dist_target_px": 0.85,
+       "dist_nearest_neighbour_px": 2.553,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 0.1260628924622607,
+       "significance": 49.4,
+       "detail": "local (3 px) max pixel 0.85 px from target, 2.55 px from nearest neighbour, 49.4 sigma; literal: max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+      },
+      {
+       "sector": 95,
+       "fired": false,
+       "row": 9,
+       "column": 11,
+       "difference_e_per_s": 94.63014833036331,
+       "literal": {
+        "fired": false,
+        "row": 20,
+        "column": 10,
+        "difference_e_per_s": 99.11315820230686,
+        "dist_target_px": 9.832,
+        "dist_nearest_neighbour_px": 0.837,
+        "nearest_neighbour_source_id": 6524985067080759040,
+        "nearest_neighbour_G": 20.826642990112305,
+        "event_scatter_e_per_s": 54.412014210318034,
+        "significance": 1.82,
+        "detail": "max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+       },
+       "dist_target_px": 1.216,
+       "dist_nearest_neighbour_px": 3.157,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 49.45591153914857,
+       "significance": 1.91,
+       "detail": "local (3 px) max pixel 1.22 px from target, 3.16 px from nearest neighbour, 1.9 sigma; literal: max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+      },
+      {
+       "sector": 96,
+       "fired": false,
+       "row": 10,
+       "column": 11,
+       "difference_e_per_s": 5.183825189756874,
+       "literal": {
+        "fired": false,
+        "row": 20,
+        "column": 7,
+        "difference_e_per_s": 23.484288784859473,
+        "dist_target_px": 10.626,
+        "dist_nearest_neighbour_px": 0.172,
+        "nearest_neighbour_source_id": 6524984998364629248,
+        "nearest_neighbour_G": 10.801641464233398,
+        "event_scatter_e_per_s": 15.951408300930108,
+        "significance": 1.47,
+        "detail": "max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+       },
+       "dist_target_px": 0.144,
+       "dist_nearest_neighbour_px": 3.235,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 5.384760497195784,
+       "significance": 0.96,
+       "detail": "local (3 px) max pixel 0.14 px from target, 3.24 px from nearest neighbour, 1.0 sigma; literal: max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+      },
+      {
+       "sector": 103,
+       "fired": false,
+       "row": 11,
+       "column": 10,
+       "difference_e_per_s": 19.148967444367827,
+       "literal": {
+        "fired": false,
+        "row": 10,
+        "column": 20,
+        "difference_e_per_s": 19.417822244540616,
+        "dist_target_px": 9.21,
+        "dist_nearest_neighbour_px": 1.098,
+        "nearest_neighbour_source_id": 6524985067080759040,
+        "nearest_neighbour_G": 20.826642990112305,
+        "event_scatter_e_per_s": 2.1932583178392964,
+        "significance": 8.85,
+        "detail": "max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+       },
+       "dist_target_px": 1.277,
+       "dist_nearest_neighbour_px": 2.047,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 2.132627112206265,
+       "significance": 8.98,
+       "detail": "local (3 px) max pixel 1.28 px from target, 2.05 px from nearest neighbour, 9.0 sigma; literal: max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+      },
+      {
+       "sector": 104,
+       "fired": false,
+       "row": 11,
+       "column": 10,
+       "difference_e_per_s": 73.87169658566965,
+       "literal": {
+        "fired": false,
+        "row": 7,
+        "column": 0,
+        "difference_e_per_s": 77.60257505878315,
+        "dist_target_px": 10.943,
+        "dist_nearest_neighbour_px": 1.09,
+        "nearest_neighbour_source_id": 6524984998364629248,
+        "nearest_neighbour_G": 10.801641464233398,
+        "event_scatter_e_per_s": 112.40437020318414,
+        "significance": 0.69,
+        "detail": "max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+       },
+       "dist_target_px": 1.001,
+       "dist_nearest_neighbour_px": 4.332,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 106.00353766534774,
+       "significance": 0.7,
+       "detail": "local (3 px) max pixel 1.00 px from target, 4.33 px from nearest neighbour, 0.7 sigma; literal: max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+      }
+     ],
+     "absent": [
+      {
+       "sector": 68,
+       "fired": null,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt"
+      },
+      {
+       "sector": 69,
+       "fired": null,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt"
+      },
+      {
+       "sector": 95,
+       "fired": null,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt"
+      },
+      {
+       "sector": 96,
+       "fired": null,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt"
+      },
+      {
+       "sector": 103,
+       "fired": null,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt"
+      },
+      {
+       "sector": 104,
+       "fired": null,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt"
+      }
+     ]
+    },
+    "K8": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Rp 2.253 Re (limit 16.81); density prior delta chi2 1.0988087863213423, converged True, non-grazing True, rho_fit/rho_cat 0.818",
+     "rp_rearth": 2.253,
+     "radius_kill": false,
+     "density_kill": false,
+     "delta_chi2_prior_minus_free": 1.0988087863213423,
+     "density_ratio": 0.8178957703528126,
+     "converged": true,
+     "non_grazing": true
+    },
+    "K9": {
+     "fired": true,
+     "measurable": true,
+     "detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+     "criterion_holds": true,
+     "n_correlated": 6,
+     "n_disagreeing": 2,
+     "n_measurable": 6,
+     "reviewer_decision": true,
+     "reviewer_note": "Pixel review supports KILL as a background/correction artifact. Primary-event difference images show diffuse changes across the cutout instead of a stable stellar point source. The sky-subtracted target aperture does not reproduce the fitted 2.672-ppt maximum dip in sectors 95 and 104: fixed-ephemer",
+     "correlation": [
+      {
+       "sector": 68,
+       "n_points": 218,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 218 event-window cadences"
+      },
+      {
+       "sector": 69,
+       "n_points": 554,
+       "r": 0.9999,
+       "fired": true,
+       "detail": "|r| = 1.000 over 554 event-window cadences"
+      },
+      {
+       "sector": 95,
+       "n_points": 465,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 465 event-window cadences"
+      },
+      {
+       "sector": 96,
+       "n_points": 501,
+       "r": 0.9991,
+       "fired": true,
+       "detail": "|r| = 0.999 over 501 event-window cadences"
+      },
+      {
+       "sector": 103,
+       "n_points": 554,
+       "r": 0.9996,
+       "fired": true,
+       "detail": "|r| = 1.000 over 554 event-window cadences"
+      },
+      {
+       "sector": 104,
+       "n_points": 530,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 530 event-window cadences"
+      }
+     ],
+     "disagreement": [
+      {
+       "sector": 68,
+       "fired": true,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "too_deep": true,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 33.178 +/- 4.424 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 69,
+       "fired": false,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net -0.866 +/- 0.851 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 95,
+       "fired": false,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 0.584 +/- 1.353 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 96,
+       "fired": true,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "too_deep": true,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 10.451 +/- 2.195 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 103,
+       "fired": false,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 1.334 +/- 0.517 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 104,
+       "fired": false,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net -0.481 +/- 0.720 ppt against D_ref 2.322 +/- 0.263 ppt"
+      }
+     ]
+    },
+    "H1": {
+     "fired": false,
+     "measurable": true,
+     "detail": "NFPP 0, FPP 0.047287532942974164",
+     "nfpp": 0.0,
+     "fpp": 0.047287532942974164,
+     "fpp_uniform": false
+    },
+    "H2": {
+     "fired": false,
+     "measurable": true,
+     "detail": "converged",
+     "uncertainty_issues": [],
+     "grazing": false,
+     "grazing_rail": false,
+     "b_err": 2362.0151252802166
+    },
+    "H3": {
+     "fired": false,
+     "measurable": true,
+     "detail": "every D measurement executed",
+     "missing": []
+    },
+    "H4": {
+     "fired": false,
+     "measurable": true,
+     "detail": "1 VSX entr(ies) within 21 arcsec, 0 eclipsing class(es)",
+     "entries": []
+    }
+   },
+   "not_measurable": [],
+   "flags": {
+    "F1": [],
+    "F2": {
+     "ruwe": 1.2617647647857666,
+     "ipd_frac_multi_peak": 0.0,
+     "astrometric_excess_noise_sig": 3.476106882095337,
+     "non_single_star": 0.0,
+     "phot_variable_flag": "VARIABLE",
+     "best_class_name": "SOLAR_LIKE",
+     "duplicated_source": 0.0
+    },
+    "F3": {
+     "vsx": [
+      {
+       "Name": "Gaia DR3 6524996886834125952",
+       "Type": "ROT",
+       "Period": null,
+       "sep_arcsec": 0.0
+      }
+     ],
+     "simbad": []
+    },
+    "F4": {
+     "fpp": 0.047287532942974164,
+     "nfpp": 0.0,
+     "available": true,
+     "fpp_uniform": false,
+     "sectors": [
+      68,
+      69,
+      95
+     ],
+     "caveats": "binned fold; circular aperture from Tmag; first three selected sectors; probabilities are conditional on TRICERATOPS's astrophysical scenarios and do not price instrumental artefacts"
+    },
+    "F5": {
+     "localisation": "on_target_consistent",
+     "n_sectors_measurable": 6,
+     "per_sector": [
+      {
+       "sector": 68,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt",
+       "k7_elsewhere": null,
+       "difference_max_dist_target_px": 2.235,
+       "centroid_sigma": 63.7042452776691,
+       "centroid_shift_px": 0.16012044538710143
+      },
+      {
+       "sector": 69,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 0.85,
+       "centroid_sigma": 10.230998229852391,
+       "centroid_shift_px": 0.02160221182526046
+      },
+      {
+       "sector": 95,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.216,
+       "centroid_sigma": 46.549643265442306,
+       "centroid_shift_px": 0.15370416092402617
+      },
+      {
+       "sector": 96,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 0.144,
+       "centroid_sigma": 10.843682322618635,
+       "centroid_shift_px": 0.023718862997968066
+      },
+      {
+       "sector": 103,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.277,
+       "centroid_sigma": 7.333790347389379,
+       "centroid_shift_px": 0.03887134647638748
+      },
+      {
+       "sector": 104,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.001,
+       "centroid_sigma": 22.172195674853057,
+       "centroid_shift_px": 0.06593639448511324
+      }
+     ]
+    },
+    "F6": [
+     {
+      "period_days": "13.152501575811261",
+      "depth_ppt": "3.598549150176633",
+      "snr": "11.969505583911136",
+      "verdict": "ambiguous / manual vetting required",
+      "stitch_snr": "7.53577153906909",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "25.6028257864034",
+      "depth_ppt": "1.8640392499183884",
+      "snr": "9.309992925887627",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "9.309992925887627",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "22.0965007570962",
+      "depth_ppt": "2.4616396700180543",
+      "snr": "7.9055394196981945",
+      "verdict": "ambiguous / manual vetting required",
+      "stitch_snr": "7.9055394196981945",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "18.218592595122303",
+      "depth_ppt": "1.6902850299672632",
+      "snr": "6.524430495789191",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "7.86238675521882",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "23.775175390526833",
+      "depth_ppt": "2.413669567163404",
+      "snr": "6.206446597049735",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "7.051820499008875",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "20.481855061979516",
+      "depth_ppt": "4.196098912297261",
+      "snr": "6.1500258535752765",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "6.9256934616578505",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "9.774397635893248",
+      "depth_ppt": "2.0784811281217856",
+      "snr": "5.556594874818904",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "6.6298919988561344",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "10.59895581068361",
+      "depth_ppt": "2.1619846283831134",
+      "snr": "5.417347211646706",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "5.934506047714932",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "5.656571467271698",
+      "depth_ppt": "0.9453443125909649",
+      "snr": "5.110306660854672",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "5.024492061779634",
+      "passes_pregate": "False"
+     }
+    ],
+    "F7": {
+     "status": "CLEAN",
+     "tic_matches": [],
+     "neighbour_matches": [],
+     "tce_association": null
+    },
+    "F8": {
+     "n_observed": 11,
+     "n_excluded": 8,
+     "n_kept": 3,
+     "removed_by_class": {
+      "dip_absent_in_sap": 0,
+      "pdc_gap": 1,
+      "scattered_light_ramp": 5,
+      "scattered_light_flag": 4,
+      "momentum_dump": 0,
+      "sector_orbit_edge": 0,
+      "quality_flagged": 4,
+      "sap_baseline_ramp": 6
+     },
+     "strongest_event_removed": false
+    },
+    "F9": "No Gaia neighbour within 63 arcsec can produce the depth by total eclipse; an unresolved companion within the target's PSF remains untested until high-resolution imaging or RV excludes it. TESS fixed-aperture photometry is consistent with the target in 6 sector(s). TRICERATOPS FPP 0.0473, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet."
+   },
+   "thresholds": {
+    "alias_ratios": {
+     "2:1": 2.0,
+     "1:2": 0.5,
+     "3:1": 3.0,
+     "1:3": 0.3333333333333333,
+     "3:2": 1.5,
+     "2:3": 0.6666666666666666
+    },
+    "alias_tolerance": 0.01,
+    "catalogue_radius_arcsec": 60.0,
+    "odd_even_sigma": 3.0,
+    "odd_even_min_transits": 2,
+    "k7_neighbour_px": 1.0,
+    "k7_target_px": 1.5,
+    "k7_search_px": 3.0,
+    "pixel_sigma": 3.0,
+    "min_sectors": 2,
+    "dilution_allowance": 0.5,
+    "max_radius_rjup": 1.5,
+    "r_jup_in_r_earth": 11.209,
+    "density_reject_dchi2": 9.0,
+    "density_ratio_range": [
+     0.5,
+     2.0
+    ],
+    "k9_correlation": 0.7,
+    "k9_window_durations": 3.0,
+    "k9_min_points": 10,
+    "nfpp_hold": 0.5,
+    "grazing_b_err": 0.5,
+    "vsx_eb_classes": [
+     "EA",
+     "EB",
+     "EW",
+     "ELL"
+    ],
+    "vsx_target_radius_arcsec": 21.0,
+    "neighbour_radius_arcsec": 63.0,
+    "min_sky_pixels": 16
+   },
+   "note": "SUBMIT is a local CTOI-grade verdict, not a validation; F9 states what would settle the source. Nothing is submitted by the pipeline."
+  },
+  "p12.0": {
+   "rules_version": "p12.0",
+   "key": "tic144277542_P12.9812",
+   "verdict": "KILL",
+   "deciding_condition": "K9",
+   "deciding_detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+   "reference_depth": {
+    "depth_ppt": 2.322,
+    "err_ppt": 0.263,
+    "source": "fit.adopted.depth_avg_ppt"
+   },
+   "ephemeris": {
+    "period": 12.981388999463034,
+    "t0": 3167.287570139451,
+    "duration": 0.10679166666666667,
+    "source": "fit.adopted"
+   },
+   "conditions": {
+    "K0": {
+     "fired": false,
+     "measurable": true,
+     "detail": "hard stop CLEAN",
+     "status": "CLEAN"
+    },
+    "K1": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Stage A PASS",
+     "decision": "PASS",
+     "failed_criteria": []
+    },
+    "K2": {
+     "fired": false,
+     "measurable": true,
+     "detail": "secondary gate PASS (mode bound)",
+     "gate": "PASS",
+     "mode": "bound"
+    },
+    "K3": {
+     "fired": false,
+     "measurable": true,
+     "detail": "phase-independent exclusion False (6 sector(s) tested)",
+     "excluded": false,
+     "n_sectors_tested": 6
+    },
+    "K4": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Stage C PASS (strongest): strongest peak 12.98136 d is within 1% of the survey period at SDE 14.9",
+     "decision": "PASS",
+     "peak_rule": "strongest"
+    },
+    "K5": {
+     "fired": false,
+     "measurable": true,
+     "detail": "no alias match among 10 accepted signals and 0 catalogued periods",
+     "matches": [],
+     "n_catalogue_periods": 0
+    },
+    "K6": {
+     "fired": false,
+     "measurable": true,
+     "detail": "odd/even 0.29 sigma (4 odd, 4 even transits)",
+     "sigma": 0.29,
+     "n_odd": 4,
+     "n_even": 4
+    },
+    "K7": {
+     "fired": false,
+     "measurable": true,
+     "detail": "K7a in 0 sector(s) (literal whole-cutout form: 1), K7b in 0 sector(s) (5 K7a-measurable, 0 K7b-measurable)",
+     "n_elsewhere": 0,
+     "n_elsewhere_literal": 1,
+     "n_absent": 0,
+     "elsewhere": [
+      {
+       "sector": 68,
+       "fired": null,
+       "row": 11,
+       "column": 13,
+       "difference_e_per_s": 5678.277729279235,
+       "literal": {
+        "fired": null,
+        "row": 16,
+        "column": 3,
+        "difference_e_per_s": 5756.900521223092,
+        "dist_target_px": 9.61,
+        "dist_nearest_neighbour_px": 1.05,
+        "nearest_neighbour_source_id": 6524985543820891520,
+        "nearest_neighbour_G": 20.36676597595215,
+        "event_scatter_e_per_s": 0.0,
+        "significance": null,
+        "detail": "event scatter unavailable at the maximum pixel"
+       },
+       "dist_target_px": 2.235,
+       "dist_nearest_neighbour_px": 3.524,
+       "nearest_neighbour_source_id": 6524995370706283008,
+       "nearest_neighbour_G": 19.249685287475586,
+       "event_scatter_e_per_s": 0.0,
+       "significance": null,
+       "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+      },
+      {
+       "sector": 69,
+       "fired": false,
+       "row": 10,
+       "column": 10,
+       "difference_e_per_s": 6.2273453524549325,
+       "literal": {
+        "fired": true,
+        "row": 19,
+        "column": 5,
+        "difference_e_per_s": 6.749940073853452,
+        "dist_target_px": 9.755,
+        "dist_nearest_neighbour_px": 0.566,
+        "nearest_neighbour_source_id": 6524985097144510592,
+        "nearest_neighbour_G": 19.18869972229004,
+        "event_scatter_e_per_s": 0.22595263434621687,
+        "significance": 29.87,
+        "detail": "max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+       },
+       "dist_target_px": 0.85,
+       "dist_nearest_neighbour_px": 2.553,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 0.1260628924622607,
+       "significance": 49.4,
+       "detail": "local (3 px) max pixel 0.85 px from target, 2.55 px from nearest neighbour, 49.4 sigma; literal: max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+      },
+      {
+       "sector": 95,
+       "fired": false,
+       "row": 9,
+       "column": 11,
+       "difference_e_per_s": 94.63014833036331,
+       "literal": {
+        "fired": false,
+        "row": 20,
+        "column": 10,
+        "difference_e_per_s": 99.11315820230686,
+        "dist_target_px": 9.832,
+        "dist_nearest_neighbour_px": 0.837,
+        "nearest_neighbour_source_id": 6524985067080759040,
+        "nearest_neighbour_G": 20.826642990112305,
+        "event_scatter_e_per_s": 54.412014210318034,
+        "significance": 1.82,
+        "detail": "max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+       },
+       "dist_target_px": 1.216,
+       "dist_nearest_neighbour_px": 3.157,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 49.45591153914857,
+       "significance": 1.91,
+       "detail": "local (3 px) max pixel 1.22 px from target, 3.16 px from nearest neighbour, 1.9 sigma; literal: max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+      },
+      {
+       "sector": 96,
+       "fired": false,
+       "row": 10,
+       "column": 11,
+       "difference_e_per_s": 5.183825189756874,
+       "literal": {
+        "fired": false,
+        "row": 20,
+        "column": 7,
+        "difference_e_per_s": 23.484288784859473,
+        "dist_target_px": 10.626,
+        "dist_nearest_neighbour_px": 0.172,
+        "nearest_neighbour_source_id": 6524984998364629248,
+        "nearest_neighbour_G": 10.801641464233398,
+        "event_scatter_e_per_s": 15.951408300930108,
+        "significance": 1.47,
+        "detail": "max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+       },
+       "dist_target_px": 0.144,
+       "dist_nearest_neighbour_px": 3.235,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 5.384760497195784,
+       "significance": 0.96,
+       "detail": "local (3 px) max pixel 0.14 px from target, 3.24 px from nearest neighbour, 1.0 sigma; literal: max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+      },
+      {
+       "sector": 103,
+       "fired": false,
+       "row": 11,
+       "column": 10,
+       "difference_e_per_s": 19.148967444367827,
+       "literal": {
+        "fired": false,
+        "row": 10,
+        "column": 20,
+        "difference_e_per_s": 19.417822244540616,
+        "dist_target_px": 9.21,
+        "dist_nearest_neighbour_px": 1.098,
+        "nearest_neighbour_source_id": 6524985067080759040,
+        "nearest_neighbour_G": 20.826642990112305,
+        "event_scatter_e_per_s": 2.1932583178392964,
+        "significance": 8.85,
+        "detail": "max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+       },
+       "dist_target_px": 1.277,
+       "dist_nearest_neighbour_px": 2.047,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 2.132627112206265,
+       "significance": 8.98,
+       "detail": "local (3 px) max pixel 1.28 px from target, 2.05 px from nearest neighbour, 9.0 sigma; literal: max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+      },
+      {
+       "sector": 104,
+       "fired": false,
+       "row": 11,
+       "column": 10,
+       "difference_e_per_s": 73.87169658566965,
+       "literal": {
+        "fired": false,
+        "row": 7,
+        "column": 0,
+        "difference_e_per_s": 77.60257505878315,
+        "dist_target_px": 10.943,
+        "dist_nearest_neighbour_px": 1.09,
+        "nearest_neighbour_source_id": 6524984998364629248,
+        "nearest_neighbour_G": 10.801641464233398,
+        "event_scatter_e_per_s": 112.40437020318414,
+        "significance": 0.69,
+        "detail": "max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+       },
+       "dist_target_px": 1.001,
+       "dist_nearest_neighbour_px": 4.332,
+       "nearest_neighbour_source_id": 6524997024269554432,
+       "nearest_neighbour_G": 20.31151580810547,
+       "event_scatter_e_per_s": 106.00353766534774,
+       "significance": 0.7,
+       "detail": "local (3 px) max pixel 1.00 px from target, 4.33 px from nearest neighbour, 0.7 sigma; literal: max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+      }
+     ],
+     "absent": [
+      {
+       "sector": 68,
+       "fired": null,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt"
+      },
+      {
+       "sector": 69,
+       "fired": null,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt"
+      },
+      {
+       "sector": 95,
+       "fired": null,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt"
+      },
+      {
+       "sector": 96,
+       "fired": null,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt"
+      },
+      {
+       "sector": 103,
+       "fired": null,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt"
+      },
+      {
+       "sector": 104,
+       "fired": null,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt"
+      }
+     ]
+    },
+    "K8": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Rp 2.253 Re (limit 16.81); density prior delta chi2 1.0988087863213423, converged True, non-grazing True, rho_fit/rho_cat 0.818",
+     "rp_rearth": 2.253,
+     "radius_kill": false,
+     "density_kill": false,
+     "delta_chi2_prior_minus_free": 1.0988087863213423,
+     "density_ratio": 0.8178957703528126,
+     "converged": true,
+     "non_grazing": true
+    },
+    "K9": {
+     "fired": true,
+     "measurable": true,
+     "detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+     "criterion_holds": true,
+     "n_correlated": 6,
+     "n_disagreeing": 2,
+     "n_measurable": 6,
+     "reviewer_decision": true,
+     "reviewer_note": "Pixel review supports KILL as a background/correction artifact. Primary-event difference images show diffuse changes across the cutout instead of a stable stellar point source. The sky-subtracted target aperture does not reproduce the fitted 2.672-ppt maximum dip in sectors 95 and 104: fixed-ephemer",
+     "correlation": [
+      {
+       "sector": 68,
+       "n_points": 218,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 218 event-window cadences"
+      },
+      {
+       "sector": 69,
+       "n_points": 554,
+       "r": 0.9999,
+       "fired": true,
+       "detail": "|r| = 1.000 over 554 event-window cadences"
+      },
+      {
+       "sector": 95,
+       "n_points": 465,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 465 event-window cadences"
+      },
+      {
+       "sector": 96,
+       "n_points": 501,
+       "r": 0.9991,
+       "fired": true,
+       "detail": "|r| = 0.999 over 501 event-window cadences"
+      },
+      {
+       "sector": 103,
+       "n_points": 554,
+       "r": 0.9996,
+       "fired": true,
+       "detail": "|r| = 1.000 over 554 event-window cadences"
+      },
+      {
+       "sector": 104,
+       "n_points": 530,
+       "r": 1.0,
+       "fired": true,
+       "detail": "|r| = 1.000 over 530 event-window cadences"
+      }
+     ],
+     "disagreement": [
+      {
+       "sector": 68,
+       "fired": true,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "too_deep": true,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 33.178 +/- 4.424 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 69,
+       "fired": false,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net -0.866 +/- 0.851 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 95,
+       "fired": false,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 0.584 +/- 1.353 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 96,
+       "fired": true,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "too_deep": true,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 10.451 +/- 2.195 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 103,
+       "fired": false,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net 1.334 +/- 0.517 ppt against D_ref 2.322 +/- 0.263 ppt"
+      },
+      {
+       "sector": 104,
+       "fired": false,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "too_deep": false,
+       "too_shallow": false,
+       "brightening": false,
+       "detail": "net -0.481 +/- 0.720 ppt against D_ref 2.322 +/- 0.263 ppt"
+      }
+     ]
+    },
+    "H1": {
+     "fired": false,
+     "measurable": true,
+     "detail": "NFPP 0, FPP 0.047287532942974164",
+     "nfpp": 0.0,
+     "fpp": 0.047287532942974164,
+     "fpp_uniform": false
+    },
+    "H2": {
+     "fired": false,
+     "measurable": true,
+     "detail": "converged",
+     "uncertainty_issues": [],
+     "grazing": false,
+     "grazing_rail": false,
+     "b_err": 2362.0151252802166
+    },
+    "H3": {
+     "fired": false,
+     "measurable": true,
+     "detail": "every D measurement executed",
+     "missing": []
+    },
+    "H4": {
+     "fired": false,
+     "measurable": true,
+     "detail": "1 VSX entr(ies) within 21 arcsec, 0 eclipsing class(es)",
+     "entries": []
+    },
+    "H5": {
+     "fired": false,
+     "measurable": true,
+     "detail": "K9b disagreement in 2 of 6 measurable sector(s)",
+     "n_disagreeing": 2,
+     "n_measurable": 6,
+     "sectors": [
+      68,
+      96
+     ]
+    },
+    "H6": {
+     "fired": false,
+     "measurable": true,
+     "detail": "Stage C PASS",
+     "decision": "PASS",
+     "attempts": null,
+     "deadlines_s": null
+    }
+   },
+   "not_measurable": [],
+   "flags": {
+    "F1": [],
+    "F2": {
+     "ruwe": 1.2617647647857666,
+     "ipd_frac_multi_peak": 0.0,
+     "astrometric_excess_noise_sig": 3.476106882095337,
+     "non_single_star": 0.0,
+     "phot_variable_flag": "VARIABLE",
+     "best_class_name": "SOLAR_LIKE",
+     "duplicated_source": 0.0
+    },
+    "F3": {
+     "vsx": [
+      {
+       "Name": "Gaia DR3 6524996886834125952",
+       "Type": "ROT",
+       "Period": null,
+       "sep_arcsec": 0.0
+      }
+     ],
+     "simbad": []
+    },
+    "F4": {
+     "fpp": 0.047287532942974164,
+     "nfpp": 0.0,
+     "available": true,
+     "fpp_uniform": false,
+     "sectors": [
+      68,
+      69,
+      95
+     ],
+     "caveats": "binned fold; circular aperture from Tmag; first three selected sectors; probabilities are conditional on TRICERATOPS's astrophysical scenarios and do not price instrumental artefacts"
+    },
+    "F5": {
+     "localisation": "on_target_consistent",
+     "n_sectors_measurable": 6,
+     "per_sector": [
+      {
+       "sector": 68,
+       "net_depth_ppt": 33.1781,
+       "net_err_ppt": 4.4239,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt",
+       "k7_elsewhere": null,
+       "difference_max_dist_target_px": 2.235,
+       "centroid_sigma": 63.7042452776691,
+       "centroid_shift_px": 0.16012044538710143
+      },
+      {
+       "sector": 69,
+       "net_depth_ppt": -0.8657,
+       "net_err_ppt": 0.851,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 0.85,
+       "centroid_sigma": 10.230998229852391,
+       "centroid_shift_px": 0.02160221182526046
+      },
+      {
+       "sector": 95,
+       "net_depth_ppt": 0.5844,
+       "net_err_ppt": 1.3531,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.216,
+       "centroid_sigma": 46.549643265442306,
+       "centroid_shift_px": 0.15370416092402617
+      },
+      {
+       "sector": 96,
+       "net_depth_ppt": 10.4515,
+       "net_err_ppt": 2.1948,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 0.144,
+       "centroid_sigma": 10.843682322618635,
+       "centroid_shift_px": 0.023718862997968066
+      },
+      {
+       "sector": 103,
+       "net_depth_ppt": 1.3345,
+       "net_err_ppt": 0.5174,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.277,
+       "centroid_sigma": 7.333790347389379,
+       "centroid_shift_px": 0.03887134647638748
+      },
+      {
+       "sector": 104,
+       "net_depth_ppt": -0.4811,
+       "net_err_ppt": 0.7199,
+       "k7_absent": null,
+       "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt",
+       "k7_elsewhere": false,
+       "difference_max_dist_target_px": 1.001,
+       "centroid_sigma": 22.172195674853057,
+       "centroid_shift_px": 0.06593639448511324
+      }
+     ]
+    },
+    "F6": [
+     {
+      "period_days": "13.152501575811261",
+      "depth_ppt": "3.598549150176633",
+      "snr": "11.969505583911136",
+      "verdict": "ambiguous / manual vetting required",
+      "stitch_snr": "7.53577153906909",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "25.6028257864034",
+      "depth_ppt": "1.8640392499183884",
+      "snr": "9.309992925887627",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "9.309992925887627",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "22.0965007570962",
+      "depth_ppt": "2.4616396700180543",
+      "snr": "7.9055394196981945",
+      "verdict": "ambiguous / manual vetting required",
+      "stitch_snr": "7.9055394196981945",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "18.218592595122303",
+      "depth_ppt": "1.6902850299672632",
+      "snr": "6.524430495789191",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "7.86238675521882",
+      "passes_pregate": "True"
+     },
+     {
+      "period_days": "23.775175390526833",
+      "depth_ppt": "2.413669567163404",
+      "snr": "6.206446597049735",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "7.051820499008875",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "20.481855061979516",
+      "depth_ppt": "4.196098912297261",
+      "snr": "6.1500258535752765",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "6.9256934616578505",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "9.774397635893248",
+      "depth_ppt": "2.0784811281217856",
+      "snr": "5.556594874818904",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "6.6298919988561344",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "10.59895581068361",
+      "depth_ppt": "2.1619846283831134",
+      "snr": "5.417347211646706",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "5.934506047714932",
+      "passes_pregate": "False"
+     },
+     {
+      "period_days": "5.656571467271698",
+      "depth_ppt": "0.9453443125909649",
+      "snr": "5.110306660854672",
+      "verdict": "promising planet candidate",
+      "stitch_snr": "5.024492061779634",
+      "passes_pregate": "False"
+     }
+    ],
+    "F7": {
+     "status": "CLEAN",
+     "tic_matches": [],
+     "neighbour_matches": [],
+     "tce_association": null
+    },
+    "F8": {
+     "n_observed": 11,
+     "n_excluded": 8,
+     "n_kept": 3,
+     "removed_by_class": {
+      "dip_absent_in_sap": 0,
+      "pdc_gap": 1,
+      "scattered_light_ramp": 5,
+      "scattered_light_flag": 4,
+      "momentum_dump": 0,
+      "sector_orbit_edge": 0,
+      "quality_flagged": 4,
+      "sap_baseline_ramp": 6
+     },
+     "strongest_event_removed": false
+    },
+    "F9": "No Gaia neighbour within 63 arcsec can produce the depth by total eclipse; an unresolved companion within the target's PSF remains untested until high-resolution imaging or RV excludes it. TESS fixed-aperture photometry is consistent with the target in 6 sector(s). TRICERATOPS FPP 0.0473, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+    "F10": {
+     "word": "K10_FLAG",
+     "or_variants": [
+      "K10e",
+      "K10s"
+     ],
+     "or_fired": true,
+     "K10e": {
+      "fired": true,
+      "measurable": true,
+      "detail": "n_excluded / n_observed = 8/11 = 0.727 (> 0.5 fires)",
+      "n_observed": 11,
+      "n_excluded": 8,
+      "fraction": 0.7272727272727273
+     },
+     "K10s": {
+      "fired": false,
+      "measurable": true,
+      "detail": "SAP 3.058 +/- 0.372 ppt vs corrected 3.003 +/- 0.371 ppt; SAP < 0.5x False; difference > 3 sigma False; kept events in 2 sector(s)",
+      "det_ppt": 3.003,
+      "det_err_ppt": 0.371,
+      "sap_ppt": 3.058,
+      "sap_err_ppt": 0.372,
+      "quadrature_err_ppt": 0.525380814267137,
+      "kept_sectors": [
+       103,
+       104
+      ],
+      "sap_below_half": false,
+      "difference_significant": false,
+      "kept_sectors_ge_2": true
+     },
+     "deciding": false
+    }
+   },
+   "thresholds": {
+    "alias_ratios": {
+     "2:1": 2.0,
+     "1:2": 0.5,
+     "3:1": 3.0,
+     "1:3": 0.3333333333333333,
+     "3:2": 1.5,
+     "2:3": 0.6666666666666666
+    },
+    "alias_tolerance": 0.01,
+    "catalogue_radius_arcsec": 60.0,
+    "odd_even_sigma": 3.5,
+    "odd_even_min_transits": 2,
+    "k7_neighbour_px": 1.0,
+    "k7_target_px": 1.5,
+    "k7_search_px": 3.0,
+    "pixel_sigma": 3.0,
+    "min_sectors": 2,
+    "dilution_allowance": 0.5,
+    "max_radius_rjup": 1.5,
+    "r_jup_in_r_earth": 11.209,
+    "density_reject_dchi2": 9.0,
+    "density_ratio_range": [
+     0.5,
+     2.5
+    ],
+    "k9_correlation": 0.7,
+    "k9_window_durations": 3.0,
+    "k9_min_points": 10,
+    "nfpp_hold": 0.5,
+    "grazing_b_err": 0.5,
+    "vsx_eb_classes": [
+     "EA",
+     "EB",
+     "EW",
+     "ELL"
+    ],
+    "vsx_target_radius_arcsec": 21.0,
+    "neighbour_radius_arcsec": 63.0,
+    "min_sky_pixels": 16
+   },
+   "note": "SUBMIT is a local CTOI-grade verdict, not a validation; F9 states what would settle the source. Nothing is submitted by the pipeline.",
+   "base_rules": "p10.0",
+   "k_order": [
+    "K0",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7",
+    "K8",
+    "K9"
+   ],
+   "h_order": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+   ],
+   "install_hash": "e56936ea444f6486d45ba40a7b6e9747db64f6420e12ce8ed5a47138634c6c67",
+   "amended_constants": {
+    "TIER_DENSITY_RATIO_RANGE": [
+     0.5,
+     2.5
+    ],
+    "TIER_ODD_EVEN_SIGMA": 3.5
+   },
+   "candidate_tier": null,
+   "validation_status": "No Gaia neighbour within 63 arcsec can produce the depth by total eclipse; an unresolved companion within the target's PSF remains untested until high-resolution imaging or RV excludes it. TESS fixed-aperture photometry is consistent with the target in 6 sector(s). TRICERATOPS FPP 0.0473, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet."
+  }
+ },
+ "tiers": {
+  "rules_version": "p12.0",
+  "key": "tic144277542_P12.9812",
+  "verdict": "KILL",
+  "deciding_condition": "K9",
+  "deciding_detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+  "reference_depth": {
+   "depth_ppt": 2.322,
+   "err_ppt": 0.263,
+   "source": "fit.adopted.depth_avg_ppt"
+  },
+  "ephemeris": {
+   "period": 12.981388999463034,
+   "t0": 3167.287570139451,
+   "duration": 0.10679166666666667,
+   "source": "fit.adopted"
+  },
+  "conditions": {
+   "K0": {
+    "fired": false,
+    "measurable": true,
+    "detail": "hard stop CLEAN",
+    "status": "CLEAN"
+   },
+   "K1": {
+    "fired": false,
+    "measurable": true,
+    "detail": "Stage A PASS",
+    "decision": "PASS",
+    "failed_criteria": []
+   },
+   "K2": {
+    "fired": false,
+    "measurable": true,
+    "detail": "secondary gate PASS (mode bound)",
+    "gate": "PASS",
+    "mode": "bound"
+   },
+   "K3": {
+    "fired": false,
+    "measurable": true,
+    "detail": "phase-independent exclusion False (6 sector(s) tested)",
+    "excluded": false,
+    "n_sectors_tested": 6
+   },
+   "K4": {
+    "fired": false,
+    "measurable": true,
+    "detail": "Stage C PASS (strongest): strongest peak 12.98136 d is within 1% of the survey period at SDE 14.9",
+    "decision": "PASS",
+    "peak_rule": "strongest"
+   },
+   "K5": {
+    "fired": false,
+    "measurable": true,
+    "detail": "no alias match among 10 accepted signals and 0 catalogued periods",
+    "matches": [],
+    "n_catalogue_periods": 0
+   },
+   "K6": {
+    "fired": false,
+    "measurable": true,
+    "detail": "odd/even 0.29 sigma (4 odd, 4 even transits)",
+    "sigma": 0.29,
+    "n_odd": 4,
+    "n_even": 4
+   },
+   "K7": {
+    "fired": false,
+    "measurable": true,
+    "detail": "K7a in 0 sector(s) (literal whole-cutout form: 1), K7b in 0 sector(s) (5 K7a-measurable, 0 K7b-measurable)",
+    "n_elsewhere": 0,
+    "n_elsewhere_literal": 1,
+    "n_absent": 0,
+    "elsewhere": [
+     {
+      "sector": 68,
+      "fired": null,
+      "row": 11,
+      "column": 13,
+      "difference_e_per_s": 5678.277729279235,
+      "literal": {
+       "fired": null,
+       "row": 16,
+       "column": 3,
+       "difference_e_per_s": 5756.900521223092,
+       "dist_target_px": 9.61,
+       "dist_nearest_neighbour_px": 1.05,
+       "nearest_neighbour_source_id": 6524985543820891520,
+       "nearest_neighbour_G": 20.36676597595215,
+       "event_scatter_e_per_s": 0.0,
+       "significance": null,
+       "detail": "event scatter unavailable at the maximum pixel"
+      },
+      "dist_target_px": 2.235,
+      "dist_nearest_neighbour_px": 3.524,
+      "nearest_neighbour_source_id": 6524995370706283008,
+      "nearest_neighbour_G": 19.249685287475586,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+     },
+     {
+      "sector": 69,
+      "fired": false,
+      "row": 10,
+      "column": 10,
+      "difference_e_per_s": 6.2273453524549325,
+      "literal": {
+       "fired": true,
+       "row": 19,
+       "column": 5,
+       "difference_e_per_s": 6.749940073853452,
+       "dist_target_px": 9.755,
+       "dist_nearest_neighbour_px": 0.566,
+       "nearest_neighbour_source_id": 6524985097144510592,
+       "nearest_neighbour_G": 19.18869972229004,
+       "event_scatter_e_per_s": 0.22595263434621687,
+       "significance": 29.87,
+       "detail": "max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+      },
+      "dist_target_px": 0.85,
+      "dist_nearest_neighbour_px": 2.553,
+      "nearest_neighbour_source_id": 6524997024269554432,
+      "nearest_neighbour_G": 20.31151580810547,
+      "event_scatter_e_per_s": 0.1260628924622607,
+      "significance": 49.4,
+      "detail": "local (3 px) max pixel 0.85 px from target, 2.55 px from nearest neighbour, 49.4 sigma; literal: max pixel 9.75 px from target, 0.57 px from nearest neighbour, 29.9 sigma"
+     },
+     {
+      "sector": 95,
+      "fired": false,
+      "row": 9,
+      "column": 11,
+      "difference_e_per_s": 94.63014833036331,
+      "literal": {
+       "fired": false,
+       "row": 20,
+       "column": 10,
+       "difference_e_per_s": 99.11315820230686,
+       "dist_target_px": 9.832,
+       "dist_nearest_neighbour_px": 0.837,
+       "nearest_neighbour_source_id": 6524985067080759040,
+       "nearest_neighbour_G": 20.826642990112305,
+       "event_scatter_e_per_s": 54.412014210318034,
+       "significance": 1.82,
+       "detail": "max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+      },
+      "dist_target_px": 1.216,
+      "dist_nearest_neighbour_px": 3.157,
+      "nearest_neighbour_source_id": 6524997024269554432,
+      "nearest_neighbour_G": 20.31151580810547,
+      "event_scatter_e_per_s": 49.45591153914857,
+      "significance": 1.91,
+      "detail": "local (3 px) max pixel 1.22 px from target, 3.16 px from nearest neighbour, 1.9 sigma; literal: max pixel 9.83 px from target, 0.84 px from nearest neighbour, 1.8 sigma"
+     },
+     {
+      "sector": 96,
+      "fired": false,
+      "row": 10,
+      "column": 11,
+      "difference_e_per_s": 5.183825189756874,
+      "literal": {
+       "fired": false,
+       "row": 20,
+       "column": 7,
+       "difference_e_per_s": 23.484288784859473,
+       "dist_target_px": 10.626,
+       "dist_nearest_neighbour_px": 0.172,
+       "nearest_neighbour_source_id": 6524984998364629248,
+       "nearest_neighbour_G": 10.801641464233398,
+       "event_scatter_e_per_s": 15.951408300930108,
+       "significance": 1.47,
+       "detail": "max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+      },
+      "dist_target_px": 0.144,
+      "dist_nearest_neighbour_px": 3.235,
+      "nearest_neighbour_source_id": 6524997024269554432,
+      "nearest_neighbour_G": 20.31151580810547,
+      "event_scatter_e_per_s": 5.384760497195784,
+      "significance": 0.96,
+      "detail": "local (3 px) max pixel 0.14 px from target, 3.24 px from nearest neighbour, 1.0 sigma; literal: max pixel 10.63 px from target, 0.17 px from nearest neighbour, 1.5 sigma"
+     },
+     {
+      "sector": 103,
+      "fired": false,
+      "row": 11,
+      "column": 10,
+      "difference_e_per_s": 19.148967444367827,
+      "literal": {
+       "fired": false,
+       "row": 10,
+       "column": 20,
+       "difference_e_per_s": 19.417822244540616,
+       "dist_target_px": 9.21,
+       "dist_nearest_neighbour_px": 1.098,
+       "nearest_neighbour_source_id": 6524985067080759040,
+       "nearest_neighbour_G": 20.826642990112305,
+       "event_scatter_e_per_s": 2.1932583178392964,
+       "significance": 8.85,
+       "detail": "max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+      },
+      "dist_target_px": 1.277,
+      "dist_nearest_neighbour_px": 2.047,
+      "nearest_neighbour_source_id": 6524997024269554432,
+      "nearest_neighbour_G": 20.31151580810547,
+      "event_scatter_e_per_s": 2.132627112206265,
+      "significance": 8.98,
+      "detail": "local (3 px) max pixel 1.28 px from target, 2.05 px from nearest neighbour, 9.0 sigma; literal: max pixel 9.21 px from target, 1.1 px from nearest neighbour, 8.9 sigma"
+     },
+     {
+      "sector": 104,
+      "fired": false,
+      "row": 11,
+      "column": 10,
+      "difference_e_per_s": 73.87169658566965,
+      "literal": {
+       "fired": false,
+       "row": 7,
+       "column": 0,
+       "difference_e_per_s": 77.60257505878315,
+       "dist_target_px": 10.943,
+       "dist_nearest_neighbour_px": 1.09,
+       "nearest_neighbour_source_id": 6524984998364629248,
+       "nearest_neighbour_G": 10.801641464233398,
+       "event_scatter_e_per_s": 112.40437020318414,
+       "significance": 0.69,
+       "detail": "max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+      },
+      "dist_target_px": 1.001,
+      "dist_nearest_neighbour_px": 4.332,
+      "nearest_neighbour_source_id": 6524997024269554432,
+      "nearest_neighbour_G": 20.31151580810547,
+      "event_scatter_e_per_s": 106.00353766534774,
+      "significance": 0.7,
+      "detail": "local (3 px) max pixel 1.00 px from target, 4.33 px from nearest neighbour, 0.7 sigma; literal: max pixel 10.94 px from target, 1.09 px from nearest neighbour, 0.7 sigma"
+     }
+    ],
+    "absent": [
+     {
+      "sector": 68,
+      "fired": null,
+      "net_depth_ppt": 33.1781,
+      "net_err_ppt": 4.4239,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt"
+     },
+     {
+      "sector": 69,
+      "fired": null,
+      "net_depth_ppt": -0.8657,
+      "net_err_ppt": 0.851,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt"
+     },
+     {
+      "sector": 95,
+      "fired": null,
+      "net_depth_ppt": 0.5844,
+      "net_err_ppt": 1.3531,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt"
+     },
+     {
+      "sector": 96,
+      "fired": null,
+      "net_depth_ppt": 10.4515,
+      "net_err_ppt": 2.1948,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt"
+     },
+     {
+      "sector": 103,
+      "fired": null,
+      "net_depth_ppt": 1.3345,
+      "net_err_ppt": 0.5174,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt"
+     },
+     {
+      "sector": 104,
+      "fired": null,
+      "net_depth_ppt": -0.4811,
+      "net_err_ppt": 0.7199,
+      "detail": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt"
+     }
+    ]
+   },
+   "K8": {
+    "fired": false,
+    "measurable": true,
+    "detail": "Rp 2.253 Re (limit 16.81); density prior delta chi2 1.0988087863213423, converged True, non-grazing True, rho_fit/rho_cat 0.818",
+    "rp_rearth": 2.253,
+    "radius_kill": false,
+    "density_kill": false,
+    "delta_chi2_prior_minus_free": 1.0988087863213423,
+    "density_ratio": 0.8178957703528126,
+    "converged": true,
+    "non_grazing": true
+   },
+   "K9": {
+    "fired": true,
+    "measurable": true,
+    "detail": "criterion holds: K9a in 6, K9b in 2 sector(s) of 6 measurable; reviewer decision artefact",
+    "criterion_holds": true,
+    "n_correlated": 6,
+    "n_disagreeing": 2,
+    "n_measurable": 6,
+    "reviewer_decision": true,
+    "reviewer_note": "Pixel review supports KILL as a background/correction artifact. Primary-event difference images show diffuse changes across the cutout instead of a stable stellar point source. The sky-subtracted target aperture does not reproduce the fitted 2.672-ppt maximum dip in sectors 95 and 104: fixed-ephemer",
+    "correlation": [
+     {
+      "sector": 68,
+      "n_points": 218,
+      "r": 1.0,
+      "fired": true,
+      "detail": "|r| = 1.000 over 218 event-window cadences"
+     },
+     {
+      "sector": 69,
+      "n_points": 554,
+      "r": 0.9999,
+      "fired": true,
+      "detail": "|r| = 1.000 over 554 event-window cadences"
+     },
+     {
+      "sector": 95,
+      "n_points": 465,
+      "r": 1.0,
+      "fired": true,
+      "detail": "|r| = 1.000 over 465 event-window cadences"
+     },
+     {
+      "sector": 96,
+      "n_points": 501,
+      "r": 0.9991,
+      "fired": true,
+      "detail": "|r| = 0.999 over 501 event-window cadences"
+     },
+     {
+      "sector": 103,
+      "n_points": 554,
+      "r": 0.9996,
+      "fired": true,
+      "detail": "|r| = 1.000 over 554 event-window cadences"
+     },
+     {
+      "sector": 104,
+      "n_points": 530,
+      "r": 1.0,
+      "fired": true,
+      "detail": "|r| = 1.000 over 530 event-window cadences"
+     }
+    ],
+    "disagreement": [
+     {
+      "sector": 68,
+      "fired": true,
+      "net_depth_ppt": 33.1781,
+      "net_err_ppt": 4.4239,
+      "too_deep": true,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net 33.178 +/- 4.424 ppt against D_ref 2.322 +/- 0.263 ppt"
+     },
+     {
+      "sector": 69,
+      "fired": false,
+      "net_depth_ppt": -0.8657,
+      "net_err_ppt": 0.851,
+      "too_deep": false,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net -0.866 +/- 0.851 ppt against D_ref 2.322 +/- 0.263 ppt"
+     },
+     {
+      "sector": 95,
+      "fired": false,
+      "net_depth_ppt": 0.5844,
+      "net_err_ppt": 1.3531,
+      "too_deep": false,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net 0.584 +/- 1.353 ppt against D_ref 2.322 +/- 0.263 ppt"
+     },
+     {
+      "sector": 96,
+      "fired": true,
+      "net_depth_ppt": 10.4515,
+      "net_err_ppt": 2.1948,
+      "too_deep": true,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net 10.451 +/- 2.195 ppt against D_ref 2.322 +/- 0.263 ppt"
+     },
+     {
+      "sector": 103,
+      "fired": false,
+      "net_depth_ppt": 1.3345,
+      "net_err_ppt": 0.5174,
+      "too_deep": false,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net 1.334 +/- 0.517 ppt against D_ref 2.322 +/- 0.263 ppt"
+     },
+     {
+      "sector": 104,
+      "fired": false,
+      "net_depth_ppt": -0.4811,
+      "net_err_ppt": 0.7199,
+      "too_deep": false,
+      "too_shallow": false,
+      "brightening": false,
+      "detail": "net -0.481 +/- 0.720 ppt against D_ref 2.322 +/- 0.263 ppt"
+     }
+    ]
+   },
+   "H1": {
+    "fired": false,
+    "measurable": true,
+    "detail": "NFPP 0, FPP 0.047287532942974164",
+    "nfpp": 0.0,
+    "fpp": 0.047287532942974164,
+    "fpp_uniform": false
+   },
+   "H2": {
+    "fired": false,
+    "measurable": true,
+    "detail": "converged",
+    "uncertainty_issues": [],
+    "grazing": false,
+    "grazing_rail": false,
+    "b_err": 2362.0151252802166
+   },
+   "H3": {
+    "fired": false,
+    "measurable": true,
+    "detail": "every D measurement executed",
+    "missing": []
+   },
+   "H4": {
+    "fired": false,
+    "measurable": true,
+    "detail": "1 VSX entr(ies) within 21 arcsec, 0 eclipsing class(es)",
+    "entries": []
+   },
+   "H5": {
+    "fired": false,
+    "measurable": true,
+    "detail": "K9b disagreement in 2 of 6 measurable sector(s)",
+    "n_disagreeing": 2,
+    "n_measurable": 6,
+    "sectors": [
+     68,
+     96
+    ]
+   },
+   "H6": {
+    "fired": false,
+    "measurable": true,
+    "detail": "Stage C PASS",
+    "decision": "PASS",
+    "attempts": null,
+    "deadlines_s": null
+   }
+  },
+  "not_measurable": [],
+  "flags": {
+   "F1": [],
+   "F2": {
+    "ruwe": 1.2617647647857666,
+    "ipd_frac_multi_peak": 0.0,
+    "astrometric_excess_noise_sig": 3.476106882095337,
+    "non_single_star": 0.0,
+    "phot_variable_flag": "VARIABLE",
+    "best_class_name": "SOLAR_LIKE",
+    "duplicated_source": 0.0
+   },
+   "F3": {
+    "vsx": [
+     {
+      "Name": "Gaia DR3 6524996886834125952",
+      "Type": "ROT",
+      "Period": null,
+      "sep_arcsec": 0.0
+     }
+    ],
+    "simbad": []
+   },
+   "F4": {
+    "fpp": 0.047287532942974164,
+    "nfpp": 0.0,
+    "available": true,
+    "fpp_uniform": false,
+    "sectors": [
+     68,
+     69,
+     95
+    ],
+    "caveats": "binned fold; circular aperture from Tmag; first three selected sectors; probabilities are conditional on TRICERATOPS's astrophysical scenarios and do not price instrumental artefacts"
+   },
+   "F5": {
+    "localisation": "on_target_consistent",
+    "n_sectors_measurable": 6,
+    "per_sector": [
+     {
+      "sector": 68,
+      "net_depth_ppt": 33.1781,
+      "net_err_ppt": 4.4239,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 13.272 ppt",
+      "k7_elsewhere": null,
+      "difference_max_dist_target_px": 2.235,
+      "centroid_sigma": 63.7042452776691,
+      "centroid_shift_px": 0.16012044538710143
+     },
+     {
+      "sector": 69,
+      "net_depth_ppt": -0.8657,
+      "net_err_ppt": 0.851,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.553 ppt",
+      "k7_elsewhere": false,
+      "difference_max_dist_target_px": 0.85,
+      "centroid_sigma": 10.230998229852391,
+      "centroid_shift_px": 0.02160221182526046
+     },
+     {
+      "sector": 95,
+      "net_depth_ppt": 0.5844,
+      "net_err_ppt": 1.3531,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 4.059 ppt",
+      "k7_elsewhere": false,
+      "difference_max_dist_target_px": 1.216,
+      "centroid_sigma": 46.549643265442306,
+      "centroid_shift_px": 0.15370416092402617
+     },
+     {
+      "sector": 96,
+      "net_depth_ppt": 10.4515,
+      "net_err_ppt": 2.1948,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 6.584 ppt",
+      "k7_elsewhere": false,
+      "difference_max_dist_target_px": 0.144,
+      "centroid_sigma": 10.843682322618635,
+      "centroid_shift_px": 0.023718862997968066
+     },
+     {
+      "sector": 103,
+      "net_depth_ppt": 1.3345,
+      "net_err_ppt": 0.5174,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 1.552 ppt",
+      "k7_elsewhere": false,
+      "difference_max_dist_target_px": 1.277,
+      "centroid_sigma": 7.333790347389379,
+      "centroid_shift_px": 0.03887134647638748
+     },
+     {
+      "sector": 104,
+      "net_depth_ppt": -0.4811,
+      "net_err_ppt": 0.7199,
+      "k7_absent": null,
+      "note": "unmeasurable: 0.5 x D_ref 1.161 < 3 sigma_s 2.160 ppt",
+      "k7_elsewhere": false,
+      "difference_max_dist_target_px": 1.001,
+      "centroid_sigma": 22.172195674853057,
+      "centroid_shift_px": 0.06593639448511324
+     }
+    ]
+   },
+   "F6": [
+    {
+     "period_days": "13.152501575811261",
+     "depth_ppt": "3.598549150176633",
+     "snr": "11.969505583911136",
+     "verdict": "ambiguous / manual vetting required",
+     "stitch_snr": "7.53577153906909",
+     "passes_pregate": "True"
+    },
+    {
+     "period_days": "25.6028257864034",
+     "depth_ppt": "1.8640392499183884",
+     "snr": "9.309992925887627",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "9.309992925887627",
+     "passes_pregate": "True"
+    },
+    {
+     "period_days": "22.0965007570962",
+     "depth_ppt": "2.4616396700180543",
+     "snr": "7.9055394196981945",
+     "verdict": "ambiguous / manual vetting required",
+     "stitch_snr": "7.9055394196981945",
+     "passes_pregate": "True"
+    },
+    {
+     "period_days": "18.218592595122303",
+     "depth_ppt": "1.6902850299672632",
+     "snr": "6.524430495789191",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "7.86238675521882",
+     "passes_pregate": "True"
+    },
+    {
+     "period_days": "23.775175390526833",
+     "depth_ppt": "2.413669567163404",
+     "snr": "6.206446597049735",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "7.051820499008875",
+     "passes_pregate": "False"
+    },
+    {
+     "period_days": "20.481855061979516",
+     "depth_ppt": "4.196098912297261",
+     "snr": "6.1500258535752765",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "6.9256934616578505",
+     "passes_pregate": "False"
+    },
+    {
+     "period_days": "9.774397635893248",
+     "depth_ppt": "2.0784811281217856",
+     "snr": "5.556594874818904",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "6.6298919988561344",
+     "passes_pregate": "False"
+    },
+    {
+     "period_days": "10.59895581068361",
+     "depth_ppt": "2.1619846283831134",
+     "snr": "5.417347211646706",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "5.934506047714932",
+     "passes_pregate": "False"
+    },
+    {
+     "period_days": "5.656571467271698",
+     "depth_ppt": "0.9453443125909649",
+     "snr": "5.110306660854672",
+     "verdict": "promising planet candidate",
+     "stitch_snr": "5.024492061779634",
+     "passes_pregate": "False"
+    }
+   ],
+   "F7": {
+    "status": "CLEAN",
+    "tic_matches": [],
+    "neighbour_matches": [],
+    "tce_association": null
+   },
+   "F8": {
+    "n_observed": 11,
+    "n_excluded": 8,
+    "n_kept": 3,
+    "removed_by_class": {
+     "dip_absent_in_sap": 0,
+     "pdc_gap": 1,
+     "scattered_light_ramp": 5,
+     "scattered_light_flag": 4,
+     "momentum_dump": 0,
+     "sector_orbit_edge": 0,
+     "quality_flagged": 4,
+     "sap_baseline_ramp": 6
+    },
+    "strongest_event_removed": false
+   },
+   "F9": "No Gaia neighbour within 63 arcsec can produce the depth by total eclipse; an unresolved companion within the target's PSF remains untested until high-resolution imaging or RV excludes it. TESS fixed-aperture photometry is consistent with the target in 6 sector(s). TRICERATOPS FPP 0.0473, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+   "F10": {
+    "word": "K10_FLAG",
+    "or_variants": [
+     "K10e",
+     "K10s"
+    ],
+    "or_fired": true,
+    "K10e": {
+     "fired": true,
+     "measurable": true,
+     "detail": "n_excluded / n_observed = 8/11 = 0.727 (> 0.5 fires)",
+     "n_observed": 11,
+     "n_excluded": 8,
+     "fraction": 0.7272727272727273
+    },
+    "K10s": {
+     "fired": false,
+     "measurable": true,
+     "detail": "SAP 3.058 +/- 0.372 ppt vs corrected 3.003 +/- 0.371 ppt; SAP < 0.5x False; difference > 3 sigma False; kept events in 2 sector(s)",
+     "det_ppt": 3.003,
+     "det_err_ppt": 0.371,
+     "sap_ppt": 3.058,
+     "sap_err_ppt": 0.372,
+     "quadrature_err_ppt": 0.525380814267137,
+     "kept_sectors": [
+      103,
+      104
+     ],
+     "sap_below_half": false,
+     "difference_significant": false,
+     "kept_sectors_ge_2": true
+    },
+    "deciding": false
+   }
+  },
+  "thresholds": {
+   "alias_ratios": {
+    "2:1": 2.0,
+    "1:2": 0.5,
+    "3:1": 3.0,
+    "1:3": 0.3333333333333333,
+    "3:2": 1.5,
+    "2:3": 0.6666666666666666
+   },
+   "alias_tolerance": 0.01,
+   "catalogue_radius_arcsec": 60.0,
+   "odd_even_sigma": 3.5,
+   "odd_even_min_transits": 2,
+   "k7_neighbour_px": 1.0,
+   "k7_target_px": 1.5,
+   "k7_search_px": 3.0,
+   "pixel_sigma": 3.0,
+   "min_sectors": 2,
+   "dilution_allowance": 0.5,
+   "max_radius_rjup": 1.5,
+   "r_jup_in_r_earth": 11.209,
+   "density_reject_dchi2": 9.0,
+   "density_ratio_range": [
+    0.5,
+    2.5
+   ],
+   "k9_correlation": 0.7,
+   "k9_window_durations": 3.0,
+   "k9_min_points": 10,
+   "nfpp_hold": 0.5,
+   "grazing_b_err": 0.5,
+   "vsx_eb_classes": [
+    "EA",
+    "EB",
+    "EW",
+    "ELL"
+   ],
+   "vsx_target_radius_arcsec": 21.0,
+   "neighbour_radius_arcsec": 63.0,
+   "min_sky_pixels": 16
+  },
+  "note": "SUBMIT is a local CTOI-grade verdict, not a validation; F9 states what would settle the source. Nothing is submitted by the pipeline.",
+  "base_rules": "p10.0",
+  "k_order": [
+   "K0",
+   "K1",
+   "K2",
+   "K3",
+   "K4",
+   "K5",
+   "K6",
+   "K7",
+   "K8",
+   "K9"
+  ],
+  "h_order": [
+   "H1",
+   "H2",
+   "H3",
+   "H4",
+   "H5",
+   "H6"
+  ],
+  "install_hash": "e56936ea444f6486d45ba40a7b6e9747db64f6420e12ce8ed5a47138634c6c67",
+  "amended_constants": {
+   "TIER_DENSITY_RATIO_RANGE": [
+    0.5,
+    2.5
+   ],
+   "TIER_ODD_EVEN_SIGMA": 3.5
+  },
+  "candidate_tier": null,
+  "validation_status": "No Gaia neighbour within 63 arcsec can produce the depth by total eclipse; an unresolved companion within the target's PSF remains untested until high-resolution imaging or RV excludes it. TESS fixed-aperture photometry is consistent with the target in 6 sector(s). TRICERATOPS FPP 0.0473, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet."
+ },
+ "d_errors": {},
+ "fit_seed": null,
+ "population_tier": "core",
+ "p12_install": {
+  "rules_version": "p12.0",
+  "base_rules": "p10.0",
+  "install_hash": "e56936ea444f6486d45ba40a7b6e9747db64f6420e12ce8ed5a47138634c6c67"
+ },
+ "redacted": false
+}

@@ -1,0 +1,53 @@
+{
+ "key": "tic80256158_P10.8184",
+ "status": "complete",
+ "recommended_verdict": "KILL",
+ "assessment": "Pixel review supports KILL as a background/correction artifact. Primary-event difference images do not repeat a stable dimming point source: sector 69 has weak positive target structure, sector 96 is dominated by a diffuse whole-cutout change, and sectors 103 and 104 show mixed positive/negative structure around the target. The sky-subtracted fixed aperture has depths of 1.012 +/- 0.395, -1.011 +/- 0.486, 6.578 +/- 0.766 and -5.333 +/- 1.132 ppt in sectors 69, 96, 103 and 104 respectively [M]. Raw aperture and sky variations closely track one another. Sector 103 has a broad step/trend, sector 96 brightens through the window, and sector 104 contains a large excursion before the window and brightening within it. These changes do not reproduce a stable transit with the fitted 2.058-ppt maximum depth. No particular nearby star is localized as an eclipsing source.",
+ "what_would_change": "To reconsider: independent photometry must show repeated dimming localized to a stellar source, with a stable background and consistent depth and transit shape across sectors. Fixed-box errors use local point scatter and omit some correlated noise.",
+ "reviewed_utc": "2026-09-06T21:08:36.602805+00:00",
+ "scope": "Final local pixel assessment, retained after the main coordinator completed C and refreshed all six Stage D catalogues. No external submission was made.",
+ "evidence_tag": "M",
+ "source_sha256": {
+  "data/cache/audit_lightkurve/tesscut/tess-s0069-2-4_6.537880_-44.333946_21x21_astrocut.fits": "48b627480e76f5612bbb7a25ab8a15a1d98ae5ddcd4973ad204bedba8aa3101d",
+  "data/cache/audit_lightkurve/tesscut/tess-s0096-2-3_6.537880_-44.333946_21x21_astrocut.fits": "9745e3eeb5e64635908f34a6c32192bff355013df1d7732915d0f54cecde6666",
+  "data/cache/audit_lightkurve/tesscut/tess-s0103-4-4_6.537880_-44.333946_21x21_astrocut.fits": "81dc0edd80c13c302ce017e59162af9ca0108a68c92b3438015f83890fbc3242",
+  "data/cache/audit_lightkurve/tesscut/tess-s0104-3-4_6.537880_-44.333946_21x21_astrocut.fits": "f3e76dd51d72d07b6f0207abc66b3cededc4f01480e4d10534826d038efb24b1",
+  "data/survey/p8/eb_screen/tic80256158_gaia_cone_300arcsec.json": "d305230da456824b791a80eb542b2239a440fc091e949cb6141d5d61c9631cec",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_fit_difference.json": "d9cf83fd95a34ef632dcc41c27aa5239b92eaef19b9c6f1bd2ef89f2dbb9ae33",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_fit_difference.npz": "4b5088929c8eab15a86946090e8750d3cd9486e25559e44231aad919ff0367af",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_fit_difference.png": "b8e9139a96c02c7116dbca7903595a3f7412049414809676f524bfd18e65de81",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_target_aperture.json": "c3a4dc9b5c393a82d557e2485b3db11f9c9441f11c66106dcc14227ba16a3073",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_target_aperture.npz": "fbb6663fb1041a12aa6f892ac319ad23c2c556d8c28a5d05a00e36c8c49d8a64",
+  "data/survey/p8/eb_screen/tic80256158_P10.8184_target_aperture.png": "604d6a6a30d34de251c7d7bd1f81541c9093bc2537c52ec07e6bb6d31070c05a",
+  "data/survey/p8/fit/tic80256158_P10.8184.json": "289d7486d61ddde8b38e6d424ab4701d285544fa9d82c288cbd15b514c3be857",
+  "data/survey/p8/neighbours/tic80256158.json": "ce2061227bac7bd8c3f6deaf9115ee2344148ab37aba4d88d81775cd74edcb72",
+  "data/survey/p8/stageA/tic80256158_P10.8184.json": "dddd55132eb548ba9ee335c3d41ce9c86d4ac95dc2de82260a83a3f0284374d0",
+  "data/survey/p8/stageC/tic80256158_P10.8184.json": "eacd1a3c3e573c4780c198a33363595e36fb59d2aa9167e42b49a7aaed0c857b",
+  "scripts/p8_eb_aperture.py": "93fe3fde099653a72ce02998d6f9e60d264204765c94401a69863ad06cd11d60",
+  "scripts/p8_eb_difference_image.py": "07c72da7b1d9b148fc8a5435a52528b593faaa79243a29ad949973289daed250",
+  "scripts/p8_target_aperture.py": "400a627b64eb7cd513df1b186fc67c507af82b09f075bf96be09684b1d4250e3"
+ },
+ "figures": [
+  {
+   "path": "data/survey/p8/eb_screen/tic80256158_P10.8184_fit_difference.png",
+   "caption": "Primary and phase-0.5 difference images at the accepted physical-fit ephemeris; Gaia positions are propagated to each sector epoch."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic80256158_P10.8184_target_aperture.png",
+   "caption": "Fixed target aperture and sky variations, full phase and transit windows after sky subtraction. All four sectors use the same aperture and background geometry with a 300-arcsec Gaia cone covering the target aperture and background annulus."
+  }
+ ],
+ "background_mask_review": {
+  "Gaia_cone_radius_arcsec": 300,
+  "scope": "Supplied Gaia sources on the cutout use the same fixed mask geometry. The 300-arcsec cone covers the target aperture and the background annulus, including the two-pixel source-exclusion margin; full corner coverage of a 21-by-21-pixel square is not required for that annulus.",
+  "outcome": "Both diagnostic figures inspected. No aperture, ephemeris, detrending or science gate was tuned."
+ },
+ "initial_reviewed_utc": "2026-09-06T18:51:20.672440+00:00",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

@@ -1,0 +1,1848 @@
+{
+ "key": "tic144277542_P12.9812",
+ "tic_id": 144277542,
+ "rank": 2150,
+ "survey_period": 12.98117406363673,
+ "survey_depth_ppt": 2.4649233383520364,
+ "generated_utc": "2026-09-06T20:41:25Z",
+ "rules_version": "p8.0",
+ "events": {
+  "survey": {
+   "ephemeris": {
+    "period": 12.98117406363673,
+    "t0": 3167.2967431067227,
+    "duration": 0.07187627327609256,
+    "source": "survey",
+    "ref_depth_ppt": 2.4649233383520364
+   },
+   "n_observed": 11,
+   "n_excluded": 8,
+   "n_kept": 3,
+   "det_all": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 2.69,
+    "err_ppt": 0.266,
+    "snr": 10.1,
+    "chi2_const": 11.2,
+    "dof": 6,
+    "p_const": 0.2005327091266805,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.31,
+    "snr_without_top_event": 8.48,
+    "n_events_depth_above_2sigma": 6,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.864,
+     "odd_err": 0.445,
+     "even_ppt": 2.593,
+     "even_err": 0.333,
+     "sigma": 0.49
+    },
+    "p_const_white": 0.08301086829638259,
+    "chi2_const_white": 11.2,
+    "snr_white": 10.1,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.216,
+    "weighted_mean_depth_ppt_inflated": 2.699,
+    "err_ppt_inflated": 0.293,
+    "snr_inflated": 9.21,
+    "chi2_const_inflated": 8.5,
+    "p_const_inflated": 0.2005327091266805
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 2.91,
+    "err_ppt": 0.369,
+    "snr": 7.89,
+    "chi2_const": 4.4,
+    "dof": 2,
+    "p_const": 0.1413581866656208,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.52,
+    "snr_without_top_event": 5.61,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.117,
+     "odd_err": 0.697,
+     "even_ppt": 2.441,
+     "even_err": 0.435,
+     "sigma": 2.04
+    },
+    "p_const_white": 0.11173866409299726,
+    "chi2_const_white": 4.4,
+    "snr_white": 7.89,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.082,
+    "weighted_mean_depth_ppt_inflated": 2.87,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.42,
+    "chi2_const_inflated": 3.9,
+    "p_const_inflated": 0.1413581866656208
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 2.959,
+    "err_ppt": 0.37,
+    "snr": 8.0,
+    "chi2_const": 11.8,
+    "dof": 2,
+    "p_const": 0.00424806338947507,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 5.74,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.486,
+     "odd_err": 0.741,
+     "even_ppt": 2.452,
+     "even_err": 0.427,
+     "sigma": 2.38
+    },
+    "p_const_white": 0.0027820655350143785,
+    "chi2_const_white": 11.8,
+    "snr_white": 8.0,
+    "beta_median": 1.082,
+    "beta_min": 1.0,
+    "beta_max": 1.082,
+    "weighted_mean_depth_ppt_inflated": 2.862,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.4,
+    "chi2_const_inflated": 10.9,
+    "p_const_inflated": 0.00424806338947507
+   },
+   "flags": [
+    "one event carries > 50% of the signal",
+    "SNR < 7 without the strongest event",
+    "more than half of the observed events coincide with dumps/edges/ramps"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3167.2967,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3180.2779,
+     "sector": 68,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 19.918,
+     "sap_depth_err_ppt": 3.165,
+     "edge_distance_days": 1.864,
+     "pdc_gap_distance_days": 1.569,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.91,
+     "ramp_over_depth": 3.15,
+     "bkg_over_sector_median": 72.59,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "91% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3193.2591,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.944,
+     "sap_depth_err_ppt": 1.01,
+     "edge_distance_days": 10.904,
+     "pdc_gap_distance_days": 0.518,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.06,
+     "bkg_over_sector_median": 3.39,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3206.2403,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.009,
+     "det_depth_err_ppt": 1.087,
+     "sap_depth_ppt": 0.609,
+     "sap_depth_err_ppt": 0.854,
+     "edge_distance_days": 1.901,
+     "pdc_gap_distance_days": 0.006,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.51,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 1.94,
+     "excluded": true,
+     "exclusion_reasons": [
+      "51% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.01 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3219.2214,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3232.2026,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3245.1838,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3258.165,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3271.1461,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3284.1273,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3297.1085,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3310.0897,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3323.0708,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3336.052,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3349.0332,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3362.0144,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3374.9955,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3387.9767,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3400.9579,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3413.9391,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3426.9202,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3439.9014,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3452.8826,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3465.8637,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3478.8449,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3491.8261,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3504.8073,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3517.7884,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3530.7696,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3543.7508,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3556.732,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3569.7131,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3582.6943,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3595.6755,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3608.6567,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3621.6378,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3634.619,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3647.6002,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3660.5814,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3673.5625,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3686.5437,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3699.5249,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3712.5061,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3725.4872,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3738.4684,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3751.4496,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3764.4308,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3777.4119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3790.3931,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3803.3743,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3816.3554,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3829.3366,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3842.3178,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3855.299,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3868.2801,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3881.2613,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3894.2425,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.54,
+     "det_depth_err_ppt": 0.763,
+     "sap_depth_ppt": 1.678,
+     "sap_depth_err_ppt": 0.774,
+     "edge_distance_days": 11.911,
+     "pdc_gap_distance_days": 11.911,
+     "desat": false,
+     "q_frac": 0.19,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 2.34,
+     "bkg_over_sector_median": 3.42,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3907.2237,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 0.768,
+     "sap_depth_err_ppt": 1.025,
+     "edge_distance_days": 0.338,
+     "pdc_gap_distance_days": 0.338,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.82,
+     "bkg_over_sector_median": 5.34,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3920.2048,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.037,
+     "det_depth_err_ppt": 0.703,
+     "sap_depth_ppt": 5.035,
+     "sap_depth_err_ppt": 0.679,
+     "edge_distance_days": 12.43,
+     "pdc_gap_distance_days": 12.43,
+     "desat": false,
+     "q_frac": 0.29,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.45,
+     "bkg_over_sector_median": 1.92,
+     "excluded": true,
+     "exclusion_reasons": [
+      "29% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3933.186,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.214,
+     "det_depth_err_ppt": 0.682,
+     "sap_depth_ppt": 0.412,
+     "sap_depth_err_ppt": 0.775,
+     "edge_distance_days": 0.262,
+     "pdc_gap_distance_days": 0.262,
+     "desat": false,
+     "q_frac": 0.39,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.14,
+     "bkg_over_sector_median": 1.66,
+     "excluded": true,
+     "exclusion_reasons": [
+      "39% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3946.1672,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3959.1484,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 3972.1295,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 3985.1107,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 3998.0919,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4011.0731,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4024.0542,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4037.0354,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4050.0166,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4062.9978,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4075.9789,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4088.9601,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4101.9413,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4114.9224,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4127.9036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4140.8848,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4153.866,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.66,
+     "det_depth_err_ppt": 0.638,
+     "sap_depth_ppt": 3.644,
+     "sap_depth_err_ppt": 0.644,
+     "edge_distance_days": 1.839,
+     "pdc_gap_distance_days": 1.839,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.49,
+     "bkg_over_sector_median": 1.2,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 77,
+     "tc_btjd": 4166.8471,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.117,
+     "det_depth_err_ppt": 0.697,
+     "sap_depth_ppt": 4.486,
+     "sap_depth_err_ppt": 0.741,
+     "edge_distance_days": 4.717,
+     "pdc_gap_distance_days": 4.717,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.42,
+     "bkg_over_sector_median": 1.18,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 78,
+     "tc_btjd": 4179.8283,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.251,
+     "det_depth_err_ppt": 0.594,
+     "sap_depth_ppt": 1.518,
+     "sap_depth_err_ppt": 0.57,
+     "edge_distance_days": 1.246,
+     "pdc_gap_distance_days": 1.246,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.64,
+     "bkg_over_sector_median": 1.44,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 79,
+     "tc_btjd": 4192.8095,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -44.677,
+     "sap_depth_err_ppt": 0.615,
+     "edge_distance_days": 12.391,
+     "pdc_gap_distance_days": 12.391,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.4,
+     "ramp_over_depth": 7.38,
+     "bkg_over_sector_median": 3.37,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "40% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 12.981356096822823,
+    "t0": 3167.283253396794,
+    "duration": 0.07187627327609256,
+    "source": "tls_forced",
+    "ref_depth_ppt": 2.4649233383520364
+   },
+   "n_observed": 11,
+   "n_excluded": 8,
+   "n_kept": 3,
+   "det_all": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 2.759,
+    "err_ppt": 0.263,
+    "snr": 10.49,
+    "chi2_const": 7.3,
+    "dof": 6,
+    "p_const": 0.4603629060863982,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.28,
+    "snr_without_top_event": 9.0,
+    "n_events_depth_above_2sigma": 7,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.93,
+     "odd_err": 0.424,
+     "even_ppt": 2.652,
+     "even_err": 0.336,
+     "sigma": 0.51
+    },
+    "p_const_white": 0.2899468182875831,
+    "chi2_const_white": 7.3,
+    "snr_white": 10.49,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.215,
+    "weighted_mean_depth_ppt_inflated": 2.773,
+    "err_ppt_inflated": 0.289,
+    "snr_inflated": 9.58,
+    "chi2_const_inflated": 5.7,
+    "p_const_inflated": 0.4603629060863982
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.003,
+    "err_ppt": 0.371,
+    "snr": 8.1,
+    "chi2_const": 2.9,
+    "dof": 2,
+    "p_const": 0.2753721889346781,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 5.98,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.981,
+     "odd_err": 0.697,
+     "even_ppt": 2.616,
+     "even_err": 0.438,
+     "sigma": 1.66
+    },
+    "p_const_white": 0.2384267688033737,
+    "chi2_const_white": 2.9,
+    "snr_white": 8.1,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.075,
+    "weighted_mean_depth_ppt_inflated": 2.972,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.68,
+    "chi2_const_inflated": 2.6,
+    "p_const_inflated": 0.2753721889346781
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.058,
+    "err_ppt": 0.372,
+    "snr": 8.23,
+    "chi2_const": 9.4,
+    "dof": 2,
+    "p_const": 0.012502233922690219,
+    "top_event_n": 77,
+    "top_event_share_of_snr2": 0.45,
+    "snr_without_top_event": 6.1,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.353,
+     "odd_err": 0.741,
+     "even_ppt": 2.623,
+     "even_err": 0.43,
+     "sigma": 2.02
+    },
+    "p_const_white": 0.00921332209105107,
+    "chi2_const_white": 9.4,
+    "snr_white": 8.23,
+    "beta_median": 1.075,
+    "beta_min": 1.0,
+    "beta_max": 1.075,
+    "weighted_mean_depth_ppt_inflated": 2.977,
+    "err_ppt_inflated": 0.387,
+    "snr_inflated": 7.69,
+    "chi2_const_inflated": 8.8,
+    "p_const_inflated": 0.012502233922690219
+   },
+   "flags": [
+    "SNR < 7 without the strongest event",
+    "more than half of the observed events coincide with dumps/edges/ramps"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3167.2833,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3180.2646,
+     "sector": 68,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 10.331,
+     "sap_depth_err_ppt": 3.112,
+     "edge_distance_days": 1.877,
+     "pdc_gap_distance_days": 1.556,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.94,
+     "ramp_over_depth": 2.79,
+     "bkg_over_sector_median": 58.61,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "94% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3193.246,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.21,
+     "sap_depth_err_ppt": 1.01,
+     "edge_distance_days": 10.891,
+     "pdc_gap_distance_days": 0.505,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 3.35,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3206.2273,
+     "sector": 69,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.511,
+     "det_depth_err_ppt": 0.858,
+     "sap_depth_ppt": 0.537,
+     "sap_depth_err_ppt": 0.837,
+     "edge_distance_days": 1.914,
+     "pdc_gap_distance_days": 0.007,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.49,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 1.93,
+     "excluded": true,
+     "exclusion_reasons": [
+      "49% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.01 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3219.2087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3232.19,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3245.1714,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3258.1527,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3271.1341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3284.1155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3297.0968,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3310.0782,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3323.0595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3336.0409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3349.0222,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3362.0036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3374.985,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3387.9663,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3400.9477,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3413.929,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3426.9104,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3439.8917,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3452.8731,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3465.8544,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3478.8358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3491.8172,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3504.7985,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3517.7799,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3530.7612,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3543.7426,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3556.7239,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3569.7053,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3582.6866,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3595.668,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3608.6494,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3621.6307,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3634.6121,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3647.5934,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3660.5748,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3673.5561,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3686.5375,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3699.5189,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3712.5002,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3725.4816,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3738.4629,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3751.4443,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3764.4256,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3777.407,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3790.3883,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3803.3697,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3816.3511,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3829.3324,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3842.3138,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3855.2951,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3868.2765,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3881.2578,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3894.2392,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.484,
+     "det_depth_err_ppt": 0.761,
+     "sap_depth_ppt": 1.605,
+     "sap_depth_err_ppt": 0.815,
+     "edge_distance_days": 11.907,
+     "pdc_gap_distance_days": 11.907,
+     "desat": false,
+     "q_frac": 0.19,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 2.32,
+     "bkg_over_sector_median": 3.39,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3907.2206,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.035,
+     "sap_depth_err_ppt": 1.06,
+     "edge_distance_days": 0.341,
+     "pdc_gap_distance_days": 0.341,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.83,
+     "bkg_over_sector_median": 5.29,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3920.2019,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.899,
+     "det_depth_err_ppt": 0.718,
+     "sap_depth_ppt": 4.672,
+     "sap_depth_err_ppt": 0.704,
+     "edge_distance_days": 12.427,
+     "pdc_gap_distance_days": 12.427,
+     "desat": false,
+     "q_frac": 0.29,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.44,
+     "bkg_over_sector_median": 1.9,
+     "excluded": true,
+     "exclusion_reasons": [
+      "29% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3933.1833,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.556,
+     "det_depth_err_ppt": 0.682,
+     "sap_depth_ppt": 0.72,
+     "sap_depth_err_ppt": 0.76,
+     "edge_distance_days": 0.265,
+     "pdc_gap_distance_days": 0.265,
+     "desat": false,
+     "q_frac": 0.39,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.13,
+     "bkg_over_sector_median": 1.65,
+     "excluded": true,
+     "exclusion_reasons": [
+      "39% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)"
+     ],
+     "artefact_classes": [
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3946.1646,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3959.146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 3972.1273,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 3985.1087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 3998.09,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4011.0714,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4024.0528,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4037.0341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4050.0155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4062.9968,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4075.9782,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4088.9595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4101.9409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4114.9222,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4127.9036,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4140.885,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4153.8663,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.781,
+     "det_depth_err_ppt": 0.648,
+     "sap_depth_ppt": 3.757,
+     "sap_depth_err_ppt": 0.654,
+     "edge_distance_days": 1.839,
+     "pdc_gap_distance_days": 1.839,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.49,
+     "bkg_over_sector_median": 1.19,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 77,
+     "tc_btjd": 4166.8477,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.981,
+     "det_depth_err_ppt": 0.697,
+     "sap_depth_ppt": 4.353,
+     "sap_depth_err_ppt": 0.741,
+     "edge_distance_days": 4.716,
+     "pdc_gap_distance_days": 4.716,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.42,
+     "bkg_over_sector_median": 1.18,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 78,
+     "tc_btjd": 4179.829,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.478,
+     "det_depth_err_ppt": 0.594,
+     "sap_depth_ppt": 1.761,
+     "sap_depth_err_ppt": 0.57,
+     "edge_distance_days": 1.247,
+     "pdc_gap_distance_days": 1.247,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.64,
+     "bkg_over_sector_median": 1.43,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 79,
+     "tc_btjd": 4192.8104,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -44.526,
+     "sap_depth_err_ppt": 0.605,
+     "edge_distance_days": 12.39,
+     "pdc_gap_distance_days": 12.39,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.4,
+     "ramp_over_depth": 7.37,
+     "bkg_over_sector_median": 3.35,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "40% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  }
+ },
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "neighbours_summary": "Gaia: 1 sources within 1 arcmin; target RUWE 1.2617647647857666, var flag VARIABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class SOLAR_LIKE; 0 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 0 (); VSX 1",
+ "gaia": {
+  "gaia_error": null,
+  "n_within_1arcmin": 1,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.2617647647857666,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 3.476106882095337,
+  "phot_variable_flag": "VARIABLE",
+  "vari_class": "SOLAR_LIKE",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 1.1899994611740112,
+  "rv_n_transits": 46.0,
+  "n_neighbours_could_produce_depth_within_3px": 0,
+  "simbad_otypes": [],
+  "n_vsx_within_1arcmin": 1,
+  "vsx_types": [
+   "ROT"
+  ],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "astrometric_excess_noise_sig 3.5 > 2.0",
+   "Gaia phot_variable_flag VARIABLE (SOLAR_LIKE)",
+   "VSX entry within 1 arcmin (ROT)"
+  ]
+ },
+ "simbad": [],
+ "vsx": [
+  {
+   "_q": 304.0,
+   "_r": 0.0003,
+   "recno": 10241766.0,
+   "OID": 8236456.0,
+   "Name": "Gaia DR3 6524996886834125952",
+   "V": 0.0,
+   "RAJ2000": 353.976318359375,
+   "DEJ2000": -47.803890228271484,
+   "Type": "ROT",
+   "l_max": "",
+   "max": 13.79,
+   "u_max": "",
+   "n_max": "G",
+   "f_min": "",
+   "l_min": "",
+   "min": 13.82,
+   "u_min": "",
+   "n_min": "G",
+   "Epoch": null,
+   "u_Epoch": "",
+   "l_Period": "",
+   "Period": null,
+   "u_Period": "",
+   "Sp": "M",
+   "n_OID": "",
+   "sep_arcsec": 0.0
+  }
+ ],
+ "crossmatch": {
+  "catalog_stamp": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "star": {
+   "tic_id": 144277542,
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "catalog_stamp": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+   "neighbours_resolved": true,
+   "rejected": false,
+   "flagged": false,
+   "summary": "CLEAN: TIC 144277542 absent from all sources (neighbours checked)",
+   "checked_utc": "2026-09-06T20:41:24Z"
+  }
+ },
+ "fit": {
+  "adopted": {
+   "t0_btjd": 3167.287570139451,
+   "t0_err": 0.008577592364062256,
+   "epoch_bjd": 2460167.2875701394,
+   "period": 12.981388999463034,
+   "period_err": 0.00012624287275869294,
+   "rp_rs": 0.04781008763562296,
+   "rp_rs_err": 0.002747812910824613,
+   "a_rs": 40.531495036805296,
+   "a_rs_err": 4.05314950368053,
+   "b": 1.9340107484769516e-05,
+   "b_err": 2362.0151252802166,
+   "inc_deg": 89.99997266060547,
+   "depth_max_ppt": 2.672,
+   "depth_avg_ppt": 2.322,
+   "depth_err_ppt": 0.263,
+   "t14_hours": 2.563,
+   "t14_err_hours": 2.574,
+   "rp_rearth": 2.253,
+   "rp_rearth_err": 0.26,
+   "rho_fit_cgs": 7.47468649060768,
+   "density_ratio_fit_over_cat": 0.9999949308046285,
+   "grazing": false,
+   "delta_chi2_vs_flat": 88.44704710163978,
+   "n_transits": 7
+  },
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 1.0988087863213423,
+  "delta_chi2_vs_flat": 88.44704710163978,
+  "beta_red_noise": 1.14,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.04878394719900502,
+    "rp_rs_err": 0.004148967791507522,
+    "depth_ppt": 2.38,
+    "n_transits": 4
+   },
+   "even": {
+    "rp_rs": 0.047243371669670624,
+    "rp_rs_err": 0.003231272224419871,
+    "depth_ppt": 2.232,
+    "n_transits": 4
+   },
+   "sigma": 0.29
+  },
+  "stellar": {
+   "radius": 0.432,
+   "radius_err": 0.0432,
+   "mass": 0.428,
+   "rho_cgs": 7.474724381445918,
+   "rho_err": 2.242417314433775,
+   "a_rs_catalog": 40.531495036805296
+  },
+  "uncertainty_issues": []
+ },
+ "ctoi_fields_path": "docs/packets/audit_p8/tic144277542_P12.9812/ctoi_fields.json",
+ "stageA": {
+  "decision": "PASS",
+  "reason": "tls ephemeris, 3 kept events, SNR 8.1, top share 0.48, SNR w/o top 5.98, depth 3.003 ppt = 1.218x survey, p_const 0.28; all six criteria pass",
+  "max_verdict": null
+ },
+ "stageB": {
+  "decision": "PASS",
+  "reason": "6 sector(s) could test the period phase-independently, none excludes it; 3 star-level flag(s): astrometric_excess_noise_sig 3.5 > 2.0; Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); VSX entry within 1 arcmin (ROT)",
+  "max_verdict": "HOLD"
+ },
+ "stageC": {
+  "decision": "PASS",
+  "reason": "strongest peak 12.98136 d is within 1% of the survey period at SDE 14.9",
+  "max_verdict": null
+ },
+ "provisional_verdict": "HOLD",
+ "provisional_reason": "Stage B star-level flags stand: astrometric_excess_noise_sig 3.5 > 2.0; Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); VSX entry within 1 arcmin (ROT)",
+ "verdict": "KILL",
+ "reason": "Background/correction artifact. Diffuse event difference images and raw-aperture changes tracking the sky do not reproduce the fitted shallow target dip: the fixed sky-subtracted depths in sectors 95 and 104 are 0.584 +/- 1.353 and -0.481 +/- 0.720 ppt, while sector 68 has a broad unstable 33.178 +/- 4.424-ppt change [M].",
+ "seconds": 0.1,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "verdict_stamped_utc": "2026-09-06T21:08:38Z"
+}

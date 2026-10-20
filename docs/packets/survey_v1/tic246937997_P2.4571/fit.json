@@ -1,0 +1,173 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`ftol` termination condition is satisfied.",
+ "period": 2.457924025891604,
+ "period_err": 0.0017684666071175103,
+ "t0": 2448.0713671604653,
+ "t0_err": 0.02134597642640219,
+ "rp_rs": 0.24859692508492182,
+ "rp_rs_err": 4.007939947153489,
+ "a_rs": 1.5526361738526915,
+ "a_rs_err": 2.7643679923175597,
+ "b": 1.0844037837272897,
+ "b_err": 4.834122503387743,
+ "inc_deg": 45.69902304429636,
+ "f0": 0.9942399564348449,
+ "f0_err": 0.000396785440571244,
+ "u1": 0.35820957644800006,
+ "u2": 0.29956370155199996,
+ "ld_source": "claret2017_atlas (Teff 3681 K, logg 4.34)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.24859692508492182,
+ "free_a_rs": 1.5526361738526915,
+ "free_b": 1.0844037837272897,
+ "free_chi2": 1057.506933886413,
+ "duration_days": 0.46219560694789114,
+ "duration_err": 0.36064598940004916,
+ "t23_days": 0.0,
+ "depth_ppt": 12.414349236792521,
+ "depth_err": 2.2946142218128136,
+ "depth_err_shape": 85.35412086370569,
+ "depth_mean_ppt": 6.738507259986149,
+ "rp_rearth": 22.328771360044552,
+ "rp_rearth_err": 360.0011580701583,
+ "rp_rjup": 1.9920497485592243,
+ "rp_rjup_err": 32.117316481548556,
+ "rho_star_fit_cgs": 0.011720054506331517,
+ "rho_star_fit_err": 0.005274024527849182,
+ "rho_star_cat_cgs": 1.363449165856845,
+ "rho_star_cat_err": 0.6244019067828084,
+ "rho_source": "tic_rho",
+ "a_rs_star": 7.57948108210842,
+ "a_rs_star_err": 1.1570269868033651,
+ "a_rs_ratio": 0.20484729192315462,
+ "density_ratio": 0.008595886667300994,
+ "density_sigma": 9.87029787684126,
+ "density_dchi2": 31.921049556878643,
+ "density_dchi2_eff": 6.104646880716873,
+ "beta_red_noise": 2.2866953437763717,
+ "depth_err_white": 1.0034630227668913,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 1.55 (b = 1.08) against 7.58 +/- 1.16 from the catalog density (0.012 vs 1.363 g/cc, ratio 0.01; profile delta chi2 31.9 with a/R* held in the catalog range, 6.1 after the red-noise beta = 2.29; tic_rho)",
+ "grazing": true,
+ "rp_rs_constrained": false,
+ "n_points": 1364,
+ "n_in_transit": 374,
+ "n_transits": 17,
+ "chi2": 1057.506933886413,
+ "chi2_flat": 1178.952274058041,
+ "reduced_chi2": 0.7787238099310847,
+ "delta_bic": 85.35445597961098,
+ "sigma_used": 0.01252776724218079,
+ "exp_time_days": 0.020833333333939663,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 20.967365976837716,
+    "depth_err": 4.134007021354449
+   },
+   {
+    "index": 1,
+    "depth_ppt": -1.4322615198698205,
+    "depth_err": 4.134006608207186
+   },
+   {
+    "index": 2,
+    "depth_ppt": 28.218068213866154,
+    "depth_err": 4.134006197504801
+   },
+   {
+    "index": 3,
+    "depth_ppt": 4.104585118470635,
+    "depth_err": 4.134005786854046
+   },
+   {
+    "index": 6,
+    "depth_ppt": 3.2787557153046705,
+    "depth_err": 4.1340044548930575
+   },
+   {
+    "index": 7,
+    "depth_ppt": 12.138824260154575,
+    "depth_err": 4.134004046910098
+   },
+   {
+    "index": 8,
+    "depth_ppt": -1.6990258675770318,
+    "depth_err": 4.134003682848712
+   },
+   {
+    "index": 9,
+    "depth_ppt": 18.62269524351333,
+    "depth_err": 4.134003361276647
+   },
+   {
+    "index": 11,
+    "depth_ppt": 33.43111112296038,
+    "depth_err": 4.134002056080333
+   },
+   {
+    "index": 12,
+    "depth_ppt": -6.733171539037504,
+    "depth_err": 4.13400204828532
+   },
+   {
+    "index": 13,
+    "depth_ppt": 30.729568891479534,
+    "depth_err": 4.134002094554941
+   },
+   {
+    "index": 14,
+    "depth_ppt": -9.530164348401133,
+    "depth_err": 4.134002195282879
+   },
+   {
+    "index": 16,
+    "depth_ppt": 13.663769316709779,
+    "depth_err": 4.19261977287993
+   },
+   {
+    "index": 17,
+    "depth_ppt": 34.10168841999644,
+    "depth_err": 4.134002725820877
+   },
+   {
+    "index": 18,
+    "depth_ppt": 5.413622920561761,
+    "depth_err": 4.134002942864962
+   },
+   {
+    "index": 19,
+    "depth_ppt": 21.27898282609214,
+    "depth_err": 4.1340032001365286
+   },
+   {
+    "index": 20,
+    "depth_ppt": 4.5376413716158295,
+    "depth_err": 4.1340034984840015
+   }
+  ],
+  "depth_odd_ppt": 19.12190843890518,
+  "depth_odd_err": 4.753841344667956,
+  "depth_odd_err_white": 1.4615910372271526,
+  "n_odd": 8,
+  "depth_even_ppt": 6.435119906437164,
+  "depth_even_err": 4.161658573629848,
+  "depth_even_err_white": 1.3801319054344552,
+  "n_even": 9,
+  "delta_sigma": 2.0080063683504807,
+  "delta_fraction": 0.9928218853175179,
+  "significant": false,
+  "note": "odd 19.122 +/- 4.754 ppt (8 events), even 6.435 +/- 4.162 ppt (9 events), difference 2.0 sigma, 99% of the mean"
+ },
+ "notes": [
+  "Rp/R* is not constrained by the covariance (degenerate with b)"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "recommended_verdict": "HOLD",
+ "final_reason": "Source unresolved in a crowded variable-star field. The primary difference images are weak/mixed in sector 63 and dominated by diffuse background changes in sectors 90 and 98. The fixed sky annulus leaves only one usable pixel per sector, below the required 16, so a reliable target-aperture depth could not be extracted. FPP is 0.201585 and NFPP is 0.169895 [M]; source localization is inadequate for submission.",
+ "assessment": "HOLD. The adopted density-prior fit gives P=27.543390053 d, Rp=3.079 +/-0.375 Earth radii, b=0.552 +/-0.089 and T14=2.899 +/-0.327 h [M]. That fit does not resolve the source. The 300-arcsec cone contains 3429 Gaia sources, including 215 with G<18, and the target is a cached Gaia/VSX ROT variable. No repeatable isolated dimming PSF is established: sector 63 is weak/mixed, sector 90 has whole-cutout primary dimming, and sector 98 has whole-cutout primary brightening. The fixed mask leaves one sky pixel in every reviewed sector. All 12 requested sectors now have TESScut data; 11 support a centroid measurement, with combined significance 28.701 sigma [M]. This centroid shift is not a fitted source position.",
+ "what_would_change": "Source-resolving photometry or a validated crowded-field PSF/difference-image analysis must separate the target from neighbours and background, then show repeatable dimming near 27.5434 d with consistent depth. The present fixed-annulus method cannot supply that deblending. A satisfactory transit geometry alone does not resolve the contamination.",
+ "target_aperture_available": false,
+ "selection": "Sectors 63, 90 and 98 are all sectors with complete primary and phase-0.5 two-sided windows in the prepared-series time-coverage check.",
+ "key": "tic404927114_P27.5436",
+ "status": "complete",
+ "reviewed_utc": "2026-09-06T21:08:38.089571+00:00",
+ "scope": "Final local pixel assessment, retained after the main coordinator completed C and refreshed all six Stage D catalogues. No external submission was made.",
+ "evidence_tag": "M",
+ "figures": [
+  {
+   "path": "data/survey/p8/eb_screen/tic404927114_P27.5436_fit_difference.png",
+   "caption": "Difference images at the physical-fit ephemeris. The dense Gaia field prevents unique source localization."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic404927114_P27.5436_background_mask.png",
+   "caption": "Fixed target aperture and background mask: one sky pixel survives in each sector; the minimum is 16. No target-aperture depth is reported."
+  }
+ ],
+ "source_sha256": {
+  "data/cache/audit_lightkurve/tesscut/tess-s0063-4-3_85.137263_-66.173515_21x21_astrocut.fits": "a5006a37e48adae97f7b2602e21f5f3d99f1d04053e988714cc9fb1b5406be26",
+  "data/cache/audit_lightkurve/tesscut/tess-s0090-4-3_85.137263_-66.173515_21x21_astrocut.fits": "ddfaf399d6af317ccb92af8c7fb04047e19e8845e6f57d71fe4ced15ec8a126f",
+  "data/cache/audit_lightkurve/tesscut/tess-s0098-4-2_85.137263_-66.173515_21x21_astrocut.fits": "298f17a7c19c7baeb0dec809062a82918e188a16211d984b8c42393182d7a9e8",
+  "data/survey/p8/eb_screen/tic404927114_gaia_cone_300arcsec.json": "b9e8abe0bd8930431884a2309801efd3d157fba2a408d534cb97769e4456540c",
+  "data/survey/p8/eb_screen/tic404927114_P27.5436_background_mask.json": "2f7088fcd23449c6fbd7d74b1ca6de23be216aca82da0f0dd9c025f537eb7c92",
+  "data/survey/p8/eb_screen/tic404927114_P27.5436_background_mask.png": "e03c500f3fc55b4b4ea8df8791ff8a4e7087e4c804599d8ef76a4d017be60970",
+  "data/survey/p8/eb_screen/tic404927114_P27.5436_fit_difference.json": "80f06cf993f084fa0bfedd23184ac227426a191a1ec75d7071e249c630e70304",
+  "data/survey/p8/eb_screen/tic404927114_P27.5436_fit_difference.npz": "374c55cec5a5fed24efa53646c2da2b89e58b3e6fe4965a3fc040c36d00e7bbb",
+  "data/survey/p8/eb_screen/tic404927114_P27.5436_fit_difference.png": "5a1fca77fd0625bcd26b94524e6b02979b9bb15432c7b38edb6767cd1bfb7535",
+  "data/survey/p8/fit/tic404927114_P27.5436.json": "a7485435bbd3ced7c0669bb4ec4e976cdbdc521223e421cd8559995dce61025e",
+  "data/survey/p8/logs/new_pixel_control_figures.py": "44a5b9c64b3ed4cbfa69097ebdb35ca48c4b4fd96454cc5142fc6bb2ab554a17",
+  "data/survey/p8/neighbours/tic404927114.json": "4bfb0a5ab536248d68a0b65419b68e29b4a643a61deac5a35df301b72699c537",
+  "data/survey/p8/pixel_download_repair_p8.json": "f31b25239e45db7d0c2694ff0eebd70b31b0f08def241f03ce6c7e581a99d379",
+  "data/survey/p8/stageA/tic404927114_P27.5436.json": "37023d8a8b6b41ba0dbe1b2c8034e3622069b1f6091f0c39aa592cf0769df4a9",
+  "data/survey/p8/stageC/tic404927114_P27.5436.json": "6838b774ff582d60d219aabf24f136ba2cbb7ff2b374024fa54d6014a9019503",
+  "scripts/p8_eb_aperture.py": "93fe3fde099653a72ce02998d6f9e60d264204765c94401a69863ad06cd11d60",
+  "scripts/p8_eb_difference_image.py": "07c72da7b1d9b148fc8a5435a52528b593faaa79243a29ad949973289daed250",
+  "scripts/p8_target_aperture.py": "400a627b64eb7cd513df1b186fc67c507af82b09f075bf96be09684b1d4250e3"
+ },
+ "background_mask_review": {
+  "Gaia_cone_radius_arcsec": 300,
+  "scope": "Supplied Gaia sources on the cutout use the same fixed mask geometry. The 300-arcsec cone covers the target aperture and the background annulus, including the two-pixel source-exclusion margin; full corner coverage of a 21-by-21-pixel square is not required for that annulus.",
+  "outcome": "All figures inspected. No aperture, ephemeris, detrending or science gate was tuned. Insufficient sky pixels remain explicitly unavailable."
+ },
+ "initial_reviewed_utc": "2026-09-06T21:07:37.257711+00:00",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

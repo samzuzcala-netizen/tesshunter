@@ -1,0 +1,184 @@
+{
+ "tic_id": 155895971,
+ "ra": 4.040559,
+ "dec": -49.212214,
+ "tic_gaia_id": 4977056829012507648,
+ "tic_gaia_mag": null,
+ "tmag": 13.511,
+ "generated_utc": "2026-09-04T23:17:41Z",
+ "candidate_depths_ppt": [
+  2.906275859234695
+ ],
+ "gaia": {
+  "n_within_1arcmin": 6,
+  "target": {
+   "source_id": 4977056829012507520,
+   "ra": 4.041140379169279,
+   "dec": -49.21223674165619,
+   "phot_g_mean_mag": 14.700728416442871,
+   "phot_bp_mean_mag": 16.08783531188965,
+   "phot_rp_mean_mag": 13.545821189880371,
+   "parallax": 17.444504404547732,
+   "parallax_error": 0.02079974301159382,
+   "pmra": 85.61446030911043,
+   "pmdec": -4.981703476753422,
+   "ruwe": 1.0796840190887451,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 1.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.02658330835402012,
+   "astrometric_excess_noise": 0.04425064101815224,
+   "astrometric_excess_noise_sig": 1.0043927431106567,
+   "radial_velocity": -6.562398433685303,
+   "radial_velocity_error": 1.8499422073364258,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 37.0,
+   "phot_g_n_obs": 936.0,
+   "teff_gspphot": null,
+   "logg_gspphot": null,
+   "distance_gspphot": null,
+   "best_class_name": "",
+   "best_class_score": null,
+   "sep_arcsec": 1.3696973363184994
+  },
+  "target_match": "nearest_5arcsec",
+  "neighbours": [
+   {
+    "source_id": 4977057580628443008,
+    "sep_arcsec": 29.8,
+    "sep_px": 1.42,
+    "G": 18.99403953552246,
+    "Rp": 17.903018951416016,
+    "band_used": "rp",
+    "delta_mag": 4.36,
+    "flux_ratio_to_target": 0.01808,
+    "max_observed_depth_ppt_total_eclipse": 17.76,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0087100267410278,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.9617950835861006
+   },
+   {
+    "source_id": 4977057580628445440,
+    "sep_arcsec": 31.5,
+    "sep_px": 1.5,
+    "G": 19.85626792907715,
+    "Rp": 18.62891960144043,
+    "band_used": "rp",
+    "delta_mag": 5.08,
+    "flux_ratio_to_target": 0.00926,
+    "max_observed_depth_ppt_total_eclipse": 9.18,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0285879373550415,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 2.3549537426986404
+   },
+   {
+    "source_id": 4977057584925116928,
+    "sep_arcsec": 49.2,
+    "sep_px": 2.35,
+    "G": 20.382061004638672,
+    "Rp": 19.715269088745117,
+    "band_used": "rp",
+    "delta_mag": 6.17,
+    "flux_ratio_to_target": 0.00341,
+    "max_observed_depth_ppt_total_eclipse": 3.39,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9868032932281494,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.5521469848303486
+   },
+   {
+    "source_id": 4977057584926751232,
+    "sep_arcsec": 51.1,
+    "sep_px": 2.43,
+    "G": 17.925464630126953,
+    "Rp": 17.384431838989258,
+    "band_used": "rp",
+    "delta_mag": 3.84,
+    "flux_ratio_to_target": 0.02914,
+    "max_observed_depth_ppt_total_eclipse": 28.32,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.005104899406433,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.038583184250548415
+   },
+   {
+    "source_id": 4977056584196016896,
+    "sep_arcsec": 54.0,
+    "sep_px": 2.57,
+    "G": 20.793590545654297,
+    "Rp": 19.964323043823242,
+    "band_used": "rp",
+    "delta_mag": 6.42,
+    "flux_ratio_to_target": 0.00271,
+    "max_observed_depth_ppt_total_eclipse": 2.7,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.016206979751587,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.3437165683839292
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 4,
+  "n_neighbours_within_3px_could_make_1ppt": 5
+ },
+ "simbad": {
+  "n_within_1arcmin": 1,
+  "objects": [
+   {
+    "main_id": "Gaia DR3 4977056829012507520",
+    "otype": "PM*",
+    "otypes": "*|PM*",
+    "sp_type": "",
+    "sep_arcsec": 0.0,
+    "V": null,
+    "G": 14.700728416442871
+   }
+  ],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "vsx": {
+  "n_within_1arcmin": 0,
+  "objects": [],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "summary": "Gaia: 6 sources within 1 arcmin; target RUWE 1.0796840190887451, var flag NOT_AVAILABLE, NSS 0.0, dup 1.0, ipd_multi_peak 0.0, class -; 4 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 1 (PM*); VSX 0",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

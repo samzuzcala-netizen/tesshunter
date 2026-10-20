@@ -1,0 +1,19 @@
+lightkurve>=2.4
+astropy>=5.3
+astroquery>=0.4
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+pyyaml>=6.0
+tqdm>=4.65
+tabulate>=0.9
+# dev
+pytest>=7.4
+ruff>=0.1
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.0
+# P2: compiled BLS kernel (optional; the numpy loop is the fallback) and survey injections
+numba>=0.60
+batman-package>=2.5

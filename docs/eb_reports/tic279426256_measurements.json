@@ -1,0 +1,204 @@
+{
+ "source_tic_id": 279426256,
+ "source_gaia_id": 5484242473249094784,
+ "originating_candidate": "tic279426252_P0.7470",
+ "ephemeris": {
+  "period": 0.7470014478004278,
+  "t0": 2964.2274672338476,
+  "duration": 0.03336201074400118,
+  "source": "tls_forced",
+  "ref_depth_ppt": 7.550227362978231
+ },
+ "method": "A radius-one-pixel aperture and a 5-to-9-pixel background annulus.\n\nPixels within two pixels of a Gaia source with G < 18 are excluded\nfrom the background; at least sixteen sky pixels are required.\nConstant neighbouring flux within the aperture\nremains: returned depths are observed, diluted aperture depths.\n",
+ "stellar_parameters_source": "MAST TIC record, not a binary-star fit",
+ "limitations": "Observed aperture depths remain diluted. Box-depth errors use local point scatter and do not include all correlated noise. The catalogue stellar parameters may describe a composite source. No ephemeris uncertainty was fitted here.",
+ "sectors": [
+  {
+   "sector": 61,
+   "position": {
+    "source_id": 5484242473249094784,
+    "x": 10.359942486810118,
+    "y": 13.037785786488598,
+    "G": 14.4499006271,
+    "label": "8"
+   },
+   "n_cadences": 10654,
+   "n_aperture_pixels": 2,
+   "n_background_pixels": 19,
+   "normalization_e_per_s": 201.94310760498047,
+   "primary": {
+    "phase": 0.0,
+    "depth_ppt": 22.12128893426013,
+    "err_ppt": 0.5394708756272543,
+    "sigma": 41.005529554379066,
+    "n_in": 473,
+    "n_out": 2798,
+    "point_scatter_ppt": 11.732716417457096
+   },
+   "secondary": {
+    "phase": 0.5,
+    "depth_ppt": 11.092984849456865,
+    "err_ppt": 0.5755677596991388,
+    "sigma": 19.27311713090983,
+    "n_in": 486,
+    "n_out": 2916,
+    "point_scatter_ppt": 12.688625912937603
+   },
+   "planet_secondary_bound": {
+    "a_over_rstar": 2.89,
+    "rp_over_rstar": 0.14873,
+    "T_day_K": 2688.0,
+    "T_eq_K": 2103.0,
+    "thermal_ppt": 0.8945101326616484,
+    "reflected_ppt": 0.7966450943946716,
+    "albedo": 0.3,
+    "max_planetary_secondary_ppt": 1.69115522705632
+   }
+  },
+  {
+   "sector": 87,
+   "position": {
+    "source_id": 5484242473249094784,
+    "x": 11.52159839963649,
+    "y": 12.579571901505537,
+    "G": 14.4499006271,
+    "label": "8"
+   },
+   "n_cadences": 11168,
+   "n_aperture_pixels": 4,
+   "n_background_pixels": 19,
+   "normalization_e_per_s": 322.3922882080078,
+   "primary": {
+    "phase": 0.0,
+    "depth_ppt": 28.007906122782032,
+    "err_ppt": 0.7027397915011827,
+    "sigma": 39.85530129573557,
+    "n_in": 499,
+    "n_out": 3010,
+    "point_scatter_ppt": 15.698017838727402
+   },
+   "secondary": {
+    "phase": 0.5,
+    "depth_ppt": 17.51572073297791,
+    "err_ppt": 0.7297956511138873,
+    "sigma": 24.000856549698074,
+    "n_in": 493,
+    "n_out": 2954,
+    "point_scatter_ppt": 16.204093135553073
+   },
+   "planet_secondary_bound": {
+    "a_over_rstar": 2.89,
+    "rp_over_rstar": 0.16736,
+    "T_day_K": 2688.0,
+    "T_eq_K": 2103.0,
+    "thermal_ppt": 1.1325450291761074,
+    "reflected_ppt": 1.0086374751167748,
+    "albedo": 0.3,
+    "max_planetary_secondary_ppt": 2.1411825042928823
+   }
+  },
+  {
+   "sector": 98,
+   "position": {
+    "source_id": 5484242473249094784,
+    "x": 8.997796521743869,
+    "y": 9.469346169085112,
+    "G": 14.4499006271,
+    "label": "8"
+   },
+   "n_cadences": 24068,
+   "n_aperture_pixels": 2,
+   "n_background_pixels": 21,
+   "normalization_e_per_s": 215.7489013671875,
+   "primary": {
+    "phase": 0.0,
+    "depth_ppt": 19.12978622740946,
+    "err_ppt": 0.4408371013448191,
+    "sigma": 43.39422922674174,
+    "n_in": 1071,
+    "n_out": 6418,
+    "point_scatter_ppt": 14.42689508406336
+   },
+   "secondary": {
+    "phase": 0.5,
+    "depth_ppt": 7.785434058669272,
+    "err_ppt": 0.457509677262084,
+    "sigma": 17.01698225327241,
+    "n_in": 1076,
+    "n_out": 6458,
+    "point_scatter_ppt": 15.007433249972461
+   },
+   "planet_secondary_bound": {
+    "a_over_rstar": 2.89,
+    "rp_over_rstar": 0.13831,
+    "T_day_K": 2688.0,
+    "T_eq_K": 2103.0,
+    "thermal_ppt": 0.7735438774350664,
+    "reflected_ppt": 0.6889133088118676,
+    "albedo": 0.3,
+    "max_planetary_secondary_ppt": 1.462457186246934
+   }
+  }
+ ],
+ "source_sha256": {
+  "data\\survey\\p8\\eb_screen\\tic279426252_P0.7470_difference.json": "2259e44c9018bc7fa79f01e136707d75c092716793f7be06ff33f93dad2d1b82",
+  "data\\survey\\p8\\eb_screen\\gaia5484242473249094784_tic.json": "bcff451e98e929ad5f91ab276fc5e7da482de38ddf55190c881ffc981baec236",
+  "data\\cache\\lightkurve\\tesscut\\tess-s0061-3-3_104.971543_-56.320961_21x21_astrocut.fits": "069ac2a30533c31de70e34fe87fa4b353d0d5d65aa43b24d8ed31d00c0770ee5",
+  "data\\cache\\lightkurve\\tesscut\\tess-s0087-3-4_104.971543_-56.320961_21x21_astrocut.fits": "fe2e9115330228ec79c10b3e8ad7a52cb63a70b68ee27ea5aa48e375398c2593",
+  "data\\cache\\lightkurve\\tesscut\\tess-s0098-4-1_104.971543_-56.320961_21x21_astrocut.fits": "6512f3f765d53c37c0f743678bba67fa4a590dc2f39082af0048f79fe3879c29"
+ },
+ "catalog_status": {
+  "tic_id": 279426256,
+  "status": "CLEAN",
+  "tic_matches": [],
+  "neighbour_matches": [],
+  "catalog_stamp": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:e3b9d8bd",
+  "neighbours_resolved": true,
+  "rejected": false,
+  "flagged": false,
+  "summary": "CLEAN: TIC 279426256 absent from all sources (neighbours checked)",
+  "scope": "Fresh hard stop for the source implicated in a rejected-target EB-like signal; this is not a Stage D record.",
+  "checked_utc": "2026-09-06T09:57:30.100995+00:00"
+ },
+ "catalog_download_receipt": "tic279426256_catalog_refetch.json",
+ "source_sep_from_searched_tic_position_arcsec": 42.11492855479668,
+ "closest_vsx_simbad": [
+  {
+   "catalog": "VSX",
+   "name": "WISE J065940.4-561856",
+   "source_sep_arcsec": 120.39781947928134
+  },
+  {
+   "catalog": "SIMBAD",
+   "name": "Gaia DR3 5484245359467111296",
+   "source_sep_arcsec": 120.40230391117403
+  },
+  {
+   "catalog": "SIMBAD",
+   "name": "Gaia DR3 5484245359467111296",
+   "source_sep_arcsec": 120.40230391117403
+  },
+  {
+   "catalog": "SIMBAD",
+   "name": "Gaia DR3 5484245359467111296",
+   "source_sep_arcsec": 120.40230391117403
+  }
+ ],
+ "classification": "Photometric eclipsing-binary candidate; subtype not fitted",
+ "source_association": "Both minima's difference-image peaks follow Gaia 5484242473249094784 across three detector orientations. Pixel maxima are not fitted source centroids; unresolved companions remain possible.",
+ "report_input_sha256": {
+  "data\\survey\\p8\\eb_screen\\tic279426256_aperture.json": "146b7fe4eff30864bdbb7d7d899a42ad8ba76b55dc33daeab58414e054541754",
+  "data\\survey\\p8\\eb_screen\\tic279426256_aperture.npz": "6e9f82f468b86e88176cb6bc0a46a6a3b74aa510737e0307609151bad5e942b1",
+  "data\\survey\\p8\\eb_screen\\tic279426252_P0.7470_difference.json": "2259e44c9018bc7fa79f01e136707d75c092716793f7be06ff33f93dad2d1b82",
+  "data\\survey\\p8\\eb_screen\\tic279426256_hardstop.json": "119f031e488c57eb08f6eadaeb64e82c31c7a1022ad48219371d1ca39c98f5da",
+  "data\\survey\\p8\\eb_screen\\tic279426256_catalog_versions.json": "8993a31a1f1c986c7481050182ec16999e09d47e70139cf9be9e935c11e12156",
+  "data\\survey\\p8\\eb_screen\\tic279426256_catalog_refetch.json": "5d356e3a4b5f9020a41b8b85f4e0726f84dfd0078d1de3f27c5f537a11755cff",
+  "data\\survey\\p8\\eb_screen\\gaia5484242473249094784_tic.json": "bcff451e98e929ad5f91ab276fc5e7da482de38ddf55190c881ffc981baec236",
+  "data\\survey\\p8\\eb_screen\\tic279426252_wide_vsx.json": "f838a3978275a71112cd0d6c19ac2377d15d4516106bf0ce87aaf337b9145c10",
+  "data\\survey\\p8\\eb_screen\\tic279426252_wide_simbad.json": "459962372536b8cc6eed38598d20d4889032c864722f4f16c777709be2db5032",
+  "data\\survey\\p8\\eb_screen\\tic279426252_wide_gaia.json": "72cb3b6934a217eca11a0c49903d8d76f913dcfe68f06bd863173e645199399b",
+  "data\\survey\\p8\\eb_screen\\tic279426252_centroid.json": "34cd1a5f030bc996b484f97827ced2d82f02058ba1bed35286b33dfa71f2fba3",
+  "data\\survey\\p8\\neighbours\\tic279426252.json": "8f662af04088e8dbb6ca9f0399bef38262ec09f1aabd0effbd0fc25394ca88e5"
+ },
+ "source_gaia_ruwe": 2.5147392749786377
+}

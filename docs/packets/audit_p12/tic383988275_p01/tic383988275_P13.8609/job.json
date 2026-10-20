@@ -1,0 +1,14 @@
+{
+ "rank": 0,
+ "tic_id": 383988275,
+ "period": 13.860884611328597,
+ "depth_ppt": 3.4254330085465976,
+ "key": "tic383988275_P13.8609",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

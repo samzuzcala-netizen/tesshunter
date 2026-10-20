@@ -1,0 +1,625 @@
+{
+ "tic": 193718989,
+ "packet": "D:\\tesshunter_s1\\packets\\s1_b1\\tic193718989_P24.5335",
+ "job": {
+  "rank": 0,
+  "tic_id": 193718989,
+  "period": 24.53353844385921,
+  "depth_ppt": 1.84188280223604,
+  "key": "tic193718989_P24.5335",
+  "input_config": {
+   "ingest_key": "e4fa899ac6",
+   "sector_min": null,
+   "target_cadence_minutes": 3.3333333333333335,
+   "bin_minutes": null,
+   "audit_input_version": 1
+  }
+ },
+ "ephemerides": {
+  "survey_period": 24.53353844385921,
+  "stageC_blind": {
+   "period": 24.532969128084467,
+   "t0_btjd": 2000.0678009609353,
+   "duration_d": 0.02229189845062351,
+   "sde": 37.91911789466702,
+   "peaks": [
+    {
+     "period": 24.532969128084467,
+     "SDE": 37.91911789466702
+    },
+    {
+     "period": 12.266190247733762,
+     "SDE": 26.046447087521592
+    },
+    {
+     "period": 45.9995018311262,
+     "SDE": 16.946852282374696
+    },
+    {
+     "period": 52.57037151465647,
+     "SDE": 16.519047197214146
+    },
+    {
+     "period": 49.066566836671285,
+     "SDE": 16.415128837762904
+    }
+   ]
+  },
+  "stageA_event_ephemeris": null,
+  "fit_adopted": {
+   "t0_btjd": 2000.0754836377146,
+   "t0_err": 0.004673845662613964,
+   "epoch_bjd": 2459000.075483638,
+   "period": 24.532885771228155,
+   "period_err": 0.00011155310137610384,
+   "rp_rs": 0.0456575727074717,
+   "rp_rs_err": 0.0018825085375322123,
+   "a_rs": 53.78579395575271,
+   "a_rs_err": 5.3785793955752705,
+   "b": 0.409348393347542,
+   "b_err": 0.08491419690038611,
+   "inc_deg": 89.56393389423914,
+   "depth_max_ppt": 2.412,
+   "depth_avg_ppt": 2.049,
+   "depth_err_ppt": 0.172,
+   "t14_hours": 3.35,
+   "t14_err_hours": 0.339,
+   "rp_rearth": 2.664,
+   "rp_rearth_err": 0.288,
+   "rho_fit_cgs": 4.890608723607703,
+   "density_ratio_fit_over_cat": 1.0000067955314103,
+   "grazing": false,
+   "delta_chi2_vs_flat": 186.1248658970817,
+   "n_transits": 8
+  },
+  "fit_free": {
+   "t0": 2000.0754755063133,
+   "period": 24.532885976911576,
+   "rp_rs": 0.04569082385351048,
+   "a_rs": 53.59349514267795,
+   "b": 0.41676794812999196,
+   "chi2": 1179.8455952089178,
+   "rho_fit_cgs": 4.838340201457236
+  },
+  "fit_prior": {
+   "t0": 2000.0754836377146,
+   "period": 24.532885771228155,
+   "rp_rs": 0.0456575727074717,
+   "a_rs": 53.78579395575271,
+   "b": 0.409348393347542,
+   "chi2": 1179.8439434808042
+  },
+  "fit_data": {
+   "n_points_in_windows": 1227,
+   "n_transits_with_data": 8,
+   "sectors": [
+    25,
+    26,
+    40,
+    52,
+    53,
+    79,
+    80
+   ],
+   "window_half_days": 0.4,
+   "beta_red_noise": 1.0,
+   "sigma_white_median_ppt": 2.55
+  },
+  "fit_stellar": {
+   "radius": 0.534843,
+   "radius_err": 0.0534843,
+   "mass": 0.531418,
+   "rho_cgs": 4.8905754895483495,
+   "rho_err": 1.4671726468645048,
+   "a_rs_catalog": 53.78579395575271
+  },
+  "fit_limb_darkening": {
+   "u1": 0.3278,
+   "u2": 0.3216,
+   "source": "survey Claret interpolation at TIC Teff 3745 K"
+  },
+  "delta_chi2_prior_minus_free": -0.001651728113529316,
+  "note": "fit_adopted.t0_err/period_err are marginal errors at the reference epoch t0 (cycle 0); no T0-P covariance is stored by the packet. A conditional covariance is reconstructed from per-event times in s03."
+ },
+ "products_used": [
+  {
+   "sector": 25,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "native_cadence_s": 1800.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 4,
+   "n": 1169,
+   "n_quality_nonzero": 12,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0025_tess_v1_lc.fits",
+   "fits_sha256": "30e4080c29b6928fb05f4eb753aef785ccf7763e37a9b0674a94a104b52d8ab9",
+   "t_start": 1983.6586016881563,
+   "t_end": 2009.2839520873888
+  },
+  {
+   "sector": 26,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "native_cadence_s": 1800.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 3,
+   "n": 1148,
+   "n_quality_nonzero": 12,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0026_tess_v1_lc.fits",
+   "fits_sha256": "6e9c97facbffa303dfaf52034ad29819ce6524a3cbfbbffa92ae0cbc70a3f944",
+   "t_start": 2010.2839530834754,
+   "t_end": 2035.1171891180504
+  },
+  {
+   "sector": 40,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "native_cadence_s": 600.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 3,
+   "n": 3927,
+   "n_quality_nonzero": 12,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0040_tess_v1_lc.fits",
+   "fits_sha256": "c5758d9b68112c5e833050bc5b00d322fa58077fdfcc7ab20ec8ee31f7e8500d",
+   "t_start": 2390.658787927417,
+   "t_end": 2418.852809048593
+  },
+  {
+   "sector": 52,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "native_cadence_s": 600.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 4,
+   "n": 3354,
+   "n_quality_nonzero": 381,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0052_tess_v1_lc.fits",
+   "fits_sha256": "6b434e637a8b336ee6d0a0cc85ea186d511cbeed999ca3f599183d6818b854bb",
+   "t_start": 2718.637547553518,
+   "t_end": 2743.0753181006576
+  },
+  {
+   "sector": 53,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "native_cadence_s": 600.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 3,
+   "n": 3466,
+   "n_quality_nonzero": 12,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0053_tess_v1_lc.fits",
+   "fits_sha256": "f1736459df5a6d140e321200044b90b195cfb038a02cd6307965f15e17a92f63",
+   "t_start": 2743.998931871238,
+   "t_end": 2768.9779422017223
+  },
+  {
+   "sector": 79,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "native_cadence_s": 200.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 2,
+   "ccd": 4,
+   "n": 11454,
+   "n_quality_nonzero": 17,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0079_tess_v1_lc.fits",
+   "fits_sha256": "e7bdd13370f8cd079f4a6736c015575f52574ff61bbc2b7f40c2b26ebaaa3ce0",
+   "t_start": 3452.5363708111045,
+   "t_end": 3479.6754728222304
+  },
+  {
+   "sector": 80,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "native_cadence_s": 200.0,
+   "flux_column": "pdcsap_flux",
+   "camera": 3,
+   "ccd": 1,
+   "n": 11157,
+   "n_quality_nonzero": 2175,
+   "version": "1",
+   "fits": "hlsp_tess-spoc_tess_phot_0000000193718989-s0080_tess_v1_lc.fits",
+   "fits_sha256": "d3b05729cda7c26a8179853d7793e12b6b97be25586c14a4e0ead200ecda3bbc",
+   "t_start": 3479.886108885593,
+   "t_end": 3506.337222639815
+  }
+ ],
+ "products_listed_on_mast_at_download": {
+  "QLP|1800": [
+   25,
+   26
+  ],
+  "QLP|200": [
+   79,
+   80
+  ],
+  "QLP|600": [
+   40,
+   52,
+   53
+  ],
+  "TARS|1800": [
+   25,
+   26
+  ],
+  "TARS|200": [
+   79,
+   80
+  ],
+  "TARS|600": [
+   40,
+   52,
+   53
+  ],
+  "TASOC|1800": [
+   26
+  ],
+  "TESS-SPOC|1800": [
+   25,
+   26
+  ],
+  "TESS-SPOC|200": [
+   79,
+   80
+  ],
+  "TESS-SPOC|600": [
+   40,
+   52,
+   53
+  ]
+ },
+ "download_utc": "2026-10-16T05:03:25.576145+00:00",
+ "stageA_chosen_ephemeris": "tls",
+ "stageA_decision": "PASS",
+ "stageA_reason": "tls ephemeris, 8 kept events, SNR 12.49, top share 0.17, SNR w/o top 11.39, depth 2.175 ppt = 1.181x survey, p_const 0.76; all six criteria pass",
+ "stageA_prepare": {
+  "n_unbinned": 33052,
+  "n_binned": 33052,
+  "baseline_days": 1522.6369535663505,
+  "wotan": {
+   "method": "biweight",
+   "window_days": 0.75,
+   "break_tolerance": 0.5,
+   "edge_cutoff": 0.0
+  },
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "deep_clip_threshold_ppt": 23.62,
+  "n_deep_clipped": 0,
+  "R_star": 0.534843,
+  "M_star": 0.531418,
+  "expected_t14_hours_b0": 3.66
+ },
+ "stageA_survey": {
+  "period": 24.53353844385921,
+  "epoch_btjd": 2000.0392956955416,
+  "duration_days": 0.116406300497548,
+  "depth_ppt": 1.84188280223604,
+  "stitch_snr": 10.396837542063418,
+  "stitch_n_transits": 8,
+  "n_units": 7,
+  "tmag": 12.2223
+ },
+ "stageA_ephemeris": {
+  "period": 24.532721996942843,
+  "t0": 2000.0858423258971,
+  "duration": 0.116406300497548,
+  "source": "tls_forced",
+  "ref_depth_ppt": 1.84188280223604
+ },
+ "stageA_event_records": [
+  {
+   "n": 0,
+   "tc_btjd": 2000.0858,
+   "sector": 25,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 2.798,
+   "det_depth_err_ppt": 0.543,
+   "sap_depth_ppt": 2.675,
+   "sap_depth_err_ppt": 0.514,
+   "edge_distance_days": 3.156,
+   "pdc_gap_distance_days": 3.156,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.07,
+   "bkg_over_sector_median": 1.24,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 1,
+   "tc_btjd": 2024.6186,
+   "sector": 26,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "observed": true,
+   "coverage": 0.83,
+   "det_depth_ppt": 1.802,
+   "det_depth_err_ppt": 0.599,
+   "sap_depth_ppt": 1.108,
+   "sap_depth_err_ppt": 0.691,
+   "edge_distance_days": 1.48,
+   "pdc_gap_distance_days": 1.48,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.02,
+   "bkg_over_sector_median": 1.11,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 16,
+   "tc_btjd": 2392.6094,
+   "sector": 40,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 2.171,
+   "det_depth_err_ppt": 0.477,
+   "sap_depth_ppt": 1.869,
+   "sap_depth_err_ppt": 0.447,
+   "edge_distance_days": 1.951,
+   "pdc_gap_distance_days": 1.944,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.02,
+   "bkg_over_sector_median": 1.34,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 17,
+   "tc_btjd": 2417.1421,
+   "sector": 40,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 1.924,
+   "det_depth_err_ppt": 0.456,
+   "sap_depth_ppt": 1.573,
+   "sap_depth_err_ppt": 0.446,
+   "edge_distance_days": 1.711,
+   "pdc_gap_distance_days": 1.711,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.02,
+   "bkg_over_sector_median": 0.54,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 30,
+   "tc_btjd": 2736.0675,
+   "sector": 52,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 1.836,
+   "det_depth_err_ppt": 0.543,
+   "sap_depth_ppt": 1.976,
+   "sap_depth_err_ppt": 0.512,
+   "edge_distance_days": 4.617,
+   "pdc_gap_distance_days": 4.61,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.18,
+   "bkg_over_sector_median": 1.27,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 31,
+   "tc_btjd": 2760.6002,
+   "sector": 53,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "observed": true,
+   "coverage": 0.94,
+   "det_depth_ppt": 2.797,
+   "det_depth_err_ppt": 0.557,
+   "sap_depth_ppt": 2.763,
+   "sap_depth_err_ppt": 0.514,
+   "edge_distance_days": 3.685,
+   "pdc_gap_distance_days": 3.678,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.01,
+   "bkg_over_sector_median": 1.29,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 60,
+   "tc_btjd": 3472.0492,
+   "sector": 79,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 2.503,
+   "det_depth_err_ppt": 0.523,
+   "sap_depth_ppt": 2.538,
+   "sap_depth_err_ppt": 0.513,
+   "edge_distance_days": 7.626,
+   "pdc_gap_distance_days": 7.626,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.09,
+   "bkg_over_sector_median": 1.13,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  },
+  {
+   "n": 61,
+   "tc_btjd": 3496.5819,
+   "sector": 80,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "observed": true,
+   "coverage": 1.0,
+   "det_depth_ppt": 1.915,
+   "det_depth_err_ppt": 0.37,
+   "sap_depth_ppt": 2.097,
+   "sap_depth_err_ppt": 0.361,
+   "edge_distance_days": 9.755,
+   "pdc_gap_distance_days": 4.518,
+   "desat": false,
+   "q_frac": 0.0,
+   "straylight_frac": 0.0,
+   "ramp_over_depth": 0.04,
+   "bkg_over_sector_median": 0.75,
+   "excluded": false,
+   "exclusion_reasons": [],
+   "artefact_classes": []
+  }
+ ],
+ "stageA_n": {
+  "n_predicted_in_span": 62,
+  "n_observed": 8,
+  "n_excluded": 0,
+  "n_kept": 8,
+  "kept_snr": 12.49,
+  "kept_depth_ppt": 2.175,
+  "kept_depth_err_ppt": 0.174,
+  "p_const": 0.7610346111881082,
+  "top_event_share": 0.17,
+  "snr_without_top": 11.39
+ },
+ "target_aperture_product": {
+  "method": "K1 copy of ``scripts/p8_eb_aperture.extract`` with Tmag-scaled radii (``k1_aperture_radii``).\nPixels within two pixels of a Gaia source with G < 18 are excluded from the background; at\nleast sixteen sky pixels are required; returned depths are observed, diluted aperture depths.",
+  "k1_aperture": {
+   "tmag": 12.2223,
+   "radius_px": 1.5,
+   "annulus_px": [
+    5.0,
+    9.0
+   ]
+  },
+  "ephemeris": {
+   "period": 24.532885771228155,
+   "t0": 2000.0754836377146,
+   "duration": 0.13958333333333334,
+   "source": "K1 physical fit"
+  },
+  "sectors": [
+   {
+    "sector": 25,
+    "status": "complete",
+    "n_aperture_pixels": 7,
+    "n_background_pixels": 59,
+    "n_cadences": 1167,
+    "net": null
+   },
+   {
+    "sector": 26,
+    "status": "complete",
+    "n_aperture_pixels": 7,
+    "n_background_pixels": 56,
+    "n_cadences": 1146,
+    "net": null
+   },
+   {
+    "sector": 52,
+    "status": "complete",
+    "n_aperture_pixels": 7,
+    "n_background_pixels": 57,
+    "n_cadences": 3343,
+    "net": {
+     "phase": 0.0,
+     "depth_ppt": -0.6402502016373823,
+     "err_ppt": 1.1461440396371882,
+     "sigma": -0.5586123379746,
+     "n_in": 20,
+     "n_out": 121,
+     "point_scatter_ppt": 5.1257119692699336
+    }
+   },
+   {
+    "sector": 53,
+    "status": "complete",
+    "n_aperture_pixels": 7,
+    "n_background_pixels": 57,
+    "n_cadences": 3454,
+    "net": {
+     "phase": 0.0,
+     "depth_ppt": 2.3210186889690565,
+     "err_ppt": 0.518051482283272,
+     "sigma": 4.480285779203536,
+     "n_in": 20,
+     "n_out": 121,
+     "point_scatter_ppt": 2.316796660459849
+    }
+   },
+   {
+    "sector": 79,
+    "status": "complete",
+    "n_aperture_pixels": 7,
+    "n_background_pixels": 54,
+    "n_cadences": 11440,
+    "net": {
+     "phase": 0.0,
+     "depth_ppt": 2.968088969146576,
+     "err_ppt": 0.4463506150928613,
+     "sigma": 6.649680472668506,
+     "n_in": 60,
+     "n_out": 362,
+     "point_scatter_ppt": 3.4574169976481772
+    }
+   },
+   {
+    "sector": 80,
+    "status": "complete",
+    "n_aperture_pixels": 8,
+    "n_background_pixels": 55,
+    "n_cadences": 11120,
+    "net": {
+     "phase": 0.0,
+     "depth_ppt": 2.018456156149373,
+     "err_ppt": 0.456820549896788,
+     "sigma": 4.418488083790044,
+     "n_in": 60,
+     "n_out": 361,
+     "point_scatter_ppt": 3.538516763911149
+    }
+   }
+  ]
+ },
+ "funnel_candidate_ids": [
+  "s1_193718989_p01",
+  "s1_193718989_p02",
+  "s1_193718989_p03",
+  "s1_193718989_p05",
+  "s1_193718989_p06"
+ ]
+}

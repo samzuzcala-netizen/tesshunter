@@ -1,0 +1,17 @@
+# Search targets for batch candidate hunting.
+# Replace TIC IDs with your targets of interest.
+# Leave known_period_days null for unknown/uninspected targets.
+
+search:
+  period_min_days: 0.5
+  period_max_days: 20.0
+  duration_min_hours: 0.5
+  duration_max_hours: 12.0
+  top_n_candidates: 5         # number of BLS peaks to report per target
+
+targets:
+  - tic_id: 441462736
+    notes: "Example target — replace with your list"
+
+  - tic_id: 38846515
+    notes: "Example target"

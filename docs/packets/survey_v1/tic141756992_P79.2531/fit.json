@@ -1,0 +1,141 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`ftol` termination condition is satisfied.",
+ "period": 79.37124731795733,
+ "period_err": 0.0011020270318579468,
+ "t0": 1381.724542791339,
+ "t0_err": 0.018489785460067944,
+ "rp_rs": 0.0432653859751985,
+ "rp_rs_err": 0.0026438856598986087,
+ "a_rs": 64.80724813944491,
+ "a_rs_err": 3.897492834754756,
+ "b": 9.540915496359498e-05,
+ "b_err": 5.679279316063399e-06,
+ "inc_deg": 89.99991564922037,
+ "f0": 0.9996050517041076,
+ "f0_err": 9.870535606880341e-05,
+ "u1": 0.290252978976,
+ "u2": 0.358337584288,
+ "ld_source": "claret2017_atlas (Teff 3559 K, logg 4.68)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.0432653859751985,
+ "free_a_rs": 64.80724813944491,
+ "free_b": 9.540915496359498e-05,
+ "free_chi2": 37092.78975408402,
+ "duration_days": 0.4067272850114379,
+ "duration_err": 0.024008715083102608,
+ "t23_days": 0.3729898491137164,
+ "depth_ppt": 2.2188277670143197,
+ "depth_err": 1.2122489095165525,
+ "depth_err_shape": 0.2723013374514111,
+ "depth_mean_ppt": 1.9113425960164785,
+ "rp_rearth": 2.6656723247464833,
+ "rp_rearth_err": 0.18136952638835493,
+ "rp_rjup": 0.2378165730047549,
+ "rp_rjup_err": 0.016180788168431815,
+ "rho_star_fit_cgs": 0.8173381523845573,
+ "rho_star_fit_err": 0.36780216857305076,
+ "rho_star_cat_cgs": 4.368348977826748,
+ "rho_star_cat_err": 0.2331042743256623,
+ "rho_source": "tic_rho",
+ "a_rs_star": 113.30839785064295,
+ "a_rs_star_err": 2.0154580132406497,
+ "a_rs_ratio": 0.5719545008911903,
+ "density_ratio": 0.18710459181106515,
+ "density_sigma": 10.52759102096114,
+ "density_dchi2": 806.8392232203623,
+ "density_dchi2_eff": 32.27356892881449,
+ "beta_red_noise": 5.0,
+ "depth_err_white": 0.24244978190331049,
+ "a_rs_inconsistent": true,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 64.81 (b = 0.00) against 113.31 +/- 2.02 from the catalog density (0.817 vs 4.368 g/cc, ratio 0.19; profile delta chi2 806.8 with a/R* held in the catalog range, 32.3 after the red-noise beta = 5.00; tic_rho) FLAGGED: the transit shape needs a star far less dense than the catalog star; diluted eclipse, grazing stellar companion or blend.",
+ "grazing": false,
+ "rp_rs_constrained": true,
+ "n_points": 1179,
+ "n_in_transit": 202,
+ "n_transits": 11,
+ "chi2": 37092.78975408402,
+ "chi2_flat": 39306.80149296773,
+ "reduced_chi2": 31.622156653098056,
+ "delta_bic": 2178.6496293810196,
+ "sigma_used": 0.0005405195653933649,
+ "exp_time_days": 0.020833333333484916,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 1,
+    "depth_ppt": -0.6565152715903702,
+    "depth_err": 0.8234519269127867
+   },
+   {
+    "index": 2,
+    "depth_ppt": -0.7969963058569528,
+    "depth_err": 0.7602249936370499
+   },
+   {
+    "index": 3,
+    "depth_ppt": 0.7907793195480864,
+    "depth_err": 0.7804791033306652
+   },
+   {
+    "index": 9,
+    "depth_ppt": -1.800204367539034,
+    "depth_err": 0.7703191574195373
+   },
+   {
+    "index": 10,
+    "depth_ppt": 0.31325858150304337,
+    "depth_err": 0.8145277740677066
+   },
+   {
+    "index": 12,
+    "depth_ppt": 1.696002547540774,
+    "depth_err": 0.7972217845452622
+   },
+   {
+    "index": 20,
+    "depth_ppt": 11.616277907047971,
+    "depth_err": 0.7750982823148127
+   },
+   {
+    "index": 21,
+    "depth_ppt": 10.96245749496383,
+    "depth_err": 0.7756726989711521
+   },
+   {
+    "index": 22,
+    "depth_ppt": -0.3797990870042524,
+    "depth_err": 0.7700435758671463
+   },
+   {
+    "index": 29,
+    "depth_ppt": 0.33476784936620524,
+    "depth_err": 1.2076081101865652
+   },
+   {
+    "index": 30,
+    "depth_ppt": 0.9225086223219191,
+    "depth_err": 0.7667961820973976
+   }
+  ],
+  "depth_odd_ppt": 2.2024049791099594,
+  "depth_odd_err": 2.302523545973321,
+  "depth_odd_err_white": 0.3739944668012871,
+  "n_odd": 5,
+  "depth_even_ppt": 2.2332262231832463,
+  "depth_even_err": 1.9126294531529473,
+  "depth_even_err_white": 0.3184222594523316,
+  "n_even": 6,
+  "delta_sigma": 0.010296789356876118,
+  "delta_fraction": 0.013897117531932065,
+  "significant": false,
+  "note": "odd 2.202 +/- 2.303 ppt (5 events), even 2.233 +/- 1.913 ppt (6 events), difference 0.0 sigma, 1% of the mean"
+ },
+ "notes": []
+}

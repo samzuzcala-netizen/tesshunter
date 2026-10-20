@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tesshunter</title>
+<meta name="description" content="A calibrated search for small transiting planets around M and K dwarfs in TESS full-frame images.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f5f7f9;--ink:#17212b;--muted:#566271;--rule:#d3d9e0;--accent:#0e6a74;--tint:#e8eef2;--plate:#fff;
+  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;--f-body:"Source Serif 4",Georgia,serif;--f-data:"IBM Plex Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root{--paper:#11161c;--ink:#e2e8ee;--muted:#9aa7b5;--rule:#2a333e;--accent:#55b9c3;--tint:#1a222b;--plate:#f7f8fa;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--f-body);padding:32px clamp(16px,4vw,48px) 64px}
+main{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2{font-family:var(--f-display);line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.2rem,5vw,3.4rem);letter-spacing:-.01em} h2{font-size:1.5rem}
+.eyebrow{font:600 .78rem var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0}
+.lede{font-size:1.2rem;max-width:62ch;margin:0;color:var(--ink)}
+.prose{max-width:68ch} .prose p{margin:.4em 0}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links a{font:600 .9rem var(--f-display);letter-spacing:.03em;color:var(--paper);background:var(--accent);padding:8px 14px;border-radius:4px;text-decoration:none}
+.links a.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.stat{border-top:3px solid var(--accent);background:var(--tint);padding:12px 14px}
+.stat b{display:block;font:700 1.9rem var(--f-display);font-variant-numeric:tabular-nums}
+.stat span{font-size:.92rem;color:var(--muted)}
+.funnel{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch}
+.step{flex:1 1 140px;min-width:0;background:var(--plate);color:#17212b;border:1px solid var(--rule);padding:10px 12px;font-size:.88rem}
+.step b{display:block;font:600 .95rem var(--f-display);color:#0e6a74}
+.tbl{overflow-x:auto;border:1px solid var(--rule)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:7px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{font:600 .78rem var(--f-display);letter-spacing:.03em;background:var(--tint)}
+.mono{font-family:var(--f-data);white-space:nowrap} .num{font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{color:var(--muted);font-size:.92rem}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:18px}
+figure{margin:0;background:var(--plate);border:1px solid var(--rule);padding:10px}
+figure img{width:100%;height:auto;display:block}
+figcaption{color:#3d4753;font-size:.85rem;margin-top:6px}
+a{color:var(--accent)}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padding-top:12px}
+</style></head>
+<body><main>
+<header style="display:flex;flex-direction:column;gap:14px">
+<p class="eyebrow">TESS full-frame images · M and K dwarfs · 2026</p>
+<h1>tesshunter</h1>
+<p class="lede">A calibrated search for small transiting planets around the coolest nearby stars, built as a
+pre-registered vetting funnel, and the deep archival follow-up of what survived it.</p>
+<div class="links"><a href="https://github.com/samzuzcala-netizen/tesshunter">Code on GitHub</a><a class="ghost" href="https://github.com/samzuzcala-netizen/tesshunter/blob/main/CANDIDATES.md">All candidates</a>
+<a class="ghost" href="https://github.com/samzuzcala-netizen/tesshunter/tree/main/reports">Reports (PDF)</a></div>
+</header>
+<section class="stats">
+<div class="stat"><b>≈10,800</b><span>star searches across seven survey runs</span></div>
+<div class="stat"><b>6</b><span>new planet candidates from S1 batch 1, not in the TOI or CTOI lists</span></div>
+<div class="stat"><b>624</b><span>automated tests; frozen protocols with hashed manifests</span></div>
+<div class="stat"><b>5,800+</b><span>injection-recovery trials calibrating the decisions</span></div>
+</section>
+<section style="display:flex;flex-direction:column;gap:12px">
+<h2>The funnel</h2>
+<div class="funnel">
+<div class="step"><b>Search</b>Transit search, 0.5-50 d, fixed CPU budget per star</div>
+<div class="step"><b>Pre-gate</b>≥ 3 epoch-consistent transits, stitched S/N ≥ 7.1</div>
+<div class="step"><b>Stage A</b>Every event refitted; consistency across events</div>
+<div class="step"><b>S and B</b>Aliases, stellar variability, secondary checks</div>
+<div class="step"><b>Stage C</b>Blind re-search to 110 d must recover the period</div>
+<div class="step"><b>Stage D</b>Physical fit, Gaia scene, centroids, false-positive probability</div>
+</div>
+<p class="note prose">In S1 batch 1: 2,000 stars → 4,655 pre-gate signals → 141 Stage A passes → 32 Stage C survivors → 23 SUBMIT/HOLD → follow-up.
+A replay of the search on 27 sign-inverted light curves, where any dip is noise, produced no Stage A pass.</p>
+</section>
+<section style="display:flex;flex-direction:column;gap:12px">
+<h2>New planet candidates</h2>
+<p class="prose">Candidates, not confirmed planets. First detected by this project on the dates shown; this page and
+the repository are their first public record.</p>
+<div class="tbl"><table><thead><tr><th>Star</th><th>Period (d)</th><th>T0 (BJD_TDB)</th><th>Depth (ppm)</th><th>~Rp (R⊕)</th><th>Verdict</th><th>First detected</th><th>Notes</th></tr></thead><tbody><tr><td class='mono'>TIC 382098683</td><td class='num'>4.351685</td><td class='num'>2458329.13902</td><td class='num'>416</td><td class='num'>1.31</td><td>SUBMIT</td><td class='num'>2026-10-16</td><td>4.35 d, ~1.3 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf</td></tr><tr><td class='mono'>TIC 188830138</td><td class='num'>1.181024</td><td class='num'>2458764.89089</td><td class='num'>347</td><td class='num'>1.43</td><td>SUBMIT</td><td class='num'>2026-10-16</td><td>1.18 d, ~1.4 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf</td></tr><tr><td class='mono'>TIC 116046773</td><td class='num'>5.650272</td><td class='num'>2458987.88262</td><td class='num'>866</td><td class='num'>2.29</td><td>SUBMIT</td><td class='num'>2026-10-16</td><td>5.65 d, ~2.3 R⊕. Vetting: reports/TESS_batch1_deep_analysis.pdf, reports/TESS_seven_candidate_continuation.pdf</td></tr><tr><td class='mono'>TIC 201247574</td><td class='num'>16.560576</td><td class='num'>2458333.60991</td><td class='num'>1,559</td><td class='num'>2.44</td><td>HOLD</td><td class='num'>2026-10-17</td><td>16.56 d, ~2.4 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf</td></tr><tr><td class='mono'>TIC 262843927</td><td class='num'>24.108929</td><td class='num'>2458332.78771</td><td class='num'>1,245</td><td class='num'>1.99</td><td>HOLD</td><td class='num'>2026-10-17</td><td>24.11 d, ~2.0 R⊕. Deep follow-up (FU3): top tier; likely unresolved stellar companion; imaging is the next step</td></tr><tr><td class='mono'>TIC 270573718</td><td class='num'>41.383701</td><td class='num'>2458334.90375</td><td class='num'>2,058</td><td class='num'>2.12</td><td>HOLD</td><td class='num'>2026-10-16</td><td>41.38 d, ~2.1 R⊕. Deep follow-up (FU3): second tier; season-level transit-timing offsets unresolved</td></tr></tbody></table></div>
+<h2 style="font-size:1.15rem">Other leads</h2>
+<div class="tbl"><table><thead><tr><th>Star</th><th>Period (d)</th><th>T0 (BJD_TDB)</th><th>Depth (ppm)</th><th>~Rp (R⊕)</th><th>Verdict</th><th>First detected</th><th>Notes</th></tr></thead><tbody><tr><td class='mono'>TIC 207432717</td><td class='num'>43.44458</td><td class='num'>2458767.3044</td><td class='num'>3,771</td><td class='num'>3.67</td><td>HOLD</td><td class='num'>2026-10-17</td><td>43.4 d, ~3.7 R⊕; only 4 events; FPP 8% (pipeline)</td></tr><tr><td class='mono'>TIC 155949537</td><td class='num'>38.89178</td><td class='num'>2458958.84697</td><td class='num'>1,956</td><td class='num'>2.56</td><td>HOLD</td><td class='num'>2026-10-17</td><td>38.9 d, ~2.6 R⊕; only 3 events; FPP 0.9% (pipeline)</td></tr><tr><td class='mono'>TIC 18229070</td><td class='num'>22.94881</td><td class='num'>2458996.75547</td><td class='num'>1,394</td><td class='num'>2.18</td><td>HOLD</td><td class='num'>2026-10-17</td><td>22.9 d, ~2.2 R⊕; strongest raw signal of the rest; pipeline scene used a wrong Gaia source (fixed ID bug); nearby-binary scenario open</td></tr><tr><td class='mono'>TIC 9066956</td><td class='num'>0.71344765</td><td class='num'>2460182.82435</td><td class='num'>4,070</td><td class='num'>2.6-3.4</td><td>SUBMIT</td><td class='num'>2026-10-05</td><td>Ultra-short period around an M dwarf; signal real and on target over 7 years; main loophole a diluted triple; one ground transit in r&#x27; decides it</td></tr><tr><td class='mono'>TIC 332366289</td><td class='num'>18.748085</td><td class='num'>2459869.87007</td><td class='num'></td><td class='num'></td><td>SUBMIT (P12)</td><td class='num'>2026-10-01</td><td>Weak: period ambiguous, localisation unresolved; needs new data</td></tr></tbody></table></div>
+</section>
+<section style="display:flex;flex-direction:column;gap:12px">
+<h2>Follow-up, in pictures</h2>
+<div class="figs"><figure><img src='site/localization.png' alt='Which star dims? Injection-calibrated difference-image tests' loading='lazy'><figcaption>Which star dims? Injection-calibrated difference-image tests for every catalogued neighbour of three candidates (black: observed; blue: dips injected on the target; red: on the neighbour).</figcaption></figure><figure><img src='site/timing.png' alt='Transit timing of TIC 270573718 in six independent reduction' loading='lazy'><figcaption>Transit timing of TIC 270573718 in six independent reductions, against the spread produced by strictly periodic injections.</figcaption></figure><figure><img src='site/cmd.png' alt='Binarity test: the candidate hosts against 71,717 Gaia stars' loading='lazy'><figcaption>Binarity test: the candidate hosts against 71,717 Gaia stars within 100 pc. An equal-mass pair would sit on the red dashed line.</figcaption></figure><figure><img src='site/completeness.png' alt='Survey completeness measured by injection-recovery on real l' loading='lazy'><figcaption>Survey completeness measured by injection-recovery on real light curves.</figcaption></figure></div>
+</section>
+<section class="prose">
+<h2>Method in one paragraph</h2>
+<p>TESS-SPOC and QLP light curves are stitched, detrended and searched with a per-star CPU budget. Every rule in the
+vetting funnel was written and frozen before the survey it judged, and every change was tested by injecting planets
+into real light curves and by checking that known planets survive. Survivors get an archival follow-up: re-reductions
+from the pixels, difference imaging calibrated with injections on the target and on each neighbour, ground-based
+photometry where it exists, radial-velocity mass limits from Gaia, and a replay of the discovery search to measure how
+easily noise passes the same gates.</p>
+</section>
+<footer>By Samuel Zachary Edwards. Data: NASA TESS (MAST),
+ESA Gaia, ZTF. Code MIT; candidate lists and figures CC BY 4.0.</footer>
+</main></body></html>

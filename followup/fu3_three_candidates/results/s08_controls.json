@@ -1,0 +1,83 @@
+{
+ "270573718": {
+  "n_matches": 147,
+  "target_tmag": 12.6456,
+  "target_n_usable": 23,
+  "slice": "eM_slice",
+  "inv_controls": [
+   31674976,
+   396721668,
+   270476061,
+   160421669,
+   31744804,
+   272679978,
+   199662279,
+   462552296
+  ],
+  "inj_controls": [
+   288266534,
+   232678103,
+   278180508,
+   198538359,
+   198076423,
+   199714881,
+   230062577,
+   431591622
+  ],
+  "criteria": "S1 batch 1 searched, same slice, |dTmag| <= 0.5, n_usable within +/-30%, not SUBMIT/HOLD, seeded permutation (seed sha256('20261018:controls:<tic>'))"
+ },
+ "262843927": {
+  "n_matches": 104,
+  "target_tmag": 11.9833,
+  "target_n_usable": 15,
+  "slice": "eM_slice",
+  "inv_controls": [
+   262876502,
+   402096129,
+   202467215,
+   461521910,
+   160119826,
+   257024777,
+   260001228,
+   376589714
+  ],
+  "inj_controls": [
+   458480530,
+   138437023,
+   232981609,
+   207466097,
+   199667811,
+   394680099,
+   358019780,
+   356737161
+  ],
+  "criteria": "S1 batch 1 searched, same slice, |dTmag| <= 0.5, n_usable within +/-30%, not SUBMIT/HOLD, seeded permutation (seed sha256('20261018:controls:<tic>'))"
+ },
+ "193718989": {
+  "n_matches": 443,
+  "target_tmag": 12.2223,
+  "target_n_usable": 7,
+  "slice": "eM_slice",
+  "inv_controls": [
+   234547901,
+   270408163,
+   171646151,
+   153857544,
+   69745652,
+   148963291,
+   158090466,
+   311989267
+  ],
+  "inj_controls": [
+   165186539,
+   231294334,
+   157263210,
+   209395476,
+   38383852,
+   346634102,
+   374137008,
+   20444370
+  ],
+  "criteria": "S1 batch 1 searched, same slice, |dTmag| <= 0.5, n_usable within +/-30%, not SUBMIT/HOLD, seeded permutation (seed sha256('20261018:controls:<tic>'))"
+ }
+}

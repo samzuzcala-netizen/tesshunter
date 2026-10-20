@@ -1,0 +1,153 @@
+{
+ "tic_id": 160618340,
+ "ra": 246.276102,
+ "dec": 74.320572,
+ "tic_gaia_id": 1702950723229072640,
+ "tic_gaia_mag": null,
+ "tmag": 13.758,
+ "generated_utc": "2026-09-04T23:18:11Z",
+ "candidate_depths_ppt": [
+  3.4749557183104223
+ ],
+ "gaia": {
+  "n_within_1arcmin": 5,
+  "target": {
+   "source_id": 1702950723229072640,
+   "ra": 246.2756618502823,
+   "dec": 74.32051900225143,
+   "phot_g_mean_mag": 15.027055740356445,
+   "phot_bp_mean_mag": 16.596033096313477,
+   "phot_rp_mean_mag": 13.814807891845703,
+   "parallax": 9.28919146370653,
+   "parallax_error": 0.0324583426117897,
+   "pmra": -27.34718013486466,
+   "pmdec": -11.639106780098825,
+   "ruwe": 1.6136231422424316,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.01426506508141756,
+   "astrometric_excess_noise": 0.2844955027103424,
+   "astrometric_excess_noise_sig": 16.912887573242188,
+   "radial_velocity": -57.80330276489258,
+   "radial_velocity_error": 3.3382503986358643,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 15.0,
+   "phot_g_n_obs": 302.0,
+   "teff_gspphot": 3515.55810546875,
+   "logg_gspphot": 4.736499786376953,
+   "distance_gspphot": 107.55780029296875,
+   "best_class_name": "",
+   "best_class_score": null,
+   "sep_arcsec": 0.4688095794254598
+  },
+  "target_match": "tic_gaia_id",
+  "neighbours": [
+   {
+    "source_id": 1702938972198551040,
+    "sep_arcsec": 29.9,
+    "sep_px": 1.43,
+    "G": 17.5458984375,
+    "Rp": 16.265371322631836,
+    "band_used": "rp",
+    "delta_mag": 2.45,
+    "flux_ratio_to_target": 0.10466,
+    "max_observed_depth_ppt_total_eclipse": 94.74,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0396993160247803,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 3.790061097720075
+   },
+   {
+    "source_id": 1702950787652636416,
+    "sep_arcsec": 35.9,
+    "sep_px": 1.71,
+    "G": 20.19704246520996,
+    "Rp": 19.719396591186523,
+    "band_used": "rp",
+    "delta_mag": 5.9,
+    "flux_ratio_to_target": 0.00435,
+    "max_observed_depth_ppt_total_eclipse": 4.33,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9637094736099243,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.783734014600825
+   },
+   {
+    "source_id": 1702938972198499200,
+    "sep_arcsec": 46.6,
+    "sep_px": 2.22,
+    "G": 14.146173477172852,
+    "Rp": 13.643879890441895,
+    "band_used": "rp",
+    "delta_mag": -0.17,
+    "flux_ratio_to_target": 1.1705,
+    "max_observed_depth_ppt_total_eclipse": 539.28,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9775699973106384,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.0641027803627134
+   },
+   {
+    "source_id": 1702950757588937216,
+    "sep_arcsec": 50.2,
+    "sep_px": 2.39,
+    "G": 20.672836303710938,
+    "Rp": 19.44733428955078,
+    "band_used": "rp",
+    "delta_mag": 5.63,
+    "flux_ratio_to_target": 0.00558,
+    "max_observed_depth_ppt_total_eclipse": 5.55,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0107393264770508,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.16163861564901078
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 4,
+  "n_neighbours_within_3px_could_make_1ppt": 4
+ },
+ "simbad": {
+  "n_within_1arcmin": 0,
+  "objects": [],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "vsx": {
+  "n_within_1arcmin": 0,
+  "objects": [],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "summary": "Gaia: 5 sources within 1 arcmin; target RUWE 1.6136231422424316, var flag NOT_AVAILABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class -; 4 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 0 (); VSX 0",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

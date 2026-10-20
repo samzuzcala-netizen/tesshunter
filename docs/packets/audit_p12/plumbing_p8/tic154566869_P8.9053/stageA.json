@@ -1,0 +1,1264 @@
+{
+ "key": "tic154566869_P8.9053",
+ "tic_id": 154566869,
+ "planet_num": 5,
+ "rank": 2572,
+ "generated_utc": "2026-09-06T14:05:30Z",
+ "rules_version": "p8.0",
+ "thresholds": {
+  "min_kept_events": 3,
+  "min_kept_event_snr": 7.0,
+  "max_top_event_share_of_snr2": 0.5,
+  "min_snr_without_top_event": 5.0,
+  "kept_depth_over_survey_depth": [
+   0.5,
+   2.0
+  ],
+  "min_p_const": 0.001,
+  "flux": "wotan-detrended corrected flux (det_kept); sap_kept recorded alongside",
+  "ephemeris_choice": "the ephemeris passing the most criteria, ties broken by kept-event SNR"
+ },
+ "survey": {
+  "period": 8.90530874505231,
+  "epoch_btjd": 3315.4599518823647,
+  "duration_days": 0.15485273653622544,
+  "depth_ppt": 2.015134345106107,
+  "stitch_snr": 8.5062580662791,
+  "stitch_n_transits": 6,
+  "n_units": 3,
+  "tmag": 12.826
+ },
+ "prepare": {
+  "n_unbinned": 24043,
+  "n_binned": 24043,
+  "baseline_days": 428.0698553814773,
+  "wotan": {
+   "method": "biweight",
+   "window_days": 0.75,
+   "break_tolerance": 0.5,
+   "edge_cutoff": 0.0
+  },
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "deep_clip_threshold_ppt": 45.11,
+  "n_deep_clipped": 0,
+  "R_star": 0.285,
+  "M_star": 0.26,
+  "expected_t14_hours_b0": 1.76
+ },
+ "forced_tls": {
+  "period": 8.885326634755144,
+  "T0_btjd": 2942.35862000572,
+  "duration_days": 0.019535962120213492,
+  "depth": 0.9970423762033241,
+  "SDE": 4.073888461448653,
+  "distinct_transit_count": 6,
+  "odd_even_mismatch": 1.5313620577027285
+ },
+ "ephemerides_examined": [
+  "survey",
+  "tls"
+ ],
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "per_ephemeris": {
+  "survey": {
+   "ephemeris": {
+    "period": 8.90530874505231,
+    "t0": 3315.4599518823647,
+    "duration": 0.15485273653622544,
+    "source": "survey",
+    "ref_depth_ppt": 2.015134345106107
+   },
+   "n_predicted_in_span": 48,
+   "n_observed": 8,
+   "n_excluded": 3,
+   "n_kept": 5,
+   "det_all": {
+    "n": 6,
+    "weighted_mean_depth_ppt": 1.291,
+    "err_ppt": 0.252,
+    "snr": 5.13,
+    "chi2_const": 78.8,
+    "dof": 5,
+    "p_const": 8.165614034849122e-08,
+    "top_event_n": 4,
+    "top_event_share_of_snr2": 0.32,
+    "snr_without_top_event": 3.15,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 2,
+    "odd_even": {
+     "odd_ppt": 2.397,
+     "odd_err": 0.442,
+     "even_ppt": 0.759,
+     "even_err": 0.306,
+     "sigma": 3.05
+    },
+    "p_const_white": 1.460650387080067e-15,
+    "chi2_const_white": 78.8,
+    "snr_white": 5.13,
+    "beta_median": 1.305,
+    "beta_min": 1.292,
+    "beta_max": 1.435,
+    "weighted_mean_depth_ppt_inflated": 1.487,
+    "err_ppt_inflated": 0.338,
+    "snr_inflated": 4.41,
+    "chi2_const_inflated": 41.3,
+    "p_const_inflated": 8.165614034849122e-08
+   },
+   "det_kept": {
+    "n": 5,
+    "weighted_mean_depth_ppt": 0.922,
+    "err_ppt": 0.274,
+    "snr": 3.37,
+    "chi2_const": 67.1,
+    "dof": 4,
+    "p_const": 3.411815989518065e-07,
+    "top_event_n": 4,
+    "top_event_share_of_snr2": 0.46,
+    "snr_without_top_event": 1.0,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 2,
+    "odd_even": {
+     "odd_ppt": 2.397,
+     "odd_err": 0.442,
+     "even_ppt": -0.0,
+     "even_err": 0.349,
+     "sigma": 4.26
+    },
+    "p_const_white": 9.071865129770721e-14,
+    "chi2_const_white": 67.1,
+    "snr_white": 3.37,
+    "beta_median": 1.305,
+    "beta_min": 1.292,
+    "beta_max": 1.435,
+    "weighted_mean_depth_ppt_inflated": 1.132,
+    "err_ppt_inflated": 0.369,
+    "snr_inflated": 3.07,
+    "chi2_const_inflated": 35.7,
+    "p_const_inflated": 3.411815989518065e-07
+   },
+   "sap_kept": {
+    "n": 5,
+    "weighted_mean_depth_ppt": 0.777,
+    "err_ppt": 0.242,
+    "snr": 3.21,
+    "chi2_const": 17.5,
+    "dof": 4,
+    "p_const": 0.05246315998430657,
+    "top_event_n": 5,
+    "top_event_share_of_snr2": 0.51,
+    "snr_without_top_event": 2.15,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 1,
+    "odd_even": {
+     "odd_ppt": 1.626,
+     "odd_err": 0.394,
+     "even_ppt": 0.264,
+     "even_err": 0.306,
+     "sigma": 2.73
+    },
+    "p_const_white": 0.001546649257128958,
+    "chi2_const_white": 17.5,
+    "snr_white": 3.21,
+    "beta_median": 1.305,
+    "beta_min": 1.292,
+    "beta_max": 1.435,
+    "weighted_mean_depth_ppt_inflated": 0.861,
+    "err_ppt_inflated": 0.326,
+    "snr_inflated": 2.64,
+    "chi2_const_inflated": 9.4,
+    "p_const_inflated": 0.05246315998430657
+   },
+   "audit_flags": [
+    "SNR of kept events (detrended) < 7",
+    "SNR < 7 without the strongest event",
+    "per-event depths inconsistent with a constant (p < 0.001)"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": false,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": false,
+    "depth_within_0.5_2x_survey": false,
+    "depths_consistent_p_ge_1e-3": false
+   },
+   "n_criteria_passed": 2,
+   "all_passed": false,
+   "kept_snr": 3.37,
+   "top_event_share": 0.46,
+   "snr_without_top": 1.0,
+   "kept_depth_ppt": 0.922,
+   "kept_depth_err_ppt": 0.274,
+   "depth_over_survey_depth": 0.458,
+   "p_const": 3.411815989518065e-07,
+   "top_event_n": 4,
+   "strongest_event": {
+    "found": true,
+    "n": 4,
+    "tc_btjd": 3351.0812,
+    "sector": 75,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 3.149,
+    "det_depth_err_ppt": 0.59,
+    "sap_depth_ppt": 1.2,
+    "snr2": 28.5,
+    "excluded": false,
+    "exclusion_reasons": [],
+    "artefact_classes": []
+   },
+   "events": [
+    {
+     "n": -42,
+     "tc_btjd": 2941.437,
+     "sector": 60,
+     "author": "SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 0.99,
+     "det_depth_ppt": -1.355,
+     "det_depth_err_ppt": 0.613,
+     "sap_depth_ppt": 0.083,
+     "sap_depth_err_ppt": 0.506,
+     "edge_distance_days": 4.537,
+     "pdc_gap_distance_days": 2.025,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.32,
+     "bkg_over_sector_median": 1.04,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": -41,
+     "tc_btjd": 2950.3423,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": -40,
+     "tc_btjd": 2959.2476,
+     "sector": 60,
+     "author": "SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -2.038,
+     "det_depth_err_ppt": 0.612,
+     "sap_depth_ppt": -0.853,
+     "sap_depth_err_ppt": 0.605,
+     "edge_distance_days": 3.337,
+     "pdc_gap_distance_days": 3.337,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.55,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": -39,
+     "tc_btjd": 2968.1529,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -38,
+     "tc_btjd": 2977.0582,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -37,
+     "tc_btjd": 2985.9635,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -36,
+     "tc_btjd": 2994.8688,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -35,
+     "tc_btjd": 3003.7741,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -34,
+     "tc_btjd": 3012.6795,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -33,
+     "tc_btjd": 3021.5848,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -32,
+     "tc_btjd": 3030.4901,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -31,
+     "tc_btjd": 3039.3954,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -30,
+     "tc_btjd": 3048.3007,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -29,
+     "tc_btjd": 3057.206,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -28,
+     "tc_btjd": 3066.1113,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -27,
+     "tc_btjd": 3075.0166,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -26,
+     "tc_btjd": 3083.9219,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -25,
+     "tc_btjd": 3092.8272,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -24,
+     "tc_btjd": 3101.7325,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -23,
+     "tc_btjd": 3110.6379,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -22,
+     "tc_btjd": 3119.5432,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -21,
+     "tc_btjd": 3128.4485,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -20,
+     "tc_btjd": 3137.3538,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -19,
+     "tc_btjd": 3146.2591,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -18,
+     "tc_btjd": 3155.1644,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -17,
+     "tc_btjd": 3164.0697,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -16,
+     "tc_btjd": 3172.975,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -15,
+     "tc_btjd": 3181.8803,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -14,
+     "tc_btjd": 3190.7856,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -13,
+     "tc_btjd": 3199.6909,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -12,
+     "tc_btjd": 3208.5962,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -11,
+     "tc_btjd": 3217.5016,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -10,
+     "tc_btjd": 3226.4069,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -9,
+     "tc_btjd": 3235.3122,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -8,
+     "tc_btjd": 3244.2175,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -7,
+     "tc_btjd": 3253.1228,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -6,
+     "tc_btjd": 3262.0281,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -5,
+     "tc_btjd": 3270.9334,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -4,
+     "tc_btjd": 3279.8387,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -3,
+     "tc_btjd": 3288.744,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -2,
+     "tc_btjd": 3297.6493,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": -1,
+     "tc_btjd": 3306.5546,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 0,
+     "tc_btjd": 3315.46,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 1.405,
+     "sap_depth_err_ppt": 0.69,
+     "edge_distance_days": 2.598,
+     "pdc_gap_distance_days": 1.673,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.24,
+     "bkg_over_sector_median": 3.78,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3324.3653,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.831,
+     "det_depth_err_ppt": 0.515,
+     "sap_depth_ppt": 1.203,
+     "sap_depth_err_ppt": 0.464,
+     "edge_distance_days": 11.503,
+     "pdc_gap_distance_days": 3.006,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.12,
+     "bkg_over_sector_median": 0.76,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3333.2706,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 0.99,
+     "det_depth_ppt": 3.3,
+     "det_depth_err_ppt": 0.639,
+     "sap_depth_ppt": 1.162,
+     "sap_depth_err_ppt": 0.544,
+     "edge_distance_days": 6.3,
+     "pdc_gap_distance_days": 2.087,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.3,
+     "bkg_over_sector_median": 1.16,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration"
+     ],
+     "artefact_classes": [
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3342.1759,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -0.648,
+     "sap_depth_err_ppt": 0.777,
+     "edge_distance_days": 2.392,
+     "pdc_gap_distance_days": 0.689,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.15,
+     "bkg_over_sector_median": 2.69,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3351.0812,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.149,
+     "det_depth_err_ppt": 0.59,
+     "sap_depth_ppt": 1.2,
+     "sap_depth_err_ppt": 0.499,
+     "edge_distance_days": 11.298,
+     "pdc_gap_distance_days": 4.64,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.24,
+     "bkg_over_sector_median": 0.49,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3359.9865,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.967,
+     "det_depth_err_ppt": 0.858,
+     "sap_depth_ppt": 2.727,
+     "sap_depth_err_ppt": 0.748,
+     "edge_distance_days": 7.496,
+     "pdc_gap_distance_days": 0.548,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.05,
+     "bkg_over_sector_median": 1.83,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 8.885326634755144,
+    "t0": 2942.35862000572,
+    "duration": 0.15485273653622544,
+    "source": "tls_forced",
+    "ref_depth_ppt": 2.015134345106107
+   },
+   "n_predicted_in_span": 48,
+   "n_observed": 8,
+   "n_excluded": 3,
+   "n_kept": 5,
+   "det_all": {
+    "n": 6,
+    "weighted_mean_depth_ppt": 2.37,
+    "err_ppt": 0.232,
+    "snr": 10.23,
+    "chi2_const": 13.5,
+    "dof": 5,
+    "p_const": 0.16933999243342251,
+    "top_event_n": 46,
+    "top_event_share_of_snr2": 0.24,
+    "snr_without_top_event": 8.87,
+    "n_events_depth_above_2sigma": 6,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.199,
+     "odd_err": 0.448,
+     "even_ppt": 2.432,
+     "even_err": 0.271,
+     "sigma": 0.45
+    },
+    "p_const_white": 0.01900816501328014,
+    "chi2_const_white": 13.5,
+    "snr_white": 10.23,
+    "beta_median": 1.308,
+    "beta_min": 1.288,
+    "beta_max": 1.42,
+    "weighted_mean_depth_ppt_inflated": 2.408,
+    "err_ppt_inflated": 0.312,
+    "snr_inflated": 7.72,
+    "chi2_const_inflated": 7.8,
+    "p_const_inflated": 0.16933999243342251
+   },
+   "det_kept": {
+    "n": 5,
+    "weighted_mean_depth_ppt": 2.234,
+    "err_ppt": 0.251,
+    "snr": 8.9,
+    "chi2_const": 11.5,
+    "dof": 4,
+    "p_const": 0.151865467107223,
+    "top_event_n": 46,
+    "top_event_share_of_snr2": 0.31,
+    "snr_without_top_event": 7.35,
+    "n_events_depth_above_2sigma": 5,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 2.199,
+     "odd_err": 0.448,
+     "even_ppt": 2.25,
+     "even_err": 0.303,
+     "sigma": 0.09
+    },
+    "p_const_white": 0.02116803970495944,
+    "chi2_const_white": 11.5,
+    "snr_white": 8.9,
+    "beta_median": 1.308,
+    "beta_min": 1.288,
+    "beta_max": 1.42,
+    "weighted_mean_depth_ppt_inflated": 2.269,
+    "err_ppt_inflated": 0.34,
+    "snr_inflated": 6.68,
+    "chi2_const_inflated": 6.7,
+    "p_const_inflated": 0.151865467107223
+   },
+   "sap_kept": {
+    "n": 5,
+    "weighted_mean_depth_ppt": 1.146,
+    "err_ppt": 0.223,
+    "snr": 5.13,
+    "chi2_const": 10.2,
+    "dof": 4,
+    "p_const": 0.21634215454561015,
+    "top_event_n": 47,
+    "top_event_share_of_snr2": 0.41,
+    "snr_without_top_event": 4.13,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 1.202,
+     "odd_err": 0.396,
+     "even_ppt": 1.12,
+     "even_err": 0.271,
+     "sigma": 0.17
+    },
+    "p_const_white": 0.037384252966129024,
+    "chi2_const_white": 10.2,
+    "snr_white": 5.13,
+    "beta_median": 1.308,
+    "beta_min": 1.288,
+    "beta_max": 1.42,
+    "weighted_mean_depth_ppt_inflated": 1.16,
+    "err_ppt_inflated": 0.302,
+    "snr_inflated": 3.84,
+    "chi2_const_inflated": 5.8,
+    "p_const_inflated": 0.21634215454561015
+   },
+   "audit_flags": [],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": true,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": true,
+    "depth_within_0.5_2x_survey": true,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 6,
+   "all_passed": true,
+   "kept_snr": 8.9,
+   "top_event_share": 0.31,
+   "snr_without_top": 7.35,
+   "kept_depth_ppt": 2.234,
+   "kept_depth_err_ppt": 0.251,
+   "depth_over_survey_depth": 1.109,
+   "p_const": 0.151865467107223,
+   "top_event_n": 46,
+   "strongest_event": {
+    "found": true,
+    "n": 46,
+    "tc_btjd": 3351.0836,
+    "sector": 75,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 3.135,
+    "det_depth_err_ppt": 0.592,
+    "sap_depth_ppt": 1.291,
+    "snr2": 28.0,
+    "excluded": false,
+    "exclusion_reasons": [],
+    "artefact_classes": []
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 2942.3586,
+     "sector": 60,
+     "author": "SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.565,
+     "det_depth_err_ppt": 0.515,
+     "sap_depth_ppt": 0.497,
+     "sap_depth_err_ppt": 0.454,
+     "edge_distance_days": 5.458,
+     "pdc_gap_distance_days": 2.946,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.27,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 1,
+     "tc_btjd": 2951.2439,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 2960.1293,
+     "sector": 60,
+     "author": "SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.263,
+     "det_depth_err_ppt": 0.484,
+     "sap_depth_ppt": 1.602,
+     "sap_depth_err_ppt": 0.452,
+     "edge_distance_days": 2.455,
+     "pdc_gap_distance_days": 2.455,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 3,
+     "tc_btjd": 2969.0146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 2977.8999,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 2986.7853,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 2995.6706,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3004.5559,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3013.4412,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3022.3266,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3031.2119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3040.0972,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3048.9825,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3057.8679,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3066.7532,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3075.6385,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3084.5238,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3093.4092,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3102.2945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3111.1798,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3120.0652,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3128.9505,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3137.8358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3146.7211,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3155.6065,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3164.4918,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3173.3771,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3182.2624,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3191.1478,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3200.0331,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3208.9184,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3217.8037,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3226.6891,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3235.5744,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3244.4597,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3253.3451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3262.2304,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3271.1157,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3280.001,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3288.8864,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3297.7717,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3306.657,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3315.5423,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 0.872,
+     "sap_depth_err_ppt": 0.666,
+     "edge_distance_days": 2.68,
+     "pdc_gap_distance_days": 1.59,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 3.83,
+     "excluded": true,
+     "exclusion_reasons": [
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3324.4277,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.37,
+     "det_depth_err_ppt": 0.54,
+     "sap_depth_ppt": 0.513,
+     "sap_depth_err_ppt": 0.474,
+     "edge_distance_days": 11.566,
+     "pdc_gap_distance_days": 2.944,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.05,
+     "bkg_over_sector_median": 0.76,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3333.313,
+     "sector": 74,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.15,
+     "det_depth_err_ppt": 0.601,
+     "sap_depth_ppt": 0.939,
+     "sap_depth_err_ppt": 0.509,
+     "edge_distance_days": 6.257,
+     "pdc_gap_distance_days": 2.129,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.18,
+     "bkg_over_sector_median": 1.16,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration",
+      "dip present in corrected flux (3.15 ppt) but not in SAP (0.94 +/- 0.51 ppt)"
+     ],
+     "artefact_classes": [
+      "dip_absent_in_sap",
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3342.1983,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -0.736,
+     "sap_depth_err_ppt": 0.773,
+     "edge_distance_days": 2.415,
+     "pdc_gap_distance_days": 0.711,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.11,
+     "bkg_over_sector_median": 2.71,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_flag"
+     ]
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3351.0836,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.135,
+     "det_depth_err_ppt": 0.592,
+     "sap_depth_ppt": 1.291,
+     "sap_depth_err_ppt": 0.506,
+     "edge_distance_days": 11.3,
+     "pdc_gap_distance_days": 4.637,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.24,
+     "bkg_over_sector_median": 0.49,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3359.969,
+     "sector": 75,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.017,
+     "det_depth_err_ppt": 0.8,
+     "sap_depth_ppt": 2.802,
+     "sap_depth_err_ppt": 0.722,
+     "edge_distance_days": 7.513,
+     "pdc_gap_distance_days": 0.531,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 1.84,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    }
+   ]
+  }
+ },
+ "chosen_ephemeris": "tls",
+ "criteria": {
+  "kept_events_ge_3": true,
+  "kept_snr_ge_7": true,
+  "top_share_le_50pct": true,
+  "snr_without_top_ge_5": true,
+  "depth_within_0.5_2x_survey": true,
+  "depths_consistent_p_ge_1e-3": true
+ },
+ "n_criteria_passed": 6,
+ "decision": "PASS",
+ "deep_event_host": {
+  "n_accepted_on_star": 7,
+  "threshold_ppt": 10.08,
+  "n_deep": 0,
+  "deepest_ppt": null,
+  "examples": [],
+  "flag": false
+ },
+ "reason": "tls ephemeris, 5 kept events, SNR 8.9, top share 0.31, SNR w/o top 7.35, depth 2.234 ppt = 1.109x survey, p_const 0.15; all six criteria pass",
+ "seconds": 16.2,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

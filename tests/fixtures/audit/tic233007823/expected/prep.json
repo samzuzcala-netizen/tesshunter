@@ -1,0 +1,619 @@
+{
+ "tic_id": 233007823,
+ "survey_period": 17.46828986564532,
+ "generated_utc": "2026-09-03T17:36:18Z",
+ "rules_version": "p6.2",
+ "lc_npz": "data\\survey\\p6\\tls\\tic233007823_P17.4683_lc.npz",
+ "products": [
+  {
+   "sector": 14,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 15,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 16,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 18,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 19,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 20,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 21,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 22,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 23,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 24,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 26,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 40,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 41,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 47,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 48,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 49,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 50,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 51,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 52,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 53,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 54,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 55,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 56,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 58,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 59,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 60,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 73,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 74,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 75,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 76,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 77,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 78,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 79,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 80,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 81,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 82,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 83,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 85,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 86,
+   "author": "QLP",
+   "cadence_s": 200.0
+  }
+ ],
+ "n_unbinned": 193751,
+ "n_binned": 40395,
+ "bin_minutes": 30.0,
+ "wotan": {
+  "method": "biweight",
+  "window_days": 0.75,
+  "break_tolerance": 0.5,
+  "edge_cutoff": 0.0
+ },
+ "quality_bitmask": "default(17087)",
+ "upward_clip_sigma": 4.0,
+ "R_star": 1.05709,
+ "M_star": 1.024,
+ "expected_t14_hours_b0": 5.19,
+ "baseline_days": 1979.410774050782,
+ "mask_btjd_ranges": [],
+ "n_unbinned_masked": 0,
+ "n_isolated_clipped": 1,
+ "n_isolated_bins_clipped": 1,
+ "deep_clip_threshold_ppt": 10.25,
+ "n_deep_clipped": 0,
+ "reference_depth_ppt": 3.417,
+ "per_product": [
+  {
+   "sector": 14,
+   "author": "TESS-SPOC",
+   "n_used": 1219,
+   "n_masked_quality": 21,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.615,
+   "dropped": false
+  },
+  {
+   "sector": 15,
+   "author": "TESS-SPOC",
+   "n_used": 1150,
+   "n_masked_quality": 46,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 1,
+   "scatter_ppt": 0.643,
+   "dropped": false
+  },
+  {
+   "sector": 16,
+   "author": "TESS-SPOC",
+   "n_used": 1034,
+   "n_masked_quality": 86,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.699,
+   "dropped": false
+  },
+  {
+   "sector": 18,
+   "author": "TESS-SPOC",
+   "n_used": 888,
+   "n_masked_quality": 219,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.6,
+   "dropped": false
+  },
+  {
+   "sector": 19,
+   "author": "TESS-SPOC",
+   "n_used": 1061,
+   "n_masked_quality": 94,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.586,
+   "dropped": false
+  },
+  {
+   "sector": 20,
+   "author": "TESS-SPOC",
+   "n_used": 1171,
+   "n_masked_quality": 17,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.568,
+   "dropped": false
+  },
+  {
+   "sector": 21,
+   "author": "TESS-SPOC",
+   "n_used": 1212,
+   "n_masked_quality": 54,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.62,
+   "dropped": false
+  },
+  {
+   "sector": 22,
+   "author": "TESS-SPOC",
+   "n_used": 1077,
+   "n_masked_quality": 171,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.62,
+   "dropped": false
+  },
+  {
+   "sector": 23,
+   "author": "TESS-SPOC",
+   "n_used": 956,
+   "n_masked_quality": 282,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.752,
+   "dropped": false
+  },
+  {
+   "sector": 24,
+   "author": "TESS-SPOC",
+   "n_used": 1206,
+   "n_masked_quality": 19,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.668,
+   "dropped": false
+  },
+  {
+   "sector": 26,
+   "author": "TESS-SPOC",
+   "n_used": 1135,
+   "n_masked_quality": 13,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.675,
+   "dropped": false
+  },
+  {
+   "sector": 40,
+   "author": "TESS-SPOC",
+   "n_used": 3916,
+   "n_masked_quality": 11,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.093,
+   "dropped": false
+  },
+  {
+   "sector": 41,
+   "author": "TESS-SPOC",
+   "n_used": 3656,
+   "n_masked_quality": 10,
+   "n_clipped_up": 2,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.108,
+   "dropped": false
+  },
+  {
+   "sector": 47,
+   "author": "TESS-SPOC",
+   "n_used": 3374,
+   "n_masked_quality": 402,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.039,
+   "dropped": false
+  },
+  {
+   "sector": 48,
+   "author": "TESS-SPOC",
+   "n_used": 2906,
+   "n_masked_quality": 930,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 0.99,
+   "dropped": false
+  },
+  {
+   "sector": 49,
+   "author": "TESS-SPOC",
+   "n_used": 2661,
+   "n_masked_quality": 1064,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.049,
+   "dropped": false
+  },
+  {
+   "sector": 50,
+   "author": "TESS-SPOC",
+   "n_used": 2721,
+   "n_masked_quality": 902,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.163,
+   "dropped": false
+  },
+  {
+   "sector": 51,
+   "author": "TESS-SPOC",
+   "n_used": 3233,
+   "n_masked_quality": 165,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.24,
+   "dropped": false
+  },
+  {
+   "sector": 52,
+   "author": "TESS-SPOC",
+   "n_used": 3342,
+   "n_masked_quality": 12,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.112,
+   "dropped": false
+  },
+  {
+   "sector": 53,
+   "author": "TESS-SPOC",
+   "n_used": 3454,
+   "n_masked_quality": 12,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.113,
+   "dropped": false
+  },
+  {
+   "sector": 54,
+   "author": "TESS-SPOC",
+   "n_used": 3388,
+   "n_masked_quality": 217,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.308,
+   "dropped": false
+  },
+  {
+   "sector": 55,
+   "author": "TESS-SPOC",
+   "n_used": 3054,
+   "n_masked_quality": 727,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.11,
+   "dropped": false
+  },
+  {
+   "sector": 56,
+   "author": "TESS-SPOC",
+   "n_used": 9937,
+   "n_masked_quality": 1837,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.893,
+   "dropped": false
+  },
+  {
+   "sector": 58,
+   "author": "TESS-SPOC",
+   "n_used": 10788,
+   "n_masked_quality": 914,
+   "n_clipped_up": 2,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.759,
+   "dropped": false
+  },
+  {
+   "sector": 59,
+   "author": "TESS-SPOC",
+   "n_used": 9261,
+   "n_masked_quality": 1881,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.746,
+   "dropped": false
+  },
+  {
+   "sector": 60,
+   "author": "TESS-SPOC",
+   "n_used": 7550,
+   "n_masked_quality": 1090,
+   "n_clipped_up": 3,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.746,
+   "dropped": false
+  },
+  {
+   "sector": 73,
+   "author": "TESS-SPOC",
+   "n_used": 6891,
+   "n_masked_quality": 3467,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.723,
+   "dropped": false
+  },
+  {
+   "sector": 74,
+   "author": "TESS-SPOC",
+   "n_used": 7292,
+   "n_masked_quality": 3992,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.975,
+   "dropped": false
+  },
+  {
+   "sector": 75,
+   "author": "TESS-SPOC",
+   "n_used": 6593,
+   "n_masked_quality": 5101,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.979,
+   "dropped": false
+  },
+  {
+   "sector": 76,
+   "author": "TESS-SPOC",
+   "n_used": 7854,
+   "n_masked_quality": 3572,
+   "n_clipped_up": 2,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.221,
+   "dropped": false
+  },
+  {
+   "sector": 77,
+   "author": "TESS-SPOC",
+   "n_used": 7683,
+   "n_masked_quality": 21,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.024,
+   "dropped": false
+  },
+  {
+   "sector": 78,
+   "author": "TESS-SPOC",
+   "n_used": 6431,
+   "n_masked_quality": 20,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.072,
+   "dropped": false
+  },
+  {
+   "sector": 79,
+   "author": "TESS-SPOC",
+   "n_used": 11435,
+   "n_masked_quality": 19,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.89,
+   "dropped": false
+  },
+  {
+   "sector": 80,
+   "author": "TESS-SPOC",
+   "n_used": 7619,
+   "n_masked_quality": 3538,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.932,
+   "dropped": false
+  },
+  {
+   "sector": 81,
+   "author": "TESS-SPOC",
+   "n_used": 8148,
+   "n_masked_quality": 2928,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.952,
+   "dropped": false
+  },
+  {
+   "sector": 82,
+   "author": "TESS-SPOC",
+   "n_used": 9451,
+   "n_masked_quality": 1445,
+   "n_clipped_up": 2,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.867,
+   "dropped": false
+  },
+  {
+   "sector": 83,
+   "author": "TESS-SPOC",
+   "n_used": 10462,
+   "n_masked_quality": 43,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.832,
+   "dropped": false
+  },
+  {
+   "sector": 85,
+   "author": "TESS-SPOC",
+   "n_used": 8312,
+   "n_masked_quality": 2427,
+   "n_clipped_up": 2,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.823,
+   "dropped": false
+  },
+  {
+   "sector": 86,
+   "author": "QLP",
+   "n_used": 10230,
+   "n_masked_quality": 974,
+   "n_clipped_up": 3,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.232,
+   "dropped": false
+  }
+ ],
+ "seconds": 3.5
+}

@@ -1,0 +1,199 @@
+{
+ "tic": 193718989,
+ "generated_utc": "2026-10-18T21:44:20Z",
+ "corrected": {
+  "prior_reported_snr": 4.910310501311044,
+  "reproduced": {
+   "n": 4,
+   "depth_ppt": 1.487060279322996,
+   "error_ppt": 0.30284444923105236,
+   "snr": 4.910310501311044,
+   "positive": 4,
+   "chi2_const": 4.2841043578713816,
+   "p_const": 0.23237518217164735
+  },
+  "late_at_reference": {
+   "n": 4,
+   "depth_ppt": 2.42238510154526,
+   "error_ppt": 0.2528052709808352,
+   "snr": 9.582019758317845,
+   "positive": 4,
+   "chi2_const": 3.010030111136443,
+   "p_const": 0.3900813141545852
+  },
+  "early_epoch_only": {
+   "n": 4,
+   "depth_ppt": 2.428591315709557,
+   "error_ppt": 0.2523995613068959,
+   "snr": 9.62201084318289,
+   "positive": 4,
+   "chi2_const": 2.798840862233006,
+   "p_const": 0.4236907673190403
+  },
+  "early_fit": {
+   "depth": 2.3157327882607928,
+   "epoch_corr_d": -0.0227641653724573,
+   "period_corr_d": 0.0015020406198349085,
+   "sig": [
+    0.2827515865800408,
+    0.007538122658539021,
+    0.000567449017828775
+   ]
+  },
+  "early_sectors": [
+   25,
+   26,
+   40,
+   40
+  ],
+  "late_sectors": [
+   52,
+   53,
+   79,
+   80
+  ],
+  "late_events": [
+   {
+    "sector": 52,
+    "cycle": 30,
+    "depth": 2.109052600945942,
+    "err": 0.5681355808994321,
+    "shift_min": 32.10775664052954
+   },
+   {
+    "sector": 53,
+    "cycle": 31,
+    "depth": 1.9984611847167588,
+    "err": 0.5293936014933536,
+    "shift_min": 34.270695133091806
+   },
+   {
+    "sector": 79,
+    "cycle": 60,
+    "depth": 1.347348306141093,
+    "err": 0.5010852529685594,
+    "shift_min": 96.99591141739758
+   },
+   {
+    "sector": 80,
+    "cycle": 61,
+    "depth": 0.8377962113814381,
+    "err": 0.4507684185257937,
+    "shift_min": 99.15884990995986
+   }
+  ],
+  "leave_one_early_sector_out": [
+   {
+    "omitted_early_sector": 25,
+    "snr": 2.3569120045974623,
+    "n_predicted": 4,
+    "period_correction_d": 0.0021118847859956697
+   },
+   {
+    "omitted_early_sector": 26,
+    "snr": 9.349505771214195,
+    "n_predicted": 4,
+    "period_correction_d": 6.541266880811377e-05
+   },
+   {
+    "omitted_early_sector": 40,
+    "snr": null,
+    "n_predicted": 0,
+    "period_correction_d": -0.030823677926637066
+   }
+  ]
+ },
+ "aperture": {
+  "prior_reported_snr": 2.3136484942241067,
+  "reproduced": {
+   "n": 3,
+   "depth_ppt": 1.3895975962078686,
+   "error_ppt": 0.600608778592306,
+   "snr": 2.3136484942241067,
+   "positive": 3,
+   "chi2_const": 6.224989764949003,
+   "p_const": 0.04448981989103867
+  },
+  "late_at_reference": {
+   "n": 3,
+   "depth_ppt": 2.858420287756542,
+   "error_ppt": 0.4493291396161924,
+   "snr": 6.361528856548554,
+   "positive": 3,
+   "chi2_const": 3.526381886961425,
+   "p_const": 0.1714967533462977
+  },
+  "early_epoch_only": {
+   "n": 3,
+   "depth_ppt": 2.8224919316382984,
+   "error_ppt": 0.41315545159223743,
+   "snr": 6.831549531201511,
+   "positive": 3,
+   "chi2_const": 2.9815044801338555,
+   "p_const": 0.2252031849472283
+  },
+  "early_fit": {
+   "depth": 1.9268868533792012,
+   "epoch_corr_d": -0.019459400371835443,
+   "period_corr_d": 0.0015623072146604244,
+   "sig": [
+    0.4954230093454883,
+    0.011775674669650203,
+    0.0006951028665294053
+   ]
+  },
+  "early_sectors": [
+   25,
+   26,
+   52
+  ],
+  "late_sectors": [
+   53,
+   79,
+   80
+  ],
+  "late_events": [
+   {
+    "sector": 53,
+    "cycle": 31,
+    "depth": 1.6518509930957197,
+    "err": 0.6335467428820349,
+    "shift_min": 41.719857526998304
+   },
+   {
+    "sector": 79,
+    "cycle": 60,
+    "depth": 2.1001170232098474,
+    "err": 0.5239169927425501,
+    "shift_min": 106.96180681121764
+   },
+   {
+    "sector": 80,
+    "cycle": 61,
+    "depth": 0.08960187649178,
+    "err": 0.6332447150729954,
+    "shift_min": 109.21152920032866
+   }
+  ],
+  "leave_one_early_sector_out": [
+   {
+    "omitted_early_sector": 25,
+    "snr": 1.3651324737214718,
+    "n_predicted": 3,
+    "period_correction_d": 0.0025046698917549903
+   },
+   {
+    "omitted_early_sector": 26,
+    "snr": 2.567043281785533,
+    "n_predicted": 3,
+    "period_correction_d": 0.0012701622809614852
+   },
+   {
+    "omitted_early_sector": 52,
+    "snr": null,
+    "n_predicted": 0,
+    "period_correction_d": -0.03206669209233689
+   }
+  ]
+ }
+}

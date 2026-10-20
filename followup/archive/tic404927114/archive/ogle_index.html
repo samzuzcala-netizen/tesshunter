@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /ogle/ogle4/OCVS/lmc/ecl</title>
+  <link rel="stylesheet" href="/ftp_index.css" type="text/css">
+  <meta name="google" content="notranslate"> </head>
+ <body>
+  <h1 id="indextitle">Index of /ogle/ogle4/OCVS/lmc/ecl</h1>
+  <table id="indexlist">
+   <tr class="indexhead"><th class="indexcolicon"><img src="/icons/blank.gif" alt="[ICO]"></th><th class="indexcolname"><a href="?C=N;O=D">Name</a></th><th class="indexcollastmod"><a href="?C=M;O=A">Last modified</a></th><th class="indexcolsize"><a href="?C=S;O=A">Size</a></th><th class="indexcoldesc"><a href="?C=D;O=A">Description</a></th></tr>
+   <tr class="indexbreakrow"><th colspan="5"><hr></th></tr>
+   <tr class="even"><td class="indexcolicon"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td class="indexcolname"><a href="/ogle/ogle4/OCVS/lmc/">Parent Directory</a></td><td class="indexcollastmod">&nbsp;</td><td class="indexcolsize">  - </td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="odd"><td class="indexcolicon"><img src="/icons/ball.red.gif" alt="[TXT]"></td><td class="indexcolname"><a href="README">README</a></td><td class="indexcollastmod">2025-03-19 23:26  </td><td class="indexcolsize">3.9K</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="even"><td class="indexcolicon"><img src="/icons/binary.gif" alt="[   ]"></td><td class="indexcolname"><a href="ecl.dat">ecl.dat</a></td><td class="indexcollastmod">2025-03-19 22:58  </td><td class="indexcolsize">4.0M</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="odd"><td class="indexcolicon"><img src="/icons/binary.gif" alt="[   ]"></td><td class="indexcolname"><a href="ell.dat">ell.dat</a></td><td class="indexcollastmod">2025-03-19 22:58  </td><td class="indexcolsize">439K</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="even"><td class="indexcolicon"><img src="/icons/folder.gif" alt="[DIR]"></td><td class="indexcolname"><a href="fcharts/">fcharts/</a></td><td class="indexcollastmod">2025-03-19 22:59  </td><td class="indexcolsize">  - </td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="odd"><td class="indexcolicon"><img src="/icons/index.gif" alt="[   ]"></td><td class="indexcolname"><a href="ident.dat">ident.dat</a></td><td class="indexcollastmod">2025-03-19 22:58  </td><td class="indexcolsize">6.0M</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="even"><td class="indexcolicon"><img src="/icons/pdf.gif" alt="[   ]"></td><td class="indexcolname"><a href="paper.pdf">paper.pdf</a></td><td class="indexcollastmod">2025-03-18 20:36  </td><td class="indexcolsize">9.0M</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="odd"><td class="indexcolicon"><img src="/icons/compressed.gif" alt="[   ]"></td><td class="indexcolname"><a href="phot.tar.gz">phot.tar.gz</a></td><td class="indexcollastmod">2025-03-19 23:04  </td><td class="indexcolsize">1.0G</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="even"><td class="indexcolicon"><img src="/icons/folder.gif" alt="[DIR]"></td><td class="indexcolname"><a href="phot/">phot/</a></td><td class="indexcollastmod">2025-03-19 22:58  </td><td class="indexcolsize">  - </td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="odd"><td class="indexcolicon"><img src="/icons/alert.black.gif" alt="[TXT]"></td><td class="indexcolname"><a href="remarks.txt">remarks.txt</a></td><td class="indexcollastmod">2025-03-19 22:58  </td><td class="indexcolsize"> 37K</td><td class="indexcoldesc">&nbsp;</td></tr>
+   <tr class="indexbreakrow"><th colspan="5"><hr></th></tr>
+</table>
+<pre>
+=======================================================================
+               The OGLE Collection of Variable Stars
+        Over 75 000 Eclipsing Binaries in the Magellanic Clouds
+
+  M. Glowacki, I. Soszynski, A. Udalski, M. K. Szymanski, J. Skowron,
+  D. M. Skowron, P. Mroz, P. Pietrukowicz, R. Poleski, S. Kozlowski,
+  P. Iwanek, M. Wrona, K. Ulaczyk, K. Rybicki, M. Gromadzki, M. Mroz,
+                         and M. Urbanowicz
+
+=======================================================================
+mglowacki@astrouw.edu.pl
+soszynsk@astrouw.edu.pl
+
+This directory contains the OGLE catalog of eclipsing and ellipsoidal
+binary systems in the Large Magellanic Cloud.
+
+The directory structure is as follows:
+
+README            - this file
+
+ident.dat         - identification of stars
+
+ecl.dat           - parameters of eclipsing binary systems
+ell.dat           - parameters of ellipsoidal binary systems
+
+phot/I/           - I-band OGLE-IV photometry of individual objects
+phot/V/           - V-band OGLE-IV photometry of individual objects
+phot.tar.gz       - gzipped phot/ directory
+
+fcharts/          - finding charts of individual objects
+
+remarks.txt       - remarks on selected objects
+
+paper.pdf         - PDF version of the paper Glowacki et al. (2025),
+                    Acta Astron. .., ..., (arXiv:............) describing
+                    the collection.
+
+
+Format of the file ident.dat:
+--------------------------------------------------------------------------
+ Bytes  Format Units   Description
+--------------------------------------------------------------------------
+  1- 18  A18   ---     Star's ID
+ 21- 23  A3    ---     Subtype (C - contact, NC - non-contact, CV - cata-
+                       clysmic variable, ELL - ellipsoidal variable) 
+ 25- 26  I2    h       Right ascension, equinox J2000.0 (hours)
+ 28- 29  I2    m       Right ascension, equinox J2000.0 (minutes)
+ 31- 35  F5.2  s       Right ascension, equinox J2000.0 (seconds)
+     37  A1    ---     Declination, equinox J2000.0 (sign)
+ 38- 39  I2    deg     Declination, equinox J2000.0 (degrees)
+ 41- 42  I2    arcmin  Declination, equinox J2000.0 (arc minutes)
+ 44- 47  F4.1  arcsec  Declination, equinox J2000.0 (arc seconds)
+ 50- 65  A16   ---     OGLE-IV ID
+ 67- 81  A15   ---     OGLE-III ID
+ 83- 97  A15   ---     OGLE-II ID
+ 99-     A     ---     Other designation
+--------------------------------------------------------------------------
+
+Format of the files ecl.dat and ell.dat:
+--------------------------------------------------------------------------
+ Bytes  Format Units   Description
+--------------------------------------------------------------------------
+  1- 18  A18   ---     Star's ID
+ 21- 26  F6.3  mag     I-band magnitude at the maximum light
+ 28- 33  F6.3  mag     V-band magnitude at the maximum light
+ 35- 46  F12.7 days    Orbital period
+ 49- 60  F12.4 days    Epoch of of the primary eclipse (HJD)
+ 63- 67  F5.3  mag     Depth of the primary eclipse
+ 69- 73  F5.3  mag     Depth of the secondary eclipse
+--------------------------------------------------------------------------
+
+Format of the files with photometry (phot/I/OGLE-LMC-ECL-NNNNN.dat,
+phot/V/OGLE-LMC-ECL-NNNNN.dat)
+--------------------------------------------------------------------------
+ Bytes  Format Units   Description
+--------------------------------------------------------------------------
+  1- 13  F13.5 days    Heliocentric Julian Day
+ 15- 20  F6.3  mag     Magnitude
+ 22- 26  F5.3  mag     Uncertainty of magnitude
+--------------------------------------------------------------------------
+
+Finding charts are gzipped Postscript images. The names of the files are in
+the form: ID.ps.gz. The finding charts are 60"x60" subframes of the I-band
+reference frames centered on the star. White cross marks the star. North is
+up and East to the left.
+
+
+Any presentation of the scientific analysis or usage of the data from the
+catalog of classical Cepheids in the Galactic bulge should include the
+appropriate reference(s) to OGLE paper(s).
+
+</pre>
+</body></html>

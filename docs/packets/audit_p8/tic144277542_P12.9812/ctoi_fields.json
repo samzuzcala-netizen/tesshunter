@@ -1,0 +1,167 @@
+{
+ "form_fields": {
+  "target": "TIC 144277542",
+  "tic_id": 144277542,
+  "discovery_source": "TESS",
+  "period_days": 12.981388999463034,
+  "period_err_days": 0.00012624287275869294,
+  "epoch_bjd": 2460167.2875701394,
+  "epoch_err_days": 0.008577592364062256,
+  "depth_ppm": 2672.0,
+  "depth_err_ppm": 263.0,
+  "duration_hours": 2.563,
+  "duration_err_hours": 2.574,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "Local P8 audit verdict: KILL. Background/correction artifact. Diffuse event difference images and raw-aperture changes tracking the sky do not reproduce the fitted shallow target dip: the fixed sky-subtracted depths in sectors 95 and 104 are 0.584 +/- 1.353 and -0.481 +/- 0.720 ppt, while sector 68 has a broad unstable 33.178 +/- 4.424-ppt change [M]."
+ },
+ "supplementary": {
+  "rp_rs": 0.04781008763562296,
+  "rp_rs_err": 0.002747812910824613,
+  "rp_rearth": 2.253,
+  "rp_rearth_err": 0.26,
+  "a_rs": 40.531495036805296,
+  "a_rs_err": 4.05314950368053,
+  "impact_parameter": 1.9340107484769516e-05,
+  "impact_parameter_err": 2362.0151252802166,
+  "inclination_deg": 89.99997266060547,
+  "depth_duration_averaged_ppm": 2322.0,
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 1.0988087863213423,
+  "beta_red_noise": 1.14,
+  "n_transits_in_fit": 7,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.04878394719900502,
+    "rp_rs_err": 0.004148967791507522,
+    "depth_ppt": 2.38,
+    "n_transits": 4
+   },
+   "even": {
+    "rp_rs": 0.047243371669670624,
+    "rp_rs_err": 0.003231272224419871,
+    "depth_ppt": 2.232,
+    "n_transits": 4
+   },
+   "sigma": 0.29
+  },
+  "tls_blind": {
+   "period": 12.981356096822823,
+   "SDE": 14.912042549254839,
+   "snr": 3.6551565579469587,
+   "distinct_transit_count": 7
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 11,
+   "n_excluded": 8,
+   "n_kept": 3
+  },
+  "det_kept": {
+   "n": 3,
+   "weighted_mean_depth_ppt": 3.003,
+   "err_ppt": 0.371,
+   "snr": 8.1,
+   "chi2_const": 2.9,
+   "dof": 2,
+   "p_const": 0.2753721889346781,
+   "top_event_n": 77,
+   "top_event_share_of_snr2": 0.48,
+   "snr_without_top_event": 5.98,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 3.981,
+    "odd_err": 0.697,
+    "even_ppt": 2.616,
+    "even_err": 0.438,
+    "sigma": 1.66
+   },
+   "p_const_white": 0.2384267688033737,
+   "chi2_const_white": 2.9,
+   "snr_white": 8.1,
+   "beta_median": 1.075,
+   "beta_min": 1.0,
+   "beta_max": 1.075,
+   "weighted_mean_depth_ppt_inflated": 2.972,
+   "err_ppt_inflated": 0.387,
+   "snr_inflated": 7.68,
+   "chi2_const_inflated": 2.6,
+   "p_const_inflated": 0.2753721889346781
+  },
+  "sap_kept": {
+   "n": 3,
+   "weighted_mean_depth_ppt": 3.058,
+   "err_ppt": 0.372,
+   "snr": 8.23,
+   "chi2_const": 9.4,
+   "dof": 2,
+   "p_const": 0.012502233922690219,
+   "top_event_n": 77,
+   "top_event_share_of_snr2": 0.45,
+   "snr_without_top_event": 6.1,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 4.353,
+    "odd_err": 0.741,
+    "even_ppt": 2.623,
+    "even_err": 0.43,
+    "sigma": 2.02
+   },
+   "p_const_white": 0.00921332209105107,
+   "chi2_const_white": 9.4,
+   "snr_white": 8.23,
+   "beta_median": 1.075,
+   "beta_min": 1.0,
+   "beta_max": 1.075,
+   "weighted_mean_depth_ppt_inflated": 2.977,
+   "err_ppt_inflated": 0.387,
+   "snr_inflated": 7.69,
+   "chi2_const_inflated": 8.8,
+   "p_const_inflated": 0.012502233922690219
+  },
+  "stellar": {
+   "radius": 0.432,
+   "radius_err": 0.0432,
+   "mass": 0.428,
+   "rho_cgs": 7.474724381445918,
+   "rho_err": 2.242417314433775,
+   "a_rs_catalog": 40.531495036805296
+  },
+  "limb_darkening": {
+   "u1": 0.24156,
+   "u2": 0.38432,
+   "source": "survey Claret interpolation at TIC Teff 3549 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T21:08:38Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\tls\\tic144277542_P12.9812.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\events\\tic144277542_P12.9812_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\neighbours\\tic144277542.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\fit\\tic144277542_P12.9812.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "review_status": {
+  "verdict": "KILL",
+  "final_verdict_stamped": true,
+  "reason": "Background/correction artifact. Diffuse event difference images and raw-aperture changes tracking the sky do not reproduce the fitted shallow target dip: the fixed sky-subtracted depths in sectors 95 and 104 are 0.584 +/- 1.353 and -0.481 +/- 0.720 ppt, while sector 68 has a broad unstable 33.178 +/- 4.424-ppt change [M].",
+  "external_submission_performed": false
+ }
+}

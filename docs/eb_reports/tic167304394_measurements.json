@@ -1,0 +1,37 @@
+{
+ "tic_id": 167304394,
+ "ra_deg": 98.001223,
+ "dec_deg": -67.304764,
+ "ra_hms_J2000": "06 32 00.29",
+ "dec_dms_J2000": "-67 18 17.2",
+ "period_days": 22.77971,
+ "epoch_primary_bjd_tdb": 2458326.3718,
+ "depth_ppt_tess_band_observed": 55.5,
+ "depth_mag_tess_band": 0.062,
+ "tmag_max": 11.47,
+ "tmag_min": 11.532,
+ "primary_duration_hours": 4.37,
+ "primary_duration_percent_of_period": 0.8,
+ "n_primary_eclipses_in_data": 34,
+ "n_binned_points": 35170,
+ "baseline_days": 2529.2,
+ "fold_bin_scatter_ppt": 0.14,
+ "secondary_at_phase_0p5_ppt": -0.03,
+ "secondary_at_phase_0p5_err_ppt": 0.04,
+ "other_dips_gt_5sigma_phases": [
+  -0.263,
+  -0.262,
+  -0.261,
+  -0.26
+ ],
+ "figure": "docs\\eb_reports\\tic167304394_fold.png",
+ "gaia_dr3_target": 5283324796495406336,
+ "gaia_note": "two Gaia DR3 sources of equal brightness (G 12.79 and 12.64) 0.4 arcsec apart, both inside the TESS aperture; the observed depth is diluted by about a factor of two; ipd_frac_multi_peak 95%, no five-parameter solution",
+ "other_ids": [
+  "UCAC4 114-012846",
+  "Gaia DR3 5283324796495406336"
+ ],
+ "data": "TESS full-frame images, QLP light curves (TESS-SPOC / SPOC not available for this star), 34 sectors, 2018-2025; detrended with a wotan biweight (window 0.75 d) and binned to 30 min",
+ "period_uncertainty_days": 0.0011,
+ "catalog_status_2026_09_03": "not in VSX (1 arcmin), SIMBAD type '*' only, not in the TESS EB catalog, not in any SPOC TCE list, not a TOI/CTOI"
+}

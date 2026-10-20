@@ -1,0 +1,548 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+ "period": 10.539412047529652,
+ "period_err": 1.2563103790056793e-05,
+ "t0": 1689.0552976055035,
+ "t0_err": 0.0014631243497428348,
+ "rp_rs": 0.36770360916915046,
+ "rp_rs_err": 7.170476210875193,
+ "a_rs": 12.63589919795355,
+ "a_rs_err": 5.5551145175704475,
+ "b": 1.1999694349799868,
+ "b_err": 8.02922972691941,
+ "inc_deg": 84.55068887328756,
+ "f0": 1.0013101970960878,
+ "f0_err": 9.062118509433358e-05,
+ "u1": 0.34281472704,
+ "u2": 0.25574815144,
+ "ld_source": "claret2017_atlas (Teff 5519 K, logg 4.44)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.36770360916915046,
+ "free_a_rs": 12.63589919795355,
+ "free_b": 1.1999694349799868,
+ "free_chi2": 57083.55877620764,
+ "duration_days": 0.17510776894670077,
+ "duration_err": 0.12008121663619917,
+ "t23_days": 0.0,
+ "depth_ppt": 15.918930181978098,
+ "depth_err": 1.0873969207824055,
+ "depth_err_shape": 68.66111975642198,
+ "depth_mean_ppt": 8.936793783653306,
+ "rp_rearth": 39.339096297635756,
+ "rp_rearth_err": 767.1426922067201,
+ "rp_rjup": 3.509617059740275,
+ "rp_rjup_err": 68.44023714865044,
+ "rho_star_fit_cgs": 0.34359206872524584,
+ "rho_star_fit_err": 0.15461643092636063,
+ "rho_star_cat_cgs": 1.4492551899902089,
+ "rho_star_cat_err": 0.32494010910290505,
+ "rho_source": "tic_rho",
+ "a_rs_star": 20.416128822131128,
+ "a_rs_star_err": 1.5258456372952676,
+ "a_rs_ratio": 0.6189174896004872,
+ "density_ratio": 0.2370818273402679,
+ "density_sigma": 5.335651199387963,
+ "density_dchi2": 340.7914838741999,
+ "density_dchi2_eff": 13.631659354967997,
+ "beta_red_noise": 5.0,
+ "depth_err_white": 0.2174793841564811,
+ "a_rs_inconsistent": true,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 12.64 (b = 1.20) against 20.42 +/- 1.53 from the catalog density (0.344 vs 1.449 g/cc, ratio 0.24; profile delta chi2 340.8 with a/R* held in the catalog range, 13.6 after the red-noise beta = 5.00; tic_rho) FLAGGED: the transit shape needs a star far less dense than the catalog star; diluted eclipse, grazing stellar companion or blend.",
+ "grazing": true,
+ "rp_rs_constrained": false,
+ "n_points": 2532,
+ "n_in_transit": 744,
+ "n_transits": 92,
+ "chi2": 57083.55877620764,
+ "chi2_flat": 152230.69191816356,
+ "reduced_chi2": 22.59840014893414,
+ "delta_bic": 95107.94931803961,
+ "sigma_used": 0.0007678401019125362,
+ "exp_time_days": 0.020833333333939663,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 30.147626330366453,
+    "depth_err": 2.380272839412149
+   },
+   {
+    "index": 1,
+    "depth_ppt": 31.08514600344353,
+    "depth_err": 2.3288575701059244
+   },
+   {
+    "index": 2,
+    "depth_ppt": 19.408638813569034,
+    "depth_err": 6.023294213797285
+   },
+   {
+    "index": 3,
+    "depth_ppt": 24.765489993597686,
+    "depth_err": 2.4095170541493798
+   },
+   {
+    "index": 4,
+    "depth_ppt": 25.50977772376311,
+    "depth_err": 2.3311424444398683
+   },
+   {
+    "index": 5,
+    "depth_ppt": 12.285461247752034,
+    "depth_err": 2.464205190107209
+   },
+   {
+    "index": 6,
+    "depth_ppt": 13.824545406757373,
+    "depth_err": 2.4281847064113617
+   },
+   {
+    "index": 8,
+    "depth_ppt": 9.872575980527905,
+    "depth_err": 2.0697338207604448
+   },
+   {
+    "index": 9,
+    "depth_ppt": 7.982710337015811,
+    "depth_err": 1.9798033255016518
+   },
+   {
+    "index": 10,
+    "depth_ppt": 10.23856591621567,
+    "depth_err": 2.0671238964539023
+   },
+   {
+    "index": 11,
+    "depth_ppt": 11.376703060880049,
+    "depth_err": 2.067957660921377
+   },
+   {
+    "index": 13,
+    "depth_ppt": 9.263135831108208,
+    "depth_err": 2.453625946034661
+   },
+   {
+    "index": 14,
+    "depth_ppt": 9.580956257129314,
+    "depth_err": 2.446220730037442
+   },
+   {
+    "index": 15,
+    "depth_ppt": 9.303388585769175,
+    "depth_err": 2.68523986824459
+   },
+   {
+    "index": 16,
+    "depth_ppt": 9.858920506800255,
+    "depth_err": 2.7198783915518963
+   },
+   {
+    "index": 17,
+    "depth_ppt": 8.877603504689668,
+    "depth_err": 2.318281104835387
+   },
+   {
+    "index": 18,
+    "depth_ppt": 4.690567259353172,
+    "depth_err": 2.4496787152296324
+   },
+   {
+    "index": 19,
+    "depth_ppt": 5.595355254873217,
+    "depth_err": 2.1461768813940805
+   },
+   {
+    "index": 21,
+    "depth_ppt": 15.98604742468109,
+    "depth_err": 2.3263100962394034
+   },
+   {
+    "index": 22,
+    "depth_ppt": 16.149696773359707,
+    "depth_err": 2.332050542989181
+   },
+   {
+    "index": 26,
+    "depth_ppt": 8.463348745394638,
+    "depth_err": 2.6215860052569084
+   },
+   {
+    "index": 27,
+    "depth_ppt": 7.612932449635588,
+    "depth_err": 2.266488651123121
+   },
+   {
+    "index": 28,
+    "depth_ppt": 19.01883428642812,
+    "depth_err": 2.3944405863011595
+   },
+   {
+    "index": 29,
+    "depth_ppt": 19.94311648301259,
+    "depth_err": 2.297941976677709
+   },
+   {
+    "index": 30,
+    "depth_ppt": 15.334041820177518,
+    "depth_err": 2.3040574451685516
+   },
+   {
+    "index": 31,
+    "depth_ppt": 14.790587098629091,
+    "depth_err": 2.1481909192868938
+   },
+   {
+    "index": 32,
+    "depth_ppt": 17.147820485561795,
+    "depth_err": 2.1437775981005376
+   },
+   {
+    "index": 67,
+    "depth_ppt": 10.42484592323712,
+    "depth_err": 1.831265310153332
+   },
+   {
+    "index": 68,
+    "depth_ppt": 10.137674291916175,
+    "depth_err": 1.8258905981221374
+   },
+   {
+    "index": 69,
+    "depth_ppt": 10.328002868190055,
+    "depth_err": 1.7942585526490942
+   },
+   {
+    "index": 70,
+    "depth_ppt": 22.936667403523717,
+    "depth_err": 1.8389774888004529
+   },
+   {
+    "index": 71,
+    "depth_ppt": 22.872560470920586,
+    "depth_err": 1.8158489003812546
+   },
+   {
+    "index": 85,
+    "depth_ppt": 8.011163645591418,
+    "depth_err": 1.676751927946607
+   },
+   {
+    "index": 87,
+    "depth_ppt": 11.288102207017241,
+    "depth_err": 1.6885784118209166
+   },
+   {
+    "index": 88,
+    "depth_ppt": 17.795173664162306,
+    "depth_err": 1.7432291289966175
+   },
+   {
+    "index": 89,
+    "depth_ppt": 18.60223962705016,
+    "depth_err": 1.8272660520646635
+   },
+   {
+    "index": 91,
+    "depth_ppt": 7.270487296738512,
+    "depth_err": 1.6800656848944175
+   },
+   {
+    "index": 92,
+    "depth_ppt": 7.89942781125503,
+    "depth_err": 1.716501999411689
+   },
+   {
+    "index": 93,
+    "depth_ppt": 25.47086225514205,
+    "depth_err": 54.03225837243836
+   },
+   {
+    "index": 95,
+    "depth_ppt": 11.808549294035148,
+    "depth_err": 1.6791039135585357
+   },
+   {
+    "index": 96,
+    "depth_ppt": 14.388815485966822,
+    "depth_err": 1.900975445952008
+   },
+   {
+    "index": 97,
+    "depth_ppt": 15.390510172855683,
+    "depth_err": 2.007378850465909
+   },
+   {
+    "index": 98,
+    "depth_ppt": 9.084606588872168,
+    "depth_err": 1.9586852907789998
+   },
+   {
+    "index": 99,
+    "depth_ppt": 13.929781281892307,
+    "depth_err": 1.9484103218802409
+   },
+   {
+    "index": 100,
+    "depth_ppt": 11.6792859839698,
+    "depth_err": 3.101092765580907
+   },
+   {
+    "index": 103,
+    "depth_ppt": 27.304523220888516,
+    "depth_err": 2.0098253680544653
+   },
+   {
+    "index": 104,
+    "depth_ppt": 29.259142126293234,
+    "depth_err": 1.8070268321482001
+   },
+   {
+    "index": 105,
+    "depth_ppt": 23.48668673345369,
+    "depth_err": 1.700898523728751
+   },
+   {
+    "index": 106,
+    "depth_ppt": 12.072599316454191,
+    "depth_err": 1.8739489726371974
+   },
+   {
+    "index": 107,
+    "depth_ppt": 9.764553530255034,
+    "depth_err": 1.766953642409302
+   },
+   {
+    "index": 108,
+    "depth_ppt": 122.49746773602844,
+    "depth_err": 11.697744598460368
+   },
+   {
+    "index": 109,
+    "depth_ppt": 123.29045424696888,
+    "depth_err": 17.72834949320472
+   },
+   {
+    "index": 110,
+    "depth_ppt": 138.82209187178864,
+    "depth_err": 11.692700755820153
+   },
+   {
+    "index": 111,
+    "depth_ppt": 10.795401201451424,
+    "depth_err": 1.680210294105018
+   },
+   {
+    "index": 112,
+    "depth_ppt": 11.816554929101216,
+    "depth_err": 1.683212307774688
+   },
+   {
+    "index": 113,
+    "depth_ppt": 11.132925501608717,
+    "depth_err": 1.6977779559079929
+   },
+   {
+    "index": 114,
+    "depth_ppt": 10.711253914246171,
+    "depth_err": 1.7400761718190847
+   },
+   {
+    "index": 115,
+    "depth_ppt": 9.41551811188143,
+    "depth_err": 1.7409832335505278
+   },
+   {
+    "index": 117,
+    "depth_ppt": 12.946211498911621,
+    "depth_err": 1.7845382627781285
+   },
+   {
+    "index": 118,
+    "depth_ppt": 10.64280445276607,
+    "depth_err": 1.7859602034639568
+   },
+   {
+    "index": 119,
+    "depth_ppt": 25.494007924410887,
+    "depth_err": 1.8298934029470617
+   },
+   {
+    "index": 152,
+    "depth_ppt": 18.259640337144003,
+    "depth_err": 1.807015318920665
+   },
+   {
+    "index": 154,
+    "depth_ppt": 19.772983105542924,
+    "depth_err": 1.7383599205067
+   },
+   {
+    "index": 155,
+    "depth_ppt": 126.66556874361858,
+    "depth_err": 10.388662783640791
+   },
+   {
+    "index": 156,
+    "depth_ppt": 105.93294378317202,
+    "depth_err": 10.454967655989355
+   },
+   {
+    "index": 157,
+    "depth_ppt": 36.810075547524384,
+    "depth_err": 2.242074440179026
+   },
+   {
+    "index": 158,
+    "depth_ppt": 35.48777077836487,
+    "depth_err": 1.8959310404749914
+   },
+   {
+    "index": 159,
+    "depth_ppt": 34.769276373631435,
+    "depth_err": 1.8984100515625362
+   },
+   {
+    "index": 160,
+    "depth_ppt": 25.3500846668246,
+    "depth_err": 1.9650460218953838
+   },
+   {
+    "index": 161,
+    "depth_ppt": 26.74706104472654,
+    "depth_err": 2.141255458613848
+   },
+   {
+    "index": 162,
+    "depth_ppt": 22.686870181942915,
+    "depth_err": 1.785933808596878
+   },
+   {
+    "index": 163,
+    "depth_ppt": 14.88330996946965,
+    "depth_err": 1.823165175964023
+   },
+   {
+    "index": 164,
+    "depth_ppt": 21.60976887548746,
+    "depth_err": 1.9701469368826592
+   },
+   {
+    "index": 166,
+    "depth_ppt": 17.285090163343586,
+    "depth_err": 1.7812845299506788
+   },
+   {
+    "index": 167,
+    "depth_ppt": 18.732354975015053,
+    "depth_err": 1.8812810879394029
+   },
+   {
+    "index": 168,
+    "depth_ppt": 11.599686742104314,
+    "depth_err": 1.9352847657081245
+   },
+   {
+    "index": 169,
+    "depth_ppt": 12.454540870706953,
+    "depth_err": 1.8601124864197836
+   },
+   {
+    "index": 170,
+    "depth_ppt": 13.670264537869697,
+    "depth_err": 1.681917335699
+   },
+   {
+    "index": 172,
+    "depth_ppt": 11.67963131280718,
+    "depth_err": 1.8630720878868876
+   },
+   {
+    "index": 173,
+    "depth_ppt": 17.23853780094595,
+    "depth_err": 1.739479749488892
+   },
+   {
+    "index": 174,
+    "depth_ppt": 16.676009038638792,
+    "depth_err": 1.6819438017466921
+   },
+   {
+    "index": 175,
+    "depth_ppt": 14.812858756850444,
+    "depth_err": 3.88590735382146
+   },
+   {
+    "index": 177,
+    "depth_ppt": 25.77879685089307,
+    "depth_err": 1.7398273673883444
+   },
+   {
+    "index": 178,
+    "depth_ppt": 150.86956072853204,
+    "depth_err": 11.835896172864604
+   },
+   {
+    "index": 179,
+    "depth_ppt": 151.84301960737378,
+    "depth_err": 11.245220087502185
+   },
+   {
+    "index": 181,
+    "depth_ppt": 8.429667474634517,
+    "depth_err": 1.7190942907688633
+   },
+   {
+    "index": 182,
+    "depth_ppt": 8.879792578570056,
+    "depth_err": 1.6646633955981018
+   },
+   {
+    "index": 183,
+    "depth_ppt": 10.065262573121249,
+    "depth_err": 1.6999426378064613
+   },
+   {
+    "index": 184,
+    "depth_ppt": 10.026157040143767,
+    "depth_err": 1.8243255451508071
+   },
+   {
+    "index": 185,
+    "depth_ppt": 95.37405448032636,
+    "depth_err": 9.341953238413845
+   },
+   {
+    "index": 186,
+    "depth_ppt": 87.2133843209233,
+    "depth_err": 10.369566402554936
+   },
+   {
+    "index": 187,
+    "depth_ppt": 97.19920281807721,
+    "depth_err": 9.365661131934068
+   }
+  ],
+  "depth_odd_ppt": 15.762008385313228,
+  "depth_odd_err": 4.8153606059252185,
+  "depth_odd_err_white": 0.29852075131420913,
+  "n_odd": 48,
+  "depth_even_ppt": 16.095706813363414,
+  "depth_even_err": 5.325115817194479,
+  "depth_even_err_white": 0.31747850987729487,
+  "n_even": 44,
+  "delta_sigma": 0.0464796402902841,
+  "delta_fraction": 0.020949300724745462,
+  "significant": false,
+  "note": "odd 15.762 +/- 4.815 ppt (48 events), even 16.096 +/- 5.325 ppt (44 events), difference 0.0 sigma, 2% of the mean"
+ },
+ "notes": [
+  "Rp/R* is not constrained by the covariance (degenerate with b)"
+ ]
+}

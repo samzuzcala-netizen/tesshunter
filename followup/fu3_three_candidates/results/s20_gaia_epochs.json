@@ -1,0 +1,26 @@
+{
+ "270573718": {
+  "n_epochs": 36,
+  "btjd_range": [
+   -67.39420210104436,
+   874.9130712263286
+  ],
+  "window_epochs": [],
+  "n_window": 0,
+  "n_certain": 0
+ },
+ "193718989": {
+  "n_epochs": 46,
+  "btjd_range": [
+   -76.91852464713156,
+   875.2246542214416
+  ],
+  "window_epochs": [],
+  "n_window": 0,
+  "n_certain": 0
+ },
+ "262843927": {
+  "status": "NO_EPOCH_PHOTOMETRY",
+  "note": "Gaia DR3 has no epoch photometry for the target (only for a 54.8-arcsec AGN-class neighbour)."
+ }
+}

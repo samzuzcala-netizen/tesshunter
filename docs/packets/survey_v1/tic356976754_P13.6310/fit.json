@@ -1,0 +1,418 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`xtol` termination condition is satisfied.",
+ "period": 13.630890045176423,
+ "period_err": 2.327669823157763e-05,
+ "t0": 1689.123065035169,
+ "t0_err": 0.0019844926680303125,
+ "rp_rs": 0.11966078865083568,
+ "rp_rs_err": 0.4326864578490653,
+ "a_rs": 20.343131879967935,
+ "a_rs_err": 11.70471408361666,
+ "b": 1.019979229535887,
+ "b_err": 0.5755650267877253,
+ "inc_deg": 87.12605617109058,
+ "f0": 1.0001712659726447,
+ "f0_err": 4.7329930924492956e-05,
+ "u1": 0.28465670984832003,
+ "u2": 0.2857034172288,
+ "ld_source": "claret2017_atlas (Teff 5903 K, logg 4.48)",
+ "period_fitted": true,
+ "density_prior_adopted": true,
+ "free_rp_rs": 0.27611312668414467,
+ "free_a_rs": 18.856912130234047,
+ "free_b": 1.1999998660590954,
+ "free_chi2": 3338.671367958136,
+ "duration_days": 0.09863209816294165,
+ "duration_err": 0.05806099218158603,
+ "t23_days": 0.0,
+ "depth_ppt": 4.045915955810053,
+ "depth_err": 0.2868936084582476,
+ "depth_err_shape": 56.04328914721167,
+ "depth_mean_ppt": 2.3272584611881615,
+ "rp_rearth": 12.914824930674854,
+ "rp_rearth_err": 46.70248307335965,
+ "rp_rjup": 1.1521894035725355,
+ "rp_rjup_err": 4.166537789439387,
+ "rho_star_fit_cgs": 0.6826855879074782,
+ "rho_star_fit_err": 0.3072085145583652,
+ "rho_star_cat_cgs": 1.557134804315579,
+ "rho_star_cat_err": 0.30985782846970056,
+ "rho_source": "tic_rho",
+ "a_rs_star": 24.822131371051604,
+ "a_rs_star_err": 1.6464709634873946,
+ "a_rs_ratio": 0.7596814249490922,
+ "density_ratio": 0.43842420451679837,
+ "density_sigma": 3.3089337992337886,
+ "density_dchi2": 1.0248376781300976,
+ "density_dchi2_eff": 0.17447636689560686,
+ "beta_red_noise": 2.4235904762970173,
+ "depth_err_white": 0.11837544802395403,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 18.86 (b = 1.20) against 24.82 +/- 1.65 from the catalog density (0.683 vs 1.557 g/cc, ratio 0.44; profile delta chi2 1.0 with a/R* held in the catalog range, 0.2 after the red-noise beta = 2.42; tic_rho); catalog density adopted as a prior for the reported parameters",
+ "grazing": true,
+ "rp_rs_constrained": false,
+ "n_points": 1115,
+ "n_in_transit": 300,
+ "n_transits": 63,
+ "chi2": 3339.6962056362663,
+ "chi2_flat": 6118.558451393844,
+ "reduced_chi2": 3.011448336912774,
+ "delta_bic": 2743.779197338106,
+ "sigma_used": 0.0007716873538348254,
+ "exp_time_days": 0.020833333333939663,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 2.809656828507877,
+    "depth_err": 1.0927636621428072
+   },
+   {
+    "index": 1,
+    "depth_ppt": 2.385899525115111,
+    "depth_err": 1.0725976499430843
+   },
+   {
+    "index": 2,
+    "depth_ppt": 11.042906673293825,
+    "depth_err": 1.160398148242904
+   },
+   {
+    "index": 3,
+    "depth_ppt": 11.652349069917687,
+    "depth_err": 1.1564573506925178
+   },
+   {
+    "index": 6,
+    "depth_ppt": 2.8810490547708136,
+    "depth_err": 0.9470573272553509
+   },
+   {
+    "index": 7,
+    "depth_ppt": 1.7588546306489603,
+    "depth_err": 0.9497155562897744
+   },
+   {
+    "index": 8,
+    "depth_ppt": 4.308158067805733,
+    "depth_err": 1.0527668110762733
+   },
+   {
+    "index": 9,
+    "depth_ppt": 3.143007704450801,
+    "depth_err": 1.0591102667410257
+   },
+   {
+    "index": 10,
+    "depth_ppt": 4.539809839264504,
+    "depth_err": 1.0668921538413332
+   },
+   {
+    "index": 11,
+    "depth_ppt": 7.472674842075631,
+    "depth_err": 40.03191373954794
+   },
+   {
+    "index": 14,
+    "depth_ppt": 4.380597256350013,
+    "depth_err": 1.1932045727206935
+   },
+   {
+    "index": 15,
+    "depth_ppt": 3.8508561198809392,
+    "depth_err": 1.1926584887418032
+   },
+   {
+    "index": 16,
+    "depth_ppt": 5.042380379022874,
+    "depth_err": 1.943348562256858
+   },
+   {
+    "index": 17,
+    "depth_ppt": 3.5653746726551327,
+    "depth_err": 1.418172534250997
+   },
+   {
+    "index": 20,
+    "depth_ppt": 3.1631599237864307,
+    "depth_err": 1.0847239475685053
+   },
+   {
+    "index": 21,
+    "depth_ppt": 2.2557988078481586,
+    "depth_err": 1.0846680725831055
+   },
+   {
+    "index": 22,
+    "depth_ppt": 4.356417720454371,
+    "depth_err": 1.0296188582093957
+   },
+   {
+    "index": 23,
+    "depth_ppt": 2.7923378259466998,
+    "depth_err": 1.0233113847810882
+   },
+   {
+    "index": 24,
+    "depth_ppt": 0.6656810583601033,
+    "depth_err": 1.0747642125751384
+   },
+   {
+    "index": 25,
+    "depth_ppt": 2.7526869484278658,
+    "depth_err": 1.0772802979421676
+   },
+   {
+    "index": 52,
+    "depth_ppt": 4.657814162128398,
+    "depth_err": 0.9369230310433313
+   },
+   {
+    "index": 53,
+    "depth_ppt": -7.164904351131286,
+    "depth_err": 3734.8551763591895
+   },
+   {
+    "index": 54,
+    "depth_ppt": 7.482399476687044,
+    "depth_err": 0.8943741058068675
+   },
+   {
+    "index": 55,
+    "depth_ppt": 6.9524582558130374,
+    "depth_err": 0.8761324440407467
+   },
+   {
+    "index": 66,
+    "depth_ppt": 4.231924358208467,
+    "depth_err": 0.8391608693083674
+   },
+   {
+    "index": 67,
+    "depth_ppt": 3.743612823639679,
+    "depth_err": 0.840953335044089
+   },
+   {
+    "index": 68,
+    "depth_ppt": 4.058784938294348,
+    "depth_err": 0.775148157036724
+   },
+   {
+    "index": 69,
+    "depth_ppt": 2.4944862974744866,
+    "depth_err": 0.7760153114059524
+   },
+   {
+    "index": 70,
+    "depth_ppt": 1.8985432307131171,
+    "depth_err": 0.8180581160578558
+   },
+   {
+    "index": 71,
+    "depth_ppt": 6.485492245166982,
+    "depth_err": 0.8360245254750424
+   },
+   {
+    "index": 74,
+    "depth_ppt": 3.0032974402420547,
+    "depth_err": 0.8573151141361788
+   },
+   {
+    "index": 75,
+    "depth_ppt": 2.3259563564201504,
+    "depth_err": 0.8326607281378579
+   },
+   {
+    "index": 76,
+    "depth_ppt": 2.205357850462443,
+    "depth_err": 0.9408486245039847
+   },
+   {
+    "index": 77,
+    "depth_ppt": 130.6748214400447,
+    "depth_err": 213.0987764079837
+   },
+   {
+    "index": 78,
+    "depth_ppt": 1.8535271713033883,
+    "depth_err": 0.9158065466086
+   },
+   {
+    "index": 79,
+    "depth_ppt": 3.60654208350673,
+    "depth_err": 0.9076991926981106
+   },
+   {
+    "index": 80,
+    "depth_ppt": 0.527578911316417,
+    "depth_err": 0.8687501497339676
+   },
+   {
+    "index": 81,
+    "depth_ppt": 0.3936775221083452,
+    "depth_err": 0.8581502051876725
+   },
+   {
+    "index": 82,
+    "depth_ppt": 4.17384927006009,
+    "depth_err": 0.9163592048023579
+   },
+   {
+    "index": 83,
+    "depth_ppt": 2.8134469715750177,
+    "depth_err": 0.8595438085886441
+   },
+   {
+    "index": 84,
+    "depth_ppt": 2.292557365100273,
+    "depth_err": 0.8149258820416536
+   },
+   {
+    "index": 85,
+    "depth_ppt": 2.172343154706601,
+    "depth_err": 0.8011210201406442
+   },
+   {
+    "index": 86,
+    "depth_ppt": 4.145938398760381,
+    "depth_err": 0.7769542848647472
+   },
+   {
+    "index": 87,
+    "depth_ppt": 4.347257813590916,
+    "depth_err": 0.7796936454878379
+   },
+   {
+    "index": 88,
+    "depth_ppt": 1.8911924989407851,
+    "depth_err": 0.7554518905054174
+   },
+   {
+    "index": 89,
+    "depth_ppt": 2.7946496509483385,
+    "depth_err": 0.7590033166837735
+   },
+   {
+    "index": 90,
+    "depth_ppt": 7.023769247842608,
+    "depth_err": 1.0268261376112344
+   },
+   {
+    "index": 91,
+    "depth_ppt": 7.6034010496231055,
+    "depth_err": 1.0267224680920368
+   },
+   {
+    "index": 92,
+    "depth_ppt": 0.5114212137141443,
+    "depth_err": 0.8319733129781639
+   },
+   {
+    "index": 93,
+    "depth_ppt": 5.8683373119120334,
+    "depth_err": 0.8363615999323727
+   },
+   {
+    "index": 118,
+    "depth_ppt": 8.90279421731491,
+    "depth_err": 1.0992558668731256
+   },
+   {
+    "index": 119,
+    "depth_ppt": 9.525857307297212,
+    "depth_err": 1.0991960409490422
+   },
+   {
+    "index": 120,
+    "depth_ppt": 1.0181018334443994,
+    "depth_err": 0.7631428855160683
+   },
+   {
+    "index": 121,
+    "depth_ppt": 1.5219423593133423,
+    "depth_err": 0.765226482491085
+   },
+   {
+    "index": 122,
+    "depth_ppt": 8.912895304096796,
+    "depth_err": 1.1673508744271974
+   },
+   {
+    "index": 123,
+    "depth_ppt": 10.30294248445732,
+    "depth_err": 1.167136526241044
+   },
+   {
+    "index": 124,
+    "depth_ppt": 4.312913631405206,
+    "depth_err": 0.8336038982197691
+   },
+   {
+    "index": 125,
+    "depth_ppt": 4.844232148250368,
+    "depth_err": 0.8317848910045695
+   },
+   {
+    "index": 132,
+    "depth_ppt": 9.419397484150515,
+    "depth_err": 1.2820729481584086
+   },
+   {
+    "index": 133,
+    "depth_ppt": 9.436290760151648,
+    "depth_err": 1.2820099970375223
+   },
+   {
+    "index": 134,
+    "depth_ppt": 7.800627178261161,
+    "depth_err": 1.0258872109408392
+   },
+   {
+    "index": 135,
+    "depth_ppt": 9.677132470615707,
+    "depth_err": 1.025884883979981
+   },
+   {
+    "index": 136,
+    "depth_ppt": -0.7565880414252434,
+    "depth_err": 0.7656626022555039
+   },
+   {
+    "index": 138,
+    "depth_ppt": 8.101884532959673,
+    "depth_err": 1.0804037069708832
+   },
+   {
+    "index": 139,
+    "depth_ppt": 8.902517543235005,
+    "depth_err": 1.0802308853751224
+   },
+   {
+    "index": 143,
+    "depth_ppt": 3.839073383798919,
+    "depth_err": 1.090268423923577
+   }
+  ],
+  "depth_odd_ppt": 4.378960399417738,
+  "depth_odd_err": 3.875122105174063,
+  "depth_odd_err_white": 0.17162727385368767,
+  "n_odd": 33,
+  "depth_even_ppt": 3.7374900114412943,
+  "depth_even_err": 0.5061404387804651,
+  "depth_even_err_white": 0.1634856549120819,
+  "n_even": 33,
+  "delta_sigma": 0.16414134924763385,
+  "delta_fraction": 0.15806673003711524,
+  "significant": false,
+  "note": "odd 4.379 +/- 3.875 ppt (33 events), even 3.737 +/- 0.506 ppt (33 events), difference 0.2 sigma, 16% of the mean"
+ },
+ "notes": [
+  "Rp/R* is not constrained by the covariance (degenerate with b)"
+ ]
+}

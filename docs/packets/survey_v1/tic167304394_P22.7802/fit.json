@@ -1,0 +1,248 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`xtol` termination condition is satisfied.",
+ "period": 22.77977057431056,
+ "period_err": 3.846885750565677e-06,
+ "t0": 1326.3696707946863,
+ "t0_err": 0.0002260697921337553,
+ "rp_rs": 0.4584941226698292,
+ "rp_rs_err": 4.770225937704491,
+ "a_rs": 45.161904156049935,
+ "a_rs_err": 28.317997480383355,
+ "b": 1.0992428615436571,
+ "b_err": 5.820282832975595,
+ "inc_deg": 88.6052803069308,
+ "f0": 1.0001280055569803,
+ "f0_err": 6.257723298990658e-05,
+ "u1": 0.38337307600000003,
+ "u2": 0.23258594,
+ "ld_source": "claret2017_atlas (Teff 5284 K, logg 4.50)",
+ "period_fitted": true,
+ "density_prior_adopted": true,
+ "free_rp_rs": 0.4587977169797405,
+ "free_a_rs": 45.16371136475389,
+ "free_b": 1.0996131000943672,
+ "free_chi2": 4158.029113027433,
+ "duration_days": 0.15396274275020083,
+ "duration_err": 0.08546371095397087,
+ "t23_days": 0.0,
+ "depth_ppt": 59.03433271635705,
+ "depth_err": 0.5327650653128044,
+ "depth_err_shape": 109.75851480653122,
+ "depth_mean_ppt": 32.497759377304604,
+ "rp_rearth": 41.92407395947928,
+ "rp_rearth_err": 436.3048512312176,
+ "rp_rjup": 3.7402345002735697,
+ "rp_rjup_err": 38.92471086633862,
+ "rho_star_fit_cgs": 3.358362858588014,
+ "rho_star_fit_err": 1.5112632863646063,
+ "rho_star_cat_cgs": 2.0061500789683353,
+ "rho_star_cat_err": 1.598314790828918,
+ "rho_source": "mass_from_radius+assumed_err",
+ "a_rs_star": 38.03658838851198,
+ "a_rs_star_err": 10.10134493448828,
+ "a_rs_ratio": 1.187375452904564,
+ "density_ratio": 1.6740337095393458,
+ "density_sigma": 0.6355406969915114,
+ "density_dchi2": 1.6190680071304087e-05,
+ "density_dchi2_eff": 1.5960835464773756e-06,
+ "beta_red_noise": 3.1849655214853674,
+ "depth_err_white": 0.167274986720842,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "high",
+ "consistency_note": "free-fit a/R* = 45.16 (b = 1.10) against 38.04 +/- 10.10 from the catalog density (3.358 vs 2.006 g/cc, ratio 1.67; profile delta chi2 0.0 with a/R* held in the catalog range, 0.0 after the red-noise beta = 3.18; mass_from_radius+assumed_err); catalog density adopted as a prior for the reported parameters",
+ "grazing": true,
+ "rp_rs_constrained": false,
+ "n_points": 916,
+ "n_in_transit": 230,
+ "n_transits": 32,
+ "chi2": 4158.029129218113,
+ "chi2_flat": 466913.7953854705,
+ "reduced_chi2": 4.569262779360564,
+ "delta_bic": 462721.666174429,
+ "sigma_used": 0.0007540490985331648,
+ "exp_time_days": 0.020833333333484916,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 58.08774710476374,
+    "depth_err": 0.9877635725661781
+   },
+   {
+    "index": 2,
+    "depth_ppt": 59.82204681300839,
+    "depth_err": 0.8836101299634553
+   },
+   {
+    "index": 5,
+    "depth_ppt": 59.56856107436172,
+    "depth_err": 0.8862972477454306
+   },
+   {
+    "index": 6,
+    "depth_ppt": 59.95988020350705,
+    "depth_err": 0.8869114692806092
+   },
+   {
+    "index": 7,
+    "depth_ppt": 59.70227294842291,
+    "depth_err": 0.8942536983835917
+   },
+   {
+    "index": 8,
+    "depth_ppt": 62.64120113791224,
+    "depth_err": 0.9587159231851807
+   },
+   {
+    "index": 10,
+    "depth_ppt": 59.405722179121724,
+    "depth_err": 1.0703094108711948
+   },
+   {
+    "index": 12,
+    "depth_ppt": 54.79690490769366,
+    "depth_err": 0.9720592210854221
+   },
+   {
+    "index": 13,
+    "depth_ppt": 59.189842246408865,
+    "depth_err": 0.9720078120483568
+   },
+   {
+    "index": 14,
+    "depth_ppt": 58.47381166520455,
+    "depth_err": 1.0009599636515187
+   },
+   {
+    "index": 32,
+    "depth_ppt": 59.495133024023296,
+    "depth_err": 1.0450810868164273
+   },
+   {
+    "index": 33,
+    "depth_ppt": 59.202827964806346,
+    "depth_err": 0.9627837891862133
+   },
+   {
+    "index": 36,
+    "depth_ppt": 59.21582262517256,
+    "depth_err": 0.9225254848891444
+   },
+   {
+    "index": 37,
+    "depth_ppt": 60.771310784122704,
+    "depth_err": 0.9757138557168211
+   },
+   {
+    "index": 38,
+    "depth_ppt": 60.01790804968882,
+    "depth_err": 0.978398674805818
+   },
+   {
+    "index": 40,
+    "depth_ppt": 59.04755326109674,
+    "depth_err": 0.9620356158557316
+   },
+   {
+    "index": 41,
+    "depth_ppt": 59.13179083674524,
+    "depth_err": 0.9407475479630931
+   },
+   {
+    "index": 42,
+    "depth_ppt": 59.330570233729254,
+    "depth_err": 0.8877710673929856
+   },
+   {
+    "index": 44,
+    "depth_ppt": 59.889558408133496,
+    "depth_err": 0.8944457485568394
+   },
+   {
+    "index": 45,
+    "depth_ppt": 60.07908665581855,
+    "depth_err": 0.942334292392461
+   },
+   {
+    "index": 72,
+    "depth_ppt": 59.27043822859439,
+    "depth_err": 0.912845807133406
+   },
+   {
+    "index": 73,
+    "depth_ppt": 59.41937434012445,
+    "depth_err": 0.9171590427518906
+   },
+   {
+    "index": 74,
+    "depth_ppt": 58.926767119637795,
+    "depth_err": 0.9174943441114392
+   },
+   {
+    "index": 76,
+    "depth_ppt": 60.18030518992429,
+    "depth_err": 0.9114225151979855
+   },
+   {
+    "index": 77,
+    "depth_ppt": 62.61492912508664,
+    "depth_err": 0.9538183228629166
+   },
+   {
+    "index": 78,
+    "depth_ppt": 59.546017194163696,
+    "depth_err": 1.0113072493754751
+   },
+   {
+    "index": 80,
+    "depth_ppt": 58.93361448305147,
+    "depth_err": 0.8974294473448221
+   },
+   {
+    "index": 103,
+    "depth_ppt": 59.295784400902726,
+    "depth_err": 1.0259196620701683
+   },
+   {
+    "index": 104,
+    "depth_ppt": 57.98064999913998,
+    "depth_err": 0.9528687545889665
+   },
+   {
+    "index": 105,
+    "depth_ppt": 43.76249485946622,
+    "depth_err": 1.1148472553615283
+   },
+   {
+    "index": 106,
+    "depth_ppt": 58.18375006006012,
+    "depth_err": 0.9001642616200077
+   },
+   {
+    "index": 110,
+    "depth_ppt": 58.56148555435564,
+    "depth_err": 0.8932764737759579
+   }
+  ],
+  "depth_odd_ppt": 58.81179438096179,
+  "depth_odd_err": 1.498972779365488,
+  "depth_odd_err_white": 0.2885561717578871,
+  "n_odd": 11,
+  "depth_even_ppt": 59.14597350030347,
+  "depth_even_err": 0.30602341933452765,
+  "depth_even_err_white": 0.20528756891992325,
+  "n_even": 21,
+  "delta_sigma": 0.21843313478043339,
+  "delta_fraction": 0.0056660807565985325,
+  "significant": false,
+  "note": "odd 58.812 +/- 1.499 ppt (11 events), even 59.146 +/- 0.306 ppt (21 events), difference 0.2 sigma, 1% of the mean"
+ },
+ "notes": [
+  "Rp/R* is not constrained by the covariance (degenerate with b)"
+ ]
+}

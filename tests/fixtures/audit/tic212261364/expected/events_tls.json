@@ -1,0 +1,2501 @@
+{
+ "tic_id": 212261364,
+ "survey_period": 8.953782,
+ "generated_utc": "2026-09-03T15:10:08Z",
+ "summary": {
+  "ephemeris": {
+   "period": 9.067340737805797,
+   "t0": 1330.4691256129393,
+   "duration": 0.10041494251232544,
+   "source": "tls_forced",
+   "ref_depth_ppt": 7.376032266392496
+  },
+  "n_predicted_in_span": 285,
+  "n_observed": 13,
+  "n_excluded": 4,
+  "n_kept": 9,
+  "exclusion_reasons": {
+   "momentum": 1,
+   "sector/orbit": 0,
+   "quality-flagged": 3,
+   "SAP": 1,
+   "scattered-light": 2,
+   "manual-exclude": 0
+  },
+  "sap_all": {
+   "n": 13,
+   "weighted_mean_depth_ppt": 1.53,
+   "err_ppt": 0.12,
+   "snr": 12.8,
+   "chi2_const": 7456.7,
+   "dof": 12,
+   "p_const": 0.0,
+   "top_event_n": 283,
+   "top_event_share_of_snr2": 0.99,
+   "snr_without_top_event": 0.44,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 8,
+   "odd_even": {
+    "odd_ppt": 4.235,
+    "odd_err": 0.202,
+    "even_ppt": 0.078,
+    "even_err": 0.148,
+    "sigma": 16.57
+   }
+  },
+  "sap_kept": {
+   "n": 9,
+   "weighted_mean_depth_ppt": -0.054,
+   "err_ppt": 0.123,
+   "snr": -0.44,
+   "chi2_const": 10.0,
+   "dof": 8,
+   "p_const": 0.26387701849674605,
+   "top_event_n": 200,
+   "top_event_share_of_snr2": 0.89,
+   "snr_without_top_event": -1.34,
+   "n_events_depth_above_2sigma": 1,
+   "n_events_negative": 6,
+   "odd_even": {
+    "odd_ppt": 0.004,
+    "odd_err": 0.208,
+    "even_ppt": -0.086,
+    "even_err": 0.153,
+    "sigma": 0.35
+   }
+  },
+  "det_all": {
+   "n": 11,
+   "weighted_mean_depth_ppt": 0.527,
+   "err_ppt": 0.126,
+   "snr": 4.19,
+   "chi2_const": 755.5,
+   "dof": 10,
+   "p_const": 7.707107801517317e-156,
+   "top_event_n": 283,
+   "top_event_share_of_snr2": 0.95,
+   "snr_without_top_event": 0.7,
+   "n_events_depth_above_2sigma": 2,
+   "n_events_negative": 6,
+   "odd_even": {
+    "odd_ppt": 1.204,
+    "odd_err": 0.205,
+    "even_ppt": 0.122,
+    "even_err": 0.159,
+    "sigma": 4.17
+   }
+  },
+  "det_kept": {
+   "n": 9,
+   "weighted_mean_depth_ppt": -0.018,
+   "err_ppt": 0.128,
+   "snr": -0.14,
+   "chi2_const": 7.2,
+   "dof": 8,
+   "p_const": 0.5137339746139717,
+   "top_event_n": 200,
+   "top_event_share_of_snr2": 0.82,
+   "snr_without_top_event": -0.88,
+   "n_events_depth_above_2sigma": 0,
+   "n_events_negative": 6,
+   "odd_even": {
+    "odd_ppt": 0.03,
+    "odd_err": 0.21,
+    "even_ppt": -0.047,
+    "even_err": 0.161,
+    "sigma": 0.29
+   }
+  },
+  "flags": [
+   "SNR of kept events (detrended) < 7",
+   "one event carries > 50% of the signal",
+   "SNR < 7 without the strongest event"
+  ]
+ },
+ "events": [
+  {
+   "n": 0,
+   "tc_btjd": 1330.4691,
+   "tc_bjd": 2458330.4691,
+   "sector": 1,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 5,
+   "n_out": 41,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": true,
+   "manual_exclude_within_one_duration": true,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 5.14,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 4.515,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": 6.8,
+   "sap_depth_err_ppt": 0.924,
+   "sap_point_scatter_ppt": 2.066,
+   "baseline_change_across_event_over_depth": 0.04,
+   "baseline_change_across_window_ppt": 3.02,
+   "bkg_in_over_sector_median": 1.15,
+   "bkg_change_across_window_over_median": 0.02,
+   "bkg_change_within_one_duration_ppt_of_flux": 43.29,
+   "det_depth_ppt": 4.918,
+   "det_depth_err_ppt": 0.86,
+   "det_n_in": 5,
+   "excluded": true,
+   "exclusion_reasons": [
+    "momentum dump within one duration"
+   ]
+  },
+  {
+   "n": 1,
+   "tc_btjd": 1339.5365,
+   "tc_bjd": 2458339.5365,
+   "sector": 1,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 0.0,
+   "n_in": 0,
+   "n_out": 17,
+   "observed": false,
+   "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+  },
+  {
+   "n": 2,
+   "tc_btjd": 1348.6038,
+   "tc_bjd": 2458348.6038,
+   "sector": 1,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 5,
+   "n_out": 42,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.8,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": true,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 4.558,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 4.267,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.134,
+   "sap_depth_err_ppt": 1.304,
+   "sap_point_scatter_ppt": 2.917,
+   "baseline_change_across_event_over_depth": 0.0,
+   "baseline_change_across_window_ppt": 0.01,
+   "bkg_in_over_sector_median": 0.97,
+   "bkg_change_across_window_over_median": 0.05,
+   "bkg_change_within_one_duration_ppt_of_flux": 7.54,
+   "det_depth_ppt": null,
+   "det_depth_err_ppt": null,
+   "det_n_in": 1,
+   "excluded": true,
+   "exclusion_reasons": [
+    "80% of in-transit cadences quality-flagged"
+   ]
+  },
+  {
+   "n": 3,
+   "tc_btjd": 1357.6711,
+   "tc_bjd": 2458357.6711,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 4,
+   "tc_btjd": 1366.7385,
+   "tc_bjd": 2458366.7385,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 5,
+   "tc_btjd": 1375.8058,
+   "tc_bjd": 2458375.8058,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 6,
+   "tc_btjd": 1384.8732,
+   "tc_bjd": 2458384.8732,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 7,
+   "tc_btjd": 1393.9405,
+   "tc_bjd": 2458393.9405,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 8,
+   "tc_btjd": 1403.0079,
+   "tc_bjd": 2458403.0079,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 9,
+   "tc_btjd": 1412.0752,
+   "tc_bjd": 2458412.0752,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 10,
+   "tc_btjd": 1421.1425,
+   "tc_bjd": 2458421.1425,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 11,
+   "tc_btjd": 1430.2099,
+   "tc_bjd": 2458430.2099,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 12,
+   "tc_btjd": 1439.2772,
+   "tc_bjd": 2458439.2772,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 13,
+   "tc_btjd": 1448.3446,
+   "tc_bjd": 2458448.3446,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 14,
+   "tc_btjd": 1457.4119,
+   "tc_bjd": 2458457.4119,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 15,
+   "tc_btjd": 1466.4792,
+   "tc_bjd": 2458466.4792,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 16,
+   "tc_btjd": 1475.5466,
+   "tc_bjd": 2458475.5466,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 17,
+   "tc_btjd": 1484.6139,
+   "tc_bjd": 2458484.6139,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 18,
+   "tc_btjd": 1493.6813,
+   "tc_bjd": 2458493.6813,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 19,
+   "tc_btjd": 1502.7486,
+   "tc_bjd": 2458502.7486,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 20,
+   "tc_btjd": 1511.8159,
+   "tc_bjd": 2458511.8159,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 21,
+   "tc_btjd": 1520.8833,
+   "tc_bjd": 2458520.8833,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 22,
+   "tc_btjd": 1529.9506,
+   "tc_bjd": 2458529.9506,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 23,
+   "tc_btjd": 1539.018,
+   "tc_bjd": 2458539.018,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 24,
+   "tc_btjd": 1548.0853,
+   "tc_bjd": 2458548.0853,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 25,
+   "tc_btjd": 1557.1526,
+   "tc_bjd": 2458557.1526,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 26,
+   "tc_btjd": 1566.22,
+   "tc_bjd": 2458566.22,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 27,
+   "tc_btjd": 1575.2873,
+   "tc_bjd": 2458575.2873,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 28,
+   "tc_btjd": 1584.3547,
+   "tc_bjd": 2458584.3547,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 29,
+   "tc_btjd": 1593.422,
+   "tc_bjd": 2458593.422,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 30,
+   "tc_btjd": 1602.4893,
+   "tc_bjd": 2458602.4893,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 31,
+   "tc_btjd": 1611.5567,
+   "tc_bjd": 2458611.5567,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 32,
+   "tc_btjd": 1620.624,
+   "tc_bjd": 2458620.624,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 33,
+   "tc_btjd": 1629.6914,
+   "tc_bjd": 2458629.6914,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 34,
+   "tc_btjd": 1638.7587,
+   "tc_bjd": 2458638.7587,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 35,
+   "tc_btjd": 1647.8261,
+   "tc_bjd": 2458647.8261,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 36,
+   "tc_btjd": 1656.8934,
+   "tc_bjd": 2458656.8934,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 37,
+   "tc_btjd": 1665.9607,
+   "tc_bjd": 2458665.9607,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 38,
+   "tc_btjd": 1675.0281,
+   "tc_bjd": 2458675.0281,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 39,
+   "tc_btjd": 1684.0954,
+   "tc_bjd": 2458684.0954,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 40,
+   "tc_btjd": 1693.1628,
+   "tc_bjd": 2458693.1628,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 41,
+   "tc_btjd": 1702.2301,
+   "tc_bjd": 2458702.2301,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 42,
+   "tc_btjd": 1711.2974,
+   "tc_bjd": 2458711.2974,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 43,
+   "tc_btjd": 1720.3648,
+   "tc_bjd": 2458720.3648,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 44,
+   "tc_btjd": 1729.4321,
+   "tc_bjd": 2458729.4321,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 45,
+   "tc_btjd": 1738.4995,
+   "tc_bjd": 2458738.4995,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 46,
+   "tc_btjd": 1747.5668,
+   "tc_bjd": 2458747.5668,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 47,
+   "tc_btjd": 1756.6341,
+   "tc_bjd": 2458756.6341,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 48,
+   "tc_btjd": 1765.7015,
+   "tc_bjd": 2458765.7015,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 49,
+   "tc_btjd": 1774.7688,
+   "tc_bjd": 2458774.7688,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 50,
+   "tc_btjd": 1783.8362,
+   "tc_bjd": 2458783.8362,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 51,
+   "tc_btjd": 1792.9035,
+   "tc_bjd": 2458792.9035,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 52,
+   "tc_btjd": 1801.9708,
+   "tc_bjd": 2458801.9708,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 53,
+   "tc_btjd": 1811.0382,
+   "tc_bjd": 2458811.0382,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 54,
+   "tc_btjd": 1820.1055,
+   "tc_bjd": 2458820.1055,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 55,
+   "tc_btjd": 1829.1729,
+   "tc_bjd": 2458829.1729,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 56,
+   "tc_btjd": 1838.2402,
+   "tc_bjd": 2458838.2402,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 57,
+   "tc_btjd": 1847.3075,
+   "tc_bjd": 2458847.3075,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 58,
+   "tc_btjd": 1856.3749,
+   "tc_bjd": 2458856.3749,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 59,
+   "tc_btjd": 1865.4422,
+   "tc_bjd": 2458865.4422,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 60,
+   "tc_btjd": 1874.5096,
+   "tc_bjd": 2458874.5096,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 61,
+   "tc_btjd": 1883.5769,
+   "tc_bjd": 2458883.5769,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 62,
+   "tc_btjd": 1892.6443,
+   "tc_bjd": 2458892.6443,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 63,
+   "tc_btjd": 1901.7116,
+   "tc_bjd": 2458901.7116,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 64,
+   "tc_btjd": 1910.7789,
+   "tc_bjd": 2458910.7789,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 65,
+   "tc_btjd": 1919.8463,
+   "tc_bjd": 2458919.8463,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 66,
+   "tc_btjd": 1928.9136,
+   "tc_bjd": 2458928.9136,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 67,
+   "tc_btjd": 1937.981,
+   "tc_bjd": 2458937.981,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 68,
+   "tc_btjd": 1947.0483,
+   "tc_bjd": 2458947.0483,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 69,
+   "tc_btjd": 1956.1156,
+   "tc_bjd": 2458956.1156,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 70,
+   "tc_btjd": 1965.183,
+   "tc_bjd": 2458965.183,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 71,
+   "tc_btjd": 1974.2503,
+   "tc_bjd": 2458974.2503,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 72,
+   "tc_btjd": 1983.3177,
+   "tc_bjd": 2458983.3177,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 73,
+   "tc_btjd": 1992.385,
+   "tc_bjd": 2458992.385,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 74,
+   "tc_btjd": 2001.4523,
+   "tc_bjd": 2459001.4523,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 75,
+   "tc_btjd": 2010.5197,
+   "tc_bjd": 2459010.5197,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 76,
+   "tc_btjd": 2019.587,
+   "tc_bjd": 2459019.587,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 77,
+   "tc_btjd": 2028.6544,
+   "tc_bjd": 2459028.6544,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 78,
+   "tc_btjd": 2037.7217,
+   "tc_bjd": 2459037.7217,
+   "sector": 27,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 14,
+   "n_out": 125,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 1.435,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 1.428,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.429,
+   "sap_depth_err_ppt": 0.376,
+   "sap_point_scatter_ppt": 1.408,
+   "baseline_change_across_event_over_depth": 0.01,
+   "baseline_change_across_window_ppt": 0.72,
+   "bkg_in_over_sector_median": 0.87,
+   "bkg_change_across_window_over_median": 0.02,
+   "bkg_change_within_one_duration_ppt_of_flux": 3.53,
+   "det_depth_ppt": -0.077,
+   "det_depth_err_ppt": 0.427,
+   "det_n_in": 14,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 79,
+   "tc_btjd": 2046.789,
+   "tc_bjd": 2459046.789,
+   "sector": 27,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 14,
+   "n_out": 125,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 1.338,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 1.338,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": 0.288,
+   "sap_depth_err_ppt": 0.419,
+   "sap_point_scatter_ppt": 1.569,
+   "baseline_change_across_event_over_depth": 0.02,
+   "baseline_change_across_window_ppt": 1.63,
+   "bkg_in_over_sector_median": 1.77,
+   "bkg_change_across_window_over_median": 0.18,
+   "bkg_change_within_one_duration_ppt_of_flux": 193.41,
+   "det_depth_ppt": 0.299,
+   "det_depth_err_ppt": 0.452,
+   "det_n_in": 14,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 80,
+   "tc_btjd": 2055.8564,
+   "tc_bjd": 2459055.8564,
+   "sector": 27,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 15,
+   "n_out": 125,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 4.785,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 4.785,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.413,
+   "sap_depth_err_ppt": 0.349,
+   "sap_point_scatter_ppt": 1.353,
+   "baseline_change_across_event_over_depth": 0.0,
+   "baseline_change_across_window_ppt": 0.23,
+   "bkg_in_over_sector_median": 1.12,
+   "bkg_change_across_window_over_median": 0.12,
+   "bkg_change_within_one_duration_ppt_of_flux": 28.81,
+   "det_depth_ppt": -0.301,
+   "det_depth_err_ppt": 0.365,
+   "det_n_in": 15,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 81,
+   "tc_btjd": 2064.9237,
+   "tc_bjd": 2459064.9237,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 82,
+   "tc_btjd": 2073.9911,
+   "tc_bjd": 2459073.9911,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 83,
+   "tc_btjd": 2083.0584,
+   "tc_bjd": 2459083.0584,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 84,
+   "tc_btjd": 2092.1257,
+   "tc_bjd": 2459092.1257,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 85,
+   "tc_btjd": 2101.1931,
+   "tc_bjd": 2459101.1931,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 86,
+   "tc_btjd": 2110.2604,
+   "tc_bjd": 2459110.2604,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 87,
+   "tc_btjd": 2119.3278,
+   "tc_bjd": 2459119.3278,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 88,
+   "tc_btjd": 2128.3951,
+   "tc_bjd": 2459128.3951,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 89,
+   "tc_btjd": 2137.4625,
+   "tc_bjd": 2459137.4625,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 90,
+   "tc_btjd": 2146.5298,
+   "tc_bjd": 2459146.5298,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 91,
+   "tc_btjd": 2155.5971,
+   "tc_bjd": 2459155.5971,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 92,
+   "tc_btjd": 2164.6645,
+   "tc_bjd": 2459164.6645,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 93,
+   "tc_btjd": 2173.7318,
+   "tc_bjd": 2459173.7318,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 94,
+   "tc_btjd": 2182.7992,
+   "tc_bjd": 2459182.7992,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 95,
+   "tc_btjd": 2191.8665,
+   "tc_bjd": 2459191.8665,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 96,
+   "tc_btjd": 2200.9338,
+   "tc_bjd": 2459200.9338,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 97,
+   "tc_btjd": 2210.0012,
+   "tc_bjd": 2459210.0012,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 98,
+   "tc_btjd": 2219.0685,
+   "tc_bjd": 2459219.0685,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 99,
+   "tc_btjd": 2228.1359,
+   "tc_bjd": 2459228.1359,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 100,
+   "tc_btjd": 2237.2032,
+   "tc_bjd": 2459237.2032,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 101,
+   "tc_btjd": 2246.2705,
+   "tc_bjd": 2459246.2705,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 102,
+   "tc_btjd": 2255.3379,
+   "tc_bjd": 2459255.3379,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 103,
+   "tc_btjd": 2264.4052,
+   "tc_bjd": 2459264.4052,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 104,
+   "tc_btjd": 2273.4726,
+   "tc_bjd": 2459273.4726,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 105,
+   "tc_btjd": 2282.5399,
+   "tc_bjd": 2459282.5399,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 106,
+   "tc_btjd": 2291.6072,
+   "tc_bjd": 2459291.6072,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 107,
+   "tc_btjd": 2300.6746,
+   "tc_bjd": 2459300.6746,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 108,
+   "tc_btjd": 2309.7419,
+   "tc_bjd": 2459309.7419,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 109,
+   "tc_btjd": 2318.8093,
+   "tc_bjd": 2459318.8093,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 110,
+   "tc_btjd": 2327.8766,
+   "tc_bjd": 2459327.8766,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 111,
+   "tc_btjd": 2336.9439,
+   "tc_bjd": 2459336.9439,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 112,
+   "tc_btjd": 2346.0113,
+   "tc_bjd": 2459346.0113,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 113,
+   "tc_btjd": 2355.0786,
+   "tc_bjd": 2459355.0786,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 114,
+   "tc_btjd": 2364.146,
+   "tc_bjd": 2459364.146,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 115,
+   "tc_btjd": 2373.2133,
+   "tc_bjd": 2459373.2133,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 116,
+   "tc_btjd": 2382.2807,
+   "tc_bjd": 2459382.2807,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 117,
+   "tc_btjd": 2391.348,
+   "tc_bjd": 2459391.348,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 118,
+   "tc_btjd": 2400.4153,
+   "tc_bjd": 2459400.4153,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 119,
+   "tc_btjd": 2409.4827,
+   "tc_bjd": 2459409.4827,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 120,
+   "tc_btjd": 2418.55,
+   "tc_bjd": 2459418.55,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 121,
+   "tc_btjd": 2427.6174,
+   "tc_bjd": 2459427.6174,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 122,
+   "tc_btjd": 2436.6847,
+   "tc_bjd": 2459436.6847,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 123,
+   "tc_btjd": 2445.752,
+   "tc_bjd": 2459445.752,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 124,
+   "tc_btjd": 2454.8194,
+   "tc_bjd": 2459454.8194,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 125,
+   "tc_btjd": 2463.8867,
+   "tc_bjd": 2459463.8867,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 126,
+   "tc_btjd": 2472.9541,
+   "tc_bjd": 2459472.9541,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 127,
+   "tc_btjd": 2482.0214,
+   "tc_bjd": 2459482.0214,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 128,
+   "tc_btjd": 2491.0887,
+   "tc_bjd": 2459491.0887,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 129,
+   "tc_btjd": 2500.1561,
+   "tc_bjd": 2459500.1561,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 130,
+   "tc_btjd": 2509.2234,
+   "tc_bjd": 2459509.2234,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 131,
+   "tc_btjd": 2518.2908,
+   "tc_bjd": 2459518.2908,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 132,
+   "tc_btjd": 2527.3581,
+   "tc_bjd": 2459527.3581,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 133,
+   "tc_btjd": 2536.4254,
+   "tc_bjd": 2459536.4254,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 134,
+   "tc_btjd": 2545.4928,
+   "tc_bjd": 2459545.4928,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 135,
+   "tc_btjd": 2554.5601,
+   "tc_bjd": 2459554.5601,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 136,
+   "tc_btjd": 2563.6275,
+   "tc_bjd": 2459563.6275,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 137,
+   "tc_btjd": 2572.6948,
+   "tc_bjd": 2459572.6948,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 138,
+   "tc_btjd": 2581.7621,
+   "tc_bjd": 2459581.7621,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 139,
+   "tc_btjd": 2590.8295,
+   "tc_bjd": 2459590.8295,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 140,
+   "tc_btjd": 2599.8968,
+   "tc_bjd": 2459599.8968,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 141,
+   "tc_btjd": 2608.9642,
+   "tc_bjd": 2459608.9642,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 142,
+   "tc_btjd": 2618.0315,
+   "tc_bjd": 2459618.0315,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 143,
+   "tc_btjd": 2627.0989,
+   "tc_bjd": 2459627.0989,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 144,
+   "tc_btjd": 2636.1662,
+   "tc_bjd": 2459636.1662,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 145,
+   "tc_btjd": 2645.2335,
+   "tc_bjd": 2459645.2335,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 146,
+   "tc_btjd": 2654.3009,
+   "tc_bjd": 2459654.3009,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 147,
+   "tc_btjd": 2663.3682,
+   "tc_bjd": 2459663.3682,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 148,
+   "tc_btjd": 2672.4356,
+   "tc_bjd": 2459672.4356,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 149,
+   "tc_btjd": 2681.5029,
+   "tc_bjd": 2459681.5029,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 150,
+   "tc_btjd": 2690.5702,
+   "tc_bjd": 2459690.5702,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 151,
+   "tc_btjd": 2699.6376,
+   "tc_bjd": 2459699.6376,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 152,
+   "tc_btjd": 2708.7049,
+   "tc_bjd": 2459708.7049,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 153,
+   "tc_btjd": 2717.7723,
+   "tc_bjd": 2459717.7723,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 154,
+   "tc_btjd": 2726.8396,
+   "tc_bjd": 2459726.8396,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 155,
+   "tc_btjd": 2735.9069,
+   "tc_bjd": 2459735.9069,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 156,
+   "tc_btjd": 2744.9743,
+   "tc_bjd": 2459744.9743,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 157,
+   "tc_btjd": 2754.0416,
+   "tc_bjd": 2459754.0416,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 158,
+   "tc_btjd": 2763.109,
+   "tc_bjd": 2459763.109,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 159,
+   "tc_btjd": 2772.1763,
+   "tc_bjd": 2459772.1763,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 160,
+   "tc_btjd": 2781.2436,
+   "tc_bjd": 2459781.2436,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 161,
+   "tc_btjd": 2790.311,
+   "tc_bjd": 2459790.311,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 162,
+   "tc_btjd": 2799.3783,
+   "tc_bjd": 2459799.3783,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 163,
+   "tc_btjd": 2808.4457,
+   "tc_bjd": 2459808.4457,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 164,
+   "tc_btjd": 2817.513,
+   "tc_bjd": 2459817.513,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 165,
+   "tc_btjd": 2826.5803,
+   "tc_bjd": 2459826.5803,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 166,
+   "tc_btjd": 2835.6477,
+   "tc_bjd": 2459835.6477,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 167,
+   "tc_btjd": 2844.715,
+   "tc_bjd": 2459844.715,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 168,
+   "tc_btjd": 2853.7824,
+   "tc_bjd": 2459853.7824,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 169,
+   "tc_btjd": 2862.8497,
+   "tc_bjd": 2459862.8497,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 170,
+   "tc_btjd": 2871.9171,
+   "tc_bjd": 2459871.9171,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 171,
+   "tc_btjd": 2880.9844,
+   "tc_bjd": 2459880.9844,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 172,
+   "tc_btjd": 2890.0517,
+   "tc_bjd": 2459890.0517,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 173,
+   "tc_btjd": 2899.1191,
+   "tc_bjd": 2459899.1191,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 174,
+   "tc_btjd": 2908.1864,
+   "tc_bjd": 2459908.1864,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 175,
+   "tc_btjd": 2917.2538,
+   "tc_bjd": 2459917.2538,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 176,
+   "tc_btjd": 2926.3211,
+   "tc_bjd": 2459926.3211,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 177,
+   "tc_btjd": 2935.3884,
+   "tc_bjd": 2459935.3884,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 178,
+   "tc_btjd": 2944.4558,
+   "tc_bjd": 2459944.4558,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 179,
+   "tc_btjd": 2953.5231,
+   "tc_bjd": 2459953.5231,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 180,
+   "tc_btjd": 2962.5905,
+   "tc_bjd": 2459962.5905,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 181,
+   "tc_btjd": 2971.6578,
+   "tc_bjd": 2459971.6578,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 182,
+   "tc_btjd": 2980.7251,
+   "tc_bjd": 2459980.7251,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 183,
+   "tc_btjd": 2989.7925,
+   "tc_bjd": 2459989.7925,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 184,
+   "tc_btjd": 2998.8598,
+   "tc_bjd": 2459998.8598,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 185,
+   "tc_btjd": 3007.9272,
+   "tc_bjd": 2460007.9272,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 186,
+   "tc_btjd": 3016.9945,
+   "tc_bjd": 2460016.9945,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 187,
+   "tc_btjd": 3026.0618,
+   "tc_bjd": 2460026.0618,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 188,
+   "tc_btjd": 3035.1292,
+   "tc_bjd": 2460035.1292,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 189,
+   "tc_btjd": 3044.1965,
+   "tc_bjd": 2460044.1965,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 190,
+   "tc_btjd": 3053.2639,
+   "tc_bjd": 2460053.2639,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 191,
+   "tc_btjd": 3062.3312,
+   "tc_bjd": 2460062.3312,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 192,
+   "tc_btjd": 3071.3985,
+   "tc_bjd": 2460071.3985,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 193,
+   "tc_btjd": 3080.4659,
+   "tc_bjd": 2460080.4659,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 194,
+   "tc_btjd": 3089.5332,
+   "tc_bjd": 2460089.5332,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 195,
+   "tc_btjd": 3098.6006,
+   "tc_bjd": 2460098.6006,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 196,
+   "tc_btjd": 3107.6679,
+   "tc_bjd": 2460107.6679,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 197,
+   "tc_btjd": 3116.7353,
+   "tc_bjd": 2460116.7353,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 198,
+   "tc_btjd": 3125.8026,
+   "tc_bjd": 2460125.8026,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 199,
+   "tc_btjd": 3134.8699,
+   "tc_bjd": 2460134.8699,
+   "sector": 67,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 43,
+   "n_out": 375,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 8.227,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 1.315,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": 0.175,
+   "sap_depth_err_ppt": 0.413,
+   "sap_point_scatter_ppt": 2.709,
+   "baseline_change_across_event_over_depth": 0.09,
+   "baseline_change_across_window_ppt": 6.6,
+   "bkg_in_over_sector_median": 1.06,
+   "bkg_change_across_window_over_median": 0.37,
+   "bkg_change_within_one_duration_ppt_of_flux": 114.68,
+   "det_depth_ppt": 0.264,
+   "det_depth_err_ppt": 0.41,
+   "det_n_in": 43,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 200,
+   "tc_btjd": 3143.9373,
+   "tc_bjd": 2460143.9373,
+   "sector": 67,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 43,
+   "n_out": 375,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 10.463,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 3.465,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": 0.824,
+   "sap_depth_err_ppt": 0.353,
+   "sap_point_scatter_ppt": 2.317,
+   "baseline_change_across_event_over_depth": 0.0,
+   "baseline_change_across_window_ppt": 0.1,
+   "bkg_in_over_sector_median": 0.99,
+   "bkg_change_across_window_over_median": 0.01,
+   "bkg_change_within_one_duration_ppt_of_flux": 1.73,
+   "det_depth_ppt": 0.737,
+   "det_depth_err_ppt": 0.371,
+   "det_n_in": 43,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 201,
+   "tc_btjd": 3153.0046,
+   "tc_bjd": 2460153.0046,
+   "sector": 67,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 0.0,
+   "n_in": 0,
+   "n_out": 109,
+   "observed": false,
+   "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+  },
+  {
+   "n": 202,
+   "tc_btjd": 3162.072,
+   "tc_bjd": 2460162.072,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 203,
+   "tc_btjd": 3171.1393,
+   "tc_bjd": 2460171.1393,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 204,
+   "tc_btjd": 3180.2066,
+   "tc_bjd": 2460180.2066,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 205,
+   "tc_btjd": 3189.274,
+   "tc_bjd": 2460189.274,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 206,
+   "tc_btjd": 3198.3413,
+   "tc_bjd": 2460198.3413,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 207,
+   "tc_btjd": 3207.4087,
+   "tc_bjd": 2460207.4087,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 208,
+   "tc_btjd": 3216.476,
+   "tc_bjd": 2460216.476,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 209,
+   "tc_btjd": 3225.5433,
+   "tc_bjd": 2460225.5433,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 210,
+   "tc_btjd": 3234.6107,
+   "tc_bjd": 2460234.6107,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 211,
+   "tc_btjd": 3243.678,
+   "tc_bjd": 2460243.678,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 212,
+   "tc_btjd": 3252.7454,
+   "tc_bjd": 2460252.7454,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 213,
+   "tc_btjd": 3261.8127,
+   "tc_bjd": 2460261.8127,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 214,
+   "tc_btjd": 3270.88,
+   "tc_bjd": 2460270.88,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 215,
+   "tc_btjd": 3279.9474,
+   "tc_bjd": 2460279.9474,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 216,
+   "tc_btjd": 3289.0147,
+   "tc_bjd": 2460289.0147,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 217,
+   "tc_btjd": 3298.0821,
+   "tc_bjd": 2460298.0821,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 218,
+   "tc_btjd": 3307.1494,
+   "tc_bjd": 2460307.1494,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 219,
+   "tc_btjd": 3316.2167,
+   "tc_bjd": 2460316.2167,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 220,
+   "tc_btjd": 3325.2841,
+   "tc_bjd": 2460325.2841,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 221,
+   "tc_btjd": 3334.3514,
+   "tc_bjd": 2460334.3514,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 222,
+   "tc_btjd": 3343.4188,
+   "tc_bjd": 2460343.4188,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 223,
+   "tc_btjd": 3352.4861,
+   "tc_bjd": 2460352.4861,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 224,
+   "tc_btjd": 3361.5535,
+   "tc_bjd": 2460361.5535,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 225,
+   "tc_btjd": 3370.6208,
+   "tc_bjd": 2460370.6208,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 226,
+   "tc_btjd": 3379.6881,
+   "tc_bjd": 2460379.6881,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 227,
+   "tc_btjd": 3388.7555,
+   "tc_bjd": 2460388.7555,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 228,
+   "tc_btjd": 3397.8228,
+   "tc_bjd": 2460397.8228,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 229,
+   "tc_btjd": 3406.8902,
+   "tc_bjd": 2460406.8902,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 230,
+   "tc_btjd": 3415.9575,
+   "tc_bjd": 2460415.9575,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 231,
+   "tc_btjd": 3425.0248,
+   "tc_bjd": 2460425.0248,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 232,
+   "tc_btjd": 3434.0922,
+   "tc_bjd": 2460434.0922,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 233,
+   "tc_btjd": 3443.1595,
+   "tc_bjd": 2460443.1595,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 234,
+   "tc_btjd": 3452.2269,
+   "tc_bjd": 2460452.2269,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 235,
+   "tc_btjd": 3461.2942,
+   "tc_bjd": 2460461.2942,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 236,
+   "tc_btjd": 3470.3615,
+   "tc_bjd": 2460470.3615,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 237,
+   "tc_btjd": 3479.4289,
+   "tc_bjd": 2460479.4289,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 238,
+   "tc_btjd": 3488.4962,
+   "tc_bjd": 2460488.4962,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 239,
+   "tc_btjd": 3497.5636,
+   "tc_bjd": 2460497.5636,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 240,
+   "tc_btjd": 3506.6309,
+   "tc_bjd": 2460506.6309,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 241,
+   "tc_btjd": 3515.6982,
+   "tc_bjd": 2460515.6982,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 242,
+   "tc_btjd": 3524.7656,
+   "tc_bjd": 2460524.7656,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 243,
+   "tc_btjd": 3533.8329,
+   "tc_bjd": 2460533.8329,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 244,
+   "tc_btjd": 3542.9003,
+   "tc_bjd": 2460542.9003,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 245,
+   "tc_btjd": 3551.9676,
+   "tc_bjd": 2460551.9676,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 246,
+   "tc_btjd": 3561.0349,
+   "tc_bjd": 2460561.0349,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 247,
+   "tc_btjd": 3570.1023,
+   "tc_bjd": 2460570.1023,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 248,
+   "tc_btjd": 3579.1696,
+   "tc_bjd": 2460579.1696,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 249,
+   "tc_btjd": 3588.237,
+   "tc_bjd": 2460588.237,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 250,
+   "tc_btjd": 3597.3043,
+   "tc_bjd": 2460597.3043,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 251,
+   "tc_btjd": 3606.3717,
+   "tc_bjd": 2460606.3717,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 252,
+   "tc_btjd": 3615.439,
+   "tc_bjd": 2460615.439,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 253,
+   "tc_btjd": 3624.5063,
+   "tc_bjd": 2460624.5063,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 254,
+   "tc_btjd": 3633.5737,
+   "tc_bjd": 2460633.5737,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 255,
+   "tc_btjd": 3642.641,
+   "tc_bjd": 2460642.641,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 256,
+   "tc_btjd": 3651.7084,
+   "tc_bjd": 2460651.7084,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 257,
+   "tc_btjd": 3660.7757,
+   "tc_bjd": 2460660.7757,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 258,
+   "tc_btjd": 3669.843,
+   "tc_bjd": 2460669.843,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 259,
+   "tc_btjd": 3678.9104,
+   "tc_bjd": 2460678.9104,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 260,
+   "tc_btjd": 3687.9777,
+   "tc_bjd": 2460687.9777,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 261,
+   "tc_btjd": 3697.0451,
+   "tc_bjd": 2460697.0451,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 262,
+   "tc_btjd": 3706.1124,
+   "tc_bjd": 2460706.1124,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 263,
+   "tc_btjd": 3715.1797,
+   "tc_bjd": 2460715.1797,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 264,
+   "tc_btjd": 3724.2471,
+   "tc_bjd": 2460724.2471,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 265,
+   "tc_btjd": 3733.3144,
+   "tc_bjd": 2460733.3144,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 266,
+   "tc_btjd": 3742.3818,
+   "tc_bjd": 2460742.3818,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 267,
+   "tc_btjd": 3751.4491,
+   "tc_bjd": 2460751.4491,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 268,
+   "tc_btjd": 3760.5164,
+   "tc_bjd": 2460760.5164,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 269,
+   "tc_btjd": 3769.5838,
+   "tc_bjd": 2460769.5838,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 270,
+   "tc_btjd": 3778.6511,
+   "tc_bjd": 2460778.6511,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 271,
+   "tc_btjd": 3787.7185,
+   "tc_bjd": 2460787.7185,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 272,
+   "tc_btjd": 3796.7858,
+   "tc_bjd": 2460796.7858,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 273,
+   "tc_btjd": 3805.8531,
+   "tc_bjd": 2460805.8531,
+   "sector": 92,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 43,
+   "n_out": 375,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 2.885,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 2.885,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.3,
+   "sap_depth_err_ppt": 0.448,
+   "sap_point_scatter_ppt": 2.941,
+   "baseline_change_across_event_over_depth": 0.0,
+   "baseline_change_across_window_ppt": 0.11,
+   "bkg_in_over_sector_median": null,
+   "bkg_change_across_window_over_median": null,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": -0.33,
+   "det_depth_err_ppt": 0.457,
+   "det_n_in": 43,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 274,
+   "tc_btjd": 3814.9205,
+   "tc_bjd": 2460814.9205,
+   "sector": 92,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 43,
+   "n_out": 375,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 1.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": true,
+   "edge_distance_days": 11.952,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 11.952,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 1.0,
+   "sap_depth_ppt": -0.747,
+   "sap_depth_err_ppt": 1.086,
+   "sap_point_scatter_ppt": 7.119,
+   "baseline_change_across_event_over_depth": 0.05,
+   "baseline_change_across_window_ppt": 3.55,
+   "bkg_in_over_sector_median": null,
+   "bkg_change_across_window_over_median": null,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": null,
+   "det_depth_err_ppt": null,
+   "det_n_in": 0,
+   "excluded": true,
+   "exclusion_reasons": [
+    "100% of in-transit cadences quality-flagged",
+    "100% of cadences within one duration carry the scattered-light flag"
+   ]
+  },
+  {
+   "n": 275,
+   "tc_btjd": 3823.9878,
+   "tc_bjd": 2460823.9878,
+   "sector": 92,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 44,
+   "n_out": 376,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 5.656,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 5.656,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.165,
+   "sap_depth_err_ppt": 0.393,
+   "sap_point_scatter_ppt": 2.604,
+   "baseline_change_across_event_over_depth": 0.03,
+   "baseline_change_across_window_ppt": 2.0,
+   "bkg_in_over_sector_median": null,
+   "bkg_change_across_window_over_median": null,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": -0.11,
+   "det_depth_err_ppt": 0.377,
+   "det_n_in": 44,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 276,
+   "tc_btjd": 3833.0552,
+   "tc_bjd": 2460833.0552,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 277,
+   "tc_btjd": 3842.1225,
+   "tc_bjd": 2460842.1225,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 278,
+   "tc_btjd": 3851.1899,
+   "tc_bjd": 2460851.1899,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 279,
+   "tc_btjd": 3860.2572,
+   "tc_bjd": 2460860.2572,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 280,
+   "tc_btjd": 3869.3245,
+   "tc_bjd": 2460869.3245,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 281,
+   "tc_btjd": 3878.3919,
+   "tc_bjd": 2460878.3919,
+   "observed": false,
+   "reason": "no product covers the epoch"
+  },
+  {
+   "n": 282,
+   "tc_btjd": 3887.4592,
+   "tc_bjd": 2460887.4592,
+   "sector": 95,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 43,
+   "n_out": 376,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 5.125,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 5.088,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.167,
+   "sap_depth_err_ppt": 0.339,
+   "sap_point_scatter_ppt": 2.225,
+   "baseline_change_across_event_over_depth": 0.05,
+   "baseline_change_across_window_ppt": 3.89,
+   "bkg_in_over_sector_median": 1.01,
+   "bkg_change_across_window_over_median": 0.0,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": -0.225,
+   "det_depth_err_ppt": 0.352,
+   "det_n_in": 43,
+   "excluded": false,
+   "exclusion_reasons": []
+  },
+  {
+   "n": 283,
+   "tc_btjd": 3896.5266,
+   "tc_bjd": 2460896.5266,
+   "sector": 95,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 44,
+   "n_out": 371,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.3,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": true,
+   "edge_distance_days": 11.036,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 11.036,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.75,
+   "sap_depth_ppt": 73.102,
+   "sap_depth_err_ppt": 0.841,
+   "sap_point_scatter_ppt": 4.682,
+   "baseline_change_across_event_over_depth": 3.33,
+   "baseline_change_across_window_ppt": 244.35,
+   "bkg_in_over_sector_median": 1.7,
+   "bkg_change_across_window_over_median": 12.38,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": 26.291,
+   "det_depth_err_ppt": 0.971,
+   "det_n_in": 31,
+   "excluded": true,
+   "exclusion_reasons": [
+    "30% of in-transit cadences quality-flagged",
+    "SAP baseline changes by more than one depth across the event (ramp)",
+    "75% of cadences within one duration carry the scattered-light flag"
+   ]
+  },
+  {
+   "n": 284,
+   "tc_btjd": 3905.5939,
+   "tc_bjd": 2460905.5939,
+   "sector": 95,
+   "author": "QLP",
+   "cadence_s": 200.0,
+   "flux_used": "sap_flux",
+   "coverage_in_transit": 1.0,
+   "n_in": 44,
+   "n_out": 376,
+   "observed": true,
+   "frac_in_transit_quality_flagged": 0.0,
+   "desat_within_one_duration": false,
+   "manual_exclude_within_one_duration": false,
+   "straylight_flag_in_transit": false,
+   "edge_distance_days": 1.969,
+   "edge_within_one_duration": false,
+   "pdc_gap_distance_days": 1.969,
+   "pdc_gap_within_one_duration": false,
+   "frac_straylight_flagged_within_one_duration": 0.0,
+   "sap_depth_ppt": -0.223,
+   "sap_depth_err_ppt": 0.303,
+   "sap_point_scatter_ppt": 2.007,
+   "baseline_change_across_event_over_depth": 0.02,
+   "baseline_change_across_window_ppt": 1.58,
+   "bkg_in_over_sector_median": 0.96,
+   "bkg_change_across_window_over_median": 0.0,
+   "bkg_change_within_one_duration_ppt_of_flux": null,
+   "det_depth_ppt": -0.266,
+   "det_depth_err_ppt": 0.316,
+   "det_n_in": 44,
+   "excluded": false,
+   "exclusion_reasons": []
+  }
+ ]
+}

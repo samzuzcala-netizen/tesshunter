@@ -1,0 +1,53 @@
+# Actual frozen P8 implementation
+
+This map was checked against the archived implementation, not inferred from the
+historical outcome. Numerical settings are also machine-readable in
+`../baseline/configuration.json`; every archived file has a SHA256. Line numbers
+below refer to the original `fbc68571` files and their identical archive copies.
+
+| Step | Inputs and decision | Source |
+|---|---|---|
+| Population / novelty | P8: TIC Teff<3600 K, radius<0.45 Rsun, Tmag 12.5–14, abs Galactic latitude>=20; Gaia parallax SNR>=5, BP-RP>=1.6, abs(MG−(2.5+3(BP−RP)))<=1.25; >=3 delivered sectors>=56 and strictly fewer than half with 2-minute targeting. Known TIC membership in any of six sources REJECT; known neighbour within 21 arcsec FLAG. P8 excludes both. | `build_p8_population.py`, `catalog_crossmatch.py:992` |
+| Input selection | Raw per-product time, corrected flux/error, SAP/error, background and quality. One product per sector, SPOC 120 s before TESS-SPOC before QLP. Keep sector>=56, bin a product finer than 200 s by >=1.5x; drop one coarser by >1.5x. There is no sector maximum in the scientific preset: special 1751 can enter. The coverage frame uses the same public lists through 105 as P8. | `survey_p8.py:load_audit_products`, `harmonise_cadence`; `audit_p5.py:choose_per_sector` |
+| Initial preparation | Default TESS mask 17087, plus QLP low-precision 2^30 from sector 56; finite-value handling and error filling in `audit_prep`; drop products retaining <50 points. Per-product wotan biweight, 0.75 d initial window, 0.5 d gap break, no edge cutoff, upward 4-sigma clip; isolated dip 6 sigma with both neighbours within 2 sigma; deep clipping. Search does not perform a second flatten. | `survey_p8.py`, `audit_prep.py`, `audit_rules.py` |
+| Search plan | 0.5–30 d; durations 0.02–0.20 d; native 200 s, no later bins. Chunk gaps 60 d, minimum chunk baseline 20 d, whole-stitch long-period pass from 10 d. Up to 3 planets per subsearch, 12 merged; top eight BLS candidates, grids capped at 40000 / local 1500. Total preset 900 s partitioned among searches, detection fraction 0.85 and projected-pass safety factor 1.25. Up to four extra veto passes. Exhausted budget ends subsearches but returns status ok. | `survey.py:SurveyConfig`, `plan_searches`, `merge_candidates`; `pipeline.py:_detect_planets` |
+| Search gates 1–5 | Rank-one raw SNR>=5; after alias resolution resolved SNR>=5, event completeness>=0.5, composite score>=3, >=2 observed transits. Event completeness compares depth with in-transit-mean noise under `survey_p8`. Alias resolution searches local period/harmonic hypotheses and event overlap; static artifact skip tolerance 2% (no populated TESS artifact list is introduced by P9). NaN event completeness fails the explicit `not >=` test; some other comparisons rely on upstream finite values. | `pipeline.py:978–1071`, `bls_search.py:resolve_aliases_for_candidate` |
+| Search gates 6–7 | Veto later ratio-one periods within 5% of a previously accepted plausible anchor, not its harmonics. An unresolved duration floor (<2 cadences), railed to 1e-6 relative tolerance, is vetoed only with box Rp/Rstar>0.2. This duration condition does not arm at the P8 0.02 d floor and 200 s cadence. Mask accepted/vetoed events with width factor 7; refuse removal of >=90% of finite data. Anchor physical plausibility and remeasured-depth validity affect later masking/reported depth. | `pipeline.py:258`, `283`, `316`, `1074–1209` |
+| Stitch confirmation / pre-gate | Merge and remeasure on whole stitch; pre-gate requires `stitch_epoch_consistent`, stitch SNR>=7.1, stitch observed count>=3. Missing/false epoch flag or missing SNR/count fails. This is a separate loss between search and A. | `survey.py:confirm_on_stitch`; `p8_funnel.py:collect` |
+| A preparation / ephemerides | Reprepare native selected products with window=3 central T14, clipped to 0.75–1.5 d. Mask transits within one duration either side while fitting the trend; upward, isolated and deep clips remain. Narrow TLS about **blind survey** period (default ±1.5%, oversampling 5) is part of A. Assess survey, usable forced-TLS and any old packet ephemerides; choose most passing criteria, tie by kept SNR. P8 has no old packets; P9 uses an explicitly empty packet root. Degenerate forced TLS leaves survey-only evaluation. | `revet_p6.py:stagea_one`, `audit_p5.py:prepare_step`, `forced_step`, `_ephemeris` |
+| A event removal | Observed if >=50% in-transit coverage and >=10 baseline points. Eight overlapping reasons: momentum dump, quality flagged, scattered-light flag, sector/orbit edge, PDC gap, SAP baseline ramp, scattered-light ramp, dip absent in SAP. Q fraction>0.2; SAP polynomial change>one survey depth; background>2x sector median and change>one sector median; corrected dip>=5 sigma and SAP depth<0.3 corrected depth. Gaps/edges have fixed floors 0.5/0.2 d; near-event floor 0.25 d. Missing diagnostics follow the explicit finite/None branches in `event_vet`; no missing quantity is imputed as a clean measurement by P9. | `event_vet.py:event_table`, `audit_rules.py` |
+| A six criteria | >=3 kept events; weighted kept SNR>=7; strongest event <=50% of summed SNR²; SNR without strongest>=5; kept depth within 0.5–2x survey depth; constant-depth p>=0.001 using per-sector red-noise beta in [1,5]. White and inflated p values both retained. A FAIL terminates; A ERROR is operational failure. | `event_vet.py:stagea_criteria`; `revet_p6.py:268–319` |
+| Secondary | Full phase coarse step .002, refined .0004 over ±.01; dips>=5 sigma separated by .02 phase. Primary shoulders within max(.03,1.5 box phase widths) are not secondary. `bound` rule: deepest off-phase SAP dip >3 sigma above the period/stellar-dependent planetary reflection+thermal bound fails. Albedo .3. More than five dips flags variability, but the frozen `bound` gate still applies on busy scans. Error or lack of usable measurement is explicit. Only A passers enter primary S; P8's 10% A-failure scan is diagnostic. | `secondary.py`, `p8_funnel.py:secondary_one` |
+| B | Phase-independent sector test only when cadence<=600 s and span>=1.5 periods; window filling>=.6. One sector whose deepest window is <candidate depth/3 with window noise<depth/5 excludes the period. Long-period/window metadata are also calculated by the underlying test when applicable; the actual decision code only kills on `phase_independent.excluded`. No exclusion means PASS, including sectors with no test power. | `star_vet.py:phase_independent_test`; `revet_p6.py:stageb_one` |
+| B caps | Gaia RUWE>1.4, IPD multipk>10%, excess-noise significance>2, non-single-star, VARIABLE, RV amplitude above 4x noise expectation, VSX within 1 arcmin, or a neighbour within 63 arcsec able to make **any** survivor depth by total eclipse produces a HOLD cap. Another accepted deep signal (>30 ppt or >5x candidate depth) also caps at HOLD. These do not block C. Missing Gaia can produce ERROR; the original error record's max_verdict=KILL is not treated as scientific rejection in P9. | `star_vet.py:gaia_flag_digest`, `deep_event_hosts`; `revet_p6.py:stageb_one` |
+| C | Native P8 inputs despite the legacy positional 30-minute argument: input config overrides bins. **Blind 0.5–110 d**, oversampling 3, strongest SDE>=9 and period within 1% of survey; a 2:1/1:2 alias can pass only with >=3 usable transit depths and constant-depth p>=.001. Unrelated stronger peaks kill even when the survey-period local SDE>=9. Near-survey SDE and spectrum remain recorded. P8's `C_OVERSAMPLING_MANY=2` constant exists in the old driver but the selected P8 adapter explicitly uses 3. | `revet_p6.py:stagec_one`, `audit_p5.py:tls_step` |
+| D provisional | New six-catalogue outcome, all-transit physical fits with/without density prior, adopt prior unless rejected, seed only at accepted C ephemeris and hash. Non-CLEAN hard stop kills in production. Flat-line improvement delta chi²<25 kills; fit execution problem, uncertain geometry or standing B flags gives provisional HOLD; otherwise provisional SUBMIT. This function alone is **not** final D. | `revet_p6.py:staged_one`, `provisional_verdict`; `audit_p5.py:fit_step`, `_p8_fit_input` |
+| D final | TRICERATOPS 100000 draws on binned fold, circular aperture, first three selected sectors, actual fit ephemeris/duration/depth, red-noise beta, wider Gaia background separate from neighbour cone. Uniform scenario probabilities are failed likelihood. TESScut centroid for all selected sectors; P8 then used difference images, raw sky/background and fixed-aperture reviews. Human judgement determines SUBMIT/HOLD/KILL after evidence review; there is no complete automatic final-verdict function. High astrophysical FPP does not measure instrumental artifacts, and low FPP cannot override artifact evidence. | `p8_stage_d_packets.py`, `survivor_packets.py:centroid_all_sectors`, P8 pixel-review JSON files |
+
+## P9 deviations and limitations
+
+Only the status-based catalogue exclusion is bypassed in the scientific verdict.
+The production exclusion result is never replaced with a claim of CLEAN: the
+execution record says `KNOWN_STATUS_REDACTED`, stores its truth-side hash, and
+the adapter removes that status field only for the provisional scientific call.
+Actual submission eligibility stays false. Scientific fits/thresholds and
+neighbour-cap logic are retained. Names, classification strings and orbital
+solutions are redacted; generic variability/count flags remain active.
+
+P9 pins one six-source snapshot (the September 6 P8 refresh, within seven days)
+rather than fetching different versions for each D host. The accompanying fresh
+September 8 truth snapshots are separate. The original exclusion uses all-source
+coordinate matching; P9 records that it omits the extra per-TIC cone resolution
+path. All identities in the control frames are already catalogue matches. The
+scientific one-arcminute Gaia/SIMBAD/VSX queries are independently prepared.
+
+There is no deterministic production rule for every final pixel-review judgement.
+P9 can freeze the rubric and archive the evidence and adjudication; it cannot
+honestly claim a bit-for-bit automatic reproduction of P8's manual decisions or
+a blinded manual review. Ordinary Gaia class flags are not proof of the truth
+of any particular detected signal. D execution failures remain operationally
+incomplete even if the inherited provisional routine calls them HOLD.
+
+The full criteria, masking implementation, alias tests, missing-data branches and
+dependency source are retained in the frozen archive. No gate change is proposed
+or justified by the rescue of a single known planet.

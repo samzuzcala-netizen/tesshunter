@@ -1,0 +1,131 @@
+{
+ "key": "tic332366289_P18.7481",
+ "tic_id": 332366289,
+ "rank": 1,
+ "survey_period": 18.748084871649127,
+ "survey_depth_ppt": 5.780551094214444,
+ "generated_utc": "2026-10-01T00:45:58Z",
+ "rules_version": "p10.0",
+ "thresholds": {
+  "sde": 9.0,
+  "period_tolerance": 0.01,
+  "alias_min_p_const": 0.001,
+  "oversampling_default": 3,
+  "oversampling_if_many": 2,
+  "many_stars": 40,
+  "oversampling_used": 3,
+  "peak_rule": "strongest",
+  "sde_robust_fallback": true,
+  "concentration_trigger": 0.5,
+  "residual_min_transits": 3
+ },
+ "stagec_implementation": "p10-stage-c-20260910",
+ "stagec_rule_options": {
+  "secondary_scan": true,
+  "inflated_depth_consistency": true,
+  "transit_masked_detrend": true,
+  "long_period_window_test": true,
+  "secondary_gate": "bound",
+  "secondary_quiet_max_dips": 2,
+  "depth_consistency_errors": "inflated",
+  "depth_consistency_p_min": 0.001,
+  "beta_max": 5.0,
+  "exact_t14_record": true,
+  "verdict_tiers": "p10",
+  "stagec_peak_rule": "strongest",
+  "stagec_sde_robust_fallback": true,
+  "duration_floor_cadence": true
+ },
+ "blind": {
+  "period": 18.74835121346206,
+  "T0_btjd": 2869.8389045642093,
+  "duration_days": 0.003961943361064552,
+  "depth": 0.9921934697096019,
+  "SDE": 10.752422205291987,
+  "snr": 1.6841718959491152,
+  "FAP": 8.0032e-05,
+  "distinct_transit_count": 3,
+  "odd_even_mismatch": 0.4128174874411807,
+  "SDE_at_survey_period_max_1pct": 10.752422205291987,
+  "SDE_rank_of_survey_period": 1,
+  "match": {
+   "same_period_1pct": true,
+   "closest_alias": "1:1",
+   "closest_alias_frac": 1.4206347728640267e-05,
+   "alias_1pct": true
+  },
+  "duration_raw_days": 0.003961943361064552,
+  "duration_floor": {
+   "raw_days": 0.003961943361064552,
+   "floored_days": 0.003961943361064552,
+   "floored": false,
+   "cadence_days": 0.0023147809213242
+  }
+ },
+ "peaks": [
+  {
+   "period": 18.74835121346206,
+   "SDE": 10.752422205291987
+  },
+  {
+   "period": 100.52263966257874,
+   "SDE": 10.67725038655754
+  },
+  {
+   "period": 62.529572151104816,
+   "SDE": 10.091822490395444
+  },
+  {
+   "period": 46.39487559535485,
+   "SDE": 9.582840353501394
+  },
+  {
+   "period": 86.15964221958353,
+   "SDE": 9.120013811916937
+  }
+ ],
+ "audit_verdict_tls": "PASS",
+ "inputs": {
+  "n_binned": 46083,
+  "baseline_days": 756.9838823669188,
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "n_deep_clipped": 0,
+  "deep_clip_threshold_ppt": 93.27,
+  "oversampling_factor": 3
+ },
+ "spectrum_fallback": {
+  "spectrum": "power_raw",
+  "concentration_spectrum": "power",
+  "peak_period": 18.74835121346206,
+  "installed_SDE": 10.752422205291987,
+  "concentration": 0.0005186836396628811,
+  "concentration_index": 187336,
+  "concentration_value": 10.752422205291987,
+  "sde_robust_at_peak": 9.187614363021241,
+  "sde_robust_max": 10.378316117650382,
+  "triggered": false,
+  "passes_on_robust": false,
+  "trigger": 0.5,
+  "threshold": 9.0,
+  "raw_available": true,
+  "peak_index": 187336
+ },
+ "decision": "PASS",
+ "reason": "strongest peak 18.74835 d is within 1% of the survey period at SDE 10.8",
+ "decision_strongest_installed": "PASS",
+ "timing_s": {
+  "detrend": 2.4,
+  "tls_blind": 970.7,
+  "tls_forced": 17.0
+ },
+ "seconds": 988.3,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

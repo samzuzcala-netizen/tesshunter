@@ -1,0 +1,12 @@
+﻿{
+    "protocol":  "PROTOCOL.md",
+    "version":  "1.0+A1+A2",
+    "sha256_v1_0":  "dd9f219ff2ecec63089952a061d30760ce043b5530673ef6ef68d7e2c1671bcb",
+    "frozen_utc_v1_0":  "2026-10-18T21:08:37Z",
+    "sha256_current":  "e5ac0e1dab9e1f29e05e73acf9863a9c9fefb922adc86d9fbe01bb82e3cc51b4",
+    "amended_utc":  "2026-10-18T22:48:24Z",
+    "amendments":  [
+                       "A1: three-candidate report found after freeze; TGLC sector-list reductions and free-shape timing added; per-cadence timing calibration",
+                       "A2 (post-hoc): empirical TTV null + coherence statistic; neighbour-selection correction (193 9.8-arcsec star); Gaia-RV relative statistic; season-offset shape sensitivity"
+                   ]
+}

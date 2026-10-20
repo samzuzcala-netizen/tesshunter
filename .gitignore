@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (large files, cached downloads)
+data/raw/
+data/processed/
+data/cache/
+
+# Outputs (generated; commit selectively)
+outputs/plots/
+outputs/reports/
+outputs/candidates/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ruff / linting cache
+.ruff_cache/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Lightkurve / astropy cache
+~/.lightkurve-cache/
+~/.astropy/
+
+# Survey scratch cache (tiles, product lists); targets_v1.csv itself is committed
+data/survey/cache/
+
+# Survey run outputs (per-job JSON, logs); summaries are copied into docs/ and data/survey/
+data/survey/runs/
+*_gaia_background.csv
+
+# Adversarial vetting run outputs (per-target JSON); the summary CSV and docs/ADVERSARIAL_VETTING.md are committed
+data/adversarial/runs/
+data/adversarial/*.log
+
+# Prompt 5 audit: raw per-product arrays and TLS spectra are large and reproducible from MAST; JSON results are kept
+data/survey/p5/lc/
+data/survey/p5/tls/*.npz
+
+# Prompt 6 re-vetting: the shared raw light-curve store, the per-candidate arrays and the TLS spectra
+data/survey/audit_lc/
+data/survey/p6/tls/*.npz
+# the per-ephemeris events/ intermediates are reproducible with the `events` sub-command and are
+# reproduced verbatim, per event and with the removal reasons, inside every stageA/ and stageD/ record
+data/survey/p6/events/
+
+# Prompt 7: the reproduction scratch roots are hard links to the prompt-6 inputs, and the slice
+# and log files are per-run bookkeeping.  The results (reproduce_p7.json, options_p7.json and the
+# per-candidate options/ records) are committed.
+data/survey/p7/reproduce/
+data/survey/p7/reproduce_tls/
+data/survey/p7/slices/
+data/survey/p7/logs/
+
+# Prompt 8: scratch roots and per-candidate arrays (the records that matter are the JSON summaries)
+data/survey/p8/inj_funnel/
+data/survey/p8/fa_funnel/
+data/survey/p8/demo_toi270/
+data/survey/p8/demo_inj/
+data/survey/p8/logs/
+data/survey/p8/tls/*.npz
+data/survey/p8/events/
+data/survey/p8/neighbours_bulk/
+data/survey/p8/inj_phase1_tics.txt
+data/survey/p8/neighbours_rematch_tics.txt
+data/survey/p8/targets_rematch.csv
+data/survey/p8/noise_p8/
+
+# showcase build marker
+.showcase_build

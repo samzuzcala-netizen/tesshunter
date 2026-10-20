@@ -1,0 +1,237 @@
+{
+ "generated_utc": "2026-10-19T01:49:07Z",
+ "n_packets": 23,
+ "n_inconsistent": 1,
+ "rows": [
+  {
+   "tic": 116046773,
+   "packet": "tic116046773_P5.6472",
+   "tic_gaia": "4608570247290179200",
+   "packet_target_id": "4608570247290179200",
+   "id_diff": 0,
+   "sep_arcsec": 0.0002907109281934619,
+   "G_minus_Tmag": 0.762607777404785,
+   "consistent": true
+  },
+  {
+   "tic": 116047785,
+   "packet": "tic116047785_P29.2290",
+   "tic_gaia": "4609275137322389632",
+   "packet_target_id": "4609275137322389632",
+   "id_diff": 0,
+   "sep_arcsec": 6.256615798691128e-05,
+   "G_minus_Tmag": 1.039114135742187,
+   "consistent": true
+  },
+  {
+   "tic": 155913240,
+   "packet": "tic155913240_P14.9158",
+   "tic_gaia": "4924237596082335872",
+   "packet_target_id": "4924237596082335872",
+   "id_diff": 0,
+   "sep_arcsec": 0.0002835559363262046,
+   "G_minus_Tmag": 0.949961978149414,
+   "consistent": true
+  },
+  {
+   "tic": 155949537,
+   "packet": "tic155949537_P38.8999",
+   "tic_gaia": "1394110688809690368",
+   "packet_target_id": "1394110688809690368",
+   "id_diff": 0,
+   "sep_arcsec": 4.591470684923101e-05,
+   "G_minus_Tmag": 1.0122821670532218,
+   "consistent": true
+  },
+  {
+   "tic": 159341729,
+   "packet": "tic159341729_P14.3016",
+   "tic_gaia": "1708171341877355904",
+   "packet_target_id": "1708171341877355904",
+   "id_diff": 0,
+   "sep_arcsec": 0.0023513994484508595,
+   "G_minus_Tmag": 0.7171157669067387,
+   "consistent": true
+  },
+  {
+   "tic": 160603808,
+   "packet": "tic160603808_P48.9909",
+   "tic_gaia": "1703332666080989184",
+   "packet_target_id": "1703332666080989184",
+   "id_diff": 0,
+   "sep_arcsec": 3.2780035552048496e-05,
+   "G_minus_Tmag": 1.0238840286254884,
+   "consistent": true
+  },
+  {
+   "tic": 165638563,
+   "packet": "tic165638563_P5.6114",
+   "tic_gaia": "1600961502105459712",
+   "packet_target_id": "1600961502105459712",
+   "id_diff": 0,
+   "sep_arcsec": 0.001124845657038631,
+   "G_minus_Tmag": 0.9704401306152342,
+   "consistent": true
+  },
+  {
+   "tic": 18229070,
+   "packet": "tic18229070_P22.9484",
+   "tic_gaia": "4602156143129990272",
+   "packet_target_id": "4602156143129990144",
+   "id_diff": -128,
+   "sep_arcsec": 31.78882065339026,
+   "G_minus_Tmag": 7.968402127075196,
+   "consistent": false
+  },
+  {
+   "tic": 188580030,
+   "packet": "tic188580030_P31.4900",
+   "tic_gaia": "2404798128001326336",
+   "packet_target_id": "2404798128001326336",
+   "id_diff": 0,
+   "sep_arcsec": 7.880740537951733e-05,
+   "G_minus_Tmag": 1.0544030685424808,
+   "consistent": true
+  },
+  {
+   "tic": 188830138,
+   "packet": "tic188830138_P1.1811",
+   "tic_gaia": "1416467672916352768",
+   "packet_target_id": "1416467672916352768",
+   "id_diff": 0,
+   "sep_arcsec": 0.0003537848265272708,
+   "G_minus_Tmag": 0.6622458618164071,
+   "consistent": true
+  },
+  {
+   "tic": 193718989,
+   "packet": "tic193718989_P24.5335",
+   "tic_gaia": "1346023547769345792",
+   "packet_target_id": "1346023547769345792",
+   "id_diff": 0,
+   "sep_arcsec": 9.129634507492914e-05,
+   "G_minus_Tmag": 1.004667811584472,
+   "consistent": true
+  },
+  {
+   "tic": 201247574,
+   "packet": "tic201247574_P16.5604",
+   "tic_gaia": "4918283671897810560",
+   "packet_target_id": "4918283671897810560",
+   "id_diff": 0,
+   "sep_arcsec": 0.00011031596929196627,
+   "G_minus_Tmag": 0.957046687316895,
+   "consistent": true
+  },
+  {
+   "tic": 207432717,
+   "packet": "tic207432717_P43.4471",
+   "tic_gaia": "1429724420189122944",
+   "packet_target_id": "1429724420189122944",
+   "id_diff": 0,
+   "sep_arcsec": 6.656973365644446e-06,
+   "G_minus_Tmag": 1.0275599731445304,
+   "consistent": true
+  },
+  {
+   "tic": 233204110,
+   "packet": "tic233204110_P48.3771",
+   "tic_gaia": "1639162895445293056",
+   "packet_target_id": "1639162895445293056",
+   "id_diff": 0,
+   "sep_arcsec": 0.0003318657825071004,
+   "G_minus_Tmag": 0.5756968475341804,
+   "consistent": true
+  },
+  {
+   "tic": 245821988,
+   "packet": "tic245821988_P17.8537",
+   "tic_gaia": "3307367711206955264",
+   "packet_target_id": "3307367711206955264",
+   "id_diff": 0,
+   "sep_arcsec": 0.00014098374763314324,
+   "G_minus_Tmag": 1.0079427032470711,
+   "consistent": true
+  },
+  {
+   "tic": 246940708,
+   "packet": "tic246940708_P25.1368",
+   "tic_gaia": "100965889331745280",
+   "packet_target_id": "100965889331745280",
+   "id_diff": 0,
+   "sep_arcsec": 0.00018808397758419642,
+   "G_minus_Tmag": 1.03005920715332,
+   "consistent": true
+  },
+  {
+   "tic": 259270670,
+   "packet": "tic259270670_P43.8361",
+   "tic_gaia": "2263154474563338624",
+   "packet_target_id": "2263154474563338624",
+   "id_diff": 0,
+   "sep_arcsec": 6.498065029590587e-05,
+   "G_minus_Tmag": 0.9772616699218748,
+   "consistent": true
+  },
+  {
+   "tic": 262843927,
+   "packet": "tic262843927_P24.1089",
+   "tic_gaia": "4673750877131752832",
+   "packet_target_id": "4673750877131752832",
+   "id_diff": 0,
+   "sep_arcsec": 4.740383859415003e-05,
+   "G_minus_Tmag": 1.0163480941772463,
+   "consistent": true
+  },
+  {
+   "tic": 270573718,
+   "packet": "tic270573718_P41.3839",
+   "tic_gaia": "4792202879700135040",
+   "packet_target_id": "4792202879700135040",
+   "id_diff": 0,
+   "sep_arcsec": 9.911755278643312e-05,
+   "G_minus_Tmag": 1.060642561340332,
+   "consistent": true
+  },
+  {
+   "tic": 335745090,
+   "packet": "tic335745090_P36.3663",
+   "tic_gaia": "1620809027016361600",
+   "packet_target_id": "1620809027016361600",
+   "id_diff": 0,
+   "sep_arcsec": 7.886830625200197e-05,
+   "G_minus_Tmag": 1.0007647888183602,
+   "consistent": true
+  },
+  {
+   "tic": 382098683,
+   "packet": "tic382098683_P4.3513",
+   "tic_gaia": "4762639241115869568",
+   "packet_target_id": "4762639241115869568",
+   "id_diff": 0,
+   "sep_arcsec": 0.00031872151641324626,
+   "G_minus_Tmag": 0.6987435012817382,
+   "consistent": true
+  },
+  {
+   "tic": 423314730,
+   "packet": "tic423314730_P0.7448",
+   "tic_gaia": "2757639453828472960",
+   "packet_target_id": "2757639453828472960",
+   "id_diff": 0,
+   "sep_arcsec": 0.0016035028520240615,
+   "G_minus_Tmag": 1.0354257827758797,
+   "consistent": true
+  },
+  {
+   "tic": 458513927,
+   "packet": "tic458513927_P17.9623",
+   "tic_gaia": "1304840961794002816",
+   "packet_target_id": "1304840961794002816",
+   "id_diff": 0,
+   "sep_arcsec": 6.643462738657997e-05,
+   "G_minus_Tmag": 1.0456005035400384,
+   "consistent": true
+  }
+ ]
+}

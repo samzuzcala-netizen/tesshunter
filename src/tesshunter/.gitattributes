@@ -1,0 +1,3 @@
+# Keep exact bytes for the separately versioned P11.5 implementation only.
+.gitattributes -text
+p11_5_*.py -text

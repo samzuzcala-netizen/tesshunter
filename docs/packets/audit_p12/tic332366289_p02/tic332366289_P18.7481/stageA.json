@@ -1,0 +1,1015 @@
+{
+ "key": "tic332366289_P18.7481",
+ "tic_id": 332366289,
+ "planet_num": 2,
+ "rank": 1,
+ "generated_utc": "2026-09-29T22:54:42Z",
+ "rules_version": "p10.0",
+ "thresholds": {
+  "min_kept_events": 3,
+  "min_kept_event_snr": 7.0,
+  "max_top_event_share_of_snr2": 0.5,
+  "min_snr_without_top_event": 5.0,
+  "kept_depth_over_survey_depth": [
+   0.5,
+   2.0
+  ],
+  "min_p_const": 0.001,
+  "flux": "wotan-detrended corrected flux (det_kept); sap_kept recorded alongside",
+  "ephemeris_choice": "the ephemeris passing the most criteria, ties broken by kept-event SNR"
+ },
+ "survey": {
+  "period": 18.748084871649127,
+  "epoch_btjd": 2869.8700663100585,
+  "duration_days": 0.0928317766722556,
+  "depth_ppt": 5.780551094214444,
+  "stitch_snr": 7.343761084709981,
+  "stitch_n_transits": 4,
+  "n_units": 6,
+  "tmag": 13.8331
+ },
+ "prepare": {
+  "n_unbinned": 46083,
+  "n_binned": 46083,
+  "baseline_days": 756.9838823669188,
+  "wotan": {
+   "method": "biweight",
+   "window_days": 0.75,
+   "break_tolerance": 0.5,
+   "edge_cutoff": 0.0
+  },
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "deep_clip_threshold_ppt": 93.27,
+  "n_deep_clipped": 0,
+  "R_star": 0.261705,
+  "M_star": 0.233635,
+  "expected_t14_hours_b0": 2.15
+ },
+ "forced_tls": {
+  "period": 18.748069347728066,
+  "T0_btjd": 2869.877282530272,
+  "duration_days": 0.008715995556978412,
+  "depth": 0.9925399550273397,
+  "SDE": 7.231098329600312,
+  "distinct_transit_count": 4,
+  "odd_even_mismatch": 1.2323314753582757
+ },
+ "ephemerides_examined": [
+  "survey",
+  "tls"
+ ],
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "per_ephemeris": {
+  "survey": {
+   "ephemeris": {
+    "period": 18.748084871649127,
+    "t0": 2869.8700663100585,
+    "duration": 0.0928317766722556,
+    "source": "survey",
+    "ref_depth_ppt": 5.780551094214444
+   },
+   "n_predicted_in_span": 40,
+   "n_observed": 4,
+   "n_excluded": 1,
+   "n_kept": 3,
+   "det_all": {
+    "n": 4,
+    "weighted_mean_depth_ppt": 6.552,
+    "err_ppt": 0.799,
+    "snr": 8.2,
+    "chi2_const": 1.2,
+    "dof": 3,
+    "p_const": 0.7977533773008764,
+    "top_event_n": 32,
+    "top_event_share_of_snr2": 0.36,
+    "snr_without_top_event": 6.57,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 6.193,
+     "odd_err": 1.308,
+     "even_ppt": 6.765,
+     "even_err": 1.009,
+     "sigma": 0.35
+    },
+    "p_const_white": 0.7644867479189267,
+    "chi2_const_white": 1.2,
+    "snr_white": 8.2,
+    "beta_median": 1.081,
+    "beta_min": 1.029,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 6.639,
+    "err_ppt_inflated": 0.891,
+    "snr_inflated": 7.46,
+    "chi2_const_inflated": 1.0,
+    "p_const_inflated": 0.7977533773008764
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 6.5,
+    "err_ppt": 0.859,
+    "snr": 7.57,
+    "chi2_const": 1.1,
+    "dof": 2,
+    "p_const": 0.6064096953431042,
+    "top_event_n": 32,
+    "top_event_share_of_snr2": 0.42,
+    "snr_without_top_event": 5.76,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 5.805,
+     "odd_err": 1.633,
+     "even_ppt": 6.765,
+     "even_err": 1.009,
+     "sigma": 0.5
+    },
+    "p_const_white": 0.5698294025201276,
+    "chi2_const_white": 1.1,
+    "snr_white": 7.57,
+    "beta_median": 1.119,
+    "beta_min": 1.029,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 6.595,
+    "err_ppt_inflated": 0.968,
+    "snr_inflated": 6.82,
+    "chi2_const_inflated": 1.0,
+    "p_const_inflated": 0.6064096953431042
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.755,
+    "err_ppt": 0.838,
+    "snr": 4.48,
+    "chi2_const": 6.2,
+    "dof": 2,
+    "p_const": 0.08086261268930447,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.6,
+    "snr_without_top_event": 2.9,
+    "n_events_depth_above_2sigma": 2,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.547,
+     "odd_err": 1.56,
+     "even_ppt": 3.433,
+     "even_err": 0.994,
+     "sigma": 0.6
+    },
+    "p_const_white": 0.0461070500704522,
+    "chi2_const_white": 6.2,
+    "snr_white": 4.48,
+    "beta_median": 1.119,
+    "beta_min": 1.029,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 4.005,
+    "err_ppt_inflated": 0.943,
+    "snr_inflated": 4.25,
+    "chi2_const_inflated": 5.0,
+    "p_const_inflated": 0.08086261268930447
+   },
+   "audit_flags": [
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": true,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": true,
+    "depth_within_0.5_2x_survey": true,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 6,
+   "all_passed": true,
+   "kept_snr": 7.57,
+   "top_event_share": 0.42,
+   "snr_without_top": 5.76,
+   "kept_depth_ppt": 6.5,
+   "kept_depth_err_ppt": 0.859,
+   "depth_over_survey_depth": 1.124,
+   "p_const": 0.6064096953431042,
+   "top_event_n": 32,
+   "strongest_event": {
+    "found": true,
+    "n": 32,
+    "tc_btjd": 3469.8088,
+    "sector": 79,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 6.098,
+    "det_depth_err_ppt": 1.236,
+    "sap_depth_ppt": 1.713,
+    "snr2": 24.3,
+    "excluded": false,
+    "exclusion_reasons": [],
+    "artefact_classes": []
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 2869.8701,
+     "sector": 57,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 8.101,
+     "det_depth_err_ppt": 1.749,
+     "sap_depth_ppt": 6.756,
+     "sap_depth_err_ppt": 1.701,
+     "edge_distance_days": 3.461,
+     "pdc_gap_distance_days": 3.456,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 1,
+     "tc_btjd": 2888.6182,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 2907.3662,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 2926.1143,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 2944.8624,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 2963.6105,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 2982.3586,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3001.1067,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3019.8547,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3038.6028,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3057.3509,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3076.099,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3094.8471,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3113.5952,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3132.3433,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3151.0913,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3169.8394,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3188.5875,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3207.3356,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3226.0837,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3244.8318,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3263.5798,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3282.3279,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3301.076,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3319.8241,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3338.5722,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3357.3203,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3376.0684,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3394.8164,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3413.5645,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3432.3126,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3451.0607,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3469.8088,
+     "sector": 79,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 6.098,
+     "det_depth_err_ppt": 1.236,
+     "sap_depth_ppt": 1.713,
+     "sap_depth_err_ppt": 1.224,
+     "edge_distance_days": 9.866,
+     "pdc_gap_distance_days": 5.667,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": 0.84,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3488.5569,
+     "sector": 80,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 5.805,
+     "det_depth_err_ppt": 1.633,
+     "sap_depth_ppt": 4.547,
+     "sap_depth_err_ppt": 1.56,
+     "edge_distance_days": 8.672,
+     "pdc_gap_distance_days": 0.928,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 1.78,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3507.305,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3526.053,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3544.8011,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3563.5492,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3582.2973,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3601.0454,
+     "sector": 84,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 6.888,
+     "det_depth_err_ppt": 2.184,
+     "sap_depth_ppt": 3.866,
+     "sap_depth_err_ppt": 1.631,
+     "edge_distance_days": 9.293,
+     "pdc_gap_distance_days": 0.004,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.5,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 1.89,
+     "excluded": true,
+     "exclusion_reasons": [
+      "50% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.00 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 18.748069347728066,
+    "t0": 2869.877282530272,
+    "duration": 0.0928317766722556,
+    "source": "tls_forced",
+    "ref_depth_ppt": 5.780551094214444
+   },
+   "n_predicted_in_span": 40,
+   "n_observed": 4,
+   "n_excluded": 1,
+   "n_kept": 3,
+   "det_all": {
+    "n": 4,
+    "weighted_mean_depth_ppt": 6.118,
+    "err_ppt": 0.787,
+    "snr": 7.78,
+    "chi2_const": 1.3,
+    "dof": 3,
+    "p_const": 0.7674769709773467,
+    "top_event_n": 32,
+    "top_event_share_of_snr2": 0.4,
+    "snr_without_top_event": 5.96,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 5.412,
+     "odd_err": 1.274,
+     "even_ppt": 6.554,
+     "even_err": 1.0,
+     "sigma": 0.7
+    },
+    "p_const_white": 0.7205167207504521,
+    "chi2_const_white": 1.3,
+    "snr_white": 7.78,
+    "beta_median": 1.087,
+    "beta_min": 1.038,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 6.17,
+    "err_ppt_inflated": 0.879,
+    "snr_inflated": 7.02,
+    "chi2_const_inflated": 1.1,
+    "p_const_inflated": 0.7674769709773467
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 6.054,
+    "err_ppt": 0.853,
+    "snr": 7.09,
+    "chi2_const": 1.3,
+    "dof": 2,
+    "p_const": 0.572752245704998,
+    "top_event_n": 32,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 5.03,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.717,
+     "odd_err": 1.637,
+     "even_ppt": 6.554,
+     "even_err": 1.0,
+     "sigma": 0.96
+    },
+    "p_const_white": 0.5222654531103351,
+    "chi2_const_white": 1.3,
+    "snr_white": 7.09,
+    "beta_median": 1.121,
+    "beta_min": 1.038,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 6.107,
+    "err_ppt_inflated": 0.965,
+    "snr_inflated": 6.33,
+    "chi2_const_inflated": 1.1,
+    "p_const_inflated": 0.572752245704998
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.448,
+    "err_ppt": 0.844,
+    "snr": 4.09,
+    "chi2_const": 3.4,
+    "dof": 2,
+    "p_const": 0.23481866026331447,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.61,
+    "snr_without_top_event": 2.71,
+    "n_events_depth_above_2sigma": 2,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.483,
+     "odd_err": 1.596,
+     "even_ppt": 3.435,
+     "even_err": 0.995,
+     "sigma": 0.03
+    },
+    "p_const_white": 0.17855338532447942,
+    "chi2_const_white": 3.4,
+    "snr_white": 4.09,
+    "beta_median": 1.121,
+    "beta_min": 1.038,
+    "beta_max": 1.193,
+    "weighted_mean_depth_ppt_inflated": 3.63,
+    "err_ppt_inflated": 0.954,
+    "snr_inflated": 3.81,
+    "chi2_const_inflated": 2.9,
+    "p_const_inflated": 0.23481866026331447
+   },
+   "audit_flags": [
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": true,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": true,
+    "depth_within_0.5_2x_survey": true,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 6,
+   "all_passed": true,
+   "kept_snr": 7.09,
+   "top_event_share": 0.48,
+   "snr_without_top": 5.03,
+   "kept_depth_ppt": 6.054,
+   "kept_depth_err_ppt": 0.853,
+   "depth_over_survey_depth": 1.047,
+   "p_const": 0.572752245704998,
+   "top_event_n": 32,
+   "strongest_event": {
+    "found": true,
+    "n": 32,
+    "tc_btjd": 3469.8155,
+    "sector": 79,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 6.118,
+    "det_depth_err_ppt": 1.223,
+    "sap_depth_ppt": 2.124,
+    "snr2": 25.0,
+    "excluded": false,
+    "exclusion_reasons": [],
+    "artefact_classes": []
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 2869.8773,
+     "sector": 57,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 7.432,
+     "det_depth_err_ppt": 1.737,
+     "sap_depth_ppt": 6.035,
+     "sap_depth_err_ppt": 1.718,
+     "edge_distance_days": 3.468,
+     "pdc_gap_distance_days": 3.463,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 1,
+     "tc_btjd": 2888.6254,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 2907.3734,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 2926.1215,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 2944.8696,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 2963.6176,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 2982.3657,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3001.1138,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3019.8618,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3038.6099,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3057.358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3076.106,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3094.8541,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3113.6022,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3132.3503,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3151.0983,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3169.8464,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3188.5945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3207.3425,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3226.0906,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3244.8387,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3263.5867,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3282.3348,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3301.0829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3319.8309,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3338.579,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3357.3271,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3376.0752,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3394.8232,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3413.5713,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3432.3194,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3451.0674,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3469.8155,
+     "sector": 79,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 6.118,
+     "det_depth_err_ppt": 1.223,
+     "sap_depth_ppt": 2.124,
+     "sap_depth_err_ppt": 1.22,
+     "edge_distance_days": 9.859,
+     "pdc_gap_distance_days": 5.66,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": 0.84,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3488.5636,
+     "sector": 80,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.717,
+     "det_depth_err_ppt": 1.637,
+     "sap_depth_ppt": 3.483,
+     "sap_depth_err_ppt": 1.596,
+     "edge_distance_days": 8.678,
+     "pdc_gap_distance_days": 0.921,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.04,
+     "bkg_over_sector_median": 1.79,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3507.3116,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3526.0597,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3544.8078,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3563.5558,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3582.3039,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3601.052,
+     "sector": 84,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 6.479,
+     "det_depth_err_ppt": 2.029,
+     "sap_depth_ppt": 3.735,
+     "sap_depth_err_ppt": 1.622,
+     "edge_distance_days": 9.286,
+     "pdc_gap_distance_days": 0.003,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.49,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 1.89,
+     "excluded": true,
+     "exclusion_reasons": [
+      "49% of cadences within one duration carry the scattered-light flag",
+      "corrected flux has a PDC gap 0.00 d away (event abuts a stretch PDC removed)"
+     ],
+     "artefact_classes": [
+      "pdc_gap",
+      "scattered_light_flag"
+     ]
+    }
+   ]
+  }
+ },
+ "chosen_ephemeris": "survey",
+ "criteria": {
+  "kept_events_ge_3": true,
+  "kept_snr_ge_7": true,
+  "top_share_le_50pct": true,
+  "snr_without_top_ge_5": true,
+  "depth_within_0.5_2x_survey": true,
+  "depths_consistent_p_ge_1e-3": true
+ },
+ "n_criteria_passed": 6,
+ "decision": "PASS",
+ "deep_event_host": {
+  "n_accepted_on_star": 14,
+  "threshold_ppt": 28.9,
+  "n_deep": 0,
+  "deepest_ppt": null,
+  "examples": [],
+  "flag": false
+ },
+ "reason": "survey ephemeris, 3 kept events, SNR 7.57, top share 0.42, SNR w/o top 5.76, depth 6.5 ppt = 1.124x survey, p_const 0.61; all six criteria pass",
+ "seconds": 75.0,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

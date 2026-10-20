@@ -1,0 +1,101 @@
+{
+ "tic_id": 144277542,
+ "ra": 353.976322,
+ "dec": -47.803889,
+ "tic_gaia_id": 6524996886834125824,
+ "tic_gaia_mag": null,
+ "tmag": 12.692,
+ "generated_utc": "2026-09-04T23:17:13Z",
+ "candidate_depths_ppt": [
+  1.69,
+  1.864,
+  2.462,
+  2.465,
+  3.599
+ ],
+ "gaia": {
+  "n_within_1arcmin": 1,
+  "target": {
+   "source_id": 6524996886834125952,
+   "ra": 353.97613193834917,
+   "dec": -47.80388478208811,
+   "phot_g_mean_mag": 13.802422523498535,
+   "phot_bp_mean_mag": 15.010268211364746,
+   "phot_rp_mean_mag": 12.711392402648926,
+   "parallax": 13.233164677644073,
+   "parallax_error": 0.015697067603468895,
+   "pmra": -28.71451825436554,
+   "pmdec": 0.9075798433820468,
+   "ruwe": 1.2617647647857666,
+   "phot_variable_flag": "VARIABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.02390483394265175,
+   "astrometric_excess_noise": 0.0679716020822525,
+   "astrometric_excess_noise_sig": 3.476106882095337,
+   "radial_velocity": -17.085071563720703,
+   "radial_velocity_error": 1.1899994611740112,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 46.0,
+   "phot_g_n_obs": 692.0,
+   "teff_gspphot": null,
+   "logg_gspphot": null,
+   "distance_gspphot": null,
+   "best_class_name": "SOLAR_LIKE",
+   "best_class_score": 0.4560413658618927,
+   "sep_arcsec": 0.45982236293028556
+  },
+  "target_match": "nearest_5arcsec",
+  "neighbours": [],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 0,
+  "n_neighbours_within_3px_could_make_1ppt": 0
+ },
+ "simbad": {
+  "n_within_1arcmin": 0,
+  "objects": [],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "vsx": {
+  "n_within_1arcmin": 1,
+  "objects": [
+   {
+    "_q": 304.0,
+    "_r": 0.0003,
+    "recno": 10241766.0,
+    "OID": 8236456.0,
+    "Name": "Gaia DR3 6524996886834125952",
+    "V": 0.0,
+    "RAJ2000": 353.976318359375,
+    "DEJ2000": -47.803890228271484,
+    "Type": "ROT",
+    "l_max": "",
+    "max": 13.79,
+    "u_max": "",
+    "n_max": "G",
+    "f_min": "",
+    "l_min": "",
+    "min": 13.82,
+    "u_min": "",
+    "n_min": "G",
+    "Epoch": null,
+    "u_Epoch": "",
+    "l_Period": "",
+    "Period": null,
+    "u_Period": "",
+    "Sp": "M",
+    "n_OID": "",
+    "sep_arcsec": 0.0
+   }
+  ],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "summary": "Gaia: 1 sources within 1 arcmin; target RUWE 1.2617647647857666, var flag VARIABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class SOLAR_LIKE; 0 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 0 (); VSX 1",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

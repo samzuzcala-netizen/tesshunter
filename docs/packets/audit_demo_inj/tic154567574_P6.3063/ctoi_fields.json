@@ -1,0 +1,161 @@
+{
+ "form_fields": {
+  "target": "TIC 154567574",
+  "tic_id": 154567574,
+  "discovery_source": "TESS",
+  "period_days": 6.306438162031128,
+  "period_err_days": 4.896155617859691e-06,
+  "epoch_bjd": 2459945.721560251,
+  "epoch_err_days": 0.0002424781023412125,
+  "depth_ppm": 47845.0,
+  "depth_err_ppm": 469.0,
+  "duration_hours": 1.339,
+  "duration_err_hours": 0.125,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "EXERCISE: injected signal, not a candidate; never submit. Corrected physical fit uses the Stage C accepted ephemeris."
+ },
+ "supplementary": {
+  "rp_rs": 0.20377039302391914,
+  "rp_rs_err": 0.0011518490784454005,
+  "rp_rearth": 3.89,
+  "rp_rearth_err": 0.39,
+  "a_rs": 43.10403191443351,
+  "a_rs_err": 4.310403191443352,
+  "impact_parameter": 0.1081639724678091,
+  "impact_parameter_err": 0.06295430038169153,
+  "inclination_deg": 89.85622352836646,
+  "depth_duration_averaged_ppm": 36196.0,
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 0.2017318339680969,
+  "beta_red_noise": 1.01,
+  "n_transits_in_fit": 9,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.20297776127009884,
+    "rp_rs_err": 0.0021100855290127614,
+    "depth_ppt": 41.2,
+    "n_transits": 3
+   },
+   "even": {
+    "rp_rs": 0.20402958129287804,
+    "rp_rs_err": 0.0010932426305028781,
+    "depth_ppt": 41.628,
+    "n_transits": 6
+   },
+   "sigma": 0.44
+  },
+  "tls_blind": {
+   "period": 6.30633893094158,
+   "SDE": 90.73547933527676,
+   "snr": 38.553072307377704,
+   "distinct_transit_count": 8
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 11,
+   "n_excluded": 4,
+   "n_kept": 7
+  },
+  "det_kept": {
+   "n": 7,
+   "weighted_mean_depth_ppt": 43.875,
+   "err_ppt": 0.429,
+   "snr": 102.27,
+   "chi2_const": 0.7,
+   "dof": 6,
+   "p_const": 0.9968334083460378,
+   "top_event_n": 62,
+   "top_event_share_of_snr2": 0.19,
+   "snr_without_top_event": 91.79,
+   "n_events_depth_above_2sigma": 7,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 43.872,
+    "odd_err": 1.17,
+    "even_ppt": 43.875,
+    "even_err": 0.461,
+    "sigma": 0.0
+   },
+   "p_const_white": 0.9950961036470737,
+   "chi2_const_white": 0.7,
+   "snr_white": 102.27,
+   "beta_median": 1.06,
+   "beta_min": 1.059,
+   "beta_max": 1.098,
+   "weighted_mean_depth_ppt_inflated": 43.875,
+   "err_ppt_inflated": 0.457,
+   "snr_inflated": 95.93,
+   "chi2_const_inflated": 0.6,
+   "p_const_inflated": 0.9968334083460378
+  },
+  "sap_kept": {
+   "n": 7,
+   "weighted_mean_depth_ppt": 43.719,
+   "err_ppt": 0.424,
+   "snr": 103.18,
+   "chi2_const": 0.6,
+   "dof": 6,
+   "p_const": 0.9968725990926748,
+   "top_event_n": 62,
+   "top_event_share_of_snr2": 0.21,
+   "snr_without_top_event": 91.61,
+   "n_events_depth_above_2sigma": 7,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 43.614,
+    "odd_err": 1.173,
+    "even_ppt": 43.735,
+    "even_err": 0.454,
+    "sigma": 0.1
+   },
+   "p_const_white": 0.9955420475641258,
+   "chi2_const_white": 0.6,
+   "snr_white": 103.18,
+   "beta_median": 1.06,
+   "beta_min": 1.059,
+   "beta_max": 1.098,
+   "weighted_mean_depth_ppt_inflated": 43.719,
+   "err_ppt_inflated": 0.452,
+   "snr_inflated": 96.77,
+   "chi2_const_inflated": 0.6,
+   "p_const_inflated": 0.9968725990926748
+  },
+  "stellar": {
+   "radius": 0.175,
+   "radius_err": 0.017499999999999998,
+   "mass": 0.145,
+   "rho_cgs": 38.09399416909621,
+   "rho_err": 11.428198250728864,
+   "a_rs_catalog": 43.10403191443351
+  },
+  "limb_darkening": {
+   "u1": 0.19168,
+   "u2": 0.42832000000000003,
+   "source": "survey Claret interpolation at TIC Teff 3146 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T16:17:03Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-04:f6964541;nasa_ps=2026-09-04:a77e0fbc;nasa_pscomppars=2026-09-04:0ade67b2;spoc_tce=2026-09-04:e580dde7;tess_eb=2026-09-04:43555226;toi=2026-09-04:869a3c23",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_inj\\tls\\tic154567574_P6.3063.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_inj\\events\\tic154567574_P6.3063_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_inj\\neighbours\\tic154567574.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_inj\\fit\\tic154567574_P6.3063.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

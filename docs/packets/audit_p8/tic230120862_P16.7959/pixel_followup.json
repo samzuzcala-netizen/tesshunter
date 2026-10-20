@@ -1,0 +1,71 @@
+{
+ "recommended_verdict": "KILL",
+ "final_reason": "Background/correction artifact. Difference images are dominated by changing diffuse background at both the physical-fit and original Stage A ephemerides. At the original 4.8-hour Stage A window, fixed-aperture depths are -6.620 +/-1.397, 5.083 +/-0.699, 7.158 +/-1.110 and -3.283 +/-1.643 ppt in sectors 58, 79, 83 and 86 [M], with raw changes tracking sky ramps and no stable isolated transit. The physical fit reaches a grazing rail and has unusably large geometry uncertainties.",
+ "assessment": "KILL supported by the pixel evidence. The physical fit has b=1.099999, T14=21.307 +/-28.634 h and Rp=6.102 +/-141.165 Earth radii, with the density prior rejected at delta chi-squared 152.873 [M]. The grazing-rail problem recurs; those covariance errors are not physical confidence bounds. At that fit, aperture depths are -11.097 +/-0.666, 4.726 +/-0.331, 12.441 +/-0.442 and 4.202 +/-0.441 ppt [M]. The unchanged earlier Stage A ephemeris also shows sign changes, broad steps and ramps. Sector 58 brightens across a pre-transit step; sector 79 has broad changing structure; sector 83 steps down without isolated recovery; sector 86 follows large sky ramps. Primary differences are whole-cutout signals with no stable dimming PSF. FPP is 1.0 and NFPP 0.945597; all 18 sectors have usable centroids, with combined significance 20.367 sigma [M]. No unique eclipsing source is localized.",
+ "what_would_change": "Independent photometry with a stable background must reproduce localized, repeated dimming at the candidate ephemeris and permit a constrained physical fit. Fixed-aperture depths remain diluted and their point-scatter errors omit correlated noise. The current measurements do not support a separate clean EB report.",
+ "target_aperture_available": true,
+ "selection": "Sectors 58, 79, 83 and 86 span the first, intermediate and final epochs among sectors with complete primary and phase-0.5 windows.",
+ "key": "tic230120862_P16.7959",
+ "status": "complete",
+ "reviewed_utc": "2026-09-06T21:08:35.746669+00:00",
+ "scope": "Final local pixel assessment, retained after the main coordinator completed C and refreshed all six Stage D catalogues. No external submission was made.",
+ "evidence_tag": "M",
+ "figures": [
+  {
+   "path": "data/survey/p8/eb_screen/tic230120862_P16.7959_fit_difference.png",
+   "caption": "Difference images at the physical-fit ephemeris."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic230120862_P16.7959_target_aperture.png",
+   "caption": "Fixed target aperture, sky and folded data at the physical-fit ephemeris."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic230120862_P16.7959_difference.png",
+   "caption": "Difference-image check at the unchanged earlier accepted Stage A ephemeris."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic230120862_P16.7959_stageA_aperture_control.png",
+   "caption": "Identical target/sky series at the original 4.8-hour Stage A window; shading marks the fixed box."
+  }
+ ],
+ "source_sha256": {
+  "data/cache/audit_lightkurve/tesscut/tess-s0058-4-2_250.126656_70.302492_21x21_astrocut.fits": "bdcff6b6f2bd5dc9886bfbc82103a8919e904634def7bf6441d1c01e8f295da3",
+  "data/cache/audit_lightkurve/tesscut/tess-s0079-3-1_250.126656_70.302492_21x21_astrocut.fits": "2b8f14f4adab33ccf82f63170184954893ce751741e7e99fed60a2df35b12aca",
+  "data/cache/audit_lightkurve/tesscut/tess-s0083-4-3_250.126656_70.302492_21x21_astrocut.fits": "bfeb3acee1110ff1ba6c0f8beb2d053c8fcdebc0f9ba7c3f487b70384409c9b6",
+  "data/cache/audit_lightkurve/tesscut/tess-s0086-4-2_250.126656_70.302492_21x21_astrocut.fits": "e3910d79fd3ac3f5f209ccc069df7630377d73a6dadf9449f7ff5664042e0b37",
+  "data/survey/p8/eb_screen/tic230120862_gaia_cone_300arcsec.json": "c06cd1f360a720cb1edba0c49d0621fd44f411f70923808b041e7ae3a55b5cf8",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_difference.json": "d4f55a83aaf702124c36f33e2bf2f7082d719985b3841af97b41c1c99fcb3ea0",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_difference.npz": "e179ca8481dbed9d0436d7773657b47d403be23b54ec465bc65d04caa4c97f43",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_difference.png": "ea3afd3879eb9207647cdc27a401386e0d02acbd28337b9d9881a2224e9e5b6d",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_fit_difference.json": "aa550e099ba32cd43c35841ab278b3b9f10ee37518c297961b90ded0bfc7e454",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_fit_difference.npz": "2c95e36b13ff67a3afad00e1bc99b670a6c06ba883c0c591405af8bea9aeecc7",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_fit_difference.png": "3ff70f68f429c215809b9a6bde60546b5b89df788bcae82f4843aec377a0304a",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_stageA_aperture_control.json": "dbb3afdf03fc782d0b9c5ddf5d63ca1ecdf50c1b43b12a1296d9a3ccef2b3dbf",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_stageA_aperture_control.png": "8484dd2ba332eb9b56ebf97431947d908c0cd4f0a25464eb51f995b532be7684",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_target_aperture.json": "8583c0f15b54e65d199730deb1857635074f9c47044faab6cac5d00e2fcc1edd",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_target_aperture.npz": "76b3cb63d64f1fe3848687578ac9a456df3069a9b4242a2527bab5da35f2992e",
+  "data/survey/p8/eb_screen/tic230120862_P16.7959_target_aperture.png": "02581b4a4ec46c68a0ee98159b19950985d7c47b8f610a6dfade4d03689870ca",
+  "data/survey/p8/fit/tic230120862_P16.7959.json": "e377ff75d37124ea75e9c5215fa548236c41efc576dddce3ddc5e12e24b51696",
+  "data/survey/p8/logs/new_pixel_control_figures.py": "44a5b9c64b3ed4cbfa69097ebdb35ca48c4b4fd96454cc5142fc6bb2ab554a17",
+  "data/survey/p8/neighbours/tic230120862.json": "7ed9547944ade44d36233f63b654356b3e444e687f0c713c125ea741b13b88e2",
+  "data/survey/p8/pixel_download_repair_p8.json": "f31b25239e45db7d0c2694ff0eebd70b31b0f08def241f03ce6c7e581a99d379",
+  "data/survey/p8/stageA/tic230120862_P16.7959.json": "7029679e485c2163aa71be9ea724852ee2572da03225a0d48c6c9097b7b3d385",
+  "data/survey/p8/stageC/tic230120862_P16.7959.json": "68b7b7f1e16aa57f86ae51a55c9159d3e33533eca562b97d9fe0c4ba7cda6ba0",
+  "scripts/p8_eb_aperture.py": "93fe3fde099653a72ce02998d6f9e60d264204765c94401a69863ad06cd11d60",
+  "scripts/p8_eb_difference_image.py": "07c72da7b1d9b148fc8a5435a52528b593faaa79243a29ad949973289daed250",
+  "scripts/p8_target_aperture.py": "400a627b64eb7cd513df1b186fc67c507af82b09f075bf96be09684b1d4250e3"
+ },
+ "background_mask_review": {
+  "Gaia_cone_radius_arcsec": 300,
+  "scope": "Supplied Gaia sources on the cutout use the same fixed mask geometry. The 300-arcsec cone covers the target aperture and the background annulus, including the two-pixel source-exclusion margin; full corner coverage of a 21-by-21-pixel square is not required for that annulus.",
+  "outcome": "All figures inspected. No aperture, ephemeris, detrending or science gate was tuned. Insufficient sky pixels remain explicitly unavailable."
+ },
+ "initial_reviewed_utc": "2026-09-06T21:07:38.126698+00:00",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

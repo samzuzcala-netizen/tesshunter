@@ -1,0 +1,167 @@
+{
+ "form_fields": {
+  "target": "TIC 404927114",
+  "tic_id": 404927114,
+  "discovery_source": "TESS",
+  "period_days": 27.543390052635324,
+  "period_err_days": 0.0002485035541247843,
+  "epoch_bjd": 2459987.928697499,
+  "epoch_err_days": 0.006997371079042699,
+  "depth_ppm": 4516.0,
+  "depth_err_ppm": 566.0,
+  "duration_hours": 2.899,
+  "duration_err_hours": 0.327,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "Local P8 audit verdict: HOLD. Source unresolved in a crowded variable-star field. The primary difference images are weak/mixed in sector 63 and dominated by diffuse background changes in sectors 90 and 98. The fixed sky annulus leaves only one usable pixel per sector, below the required 16, so a reliable target-aperture depth could not be extracted. FPP is 0.201585 and NFPP is 0.169895 [M]; source localization is inadequate for submission."
+ },
+ "supplementary": {
+  "rp_rs": 0.06387015880421273,
+  "rp_rs_err": 0.004428027894983693,
+  "rp_rearth": 3.079,
+  "rp_rearth_err": 0.375,
+  "a_rs": 65.917165031291,
+  "a_rs_err": 6.591716503129101,
+  "impact_parameter": 0.5524346291247981,
+  "impact_parameter_err": 0.08937668354443128,
+  "inclination_deg": 89.51981334107754,
+  "depth_duration_averaged_ppm": 3746.0,
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 3.5049874232472575,
+  "beta_red_noise": 1.12,
+  "n_transits_in_fit": 8,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.05984023037519935,
+    "rp_rs_err": 0.005548129626044094,
+    "depth_ppt": 3.581,
+    "n_transits": 5
+   },
+   "even": {
+    "rp_rs": 0.06922987025419858,
+    "rp_rs_err": 0.005730657239547871,
+    "depth_ppt": 4.793,
+    "n_transits": 5
+   },
+   "sigma": 1.17
+  },
+  "tls_blind": {
+   "period": 27.543652012259667,
+   "SDE": 15.861811662651546,
+   "snr": 6.092007930633779,
+   "distinct_transit_count": 8
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 12,
+   "n_excluded": 5,
+   "n_kept": 7
+  },
+  "det_kept": {
+   "n": 7,
+   "weighted_mean_depth_ppt": 3.996,
+   "err_ppt": 0.668,
+   "snr": 5.98,
+   "chi2_const": 9.1,
+   "dof": 6,
+   "p_const": 0.21684177251868597,
+   "top_event_n": 33,
+   "top_event_share_of_snr2": 0.29,
+   "snr_without_top_event": 4.78,
+   "n_events_depth_above_2sigma": 4,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 3.852,
+    "odd_err": 0.84,
+    "even_ppt": 4.243,
+    "even_err": 1.101,
+    "sigma": 0.28
+   },
+   "p_const_white": 0.16744276930796156,
+   "chi2_const_white": 9.1,
+   "snr_white": 5.98,
+   "beta_median": 1.043,
+   "beta_min": 1.021,
+   "beta_max": 1.159,
+   "weighted_mean_depth_ppt_inflated": 3.943,
+   "err_ppt_inflated": 0.711,
+   "snr_inflated": 5.54,
+   "chi2_const_inflated": 8.3,
+   "p_const_inflated": 0.21684177251868597
+  },
+  "sap_kept": {
+   "n": 7,
+   "weighted_mean_depth_ppt": 3.079,
+   "err_ppt": 0.674,
+   "snr": 4.57,
+   "chi2_const": 10.0,
+   "dof": 6,
+   "p_const": 0.18154779485672382,
+   "top_event_n": 31,
+   "top_event_share_of_snr2": 0.3,
+   "snr_without_top_event": 3.88,
+   "n_events_depth_above_2sigma": 4,
+   "n_events_negative": 1,
+   "odd_even": {
+    "odd_ppt": 2.838,
+    "odd_err": 0.833,
+    "even_ppt": 3.534,
+    "even_err": 1.147,
+    "sigma": 0.49
+   },
+   "p_const_white": 0.1257931917005505,
+   "chi2_const_white": 10.0,
+   "snr_white": 4.57,
+   "beta_median": 1.043,
+   "beta_min": 1.021,
+   "beta_max": 1.159,
+   "weighted_mean_depth_ppt_inflated": 2.983,
+   "err_ppt_inflated": 0.717,
+   "snr_inflated": 4.16,
+   "chi2_const_inflated": 8.9,
+   "p_const_inflated": 0.18154779485672382
+  },
+  "stellar": {
+   "radius": 0.442,
+   "radius_err": 0.0442,
+   "mass": 0.438,
+   "rho_cgs": 7.1418373833051945,
+   "rho_err": 2.1425512149915584,
+   "a_rs_catalog": 65.917165031291
+  },
+  "limb_darkening": {
+   "u1": 0.22704,
+   "u2": 0.39488,
+   "source": "survey Claret interpolation at TIC Teff 3516 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T21:08:38Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\tls\\tic404927114_P27.5436.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\events\\tic404927114_P27.5436_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\neighbours\\tic404927114.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\fit\\tic404927114_P27.5436.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "review_status": {
+  "verdict": "HOLD",
+  "final_verdict_stamped": true,
+  "reason": "Source unresolved in a crowded variable-star field. The primary difference images are weak/mixed in sector 63 and dominated by diffuse background changes in sectors 90 and 98. The fixed sky annulus leaves only one usable pixel per sector, below the required 16, so a reliable target-aperture depth could not be extracted. FPP is 0.201585 and NFPP is 0.169895 [M]; source localization is inadequate for submission.",
+  "external_submission_performed": false
+ }
+}

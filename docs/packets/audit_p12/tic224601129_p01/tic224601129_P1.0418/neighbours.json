@@ -1,0 +1,226 @@
+{
+ "tic_id": 224601129,
+ "ra": 255.134652169987,
+ "dec": 59.3885898664491,
+ "tic_gaia_id": null,
+ "tic_gaia_mag": null,
+ "tmag": 13.5596,
+ "generated_utc": "2026-09-30T14:34:56Z",
+ "candidate_depths_ppt": [
+  14.040047009061363
+ ],
+ "gaia": {
+  "n_within_1arcmin": 8,
+  "target": {
+   "source_id": 1437095992818193024,
+   "ra": 255.1350241500121,
+   "dec": 59.388588997054605,
+   "phot_g_mean_mag": 14.793408393859863,
+   "phot_bp_mean_mag": 16.26546287536621,
+   "phot_rp_mean_mag": 13.609395980834961,
+   "parallax": 11.960442128750605,
+   "parallax_error": 0.017909571528434753,
+   "pmra": 42.65011740831825,
+   "pmdec": -0.3871329736722463,
+   "ruwe": 1.023009181022644,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.007606939412653446,
+   "astrometric_excess_noise": 0.0,
+   "astrometric_excess_noise_sig": 0.0,
+   "radial_velocity": 11.165319442749023,
+   "radial_velocity_error": 5.142303943634033,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 13.0,
+   "phot_g_n_obs": 316.0,
+   "teff_gspphot": 3397.408203125,
+   "logg_gspphot": 4.664899826049805,
+   "distance_gspphot": 84.00990295410156,
+   "best_class_name": "",
+   "best_class_score": null,
+   "sep_arcsec": 0.6819083794436767
+  },
+  "target_match": "nearest_5arcsec",
+  "neighbours": [
+   {
+    "source_id": 1437095988523090176,
+    "sep_arcsec": 11.2,
+    "sep_px": 0.54,
+    "G": 20.70853614807129,
+    "Rp": 19.51189613342285,
+    "band_used": "rp",
+    "delta_mag": 5.9,
+    "flux_ratio_to_target": 0.00436,
+    "max_observed_depth_ppt_total_eclipse": 4.34,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.1855510473251343,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.27202864617749367
+   },
+   {
+    "source_id": 1437095992818193920,
+    "sep_arcsec": 22.6,
+    "sep_px": 1.08,
+    "G": 18.149829864501953,
+    "Rp": 17.485370635986328,
+    "band_used": "rp",
+    "delta_mag": 3.88,
+    "flux_ratio_to_target": 0.02816,
+    "max_observed_depth_ppt_total_eclipse": 27.39,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0481845140457153,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.3498258951832004
+   },
+   {
+    "source_id": 1437095988522980608,
+    "sep_arcsec": 29.7,
+    "sep_px": 1.42,
+    "G": 17.30331039428711,
+    "Rp": 16.77151107788086,
+    "band_used": "rp",
+    "delta_mag": 3.16,
+    "flux_ratio_to_target": 0.05434,
+    "max_observed_depth_ppt_total_eclipse": 51.54,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0671545267105103,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.19113711621650242
+   },
+   {
+    "source_id": 1437095988523130112,
+    "sep_arcsec": 31.6,
+    "sep_px": 1.51,
+    "G": 20.767620086669922,
+    "Rp": 19.588239669799805,
+    "band_used": "rp",
+    "delta_mag": 5.98,
+    "flux_ratio_to_target": 0.00406,
+    "max_observed_depth_ppt_total_eclipse": 4.04,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.2282414436340332,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.7651839031993868
+   },
+   {
+    "source_id": 1437096022882720000,
+    "sep_arcsec": 49.8,
+    "sep_px": 2.37,
+    "G": 20.01445770263672,
+    "Rp": 19.349374771118164,
+    "band_used": "rp",
+    "delta_mag": 5.74,
+    "flux_ratio_to_target": 0.00506,
+    "max_observed_depth_ppt_total_eclipse": 5.03,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9733692407608032,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.5552513679959615
+   },
+   {
+    "source_id": 1437096095897408000,
+    "sep_arcsec": 52.9,
+    "sep_px": 2.52,
+    "G": 16.60053253173828,
+    "Rp": 15.98998737335205,
+    "band_used": "rp",
+    "delta_mag": 2.38,
+    "flux_ratio_to_target": 0.11163,
+    "max_observed_depth_ppt_total_eclipse": 100.42,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0716946125030518,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.708495626206534
+   },
+   {
+    "source_id": 1437096095897408640,
+    "sep_arcsec": 58.0,
+    "sep_px": 2.76,
+    "G": 17.251874923706055,
+    "Rp": 16.528743743896484,
+    "band_used": "rp",
+    "delta_mag": 2.92,
+    "flux_ratio_to_target": 0.06796,
+    "max_observed_depth_ppt_total_eclipse": 63.64,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0563408136367798,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.5845834004378251
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 0,
+  "n_neighbours_within_3px_could_make_1ppt": 7
+ },
+ "simbad": {
+  "n_within_1arcmin": 1,
+  "objects": [
+   {
+    "main_id": "2MASS J17003230+5923189",
+    "otype": "*",
+    "otypes": "*|NIR",
+    "sp_type": "",
+    "sep_arcsec": 0.0,
+    "V": null,
+    "G": 14.793408393859863
+   }
+  ],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "vsx": {
+  "n_within_1arcmin": 0,
+  "objects": [],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "summary": "Gaia: 8 sources within 1 arcmin; target RUWE 1.023009181022644, var flag NOT_AVAILABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class -; 0 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 1 (*); VSX 0",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

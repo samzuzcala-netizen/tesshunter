@@ -1,0 +1,162 @@
+{
+ "key": "tic332366289_P18.7481",
+ "tic_id": 332366289,
+ "rank": 1,
+ "survey_period": 18.748084871649127,
+ "survey_depth_ppt": 5.780551094214444,
+ "generated_utc": "2026-09-30T14:40:16Z",
+ "rules_version": "p10.0",
+ "thresholds": {
+  "max_cadence_s": 600.0,
+  "min_span_periods": 1.5,
+  "window_depth_fraction": 0.3333333333333333,
+  "window_noise_fraction": 0.2,
+  "window_fill_fraction": 0.6,
+  "window_length": "expected_t14_hours (central transit)",
+  "ruwe": 1.4,
+  "ipd_frac_multi_peak_pct": 10.0,
+  "aen_sig": 2.0,
+  "deep_event_ppt": 30.0,
+  "deep_event_ratio": 5.0
+ },
+ "phase_independent": {
+  "t14_hours": 2.151515355573534,
+  "window_days": 0.08964647314889725,
+  "depth_ppt": 5.781,
+  "depth_threshold_ppt": 1.927,
+  "noise_threshold_ppt": 1.156,
+  "survey_duration_days": 0.0928317766722556,
+  "survey_duration_over_t14": 1.036,
+  "diagnostic": "the decision uses the central-transit duration T14 as the window, as specified; deepest_depth_ppt_at_survey_duration repeats the measurement with the survey's own box duration and is recorded ONLY so that window dilution is visible, never used",
+  "sectors": [
+   {
+    "sector": 57,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 28.76,
+    "n_points": 10787,
+    "span_periods": 1.534,
+    "deepest_depth_ppt": 8.694,
+    "deepest_at_btjd": 2869.8192,
+    "n_in_deepest_window": 39,
+    "n_windows_tested": 10672,
+    "point_scatter_ppt": 10.543,
+    "median_points_per_window": 39.0,
+    "window_noise_ppt": 1.6883,
+    "expected_points_per_window": 38.7,
+    "margin_over_threshold": 4.512,
+    "tested": true,
+    "excludes_period": false,
+    "why": "deepest window 8.69 ppt >= 1.93 ppt; noise 1.688 ppt >= 1.16 ppt"
+   },
+   {
+    "sector": 77,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 28.06,
+    "n_points": 3806,
+    "span_periods": 1.497,
+    "tested": false,
+    "why": "spans 1.50 periods < 1.5"
+   },
+   {
+    "sector": 78,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 15.34,
+    "n_points": 4743,
+    "span_periods": 0.818,
+    "tested": false,
+    "why": "spans 0.82 periods < 1.5"
+   },
+   {
+    "sector": 79,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 27.13,
+    "n_points": 9677,
+    "span_periods": 1.447,
+    "tested": false,
+    "why": "spans 1.45 periods < 1.5"
+   },
+   {
+    "sector": 80,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 26.44,
+    "n_points": 8836,
+    "span_periods": 1.41,
+    "tested": false,
+    "why": "spans 1.41 periods < 1.5"
+   },
+   {
+    "sector": 84,
+    "author": "TESS-SPOC",
+    "cadence_s": 200.0,
+    "span_days": 25.75,
+    "n_points": 8234,
+    "span_periods": 1.373,
+    "tested": false,
+    "why": "spans 1.37 periods < 1.5"
+   }
+  ],
+  "n_sectors": 6,
+  "n_sectors_tested": 1,
+  "n_sectors_excluding": 0,
+  "excluding_sectors": [],
+  "median_deepest_window_ppt": 8.694,
+  "median_deepest_window_ppt_at_survey_duration": null,
+  "min_margin_over_threshold": 4.512,
+  "excluded": false
+ },
+ "gaia": {
+  "gaia_error": null,
+  "n_within_1arcmin": 5,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.0966936349868774,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 2.165614604949951,
+  "phot_variable_flag": "NOT_AVAILABLE",
+  "vari_class": "",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 3.17325758934021,
+  "rv_n_transits": 20.0,
+  "n_neighbours_could_produce_depth_within_3px": 0,
+  "simbad_otypes": [
+   "PM*"
+  ],
+  "n_vsx_within_1arcmin": 0,
+  "vsx_types": [],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "astrometric_excess_noise_sig 2.2 > 2.0"
+  ]
+ },
+ "deep_event_host": {
+  "n_accepted_on_star": 14,
+  "threshold_ppt": 28.9,
+  "n_deep": 0,
+  "deepest_ppt": null,
+  "examples": [],
+  "flag": false
+ },
+ "flags": [
+  "astrometric_excess_noise_sig 2.2 > 2.0"
+ ],
+ "decision": "PASS",
+ "reason": "1 sector(s) could test the period phase-independently, none excludes it; 1 star-level flag(s): astrometric_excess_noise_sig 2.2 > 2.0",
+ "b_flag_cap_p8": "HOLD",
+ "max_verdict": null,
+ "seconds": 0.2,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

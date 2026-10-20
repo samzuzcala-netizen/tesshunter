@@ -1,0 +1,1397 @@
+{
+ "rules_version": "p12.0",
+ "key": "tic230120862_P16.7959",
+ "verdict": "KILL",
+ "deciding_condition": "K9",
+ "deciding_detail": "criterion holds: K9a in 15, K9b in 11 sector(s) of 15 measurable; reviewer decision artefact",
+ "reference_depth": {
+  "depth_ppt": 1.894,
+  "err_ppt": 0.218,
+  "source": "stageA.det_kept.weighted_mean_depth_ppt"
+ },
+ "ephemeris": {
+  "period": 16.78950415324078,
+  "t0": 2832.49821218326,
+  "duration": 0.8877916666666666,
+  "source": "fit.adopted"
+ },
+ "conditions": {
+  "K0": {
+   "fired": false,
+   "measurable": true,
+   "detail": "hard stop CLEAN",
+   "status": "CLEAN"
+  },
+  "K1": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage A PASS",
+   "decision": "PASS",
+   "failed_criteria": []
+  },
+  "K2": {
+   "fired": false,
+   "measurable": true,
+   "detail": "secondary gate PASS (mode bound)",
+   "gate": "PASS",
+   "mode": "bound"
+  },
+  "K3": {
+   "fired": false,
+   "measurable": true,
+   "detail": "phase-independent exclusion False (14 sector(s) tested)",
+   "excluded": false,
+   "n_sectors_tested": 14
+  },
+  "K4": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage C PASS (strongest): strongest peak 16.79142 d is within 1% of the survey period at SDE 16.7",
+   "decision": "PASS",
+   "peak_rule": "strongest"
+  },
+  "K5": {
+   "fired": false,
+   "measurable": true,
+   "detail": "no alias match among 4 accepted signals and 0 catalogued periods",
+   "matches": [],
+   "n_catalogue_periods": 0
+  },
+  "K6": {
+   "fired": false,
+   "measurable": true,
+   "detail": "odd/even 1.61 sigma (12 odd, 12 even transits)",
+   "sigma": 1.61,
+   "n_odd": 12,
+   "n_even": 12
+  },
+  "K7": {
+   "fired": false,
+   "measurable": true,
+   "detail": "K7a in 0 sector(s) (literal whole-cutout form: 2), K7b in 0 sector(s) (9 K7a-measurable, 2 K7b-measurable)",
+   "n_elsewhere": 0,
+   "n_elsewhere_literal": 2,
+   "n_absent": 0,
+   "elsewhere": [
+    {
+     "sector": 56,
+     "fired": false,
+     "row": 11,
+     "column": 10,
+     "difference_e_per_s": 28.57404489080193,
+     "literal": {
+      "fired": false,
+      "row": 7,
+      "column": 20,
+      "difference_e_per_s": 68.82163901867443,
+      "dist_target_px": 9.859,
+      "dist_nearest_neighbour_px": 1.853,
+      "nearest_neighbour_source_id": 1650289064061270912,
+      "nearest_neighbour_G": 20.977693557739258,
+      "event_scatter_e_per_s": 33.471280762405264,
+      "significance": 2.06,
+      "detail": "max pixel 9.86 px from target, 1.85 px from nearest neighbour, 2.1 sigma"
+     },
+     "dist_target_px": 0.925,
+     "dist_nearest_neighbour_px": 0.562,
+     "nearest_neighbour_source_id": 1650289785614977152,
+     "nearest_neighbour_G": 20.596153259277344,
+     "event_scatter_e_per_s": 29.885215758308604,
+     "significance": 0.96,
+     "detail": "local (3 px) max pixel 0.92 px from target, 0.56 px from nearest neighbour, 1.0 sigma; literal: max pixel 9.86 px from target, 1.85 px from nearest neighbour, 2.1 sigma"
+    },
+    {
+     "sector": 58,
+     "fired": null,
+     "row": 10,
+     "column": 8,
+     "difference_e_per_s": 7.764924009184668,
+     "literal": {
+      "fired": null,
+      "row": 20,
+      "column": 7,
+      "difference_e_per_s": 9.711470917100087,
+      "dist_target_px": 10.746,
+      "dist_nearest_neighbour_px": 0.876,
+      "nearest_neighbour_source_id": 1650288303851628288,
+      "nearest_neighbour_G": 19.435344696044922,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 2.799,
+     "dist_nearest_neighbour_px": 1.446,
+     "nearest_neighbour_source_id": 1650289540802091392,
+     "nearest_neighbour_G": 19.10416030883789,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 59,
+     "fired": false,
+     "row": 10,
+     "column": 9,
+     "difference_e_per_s": 0.11380729716984206,
+     "literal": {
+      "fired": false,
+      "row": 20,
+      "column": 10,
+      "difference_e_per_s": 1.1063705520877534,
+      "dist_target_px": 9.99,
+      "dist_nearest_neighbour_px": 0.392,
+      "nearest_neighbour_source_id": 1650288613089083648,
+      "nearest_neighbour_G": 12.981491088867188,
+      "event_scatter_e_per_s": 1.6913275634020892,
+      "significance": 0.65,
+      "detail": "max pixel 9.99 px from target, 0.39 px from nearest neighbour, 0.7 sigma"
+     },
+     "dist_target_px": 1.63,
+     "dist_nearest_neighbour_px": 0.851,
+     "nearest_neighbour_source_id": 1650289746960524672,
+     "nearest_neighbour_G": 19.149606704711914,
+     "event_scatter_e_per_s": 0.23689949505546107,
+     "significance": 0.48,
+     "detail": "local (3 px) max pixel 1.63 px from target, 0.85 px from nearest neighbour, 0.5 sigma; literal: max pixel 9.99 px from target, 0.39 px from nearest neighbour, 0.7 sigma"
+    },
+    {
+     "sector": 73,
+     "fired": null,
+     "row": 10,
+     "column": 11,
+     "difference_e_per_s": 27.801366452506727,
+     "literal": {
+      "fired": null,
+      "row": 20,
+      "column": 16,
+      "difference_e_per_s": 42.4437850899958,
+      "dist_target_px": 11.232,
+      "dist_nearest_neighbour_px": 1.167,
+      "nearest_neighbour_source_id": 1650288273787530624,
+      "nearest_neighbour_G": 20.490365982055664,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.545,
+     "dist_nearest_neighbour_px": 0.585,
+     "nearest_neighbour_source_id": 1650289785614977152,
+     "nearest_neighbour_G": 20.596153259277344,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 74,
+     "fired": false,
+     "row": 10,
+     "column": 11,
+     "difference_e_per_s": 4.888708670430972,
+     "literal": {
+      "fired": false,
+      "row": 3,
+      "column": 0,
+      "difference_e_per_s": 56.64026784326052,
+      "dist_target_px": 13.157,
+      "dist_nearest_neighbour_px": 0.691,
+      "nearest_neighbour_source_id": 1650288273786664064,
+      "nearest_neighbour_G": 20.761198043823242,
+      "event_scatter_e_per_s": 79.74625131702399,
+      "significance": 0.71,
+      "detail": "max pixel 13.16 px from target, 0.69 px from nearest neighbour, 0.7 sigma"
+     },
+     "dist_target_px": 0.443,
+     "dist_nearest_neighbour_px": 0.592,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 2.5248989071396903,
+     "significance": 1.94,
+     "detail": "local (3 px) max pixel 0.44 px from target, 0.59 px from nearest neighbour, 1.9 sigma; literal: max pixel 13.16 px from target, 0.69 px from nearest neighbour, 0.7 sigma"
+    },
+    {
+     "sector": 76,
+     "fired": false,
+     "row": 10,
+     "column": 11,
+     "difference_e_per_s": -17.01287020341468,
+     "literal": {
+      "fired": false,
+      "row": 10,
+      "column": 11,
+      "difference_e_per_s": -17.01287020341468,
+      "dist_target_px": 0.63,
+      "dist_nearest_neighbour_px": 0.469,
+      "nearest_neighbour_source_id": 1650289751254643840,
+      "nearest_neighbour_G": 19.7037296295166,
+      "event_scatter_e_per_s": 178.1805451260788,
+      "significance": -0.1,
+      "detail": "max pixel 0.63 px from target, 0.47 px from nearest neighbour, -0.1 sigma"
+     },
+     "dist_target_px": 0.63,
+     "dist_nearest_neighbour_px": 0.469,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 178.1805451260788,
+     "significance": -0.1,
+     "detail": "local (3 px) max pixel 0.63 px from target, 0.47 px from nearest neighbour, -0.1 sigma; literal: max pixel 0.63 px from target, 0.47 px from nearest neighbour, -0.1 sigma"
+    },
+    {
+     "sector": 78,
+     "fired": null,
+     "row": 10,
+     "column": 10,
+     "difference_e_per_s": 6.693934107421043,
+     "literal": {
+      "fired": null,
+      "row": 9,
+      "column": 0,
+      "difference_e_per_s": 23.692532523856926,
+      "dist_target_px": 10.702,
+      "dist_nearest_neighbour_px": 1.825,
+      "nearest_neighbour_source_id": 1650292495739593344,
+      "nearest_neighbour_G": 16.49609375,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 1.112,
+     "dist_nearest_neighbour_px": 1.38,
+     "nearest_neighbour_source_id": 1650289785614977152,
+     "nearest_neighbour_G": 20.596153259277344,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 79,
+     "fired": false,
+     "row": 10,
+     "column": 10,
+     "difference_e_per_s": 3.734287556099744,
+     "literal": {
+      "fired": false,
+      "row": 0,
+      "column": 6,
+      "difference_e_per_s": 7.265256369094004,
+      "dist_target_px": 11.44,
+      "dist_nearest_neighbour_px": 2.616,
+      "nearest_neighbour_source_id": 1650288926622034816,
+      "nearest_neighbour_G": 14.932934761047363,
+      "event_scatter_e_per_s": 13.20993763052092,
+      "significance": 0.55,
+      "detail": "max pixel 11.44 px from target, 2.62 px from nearest neighbour, 0.5 sigma"
+     },
+     "dist_target_px": 0.686,
+     "dist_nearest_neighbour_px": 1.247,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 11.182980495016366,
+     "significance": 0.33,
+     "detail": "local (3 px) max pixel 0.69 px from target, 1.25 px from nearest neighbour, 0.3 sigma; literal: max pixel 11.44 px from target, 2.62 px from nearest neighbour, 0.5 sigma"
+    },
+    {
+     "sector": 80,
+     "fired": false,
+     "row": 11,
+     "column": 10,
+     "difference_e_per_s": 92.49353569309622,
+     "literal": {
+      "fired": true,
+      "row": 20,
+      "column": 18,
+      "difference_e_per_s": 196.55407039294641,
+      "dist_target_px": 12.385,
+      "dist_nearest_neighbour_px": 0.813,
+      "nearest_neighbour_source_id": 1650288273786664064,
+      "nearest_neighbour_G": 20.761198043823242,
+      "event_scatter_e_per_s": 30.728974370595015,
+      "significance": 6.4,
+      "detail": "max pixel 12.39 px from target, 0.81 px from nearest neighbour, 6.4 sigma"
+     },
+     "dist_target_px": 0.498,
+     "dist_nearest_neighbour_px": 0.817,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 127.4741053209894,
+     "significance": 0.73,
+     "detail": "local (3 px) max pixel 0.50 px from target, 0.82 px from nearest neighbour, 0.7 sigma; literal: max pixel 12.39 px from target, 0.81 px from nearest neighbour, 6.4 sigma"
+    },
+    {
+     "sector": 81,
+     "fired": null,
+     "row": 11,
+     "column": 10,
+     "difference_e_per_s": 2.5490676492753437,
+     "literal": {
+      "fired": null,
+      "row": 17,
+      "column": 20,
+      "difference_e_per_s": 59.57785082636747,
+      "dist_target_px": 11.688,
+      "dist_nearest_neighbour_px": 2.019,
+      "nearest_neighbour_source_id": 1650288303851628288,
+      "nearest_neighbour_G": 19.435344696044922,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.366,
+     "dist_nearest_neighbour_px": 0.475,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 82,
+     "fired": false,
+     "row": 11,
+     "column": 11,
+     "difference_e_per_s": 2.6324869102496535,
+     "literal": {
+      "fired": false,
+      "row": 11,
+      "column": 11,
+      "difference_e_per_s": 2.6324869102496535,
+      "dist_target_px": 0.515,
+      "dist_nearest_neighbour_px": 0.796,
+      "nearest_neighbour_source_id": 1650289751254643840,
+      "nearest_neighbour_G": 19.7037296295166,
+      "event_scatter_e_per_s": 1.1633982907721352,
+      "significance": 2.26,
+      "detail": "max pixel 0.52 px from target, 0.8 px from nearest neighbour, 2.3 sigma"
+     },
+     "dist_target_px": 0.515,
+     "dist_nearest_neighbour_px": 0.796,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 1.1633982907721352,
+     "significance": 2.26,
+     "detail": "local (3 px) max pixel 0.52 px from target, 0.8 px from nearest neighbour, 2.3 sigma; literal: max pixel 0.52 px from target, 0.8 px from nearest neighbour, 2.3 sigma"
+    },
+    {
+     "sector": 83,
+     "fired": null,
+     "row": 11,
+     "column": 10,
+     "difference_e_per_s": -2.745743502432731,
+     "literal": {
+      "fired": null,
+      "row": 6,
+      "column": 20,
+      "difference_e_per_s": 232.75623014994562,
+      "dist_target_px": 10.791,
+      "dist_nearest_neighbour_px": 2.712,
+      "nearest_neighbour_source_id": 1650288303851628288,
+      "nearest_neighbour_G": 19.435344696044922,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.419,
+     "dist_nearest_neighbour_px": 0.456,
+     "nearest_neighbour_source_id": 1650289785614977152,
+     "nearest_neighbour_G": 20.596153259277344,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 84,
+     "fired": false,
+     "row": 10,
+     "column": 10,
+     "difference_e_per_s": 11.127540771134107,
+     "literal": {
+      "fired": true,
+      "row": 0,
+      "column": 18,
+      "difference_e_per_s": 34.738789099342966,
+      "dist_target_px": 12.88,
+      "dist_nearest_neighbour_px": 0.468,
+      "nearest_neighbour_source_id": 1650288273786664064,
+      "nearest_neighbour_G": 20.761198043823242,
+      "event_scatter_e_per_s": 6.021472111550794,
+      "significance": 5.77,
+      "detail": "max pixel 12.88 px from target, 0.47 px from nearest neighbour, 5.8 sigma"
+     },
+     "dist_target_px": 0.185,
+     "dist_nearest_neighbour_px": 0.724,
+     "nearest_neighbour_source_id": 1650289785614977152,
+     "nearest_neighbour_G": 20.596153259277344,
+     "event_scatter_e_per_s": 11.52355288341562,
+     "significance": 0.97,
+     "detail": "local (3 px) max pixel 0.19 px from target, 0.72 px from nearest neighbour, 1.0 sigma; literal: max pixel 12.88 px from target, 0.47 px from nearest neighbour, 5.8 sigma"
+    },
+    {
+     "sector": 85,
+     "fired": null,
+     "row": 11,
+     "column": 10,
+     "difference_e_per_s": 2.1733663234389553,
+     "literal": {
+      "fired": null,
+      "row": 20,
+      "column": 4,
+      "difference_e_per_s": 2.468031672527445,
+      "dist_target_px": 11.284,
+      "dist_nearest_neighbour_px": 1.053,
+      "nearest_neighbour_source_id": 1650288613089083648,
+      "nearest_neighbour_G": 12.981491088867188,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.51,
+     "dist_nearest_neighbour_px": 1.142,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 86,
+     "fired": false,
+     "row": 10,
+     "column": 10,
+     "difference_e_per_s": -58.95144211562328,
+     "literal": {
+      "fired": false,
+      "row": 20,
+      "column": 12,
+      "difference_e_per_s": 3.3876780534974387,
+      "dist_target_px": 10.064,
+      "dist_nearest_neighbour_px": 1.813,
+      "nearest_neighbour_source_id": 1650288303851628288,
+      "nearest_neighbour_G": 19.435344696044922,
+      "event_scatter_e_per_s": 191.90268739085695,
+      "significance": 0.02,
+      "detail": "max pixel 10.06 px from target, 1.81 px from nearest neighbour, 0.0 sigma"
+     },
+     "dist_target_px": 0.153,
+     "dist_nearest_neighbour_px": 0.627,
+     "nearest_neighbour_source_id": 1650289751254643840,
+     "nearest_neighbour_G": 19.7037296295166,
+     "event_scatter_e_per_s": 95.16946053475478,
+     "significance": -0.62,
+     "detail": "local (3 px) max pixel 0.15 px from target, 0.63 px from nearest neighbour, -0.6 sigma; literal: max pixel 10.06 px from target, 1.81 px from nearest neighbour, 0.0 sigma"
+    }
+   ],
+   "absent": [
+    {
+     "sector": 56,
+     "fired": null,
+     "net_depth_ppt": -2.1461,
+     "net_err_ppt": 0.3545,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.063 ppt"
+    },
+    {
+     "sector": 58,
+     "fired": null,
+     "net_depth_ppt": -11.0971,
+     "net_err_ppt": 0.6664,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.999 ppt"
+    },
+    {
+     "sector": 59,
+     "fired": false,
+     "net_depth_ppt": 0.0992,
+     "net_err_ppt": 0.3,
+     "detail": "net 0.099 +/- 0.300 ppt against 0.5 x D_ref 0.947 ppt: consistent with the diluted depth"
+    },
+    {
+     "sector": 73,
+     "fired": null,
+     "net_depth_ppt": -4.1757,
+     "net_err_ppt": 0.7966,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 2.390 ppt"
+    },
+    {
+     "sector": 74,
+     "fired": null,
+     "net_depth_ppt": 3.6628,
+     "net_err_ppt": 0.3613,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.084 ppt"
+    },
+    {
+     "sector": 76,
+     "fired": null,
+     "net_depth_ppt": 1.364,
+     "net_err_ppt": 0.5906,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.772 ppt"
+    },
+    {
+     "sector": 78,
+     "fired": null,
+     "net_depth_ppt": -13.0378,
+     "net_err_ppt": 0.7665,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 2.300 ppt"
+    },
+    {
+     "sector": 79,
+     "fired": null,
+     "net_depth_ppt": 4.7263,
+     "net_err_ppt": 0.3311,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 0.993 ppt"
+    },
+    {
+     "sector": 80,
+     "fired": null,
+     "net_depth_ppt": 5.1425,
+     "net_err_ppt": 0.3625,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.087 ppt"
+    },
+    {
+     "sector": 81,
+     "fired": null,
+     "net_depth_ppt": 3.5709,
+     "net_err_ppt": 0.4763,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.429 ppt"
+    },
+    {
+     "sector": 82,
+     "fired": false,
+     "net_depth_ppt": 3.7952,
+     "net_err_ppt": 0.3081,
+     "detail": "net 3.795 +/- 0.308 ppt against 0.5 x D_ref 0.947 ppt: consistent with the diluted depth"
+    },
+    {
+     "sector": 83,
+     "fired": null,
+     "net_depth_ppt": 12.4407,
+     "net_err_ppt": 0.4419,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.326 ppt"
+    },
+    {
+     "sector": 84,
+     "fired": null,
+     "net_depth_ppt": 1.1228,
+     "net_err_ppt": 0.5223,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.567 ppt"
+    },
+    {
+     "sector": 85,
+     "fired": null,
+     "net_depth_ppt": 2.0918,
+     "net_err_ppt": 0.5104,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.531 ppt"
+    },
+    {
+     "sector": 86,
+     "fired": null,
+     "net_depth_ppt": 4.2021,
+     "net_err_ppt": 0.4414,
+     "detail": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.324 ppt"
+    }
+   ]
+  },
+  "K8": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Rp 6.102 Re (limit 16.81); density prior delta chi2 152.8727151621133, converged True, non-grazing False, rho_fit/rho_cat 0.0",
+   "rp_rearth": 6.102,
+   "radius_kill": false,
+   "density_kill": false,
+   "delta_chi2_prior_minus_free": 152.8727151621133,
+   "density_ratio": 9.225641605739575e-05,
+   "converged": true,
+   "non_grazing": false
+  },
+  "K9": {
+   "fired": true,
+   "measurable": true,
+   "detail": "criterion holds: K9a in 15, K9b in 11 sector(s) of 15 measurable; reviewer decision artefact",
+   "criterion_holds": true,
+   "n_correlated": 15,
+   "n_disagreeing": 11,
+   "n_measurable": 15,
+   "reviewer_decision": true,
+   "reviewer_note": "KILL supported by the pixel evidence. The physical fit has b=1.099999, T14=21.307 +/-28.634 h and Rp=6.102 +/-141.165 Earth radii, with the density prior rejected at delta chi-squared 152.873 [M]. The grazing-rail problem recurs; those covariance errors are not physical confidence bounds. At that fi",
+   "correlation": [
+    {
+     "sector": 56,
+     "n_points": 4508,
+     "r": 1.0,
+     "fired": true,
+     "detail": "|r| = 1.000 over 4508 event-window cadences"
+    },
+    {
+     "sector": 58,
+     "n_points": 3683,
+     "r": 0.9995,
+     "fired": true,
+     "detail": "|r| = 0.999 over 3683 event-window cadences"
+    },
+    {
+     "sector": 59,
+     "n_points": 4506,
+     "r": 0.8226,
+     "fired": true,
+     "detail": "|r| = 0.823 over 4506 event-window cadences"
+    },
+    {
+     "sector": 73,
+     "n_points": 2797,
+     "r": 1.0,
+     "fired": true,
+     "detail": "|r| = 1.000 over 2797 event-window cadences"
+    },
+    {
+     "sector": 74,
+     "n_points": 4506,
+     "r": 0.9997,
+     "fired": true,
+     "detail": "|r| = 1.000 over 4506 event-window cadences"
+    },
+    {
+     "sector": 76,
+     "n_points": 4250,
+     "r": 1.0,
+     "fired": true,
+     "detail": "|r| = 1.000 over 4250 event-window cadences"
+    },
+    {
+     "sector": 78,
+     "n_points": 2202,
+     "r": 0.8954,
+     "fired": true,
+     "detail": "|r| = 0.895 over 2202 event-window cadences"
+    },
+    {
+     "sector": 79,
+     "n_points": 3934,
+     "r": 0.9989,
+     "fired": true,
+     "detail": "|r| = 0.999 over 3934 event-window cadences"
+    },
+    {
+     "sector": 80,
+     "n_points": 4326,
+     "r": 1.0,
+     "fired": true,
+     "detail": "|r| = 1.000 over 4326 event-window cadences"
+    },
+    {
+     "sector": 81,
+     "n_points": 2116,
+     "r": 1.0,
+     "fired": true,
+     "detail": "|r| = 1.000 over 2116 event-window cadences"
+    },
+    {
+     "sector": 82,
+     "n_points": 4405,
+     "r": 0.9985,
+     "fired": true,
+     "detail": "|r| = 0.998 over 4405 event-window cadences"
+    },
+    {
+     "sector": 83,
+     "n_points": 2200,
+     "r": 0.9397,
+     "fired": true,
+     "detail": "|r| = 0.940 over 2200 event-window cadences"
+    },
+    {
+     "sector": 84,
+     "n_points": 4498,
+     "r": 0.9992,
+     "fired": true,
+     "detail": "|r| = 0.999 over 4498 event-window cadences"
+    },
+    {
+     "sector": 85,
+     "n_points": 2342,
+     "r": 0.9997,
+     "fired": true,
+     "detail": "|r| = 1.000 over 2342 event-window cadences"
+    },
+    {
+     "sector": 86,
+     "n_points": 4280,
+     "r": 0.9999,
+     "fired": true,
+     "detail": "|r| = 1.000 over 4280 event-window cadences"
+    }
+   ],
+   "disagreement": [
+    {
+     "sector": 56,
+     "fired": true,
+     "net_depth_ppt": -2.1461,
+     "net_err_ppt": 0.3545,
+     "too_deep": false,
+     "too_shallow": true,
+     "brightening": true,
+     "detail": "net -2.146 +/- 0.354 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 58,
+     "fired": true,
+     "net_depth_ppt": -11.0971,
+     "net_err_ppt": 0.6664,
+     "too_deep": false,
+     "too_shallow": true,
+     "brightening": true,
+     "detail": "net -11.097 +/- 0.666 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 59,
+     "fired": false,
+     "net_depth_ppt": 0.0992,
+     "net_err_ppt": 0.3,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 0.099 +/- 0.300 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 73,
+     "fired": true,
+     "net_depth_ppt": -4.1757,
+     "net_err_ppt": 0.7966,
+     "too_deep": false,
+     "too_shallow": true,
+     "brightening": true,
+     "detail": "net -4.176 +/- 0.797 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 74,
+     "fired": true,
+     "net_depth_ppt": 3.6628,
+     "net_err_ppt": 0.3613,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 3.663 +/- 0.361 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 76,
+     "fired": false,
+     "net_depth_ppt": 1.364,
+     "net_err_ppt": 0.5906,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 1.364 +/- 0.591 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 78,
+     "fired": true,
+     "net_depth_ppt": -13.0378,
+     "net_err_ppt": 0.7665,
+     "too_deep": false,
+     "too_shallow": true,
+     "brightening": true,
+     "detail": "net -13.038 +/- 0.767 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 79,
+     "fired": true,
+     "net_depth_ppt": 4.7263,
+     "net_err_ppt": 0.3311,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 4.726 +/- 0.331 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 80,
+     "fired": true,
+     "net_depth_ppt": 5.1425,
+     "net_err_ppt": 0.3625,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 5.143 +/- 0.362 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 81,
+     "fired": true,
+     "net_depth_ppt": 3.5709,
+     "net_err_ppt": 0.4763,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 3.571 +/- 0.476 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 82,
+     "fired": true,
+     "net_depth_ppt": 3.7952,
+     "net_err_ppt": 0.3081,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 3.795 +/- 0.308 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 83,
+     "fired": true,
+     "net_depth_ppt": 12.4407,
+     "net_err_ppt": 0.4419,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 12.441 +/- 0.442 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 84,
+     "fired": false,
+     "net_depth_ppt": 1.1228,
+     "net_err_ppt": 0.5223,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 1.123 +/- 0.522 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 85,
+     "fired": false,
+     "net_depth_ppt": 2.0918,
+     "net_err_ppt": 0.5104,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 2.092 +/- 0.510 ppt against D_ref 1.894 +/- 0.218 ppt"
+    },
+    {
+     "sector": 86,
+     "fired": true,
+     "net_depth_ppt": 4.2021,
+     "net_err_ppt": 0.4414,
+     "too_deep": true,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 4.202 +/- 0.441 ppt against D_ref 1.894 +/- 0.218 ppt"
+    }
+   ]
+  },
+  "H1": {
+   "fired": true,
+   "measurable": true,
+   "detail": "NFPP 1, FPP 0.9999999999999999",
+   "nfpp": 0.9999963721589104,
+   "fpp": 0.9999999999999999,
+   "fpp_uniform": false
+  },
+  "H2": {
+   "fired": true,
+   "measurable": true,
+   "detail": "converged; grazing rail with b_err 4.090419743289161, T14 21.307 +/- 28.634 h",
+   "uncertainty_issues": [],
+   "grazing": true,
+   "grazing_rail": true,
+   "b_err": 4.090419743289161
+  },
+  "H3": {
+   "fired": false,
+   "measurable": true,
+   "detail": "every D measurement executed",
+   "missing": []
+  },
+  "H4": {
+   "fired": false,
+   "measurable": true,
+   "detail": "0 VSX entr(ies) within 21 arcsec, 0 eclipsing class(es)",
+   "entries": []
+  },
+  "H5": {
+   "fired": false,
+   "measurable": true,
+   "detail": "K9b disagreement in 11 of 15 measurable sector(s)",
+   "n_disagreeing": 11,
+   "n_measurable": 15,
+   "sectors": [
+    56,
+    58,
+    73,
+    74,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    86
+   ]
+  },
+  "H6": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage C PASS",
+   "decision": "PASS",
+   "attempts": null,
+   "deadlines_s": null
+  }
+ },
+ "not_measurable": [],
+ "flags": {
+  "F1": [
+   {
+    "source_id": 1650289751254643840,
+    "sep_arcsec": 16.4,
+    "sep_px": 0.78,
+    "G": 19.7037296295166,
+    "delta_mag": 5.01,
+    "max_depth_ppt_total_eclipse": 9.78,
+    "required_eclipse_fraction": 0.1329
+   },
+   {
+    "source_id": 1650289785614977152,
+    "sep_arcsec": 17.9,
+    "sep_px": 0.85,
+    "G": 20.596153259277344,
+    "delta_mag": 5.7,
+    "max_depth_ppt_total_eclipse": 5.2,
+    "required_eclipse_fraction": 0.2499
+   },
+   {
+    "source_id": 1650289746960524672,
+    "sep_arcsec": 27.2,
+    "sep_px": 1.29,
+    "G": 19.149606704711914,
+    "delta_mag": 4.94,
+    "max_depth_ppt_total_eclipse": 10.49,
+    "required_eclipse_fraction": 0.1239
+   },
+   {
+    "source_id": 1650289540802091392,
+    "sep_arcsec": 34.3,
+    "sep_px": 1.64,
+    "G": 19.10416030883789,
+    "delta_mag": 4.39,
+    "max_depth_ppt_total_eclipse": 17.16,
+    "required_eclipse_fraction": 0.0757
+   },
+   {
+    "source_id": 1650289785615496960,
+    "sep_arcsec": 42.5,
+    "sep_px": 2.03,
+    "G": 16.595901489257812,
+    "delta_mag": 2.0,
+    "max_depth_ppt_total_eclipse": 136.3,
+    "required_eclipse_fraction": 0.0095
+   },
+   {
+    "source_id": 1650289712600782592,
+    "sep_arcsec": 44.1,
+    "sep_px": 2.1,
+    "G": 20.118139266967773,
+    "delta_mag": 5.54,
+    "max_depth_ppt_total_eclipse": 6.03,
+    "required_eclipse_fraction": 0.2155
+   },
+   {
+    "source_id": 1650289785614379776,
+    "sep_arcsec": 51.8,
+    "sep_px": 2.47,
+    "G": 20.28098487854004,
+    "delta_mag": 5.41,
+    "max_depth_ppt_total_eclipse": 6.82,
+    "required_eclipse_fraction": 0.1906
+   },
+   {
+    "source_id": 1650289746960526336,
+    "sep_arcsec": 52.2,
+    "sep_px": 2.49,
+    "G": 17.77522850036621,
+    "delta_mag": 2.89,
+    "max_depth_ppt_total_eclipse": 65.5,
+    "required_eclipse_fraction": 0.0198
+   }
+  ],
+  "F2": {
+   "ruwe": 1.1714476346969604,
+   "ipd_frac_multi_peak": 0.0,
+   "astrometric_excess_noise_sig": 1.6241040229797363,
+   "non_single_star": 0.0,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "best_class_name": "",
+   "duplicated_source": 0.0
+  },
+  "F3": {
+   "vsx": [],
+   "simbad": [
+    {
+     "main_id": "2MASS J16403040+7018088",
+     "otype": "PM*",
+     "sp_type": "",
+     "sep_arcsec": 0.0
+    }
+   ]
+  },
+  "F4": {
+   "fpp": 0.9999999999999999,
+   "nfpp": 0.9999963721589104,
+   "available": true,
+   "fpp_uniform": false,
+   "sectors": [
+    56,
+    57,
+    58
+   ],
+   "caveats": "binned fold; circular aperture from Tmag; first three selected sectors; probabilities are conditional on TRICERATOPS's astrophysical scenarios and do not price instrumental artefacts"
+  },
+  "F5": {
+   "localisation": "unlocalised",
+   "n_sectors_measurable": 15,
+   "per_sector": [
+    {
+     "sector": 56,
+     "net_depth_ppt": -2.1461,
+     "net_err_ppt": 0.3545,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.063 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.925,
+     "centroid_sigma": 6.48512797950468,
+     "centroid_shift_px": 0.00579950664504469
+    },
+    {
+     "sector": 57,
+     "centroid_sigma": 3.47376586136517,
+     "centroid_shift_px": 0.02013424989670818
+    },
+    {
+     "sector": 58,
+     "net_depth_ppt": -11.0971,
+     "net_err_ppt": 0.6664,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.999 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 2.799,
+     "centroid_sigma": 37.15842197955217,
+     "centroid_shift_px": 0.034685954356739164
+    },
+    {
+     "sector": 59,
+     "net_depth_ppt": 0.0992,
+     "net_err_ppt": 0.3,
+     "k7_absent": false,
+     "note": "net 0.099 +/- 0.300 ppt against 0.5 x D_ref 0.947 ppt: consistent with the diluted depth",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 1.63,
+     "centroid_sigma": 18.381201367041758,
+     "centroid_shift_px": 0.01637990362052076
+    },
+    {
+     "sector": 60,
+     "centroid_sigma": 3.3463726070986026,
+     "centroid_shift_px": 0.009444009856657998
+    },
+    {
+     "sector": 73,
+     "net_depth_ppt": -4.1757,
+     "net_err_ppt": 0.7966,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 2.390 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.545,
+     "centroid_sigma": 28.741508785653515,
+     "centroid_shift_px": 0.05541199943806942
+    },
+    {
+     "sector": 74,
+     "net_depth_ppt": 3.6628,
+     "net_err_ppt": 0.3613,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.084 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.443,
+     "centroid_sigma": 8.400003133757044,
+     "centroid_shift_px": 0.014414126288192722
+    },
+    {
+     "sector": 76,
+     "net_depth_ppt": 1.364,
+     "net_err_ppt": 0.5906,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.772 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.63,
+     "centroid_sigma": 18.290690574256022,
+     "centroid_shift_px": 0.027732118645919464
+    },
+    {
+     "sector": 77,
+     "centroid_sigma": 1.967922820713341,
+     "centroid_shift_px": 0.003487221043406415
+    },
+    {
+     "sector": 78,
+     "net_depth_ppt": -13.0378,
+     "net_err_ppt": 0.7665,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 2.300 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 1.112,
+     "centroid_sigma": 7.156560577827757,
+     "centroid_shift_px": 0.0048685704603327285
+    },
+    {
+     "sector": 79,
+     "net_depth_ppt": 4.7263,
+     "net_err_ppt": 0.3311,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 0.993 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.686,
+     "centroid_sigma": 20.156925100735492,
+     "centroid_shift_px": 0.026822647671335013
+    },
+    {
+     "sector": 80,
+     "net_depth_ppt": 5.1425,
+     "net_err_ppt": 0.3625,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.087 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.498,
+     "centroid_sigma": 12.706253572634209,
+     "centroid_shift_px": 0.012932168184408298
+    },
+    {
+     "sector": 81,
+     "net_depth_ppt": 3.5709,
+     "net_err_ppt": 0.4763,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.429 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.366,
+     "centroid_sigma": 11.062571809353868,
+     "centroid_shift_px": 0.018253763800772232
+    },
+    {
+     "sector": 82,
+     "net_depth_ppt": 3.7952,
+     "net_err_ppt": 0.3081,
+     "k7_absent": false,
+     "note": "net 3.795 +/- 0.308 ppt against 0.5 x D_ref 0.947 ppt: consistent with the diluted depth",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.515,
+     "centroid_sigma": 0.5440840469730445,
+     "centroid_shift_px": 0.0005967241571137936
+    },
+    {
+     "sector": 83,
+     "net_depth_ppt": 12.4407,
+     "net_err_ppt": 0.4419,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.326 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.419,
+     "centroid_sigma": 5.561129166652661,
+     "centroid_shift_px": 0.006168565237537966
+    },
+    {
+     "sector": 84,
+     "net_depth_ppt": 1.1228,
+     "net_err_ppt": 0.5223,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.567 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.185,
+     "centroid_sigma": 4.973684513288693,
+     "centroid_shift_px": 0.00455700976912761
+    },
+    {
+     "sector": 85,
+     "net_depth_ppt": 2.0918,
+     "net_err_ppt": 0.5104,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.531 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.51,
+     "centroid_sigma": 8.061877695156358,
+     "centroid_shift_px": 0.02787238325707208
+    },
+    {
+     "sector": 86,
+     "net_depth_ppt": 4.2021,
+     "net_err_ppt": 0.4414,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 0.947 < 3 sigma_s 1.324 ppt",
+     "k7_elsewhere": false,
+     "difference_max_dist_target_px": 0.153,
+     "centroid_sigma": 23.121437671921573,
+     "centroid_shift_px": 0.03861773085669557
+    }
+   ]
+  },
+  "F6": [
+   {
+    "period_days": "23.34572540994388",
+    "depth_ppt": "3.3227897822145627",
+    "snr": "7.174907673580557",
+    "verdict": "ambiguous / manual vetting required",
+    "stitch_snr": "7.174907673580557",
+    "passes_pregate": "True"
+   },
+   {
+    "period_days": "14.0023691974514",
+    "depth_ppt": "1.5445036079158287",
+    "snr": "6.907051754837177",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "6.767944331791567",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "19.885765776636518",
+    "depth_ppt": "2.973139299048237",
+    "snr": "6.006093810376974",
+    "verdict": "ambiguous / manual vetting required",
+    "stitch_snr": "5.994113199232132",
+    "passes_pregate": "False"
+   }
+  ],
+  "F7": {
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "tce_association": null
+  },
+  "F8": {
+   "n_observed": 27,
+   "n_excluded": 13,
+   "n_kept": 14,
+   "removed_by_class": {
+    "dip_absent_in_sap": 0,
+    "pdc_gap": 1,
+    "scattered_light_ramp": 2,
+    "scattered_light_flag": 7,
+    "momentum_dump": 1,
+    "sector_orbit_edge": 1,
+    "quality_flagged": 0,
+    "sap_baseline_ramp": 6
+   },
+   "strongest_event_removed": true
+  },
+  "F9": "8 Gaia neighbour(s) within 63 arcsec could produce the depth by total eclipse (nearest 16.4 arcsec, G 19.7037296295166, needing an eclipse of 13% of its light). Seeing-limited ground photometry at the predicted epochs, resolving each of them, would settle the source. TESS fixed-aperture photometry is consistent with the target in 15 sector(s) but cannot separate the target from the listed neighbours. TRICERATOPS FPP 1, NFPP 1 on the binned fold; a low value does not price instrumental artefacts. The fit is grazing; a constrained geometry needs higher-precision photometry. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+  "F10": {
+   "word": "K10_FLAG",
+   "or_variants": [
+    "K10e",
+    "K10s"
+   ],
+   "or_fired": true,
+   "K10e": {
+    "fired": false,
+    "measurable": true,
+    "detail": "n_excluded / n_observed = 13/27 = 0.481 (> 0.5 fires)",
+    "n_observed": 27,
+    "n_excluded": 13,
+    "fraction": 0.48148148148148145
+   },
+   "K10s": {
+    "fired": true,
+    "measurable": true,
+    "detail": "SAP 0.806 +/- 0.205 ppt vs corrected 1.894 +/- 0.218 ppt; SAP < 0.5x True; difference > 3 sigma True; kept events in 11 sector(s)",
+    "det_ppt": 1.894,
+    "det_err_ppt": 0.218,
+    "sap_ppt": 0.806,
+    "sap_err_ppt": 0.205,
+    "quadrature_err_ppt": 0.2992473892952117,
+    "kept_sectors": [
+     56,
+     58,
+     59,
+     74,
+     77,
+     78,
+     79,
+     80,
+     82,
+     85,
+     86
+    ],
+    "sap_below_half": true,
+    "difference_significant": true,
+    "kept_sectors_ge_2": true
+   },
+   "deciding": false
+  }
+ },
+ "thresholds": {
+  "alias_ratios": {
+   "2:1": 2.0,
+   "1:2": 0.5,
+   "3:1": 3.0,
+   "1:3": 0.3333333333333333,
+   "3:2": 1.5,
+   "2:3": 0.6666666666666666
+  },
+  "alias_tolerance": 0.01,
+  "catalogue_radius_arcsec": 60.0,
+  "odd_even_sigma": 3.5,
+  "odd_even_min_transits": 2,
+  "k7_neighbour_px": 1.0,
+  "k7_target_px": 1.5,
+  "k7_search_px": 3.0,
+  "pixel_sigma": 3.0,
+  "min_sectors": 2,
+  "dilution_allowance": 0.5,
+  "max_radius_rjup": 1.5,
+  "r_jup_in_r_earth": 11.209,
+  "density_reject_dchi2": 9.0,
+  "density_ratio_range": [
+   0.5,
+   2.5
+  ],
+  "k9_correlation": 0.7,
+  "k9_window_durations": 3.0,
+  "k9_min_points": 10,
+  "nfpp_hold": 0.5,
+  "grazing_b_err": 0.5,
+  "vsx_eb_classes": [
+   "EA",
+   "EB",
+   "EW",
+   "ELL"
+  ],
+  "vsx_target_radius_arcsec": 21.0,
+  "neighbour_radius_arcsec": 63.0,
+  "min_sky_pixels": 16
+ },
+ "note": "SUBMIT is a local CTOI-grade verdict, not a validation; F9 states what would settle the source. Nothing is submitted by the pipeline.",
+ "base_rules": "p10.0",
+ "k_order": [
+  "K0",
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5",
+  "K6",
+  "K7",
+  "K8",
+  "K9"
+ ],
+ "h_order": [
+  "H1",
+  "H2",
+  "H3",
+  "H4",
+  "H5",
+  "H6"
+ ],
+ "install_hash": "e56936ea444f6486d45ba40a7b6e9747db64f6420e12ce8ed5a47138634c6c67",
+ "amended_constants": {
+  "TIER_DENSITY_RATIO_RANGE": [
+   0.5,
+   2.5
+  ],
+  "TIER_ODD_EVEN_SIGMA": 3.5
+ },
+ "candidate_tier": null,
+ "validation_status": "8 Gaia neighbour(s) within 63 arcsec could produce the depth by total eclipse (nearest 16.4 arcsec, G 19.7037296295166, needing an eclipse of 13% of its light). Seeing-limited ground photometry at the predicted epochs, resolving each of them, would settle the source. TESS fixed-aperture photometry is consistent with the target in 15 sector(s) but cannot separate the target from the listed neighbours. TRICERATOPS FPP 1, NFPP 1 on the binned fold; a low value does not price instrumental artefacts. The fit is grazing; a constrained geometry needs higher-precision photometry. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

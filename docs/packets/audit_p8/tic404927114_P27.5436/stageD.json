@@ -1,0 +1,1346 @@
+{
+ "key": "tic404927114_P27.5436",
+ "tic_id": 404927114,
+ "rank": 3184,
+ "survey_period": 27.543625333557717,
+ "survey_depth_ppt": 4.85623790584177,
+ "generated_utc": "2026-09-06T20:41:25Z",
+ "rules_version": "p8.0",
+ "events": {
+  "survey": {
+   "ephemeris": {
+    "period": 27.543625333557717,
+    "t0": 2987.9321157158965,
+    "duration": 0.05565118804414251,
+    "source": "survey",
+    "ref_depth_ppt": 4.85623790584177
+   },
+   "n_observed": 12,
+   "n_excluded": 5,
+   "n_kept": 7,
+   "det_all": {
+    "n": 8,
+    "weighted_mean_depth_ppt": 5.394,
+    "err_ppt": 0.635,
+    "snr": 8.49,
+    "chi2_const": 21.3,
+    "dof": 7,
+    "p_const": 0.0066481216247694964,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.28,
+    "snr_without_top_event": 7.39,
+    "n_events_depth_above_2sigma": 5,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.822,
+     "odd_err": 0.824,
+     "even_ppt": 6.233,
+     "even_err": 0.997,
+     "sigma": 1.09
+    },
+    "p_const_white": 0.0034137550343327056,
+    "chi2_const_white": 21.3,
+    "snr_white": 8.49,
+    "beta_median": 1.043,
+    "beta_min": 1.02,
+    "beta_max": 1.156,
+    "weighted_mean_depth_ppt_inflated": 5.287,
+    "err_ppt_inflated": 0.674,
+    "snr_inflated": 7.85,
+    "chi2_const_inflated": 19.5,
+    "p_const_inflated": 0.0066481216247694964
+   },
+   "det_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 4.873,
+    "err_ppt": 0.659,
+    "snr": 7.39,
+    "chi2_const": 12.5,
+    "dof": 6,
+    "p_const": 0.08893039770783559,
+    "top_event_n": 33,
+    "top_event_share_of_snr2": 0.35,
+    "snr_without_top_event": 5.61,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 4.822,
+     "odd_err": 0.824,
+     "even_ppt": 4.963,
+     "even_err": 1.099,
+     "sigma": 0.1
+    },
+    "p_const_white": 0.05114736222759302,
+    "chi2_const_white": 12.5,
+    "snr_white": 7.39,
+    "beta_median": 1.043,
+    "beta_min": 1.02,
+    "beta_max": 1.156,
+    "weighted_mean_depth_ppt_inflated": 4.721,
+    "err_ppt_inflated": 0.701,
+    "snr_inflated": 6.74,
+    "chi2_const_inflated": 11.0,
+    "p_const_inflated": 0.08893039770783559
+   },
+   "sap_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 3.698,
+    "err_ppt": 0.668,
+    "snr": 5.54,
+    "chi2_const": 16.0,
+    "dof": 6,
+    "p_const": 0.0424615687966547,
+    "top_event_n": 37,
+    "top_event_share_of_snr2": 0.39,
+    "snr_without_top_event": 4.34,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 1,
+    "odd_even": {
+     "odd_ppt": 3.21,
+     "odd_err": 0.825,
+     "even_ppt": 4.621,
+     "even_err": 1.136,
+     "sigma": 1.01
+    },
+    "p_const_white": 0.01384378283753183,
+    "chi2_const_white": 16.0,
+    "snr_white": 5.54,
+    "beta_median": 1.043,
+    "beta_min": 1.02,
+    "beta_max": 1.156,
+    "weighted_mean_depth_ppt_inflated": 3.485,
+    "err_ppt_inflated": 0.709,
+    "snr_inflated": 4.92,
+    "chi2_const_inflated": 13.0,
+    "p_const_inflated": 0.0424615687966547
+   },
+   "flags": [
+    "SNR < 7 without the strongest event"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 2987.9321,
+     "sector": 61,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 12.141,
+     "det_depth_err_ppt": 2.371,
+     "sap_depth_ppt": 9.118,
+     "sap_depth_err_ppt": 2.636,
+     "edge_distance_days": 0.291,
+     "pdc_gap_distance_days": 0.291,
+     "desat": false,
+     "q_frac": 0.33,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.28,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "33% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3015.4757,
+     "sector": 63,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.104,
+     "det_depth_err_ppt": 1.995,
+     "sap_depth_ppt": 0.727,
+     "sap_depth_err_ppt": 2.017,
+     "edge_distance_days": 1.111,
+     "pdc_gap_distance_days": 1.111,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3043.0194,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3070.563,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3098.1066,
+     "sector": 66,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.621,
+     "det_depth_err_ppt": 1.695,
+     "sap_depth_ppt": 4.298,
+     "sap_depth_err_ppt": 1.776,
+     "edge_distance_days": 0.437,
+     "pdc_gap_distance_days": 0.437,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3125.6502,
+     "sector": 66,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 7.392,
+     "sap_depth_err_ppt": 3.209,
+     "edge_distance_days": 0.774,
+     "pdc_gap_distance_days": 0.774,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.2,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3153.1939,
+     "sector": 67,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 5.799,
+     "sap_depth_err_ppt": 3.608,
+     "edge_distance_days": 1.201,
+     "pdc_gap_distance_days": 1.201,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3180.7375,
+     "sector": 68,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 2.361,
+     "sap_depth_err_ppt": 8.425,
+     "edge_distance_days": 1.4,
+     "pdc_gap_distance_days": 1.4,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.39,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3208.2811,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3235.8247,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3263.3684,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3290.912,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3318.4556,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3345.9992,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3373.5429,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3401.0865,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3428.6301,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3456.1737,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3483.7174,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3511.261,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3538.8046,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3566.3482,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3593.8919,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3621.4355,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3648.9791,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3676.5227,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3704.0664,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3731.61,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3759.1536,
+     "sector": 90,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.678,
+     "det_depth_err_ppt": 2.16,
+     "sap_depth_ppt": 1.37,
+     "sap_depth_err_ppt": 2.178,
+     "edge_distance_days": 1.077,
+     "pdc_gap_distance_days": 1.077,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.09,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3786.6973,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3814.2409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3841.7845,
+     "sector": 93,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.598,
+     "det_depth_err_ppt": 2.503,
+     "sap_depth_ppt": -0.028,
+     "sap_depth_err_ppt": 2.58,
+     "edge_distance_days": 11.931,
+     "pdc_gap_distance_days": 11.931,
+     "desat": false,
+     "q_frac": 0.17,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.14,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3869.3281,
+     "sector": 94,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 643.216,
+     "sap_depth_err_ppt": 2.205,
+     "edge_distance_days": 12.789,
+     "pdc_gap_distance_days": 12.789,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 84.62,
+     "bkg_over_sector_median": 13.14,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3896.8718,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 5.514,
+     "det_depth_err_ppt": 1.133,
+     "sap_depth_ppt": 2.897,
+     "sap_depth_err_ppt": 1.109,
+     "edge_distance_days": 10.685,
+     "pdc_gap_distance_days": 10.685,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 1.03,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3924.4154,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3951.959,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3979.5026,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 4007.0463,
+     "sector": 98,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 7.225,
+     "det_depth_err_ppt": 1.877,
+     "sap_depth_ppt": 8.412,
+     "sap_depth_err_ppt": 1.962,
+     "edge_distance_days": 18.552,
+     "pdc_gap_distance_days": 18.552,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.14,
+     "bkg_over_sector_median": 2.54,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 38,
+     "tc_btjd": 4034.5899,
+     "sector": 98,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 8.064,
+     "det_depth_err_ppt": 1.941,
+     "sap_depth_ppt": 7.808,
+     "sap_depth_err_ppt": 2.011,
+     "edge_distance_days": 11.307,
+     "pdc_gap_distance_days": 11.307,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.11,
+     "bkg_over_sector_median": 2.4,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 27.542975244795223,
+    "t0": 2987.9292326166164,
+    "duration": 0.05565118804414251,
+    "source": "tls_forced",
+    "ref_depth_ppt": 4.85623790584177
+   },
+   "n_observed": 12,
+   "n_excluded": 5,
+   "n_kept": 7,
+   "det_all": {
+    "n": 8,
+    "weighted_mean_depth_ppt": 4.616,
+    "err_ppt": 0.642,
+    "snr": 7.19,
+    "chi2_const": 20.3,
+    "dof": 7,
+    "p_const": 0.008198032890758001,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.38,
+    "snr_without_top_event": 5.98,
+    "n_events_depth_above_2sigma": 5,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.852,
+     "odd_err": 0.84,
+     "even_ppt": 5.686,
+     "even_err": 0.994,
+     "sigma": 1.41
+    },
+    "p_const_white": 0.004904861280453909,
+    "chi2_const_white": 20.3,
+    "snr_white": 7.19,
+    "beta_median": 1.043,
+    "beta_min": 1.021,
+    "beta_max": 1.159,
+    "weighted_mean_depth_ppt_inflated": 4.61,
+    "err_ppt_inflated": 0.682,
+    "snr_inflated": 6.76,
+    "chi2_const_inflated": 19.0,
+    "p_const_inflated": 0.008198032890758001
+   },
+   "det_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 3.996,
+    "err_ppt": 0.668,
+    "snr": 5.98,
+    "chi2_const": 9.1,
+    "dof": 6,
+    "p_const": 0.21684177251868597,
+    "top_event_n": 33,
+    "top_event_share_of_snr2": 0.29,
+    "snr_without_top_event": 4.78,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.852,
+     "odd_err": 0.84,
+     "even_ppt": 4.243,
+     "even_err": 1.101,
+     "sigma": 0.28
+    },
+    "p_const_white": 0.16744276930796156,
+    "chi2_const_white": 9.1,
+    "snr_white": 5.98,
+    "beta_median": 1.043,
+    "beta_min": 1.021,
+    "beta_max": 1.159,
+    "weighted_mean_depth_ppt_inflated": 3.943,
+    "err_ppt_inflated": 0.711,
+    "snr_inflated": 5.54,
+    "chi2_const_inflated": 8.3,
+    "p_const_inflated": 0.21684177251868597
+   },
+   "sap_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 3.079,
+    "err_ppt": 0.674,
+    "snr": 4.57,
+    "chi2_const": 10.0,
+    "dof": 6,
+    "p_const": 0.18154779485672382,
+    "top_event_n": 31,
+    "top_event_share_of_snr2": 0.3,
+    "snr_without_top_event": 3.88,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 1,
+    "odd_even": {
+     "odd_ppt": 2.838,
+     "odd_err": 0.833,
+     "even_ppt": 3.534,
+     "even_err": 1.147,
+     "sigma": 0.49
+    },
+    "p_const_white": 0.1257931917005505,
+    "chi2_const_white": 10.0,
+    "snr_white": 4.57,
+    "beta_median": 1.043,
+    "beta_min": 1.021,
+    "beta_max": 1.159,
+    "weighted_mean_depth_ppt_inflated": 2.983,
+    "err_ppt_inflated": 0.717,
+    "snr_inflated": 4.16,
+    "chi2_const_inflated": 8.9,
+    "p_const_inflated": 0.18154779485672382
+   },
+   "flags": [
+    "SNR of kept events (detrended) < 7",
+    "SNR < 7 without the strongest event"
+   ],
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 2987.9292,
+     "sector": 61,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 12.062,
+     "det_depth_err_ppt": 2.314,
+     "sap_depth_ppt": 8.926,
+     "sap_depth_err_ppt": 2.542,
+     "edge_distance_days": 0.294,
+     "pdc_gap_distance_days": 0.294,
+     "desat": false,
+     "q_frac": 0.29,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.29,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "29% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3015.4722,
+     "sector": 63,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.413,
+     "det_depth_err_ppt": 2.014,
+     "sap_depth_ppt": 0.949,
+     "sap_depth_err_ppt": 2.077,
+     "edge_distance_days": 1.108,
+     "pdc_gap_distance_days": 1.108,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3043.0152,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3070.5582,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3098.1011,
+     "sector": 66,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.96,
+     "det_depth_err_ppt": 1.678,
+     "sap_depth_ppt": 4.52,
+     "sap_depth_err_ppt": 1.778,
+     "edge_distance_days": 0.431,
+     "pdc_gap_distance_days": 0.431,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3125.6441,
+     "sector": 66,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 7.285,
+     "sap_depth_err_ppt": 3.364,
+     "edge_distance_days": 0.78,
+     "pdc_gap_distance_days": 0.78,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.24,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3153.1871,
+     "sector": 67,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 7.088,
+     "sap_depth_err_ppt": 3.536,
+     "edge_distance_days": 1.207,
+     "pdc_gap_distance_days": 1.207,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3180.7301,
+     "sector": 68,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -1.969,
+     "sap_depth_err_ppt": 8.368,
+     "edge_distance_days": 1.408,
+     "pdc_gap_distance_days": 1.408,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.41,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3208.273,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3235.816,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3263.359,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3290.902,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3318.4449,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3345.9879,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3373.5309,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3401.0739,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3428.6168,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3456.1598,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3483.7028,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3511.2458,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3538.7887,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3566.3317,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3593.8747,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3621.4177,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3648.9606,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3676.5036,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3704.0466,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3731.5896,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3759.1325,
+     "sector": 90,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.792,
+     "det_depth_err_ppt": 2.208,
+     "sap_depth_ppt": -0.074,
+     "sap_depth_err_ppt": 2.193,
+     "edge_distance_days": 1.098,
+     "pdc_gap_distance_days": 1.098,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.08,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3786.6755,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3814.2185,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3841.7615,
+     "sector": 93,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 7.679,
+     "det_depth_err_ppt": 2.389,
+     "sap_depth_ppt": 7.385,
+     "sap_depth_err_ppt": 2.436,
+     "edge_distance_days": 11.908,
+     "pdc_gap_distance_days": 11.908,
+     "desat": false,
+     "q_frac": 0.08,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.41,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3869.3044,
+     "sector": 94,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 819.614,
+     "sap_depth_err_ppt": 1.986,
+     "edge_distance_days": 12.813,
+     "pdc_gap_distance_days": 12.813,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 205.59,
+     "bkg_over_sector_median": 13.45,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3896.8474,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.241,
+     "det_depth_err_ppt": 1.177,
+     "sap_depth_ppt": 1.816,
+     "sap_depth_err_ppt": 1.139,
+     "edge_distance_days": 10.71,
+     "pdc_gap_distance_days": 10.71,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 1.03,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3924.3904,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3951.9334,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3979.4763,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 4007.0193,
+     "sector": 98,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.473,
+     "det_depth_err_ppt": 1.915,
+     "sap_depth_ppt": 4.549,
+     "sap_depth_err_ppt": 1.93,
+     "edge_distance_days": 18.525,
+     "pdc_gap_distance_days": 18.525,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.12,
+     "bkg_over_sector_median": 2.55,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 38,
+     "tc_btjd": 4034.5623,
+     "sector": 98,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 5.956,
+     "det_depth_err_ppt": 1.945,
+     "sap_depth_ppt": 5.393,
+     "sap_depth_err_ppt": 2.059,
+     "edge_distance_days": 11.335,
+     "pdc_gap_distance_days": 11.335,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.12,
+     "bkg_over_sector_median": 2.38,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    }
+   ]
+  }
+ },
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "neighbours_summary": "Gaia: 123 sources within 1 arcmin; target RUWE 1.1008936166763306, var flag VARIABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class SOLAR_LIKE; 42 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 2 (PM*, EB*); VSX 1",
+ "gaia": {
+  "gaia_error": null,
+  "n_within_1arcmin": 123,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.1008936166763306,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 0.0,
+  "phot_variable_flag": "VARIABLE",
+  "vari_class": "SOLAR_LIKE",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 1.785812497138977,
+  "rv_n_transits": 69.0,
+  "n_neighbours_could_produce_depth_within_3px": 42,
+  "simbad_otypes": [
+   "PM*",
+   "EB*"
+  ],
+  "n_vsx_within_1arcmin": 1,
+  "vsx_types": [
+   "ROT"
+  ],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "Gaia phot_variable_flag VARIABLE (SOLAR_LIKE)",
+   "42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed",
+   "VSX entry within 1 arcmin (ROT)"
+  ]
+ },
+ "simbad": [
+  {
+   "main_id": "UCAC4 120-008270",
+   "otype": "PM*",
+   "otypes": "*|LP*|MIR|NIR|PM*|V*",
+   "sp_type": "",
+   "sep_arcsec": 0.0,
+   "V": null,
+   "G": 14.443216323852539
+  },
+  {
+   "main_id": "OGLE LMC-ECL-36904",
+   "otype": "EB*",
+   "otypes": "*|EB*",
+   "sp_type": "",
+   "sep_arcsec": 45.6,
+   "V": 19.31399917602539,
+   "G": 19.356613159179688
+  }
+ ],
+ "vsx": [
+  {
+   "_q": 308.0,
+   "_r": 0.0008,
+   "recno": 1030219.0,
+   "OID": 4333287.0,
+   "Name": "Gaia DR3 4659930359605646592",
+   "V": 0.0,
+   "RAJ2000": 85.13726043701172,
+   "DEJ2000": -66.17350769042969,
+   "Type": "ROT",
+   "l_max": "",
+   "max": 14.42,
+   "u_max": "",
+   "n_max": "G",
+   "f_min": "",
+   "l_min": "",
+   "min": 14.47,
+   "u_min": "",
+   "n_min": "G",
+   "Epoch": null,
+   "u_Epoch": "",
+   "l_Period": "",
+   "Period": null,
+   "u_Period": "",
+   "Sp": "M",
+   "n_OID": "",
+   "sep_arcsec": 0.0
+  }
+ ],
+ "crossmatch": {
+  "catalog_stamp": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "star": {
+   "tic_id": 404927114,
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "catalog_stamp": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+   "neighbours_resolved": true,
+   "rejected": false,
+   "flagged": false,
+   "summary": "CLEAN: TIC 404927114 absent from all sources (neighbours checked)",
+   "checked_utc": "2026-09-06T20:41:25Z"
+  }
+ },
+ "fit": {
+  "adopted": {
+   "t0_btjd": 2987.928697498805,
+   "t0_err": 0.006997371079042699,
+   "epoch_bjd": 2459987.928697499,
+   "period": 27.543390052635324,
+   "period_err": 0.0002485035541247843,
+   "rp_rs": 0.06387015880421273,
+   "rp_rs_err": 0.004428027894983693,
+   "a_rs": 65.917165031291,
+   "a_rs_err": 6.591716503129101,
+   "b": 0.5524346291247981,
+   "b_err": 0.08937668354443128,
+   "inc_deg": 89.51981334107754,
+   "depth_max_ppt": 4.516,
+   "depth_avg_ppt": 3.746,
+   "depth_err_ppt": 0.566,
+   "t14_hours": 2.899,
+   "t14_err_hours": 0.327,
+   "rp_rearth": 3.079,
+   "rp_rearth_err": 0.375,
+   "rho_fit_cgs": 7.1419732330993675,
+   "density_ratio_fit_over_cat": 1.0000190216868408,
+   "grazing": false,
+   "delta_chi2_vs_flat": 64.92072156382528,
+   "n_transits": 8
+  },
+  "density_prior_adopted": true,
+  "delta_chi2_prior_minus_free": 3.5049874232472575,
+  "delta_chi2_vs_flat": 64.92072156382528,
+  "beta_red_noise": 1.12,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.05984023037519935,
+    "rp_rs_err": 0.005548129626044094,
+    "depth_ppt": 3.581,
+    "n_transits": 5
+   },
+   "even": {
+    "rp_rs": 0.06922987025419858,
+    "rp_rs_err": 0.005730657239547871,
+    "depth_ppt": 4.793,
+    "n_transits": 5
+   },
+   "sigma": 1.17
+  },
+  "stellar": {
+   "radius": 0.442,
+   "radius_err": 0.0442,
+   "mass": 0.438,
+   "rho_cgs": 7.1418373833051945,
+   "rho_err": 2.1425512149915584,
+   "a_rs_catalog": 65.917165031291
+  },
+  "uncertainty_issues": []
+ },
+ "ctoi_fields_path": "docs/packets/audit_p8/tic404927114_P27.5436/ctoi_fields.json",
+ "stageA": {
+  "decision": "PASS",
+  "reason": "survey ephemeris, 7 kept events, SNR 7.39, top share 0.35, SNR w/o top 5.61, depth 4.873 ppt = 1.003x survey, p_const 0.089; all six criteria pass",
+  "max_verdict": null
+ },
+ "stageB": {
+  "decision": "PASS",
+  "reason": "1 sector(s) could test the period phase-independently, none excludes it; 3 star-level flag(s): Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); 42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed; VSX entry within 1 arcmin (ROT)",
+  "max_verdict": "HOLD"
+ },
+ "stageC": {
+  "decision": "PASS",
+  "reason": "strongest peak 27.54365 d is within 1% of the survey period at SDE 15.9",
+  "max_verdict": null
+ },
+ "provisional_verdict": "HOLD",
+ "provisional_reason": "Stage B star-level flags stand: Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); 42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed; VSX entry within 1 arcmin (ROT)",
+ "verdict": "HOLD",
+ "reason": "Source unresolved in a crowded variable-star field. The primary difference images are weak/mixed in sector 63 and dominated by diffuse background changes in sectors 90 and 98. The fixed sky annulus leaves only one usable pixel per sector, below the required 16, so a reliable target-aperture depth could not be extracted. FPP is 0.201585 and NFPP is 0.169895 [M]; source localization is inadequate for submission.",
+ "seconds": 0.3,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "verdict_stamped_utc": "2026-09-06T21:08:38Z"
+}

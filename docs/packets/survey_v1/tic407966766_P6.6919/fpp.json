@@ -1,0 +1,115 @@
+{
+ "available": true,
+ "fpp": 0.842185050725004,
+ "nfpp": 0.8259618553154847,
+ "tic_id": 407966766,
+ "sectors": [
+  5,
+  32,
+  70
+ ],
+ "n_stars": 46,
+ "n_scenarios": 21,
+ "aperture_source": "circular_from_tmag",
+ "aperture_radius_px": 1.6147,
+ "depth_frac_used": 0.0016613519861121695,
+ "period_used": 6.691945995460512,
+ "n_points_used": 74,
+ "window_days": 1.5200709954230707,
+ "top_scenarios": [
+  {
+   "scenario": "NEB",
+   "ID": 407991048,
+   "prob": 0.5467772170057968
+  },
+  {
+   "scenario": "NEBx2P",
+   "ID": 407991048,
+   "prob": 0.27743992722715194
+  },
+  {
+   "scenario": "TP",
+   "ID": 407966766,
+   "prob": 0.1546954125007621
+  },
+  {
+   "scenario": "BEBx2P",
+   "ID": 407966766,
+   "prob": 0.01592205468113071
+  },
+  {
+   "scenario": "PTP",
+   "ID": 407966766,
+   "prob": 0.003118903927624673
+  },
+  {
+   "scenario": "NEBx2P",
+   "ID": 407966762,
+   "prob": 0.0017444957735095671
+  },
+  {
+   "scenario": "STP",
+   "ID": 407966766,
+   "prob": 0.0002923166704530526
+  },
+  {
+   "scenario": "BTP",
+   "ID": 407966766,
+   "prob": 8.77596720481627e-06
+  }
+ ],
+ "scenario_totals": {
+  "NEB": 0.5467772998446883,
+  "NEBx2P": 0.2791844230006615,
+  "TP": 0.1546954125007621,
+  "BEBx2P": 0.01592205468113071,
+  "PTP": 0.003118903927624673,
+  "STP": 0.0002923166704530526,
+  "BTP": 8.77596720481627e-06,
+  "DTP": 6.328466091589522e-07,
+  "NTP": 1.3247013501675765e-07,
+  "BEB": 3.3079839367832535e-08,
+  "EBx2P": 9.232563644489104e-09,
+  "SEBx2P": 2.099818147947911e-09,
+  "PEBx2P": 1.5991665693972033e-09,
+  "SEB": 1.2804709387529914e-09,
+  "EB": 3.9571231504106083e-10,
+  "PEB": 3.7127262716468695e-10,
+  "DEBx2P": 2.950618600349555e-11,
+  "DEB": 2.3842298616101893e-12
+ },
+ "probs_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic407966766\\P6.6919_08ea29464b\\probs.csv",
+ "stars_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic407966766\\P6.6919_08ea29464b\\stars.csv",
+ "result_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic407966766\\P6.6919_08ea29464b\\result.json",
+ "settings": {
+  "n_draws": 100000,
+  "nsamples": 20,
+  "search_radius_px": 10,
+  "flatpriors": false,
+  "drop_scenario": [],
+  "seed": 20260902,
+  "aperture": "auto",
+  "exp_time_days": 0.020833333333333332,
+  "window_durations": 3.0,
+  "mission": "TESS",
+  "red_noise_beta": 1.0,
+  "fold_mode": "binned",
+  "bins_per_duration": 25,
+  "bin_width_days": 0.020833333333333332,
+  "fold_mode_used": "binned",
+  "n_cadences_folded": 201,
+  "flux_err_used": 0.0005599606924165386,
+  "gaia_background": "Gaia background queried",
+  "gaia_background_file": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\gaia_background\\407966766_gaia_background.csv"
+ },
+ "versions": {
+  "triceratops": "1.1.0",
+  "pytransit": "2.9.1",
+  "lightkurve": "2.6.0",
+  "astroquery": "0.4.11"
+ },
+ "seconds": 119.17011590000766,
+ "cached": false,
+ "note": "TRICERATOPS 1.1.0: FPP 0.8422, NFPP 0.8260 over 21 scenarios and 46 TIC stars within 10 px; aperture circular_from_tmag; 100000 draws; fold binned (74 points, error 560 ppm); sectors [5, 32, 70].",
+ "error": ""
+}

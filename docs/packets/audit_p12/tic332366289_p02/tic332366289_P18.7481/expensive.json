@@ -1,0 +1,425 @@
+{
+ "key": "tic332366289_P18.7481",
+ "tic_id": 332366289,
+ "rules_version": "p10.0",
+ "source_sha256": {
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/stageA/tic332366289_P18.7481.json": "dee3c601aa4fa1b90d279d758ee362630539a585382ec53870427db5b4bd26e1",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/secondary/tic332366289_P18.7481.json": "4959454824dd671cdb5d1b39bd290bae2d37f649bfc71d587bf07c29a9927ac7",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/stageB/tic332366289_P18.7481.json": "6a05638c6b8458737aa1a1f2652a40cdc435966570174a58cab4d668e7e92998",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/stageC/tic332366289_P18.7481.json": "eb9fff04e6a239ced8ee19066d27b782033a42df569f9437c63faeb6a30f3254",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/fit/tic332366289_P18.7481.json": "4fc91246025e3e693dad3440edef12b8327571b1784684ebe4ac99ce6b41b6e1",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/tls/tic332366289_P18.7481.json": "587a30d4a3405aed39483452485f317804e982d2e5c648573af3c8b859072f35",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/neighbours/tic332366289.json": "8784e18eb0d4c36153538c779e6f4ff0afe7af48fcb7bd798f3325c343a38f7e",
+  "data/survey/p12/funnel/final/cases/tic332366289_p02/tls/tic332366289_P18.7481_lc.npz": "5ee22efe3917c6e5618fc85f41ea50f11d540c17fb193be7e2de8ed1446a915f"
+ },
+ "input_fingerprint": "75a0fbb0f4468191c7a0d0465ceb9e1a3df114dfdc4dc0613c406bde25281ff3",
+ "n_draws": 100000,
+ "status": "complete",
+ "timings": {
+  "centroid": {
+   "wall_seconds": 94.0
+  },
+  "fpp": {
+   "wall_seconds": 79.9
+  },
+  "total_seconds": 173.9
+ },
+ "ephemeris_source": "P12 all-transit physical fit (Stage C seeded)",
+ "cadence_s": 200.0,
+ "period": 18.748273038412112,
+ "t0_btjd": 2869.85249375544,
+ "duration_days": 0.08041666666666666,
+ "gaia_context": {
+  "gaia_error": null,
+  "n_within_1arcmin": 5,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.0966936349868774,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 2.165614604949951,
+  "phot_variable_flag": "NOT_AVAILABLE",
+  "vari_class": "",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 3.17325758934021,
+  "rv_n_transits": 20.0,
+  "n_neighbours_could_produce_depth_within_3px": 0,
+  "simbad_otypes": [
+   "PM*"
+  ],
+  "n_vsx_within_1arcmin": 0,
+  "vsx_types": [],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "astrometric_excess_noise_sig 2.2 > 2.0"
+  ]
+ },
+ "gaia_neighbours": {
+  "n_within_1arcmin": 5,
+  "target": {
+   "source_id": 1415338513130475136,
+   "ra": 257.2222413180565,
+   "dec": 50.48819899677007,
+   "phot_g_mean_mag": 15.118109703063965,
+   "phot_bp_mean_mag": 16.72083282470703,
+   "phot_rp_mean_mag": 13.895668029785156,
+   "parallax": 16.3259025760875,
+   "parallax_error": 0.020381858572363853,
+   "pmra": -48.48440625788501,
+   "pmdec": 93.05393884885613,
+   "ruwe": 1.0966936349868774,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.0040787262842059135,
+   "astrometric_excess_noise": 0.09581092745065689,
+   "astrometric_excess_noise_sig": 2.165614604949951,
+   "radial_velocity": -26.562421798706055,
+   "radial_velocity_error": 3.17325758934021,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 20.0,
+   "phot_g_n_obs": 378.0,
+   "teff_gspphot": null,
+   "logg_gspphot": null,
+   "distance_gspphot": null,
+   "best_class_name": "",
+   "best_class_score": null,
+   "sep_arcsec": 1.6808724501578056
+  },
+  "target_match": "nearest_5arcsec",
+  "neighbours": [
+   {
+    "source_id": 1415338306971353600,
+    "sep_arcsec": 25.7,
+    "sep_px": 1.22,
+    "G": 20.401439666748047,
+    "Rp": 19.304235458374023,
+    "band_used": "rp",
+    "delta_mag": 5.41,
+    "flux_ratio_to_target": 0.00686,
+    "max_observed_depth_ppt_total_eclipse": 6.82,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.00779390335083,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.0401823028084447
+   },
+   {
+    "source_id": 1415338337035983488,
+    "sep_arcsec": 33.6,
+    "sep_px": 1.6,
+    "G": 19.719402313232422,
+    "Rp": 18.99486541748047,
+    "band_used": "rp",
+    "delta_mag": 5.1,
+    "flux_ratio_to_target": 0.00913,
+    "max_observed_depth_ppt_total_eclipse": 9.04,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9984139800071716,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.1271094784232803
+   },
+   {
+    "source_id": 1415338337035990528,
+    "sep_arcsec": 39.2,
+    "sep_px": 1.87,
+    "G": 18.963878631591797,
+    "Rp": 18.29153823852539,
+    "band_used": "rp",
+    "delta_mag": 4.4,
+    "flux_ratio_to_target": 0.01744,
+    "max_observed_depth_ppt_total_eclipse": 17.15,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9383655190467834,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.5319545947587401
+   },
+   {
+    "source_id": 1415338405755460480,
+    "sep_arcsec": 47.8,
+    "sep_px": 2.28,
+    "G": 18.515827178955078,
+    "Rp": 18.00889778137207,
+    "band_used": "rp",
+    "delta_mag": 4.11,
+    "flux_ratio_to_target": 0.02263,
+    "max_observed_depth_ppt_total_eclipse": 22.13,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.034319281578064,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.3134843924063233
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 0,
+  "n_neighbours_within_3px_could_make_1ppt": 4
+ },
+ "gaia_usage": "Cached neighbour table for the resolved-neighbour assessment; TRICERATOPS uses its TIC scene and its own wider Gaia field population.",
+ "centroid": {
+  "available": true,
+  "n_sectors_requested": 6,
+  "n_sectors_with_pixels": 6,
+  "n_sectors_used": 4,
+  "sectors_used": [
+   57,
+   79,
+   80,
+   84
+  ],
+  "sources": {
+   "SPOC": 0,
+   "TESS-SPOC": 0,
+   "TESScut": 4
+  },
+  "per_sector": [
+   {
+    "sector": 57,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.0017465790988353547,
+    "row_shift_px": 0.0005519661891852934,
+    "total_shift_px": 0.0018317219282664755,
+    "shift_err_px": 0.004063527312069197,
+    "sigma": 0.45077140808824556,
+    "n_in": 35,
+    "n_out": 10722,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = +0.002 px, \u0394row = +0.001 px, total = 0.002 px (0.0 arcsec), significance = 0.5\u03c3  (35 in-transit, 10722 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 77,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.0,
+    "row_shift_px": 0.0,
+    "total_shift_px": 0.0,
+    "shift_err_px": 0.0,
+    "sigma": 0.0,
+    "n_in": 0,
+    "n_out": 7684,
+    "flagged": false,
+    "note": "Only 0 in-transit cadences in this TPF sector \u2014 insufficient for centroid test.  Try a sector with more transits."
+   },
+   {
+    "sector": 78,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.0,
+    "row_shift_px": 0.0,
+    "total_shift_px": 0.0,
+    "shift_err_px": 0.0,
+    "sigma": 0.0,
+    "n_in": 0,
+    "n_out": 6434,
+    "flagged": false,
+    "note": "Only 0 in-transit cadences in this TPF sector \u2014 insufficient for centroid test.  Try a sector with more transits."
+   },
+   {
+    "sector": 79,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.00545491749210214,
+    "row_shift_px": 0.011553663011454773,
+    "total_shift_px": 0.012776668338338446,
+    "shift_err_px": 0.008931514698983109,
+    "sigma": 1.4305152898413886,
+    "n_in": 35,
+    "n_out": 11371,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = +0.005 px, \u0394row = +0.012 px, total = 0.013 px (0.3 arcsec), significance = 1.4\u03c3  (35 in-transit, 11371 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 80,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": -0.002106399696003791,
+    "row_shift_px": -0.001279154268218008,
+    "total_shift_px": 0.002464377268444345,
+    "shift_err_px": 0.0029923042157352754,
+    "sigma": 0.823571766361594,
+    "n_in": 35,
+    "n_out": 11051,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = -0.002 px, \u0394row = -0.001 px, total = 0.002 px (0.1 arcsec), significance = 0.8\u03c3  (35 in-transit, 11051 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 84,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": -0.012673102428834682,
+    "row_shift_px": -0.00355660443128869,
+    "total_shift_px": 0.013162710976557902,
+    "shift_err_px": 0.0024225903311551424,
+    "sigma": 5.433321023072705,
+    "n_in": 35,
+    "n_out": 10486,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = -0.013 px, \u0394row = -0.004 px, total = 0.013 px (0.3 arcsec), significance = 5.4\u03c3  (35 in-transit, 10486 OOT cadences, 1 px = 21 arcsec)."
+   }
+  ],
+  "log": [
+   "tesscut_only: 10 pipeline TPF sector(s) ignored",
+   "pixel plan: 0 pipeline TPF sector(s) ([]), 14 TESScut sector(s); plan took 7 s"
+  ],
+  "seconds": 94.0,
+  "pixel_scale_arcsec": 21.0,
+  "method": "P0 in/out-of-transit median centroid per TPF, inverse-variance combined over sectors",
+  "col_shift_px": -0.006251801163730705,
+  "row_shift_px": -0.0016065697118598909,
+  "total_shift_px": 0.0064549271126706125,
+  "shift_arcsec": 0.13555346936608287,
+  "shift_err_px": 0.0016779643215651318,
+  "sigma": 3.846879835114574,
+  "n_in_transit": 140,
+  "n_out_transit": 43630,
+  "flagged": true,
+  "n_sectors_flagged_individually": 1,
+  "note": "Centroid shift (weighted over 4 sectors): dcol = -0.006 px, drow = -0.002 px, total = 0.006 px (0.1 arcsec), significance = 3.8 sigma; 1 of 4 sectors flagged on their own."
+ },
+ "fpp": {
+  "available": true,
+  "fpp": 0.048611849678553254,
+  "nfpp": 0.0,
+  "tic_id": 332366289,
+  "sectors": [
+   57,
+   77,
+   78
+  ],
+  "n_stars": 68,
+  "n_scenarios": 15,
+  "aperture_source": "circular_from_tmag",
+  "aperture_radius_px": 1.5,
+  "depth_frac_used": 0.008152,
+  "period_used": 18.748273038412112,
+  "n_points_used": 150,
+  "window_days": 0.47966898382509005,
+  "top_scenarios": [
+   {
+    "scenario": "TP",
+    "ID": 332366289,
+    "prob": 0.8293400466752272
+   },
+   {
+    "scenario": "PTP",
+    "ID": 332366289,
+    "prob": 0.1204462427567148
+   },
+   {
+    "scenario": "STP",
+    "ID": 332366289,
+    "prob": 0.0475465820519871
+   },
+   {
+    "scenario": "DTP",
+    "ID": 332366289,
+    "prob": 0.0016018608895047616
+   },
+   {
+    "scenario": "EBx2P",
+    "ID": 332366289,
+    "prob": 0.0004023793620175675
+   },
+   {
+    "scenario": "PEBx2P",
+    "ID": 332366289,
+    "prob": 0.0003096523166647726
+   },
+   {
+    "scenario": "BEBx2P",
+    "ID": 332366289,
+    "prob": 0.0002207024289348342
+   },
+   {
+    "scenario": "BEB",
+    "ID": 332366289,
+    "prob": 7.147773870708733e-05
+   }
+  ],
+  "scenario_totals": {
+   "TP": 0.8293400466752272,
+   "PTP": 0.1204462427567148,
+   "STP": 0.0475465820519871,
+   "DTP": 0.0016018608895047616,
+   "EBx2P": 0.0004023793620175675,
+   "PEBx2P": 0.0003096523166647726,
+   "BEBx2P": 0.0002207024289348342,
+   "BEB": 7.147773870708733e-05,
+   "SEBx2P": 3.871116739078831e-05,
+   "BTP": 2.129945045451486e-05,
+   "DEBx2P": 1.0451375659056338e-06,
+   "EB": 1.1556868135438312e-11,
+   "SEB": 1.1066870867821278e-11,
+   "PEB": 2.1833051069407686e-12,
+   "DEB": 2.286068943730104e-14
+  },
+  "probs_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\funnel\\final\\cases\\tic332366289_p02\\expensive\\fpp_cache\\tic332366289\\P18.7483_a54cccb7a0\\probs.csv",
+  "stars_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\funnel\\final\\cases\\tic332366289_p02\\expensive\\fpp_cache\\tic332366289\\P18.7483_a54cccb7a0\\stars.csv",
+  "result_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\funnel\\final\\cases\\tic332366289_p02\\expensive\\fpp_cache\\tic332366289\\P18.7483_a54cccb7a0\\result.json",
+  "settings": {
+   "n_draws": 100000,
+   "nsamples": 20,
+   "search_radius_px": 10,
+   "flatpriors": false,
+   "drop_scenario": [],
+   "seed": 20260902,
+   "aperture": "circular",
+   "exp_time_days": 0.0023148148148148147,
+   "window_durations": 3.0,
+   "mission": "TESS",
+   "red_noise_beta": 1.0,
+   "fold_mode": "binned",
+   "bins_per_duration": 25,
+   "input_fingerprint": "75a0fbb0f4468191c7a0d0465ceb9e1a3df114dfdc4dc0613c406bde25281ff3",
+   "bin_width_days": 0.0032166666666666667,
+   "fold_mode_used": "binned",
+   "n_cadences_folded": 724,
+   "flux_err_used": 0.004208494997268194,
+   "gaia_background": "Gaia background queried",
+   "gaia_background_file": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\funnel\\final\\cases\\tic332366289_p02\\expensive\\fpp_cache\\gaia_background\\332366289_gaia_background.csv"
+  },
+  "versions": {
+   "triceratops": "1.1.0",
+   "pytransit": "2.9.1",
+   "lightkurve": "2.6.0",
+   "astroquery": "0.4.11"
+  },
+  "seconds": 79.8887402000837,
+  "cached": false,
+  "note": "TRICERATOPS 1.1.0: FPP 0.0486, NFPP 0.0000 over 15 scenarios and 68 TIC stars within 10 px; aperture circular_from_tmag; 100000 draws; fold binned (150 points, error 4208 ppm); sectors [57, 77, 78].",
+  "error": ""
+ },
+ "fpp_uniform": false,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

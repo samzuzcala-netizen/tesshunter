@@ -1,0 +1,206 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`ftol` termination condition is satisfied.",
+ "period": 7.405204556571207,
+ "period_err": 1.581582519595034e-05,
+ "t0": 1632.9302894499806,
+ "t0_err": 0.003254776497419212,
+ "rp_rs": 0.08169522130372539,
+ "rp_rs_err": 0.0036883410851170314,
+ "a_rs": 8.661208720597491,
+ "a_rs_err": 1.0329456431526194,
+ "b": 0.8792041433857102,
+ "b_err": 0.03371393778172128,
+ "inc_deg": 84.17383815041353,
+ "f0": 1.000924457398005,
+ "f0_err": 7.781949948658746e-05,
+ "u1": 0.28236163507199996,
+ "u2": 0.358172315136,
+ "ld_source": "claret2017_atlas (Teff 3716 K, logg 4.70)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.08169522130372539,
+ "free_a_rs": 8.661208720597491,
+ "free_b": 0.8792041433857102,
+ "free_chi2": 1225.60724782287,
+ "duration_days": 0.1725346522544274,
+ "duration_err": 0.010266346169519745,
+ "t23_days": 0.07253603985935861,
+ "depth_ppt": 5.876526968007001,
+ "depth_err": 0.29881179082341414,
+ "depth_err_shape": 0.4886135008505788,
+ "depth_mean_ppt": 3.9650895392120664,
+ "rp_rearth": 4.874836161821634,
+ "rp_rearth_err": 0.26302898641121303,
+ "rp_rjup": 0.4349059782035774,
+ "rp_rjup_err": 0.023465994514227453,
+ "rho_star_fit_cgs": 0.22413972473213753,
+ "rho_star_fit_err": 0.10086287612946189,
+ "rho_star_cat_cgs": 4.672433583339543,
+ "rho_star_cat_err": 0.24025066435461295,
+ "rho_source": "tic_rho",
+ "a_rs_star": 23.837091964635757,
+ "a_rs_star_err": 0.4085577732059531,
+ "a_rs_ratio": 0.36335005685454796,
+ "density_ratio": 0.04797066041374043,
+ "density_sigma": 19.15368215494553,
+ "density_dchi2": 74.4509849618903,
+ "density_dchi2_eff": 31.23094858523542,
+ "beta_red_noise": 1.5439834334943725,
+ "depth_err_white": 0.19353302913823217,
+ "a_rs_inconsistent": true,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 8.66 (b = 0.88) against 23.84 +/- 0.41 from the catalog density (0.224 vs 4.672 g/cc, ratio 0.05; profile delta chi2 74.5 with a/R* held in the catalog range, 31.2 after the red-noise beta = 1.54; tic_rho) FLAGGED: the transit shape needs a star far less dense than the catalog star; diluted eclipse, grazing stellar companion or blend.",
+ "grazing": false,
+ "rp_rs_constrained": true,
+ "n_points": 891,
+ "n_in_transit": 196,
+ "n_transits": 24,
+ "chi2": 1225.60724782287,
+ "chi2_flat": 2274.8323668105136,
+ "reduced_chi2": 1.3848669466925085,
+ "delta_bic": 1015.2633968502894,
+ "sigma_used": 0.0017893234455839682,
+ "exp_time_days": 0.02083333333303017,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 5.185009416999511,
+    "depth_err": 0.9532423990737556
+   },
+   {
+    "index": 2,
+    "depth_ppt": 7.935596393073413,
+    "depth_err": 0.9530571293630631
+   },
+   {
+    "index": 3,
+    "depth_ppt": 4.261740190109528,
+    "depth_err": 1.0818177010929364
+   },
+   {
+    "index": 4,
+    "depth_ppt": 5.466066423564899,
+    "depth_err": 0.9778551249000805
+   },
+   {
+    "index": 5,
+    "depth_ppt": 4.441016214022886,
+    "depth_err": 0.9778663070932283
+   },
+   {
+    "index": 6,
+    "depth_ppt": 9.406460269962574,
+    "depth_err": 0.978361043822974
+   },
+   {
+    "index": 99,
+    "depth_ppt": 6.497987406757046,
+    "depth_err": 0.9949278764984688
+   },
+   {
+    "index": 100,
+    "depth_ppt": 6.465793344727866,
+    "depth_err": 0.9948165620570962
+   },
+   {
+    "index": 101,
+    "depth_ppt": 7.3099170304442795,
+    "depth_err": 1.0151804430094489
+   },
+   {
+    "index": 102,
+    "depth_ppt": 6.678346157297776,
+    "depth_err": 0.9948384638155797
+   },
+   {
+    "index": 194,
+    "depth_ppt": 6.0263586943598115,
+    "depth_err": 0.9450081664681494
+   },
+   {
+    "index": 195,
+    "depth_ppt": 6.7267115550104455,
+    "depth_err": 0.945131393960603
+   },
+   {
+    "index": 196,
+    "depth_ppt": 3.7188091684758753,
+    "depth_err": 0.9453863799657868
+   },
+   {
+    "index": 197,
+    "depth_ppt": 6.420893657938697,
+    "depth_err": 0.9448522447077374
+   },
+   {
+    "index": 198,
+    "depth_ppt": 7.443381173232532,
+    "depth_err": 1.0907555314826234
+   },
+   {
+    "index": 199,
+    "depth_ppt": 7.175632089993904,
+    "depth_err": 1.0906544171038448
+   },
+   {
+    "index": 200,
+    "depth_ppt": 6.563528216288334,
+    "depth_err": 1.1038638062372026
+   },
+   {
+    "index": 201,
+    "depth_ppt": 6.355911594513305,
+    "depth_err": 1.0909075812316231
+   },
+   {
+    "index": 297,
+    "depth_ppt": 8.314521353738648,
+    "depth_err": 0.9726989980682447
+   },
+   {
+    "index": 298,
+    "depth_ppt": 7.817682653853513,
+    "depth_err": 0.9723755111511516
+   },
+   {
+    "index": 299,
+    "depth_ppt": 6.61042644805518,
+    "depth_err": 0.9731464320199765
+   },
+   {
+    "index": 300,
+    "depth_ppt": 5.142864410713499,
+    "depth_err": 0.9774845434152969
+   },
+   {
+    "index": 301,
+    "depth_ppt": 2.8447265576983565,
+    "depth_err": 0.6691306591951918
+   },
+   {
+    "index": 303,
+    "depth_ppt": 3.254066945422161,
+    "depth_err": 0.6690318116597799
+   }
+  ],
+  "depth_odd_ppt": 5.3839292592308805,
+  "depth_odd_err": 0.4968802300432068,
+  "depth_odd_err_white": 0.2636898160489671,
+  "n_odd": 12,
+  "depth_even_ppt": 6.45211961136999,
+  "depth_even_err": 0.4418387373513852,
+  "depth_even_err_white": 0.28493752335364214,
+  "n_even": 12,
+  "delta_sigma": 1.6065075771109605,
+  "delta_fraction": 0.18049779344732997,
+  "significant": false,
+  "note": "odd 5.384 +/- 0.497 ppt (12 events), even 6.452 +/- 0.442 ppt (12 events), difference 1.6 sigma, 18% of the mean"
+ },
+ "notes": []
+}

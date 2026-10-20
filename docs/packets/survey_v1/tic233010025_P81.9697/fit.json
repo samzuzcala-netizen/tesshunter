@@ -1,0 +1,136 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`ftol` termination condition is satisfied.",
+ "period": 81.97035656587674,
+ "period_err": 0.0020250850344668823,
+ "t0": 1709.952238783884,
+ "t0_err": 0.025404015439743268,
+ "rp_rs": 0.030119969816053804,
+ "rp_rs_err": 0.005497189750508099,
+ "a_rs": 22.903926111742674,
+ "a_rs_err": 19.103000264422576,
+ "b": 0.8062648244379779,
+ "b_err": 0.3682117279365687,
+ "inc_deg": 87.98265513493817,
+ "f0": 0.9997532203836328,
+ "f0_err": 4.118302649600896e-05,
+ "u1": 0.349965912,
+ "u2": 0.25178381800000005,
+ "ld_source": "claret2017_atlas (Teff 5475 K, logg 4.43)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.030119969816053804,
+ "free_a_rs": 22.903926111742674,
+ "free_b": 0.8062648244379779,
+ "free_chi2": 5991.651270226345,
+ "duration_days": 0.73095133231578,
+ "duration_err": 0.1726801842847735,
+ "t23_days": 0.6145503174242135,
+ "depth_ppt": 0.8782702027431144,
+ "depth_err": 0.38656535647169843,
+ "depth_err_shape": 0.2132154819557976,
+ "depth_mean_ppt": 0.7279214584309511,
+ "rp_rearth": 3.2430174621374004,
+ "rp_rearth_err": 0.6155886435678753,
+ "rp_rjup": 0.28932411980285033,
+ "rp_rjup_err": 0.054919421353815744,
+ "rho_star_fit_cgs": 0.033827787485524806,
+ "rho_star_fit_err": 0.015222504368486161,
+ "rho_star_cat_cgs": 1.4042141821691565,
+ "rho_star_cat_err": 0.31445103003101854,
+ "rho_source": "tic_rho",
+ "a_rs_star": 79.30426074790269,
+ "a_rs_star_err": 5.919635051566618,
+ "a_rs_ratio": 0.2888107889253403,
+ "density_ratio": 0.024090190738046396,
+ "density_sigma": 13.82388730584423,
+ "density_dchi2": 80.81334856849298,
+ "density_dchi2_eff": 3.2325339427397193,
+ "beta_red_noise": 5.0,
+ "depth_err_white": 0.07731307129433969,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 22.90 (b = 0.81) against 79.30 +/- 5.92 from the catalog density (0.034 vs 1.404 g/cc, ratio 0.02; profile delta chi2 80.8 with a/R* held in the catalog range, 3.2 after the red-noise beta = 5.00; tic_rho)",
+ "grazing": false,
+ "rp_rs_constrained": true,
+ "n_points": 1127,
+ "n_in_transit": 302,
+ "n_transits": 10,
+ "chi2": 5991.651270226345,
+ "chi2_flat": 6507.933162289555,
+ "reduced_chi2": 5.34491638735624,
+ "delta_bic": 481.1453194930109,
+ "sigma_used": 0.0005124430574372304,
+ "exp_time_days": 0.020833333333484916,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 0.43528805447651236,
+    "depth_err": 0.24738755537086052
+   },
+   {
+    "index": 1,
+    "depth_ppt": 3.1981547767661818,
+    "depth_err": 0.21069011593706075
+   },
+   {
+    "index": 2,
+    "depth_ppt": 0.1316243047437295,
+    "depth_err": 0.2024469947934433
+   },
+   {
+    "index": 3,
+    "depth_ppt": 3.387681050387831,
+    "depth_err": 0.39280288457406126
+   },
+   {
+    "index": 11,
+    "depth_ppt": 0.04964382932416315,
+    "depth_err": 0.20781934555142556
+   },
+   {
+    "index": 12,
+    "depth_ppt": 1.5090683653286,
+    "depth_err": 0.2669601910411582
+   },
+   {
+    "index": 13,
+    "depth_ppt": -1.549871431720198,
+    "depth_err": 0.25448192477489157
+   },
+   {
+    "index": 15,
+    "depth_ppt": 3.2735441949303774,
+    "depth_err": 0.2607888239990513
+   },
+   {
+    "index": 20,
+    "depth_ppt": -0.09265051008009545,
+    "depth_err": 0.2355363913859742
+   },
+   {
+    "index": 22,
+    "depth_ppt": -0.1858929076829092,
+    "depth_err": 0.2863489862492978
+   }
+  ],
+  "depth_odd_ppt": 1.4500754215797578,
+  "depth_odd_err": 1.0210325313379482,
+  "depth_odd_err_white": 0.11022498498413642,
+  "n_odd": 5,
+  "depth_even_ppt": 0.324284439647173,
+  "depth_even_err": 0.3066816015825332,
+  "depth_even_err_white": 0.10847051484994676,
+  "n_even": 5,
+  "delta_sigma": 1.0559938380934246,
+  "delta_fraction": 1.2689545187909348,
+  "significant": false,
+  "note": "odd 1.450 +/- 1.021 ppt (5 events), even 0.324 +/- 0.307 ppt (5 events), difference 1.1 sigma, 127% of the mean"
+ },
+ "notes": []
+}

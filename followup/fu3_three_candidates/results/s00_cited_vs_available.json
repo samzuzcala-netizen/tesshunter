@@ -1,0 +1,365 @@
+[
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_recurrence.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_models.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_exact_alternatives.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_joint_binary.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_localization_controls.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_localization_jackknife.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_fpp_sensitivity.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_fpp_scene_audit.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_ground_photometry.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_stellar_archival.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_activity.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_followup_checks.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_corrected_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_fresh_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_fresh_apertures_manifest.json",
+  "available": true
+ },
+ {
+  "tic": 270573718,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\270573718_ps1_check.json",
+  "available": false
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_recurrence.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_models.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_exact_alternatives.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_joint_binary.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_localization_controls.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_localization_jackknife.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_fpp_sensitivity.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_fpp_scene_audit.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_ground_photometry.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_stellar_archival.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_activity.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_followup_checks.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_corrected_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_fresh_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_fresh_apertures_manifest.json",
+  "available": true
+ },
+ {
+  "tic": 262843927,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\262843927_ps1_check.json",
+  "available": false
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_recurrence.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_models.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_exact_alternatives.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_joint_binary.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_localization_controls.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_localization_jackknife.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_fpp_sensitivity.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_fpp_scene_audit.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_ground_photometry.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_stellar_archival.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_activity.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_followup_checks.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_corrected_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_fresh_aperture_calibrated.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_fresh_apertures_manifest.json",
+  "available": true
+ },
+ {
+  "tic": 193718989,
+  "cited_by": "continuation p.9-21 'analysis/<tic>_*.json'",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\analysis\\193718989_ps1_check.json",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "deep report ref [1]",
+  "file": "download_manifest.json",
+  "available": true,
+  "found": [
+   "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\do-an-in-depth-analysis-of\\analysis\\download_manifest.json"
+  ]
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\reproduce.ps1",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\make_figures.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\validate_evidence.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\localization_controls.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\fpp_sensitivity.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\fpp_native_bins.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\stellar_archival.py",
+  "available": true
+ },
+ {
+  "tic": null,
+  "cited_by": "continuation p.25 file map",
+  "file": "C:\\Users\\seanj\\Documents\\Codex\\2026-10-18\\continue-the-seven-candidate-tess-analysis\\inspect_ps1.py",
+  "available": true
+ }
+]

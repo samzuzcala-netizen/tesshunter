@@ -1,0 +1,167 @@
+{
+ "form_fields": {
+  "target": "TIC 80256158",
+  "tic_id": 80256158,
+  "discovery_source": "TESS",
+  "period_days": 10.818393942818064,
+  "period_err_days": 0.00011318900702270288,
+  "epoch_bjd": 2460186.829973109,
+  "epoch_err_days": 0.008103059032922038,
+  "depth_ppm": 2058.0,
+  "depth_err_ppm": 815.0,
+  "duration_hours": 3.907,
+  "duration_err_hours": 4.568,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "Local P8 audit verdict: KILL. Background/correction artifact. The fixed target-aperture depths change sign across sectors (1.012, -1.011, 6.578 and -5.333 ppt), with raw variations tracking sky ramps and broad steps [M]. Difference images do not repeat a stable dimming point source or the fitted shallow transit."
+ },
+ "supplementary": {
+  "rp_rs": 0.04212254125755944,
+  "rp_rs_err": 0.009672465249585972,
+  "rp_rearth": 1.7,
+  "rp_rearth_err": 0.426,
+  "a_rs": 21.983688135586558,
+  "a_rs_err": 33.61865516164869,
+  "impact_parameter": 0.07662860301782964,
+  "impact_parameter_err": 19.765123669081124,
+  "inclination_deg": 89.80028353719726,
+  "depth_duration_averaged_ppm": 1806.0,
+  "density_prior_adopted": false,
+  "delta_chi2_prior_minus_free": 27.41801303445527,
+  "beta_red_noise": 1.24,
+  "n_transits_in_fit": 8,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.0348220467643366,
+    "rp_rs_err": 0.006194141842561162,
+    "depth_ppt": 1.213,
+    "n_transits": 4
+   },
+   "even": {
+    "rp_rs": 0.044782043007015125,
+    "rp_rs_err": 0.0030949847310828902,
+    "depth_ppt": 2.005,
+    "n_transits": 5
+   },
+   "sigma": 1.55
+  },
+  "tls_blind": {
+   "period": 10.818370636859706,
+   "SDE": 14.054415335332655,
+   "snr": 2.9049808942446402,
+   "distinct_transit_count": 8
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 10,
+   "n_excluded": 4,
+   "n_kept": 6
+  },
+  "det_kept": {
+   "n": 6,
+   "weighted_mean_depth_ppt": 1.684,
+   "err_ppt": 0.219,
+   "snr": 7.7,
+   "chi2_const": 9.8,
+   "dof": 5,
+   "p_const": 0.11275573285259635,
+   "top_event_n": 92,
+   "top_event_share_of_snr2": 0.43,
+   "snr_without_top_event": 5.93,
+   "n_events_depth_above_2sigma": 4,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 1.269,
+    "odd_err": 0.398,
+    "even_ppt": 1.864,
+    "even_err": 0.262,
+    "sigma": 1.25
+   },
+   "p_const_white": 0.08133440386147023,
+   "chi2_const_white": 9.8,
+   "snr_white": 7.7,
+   "beta_median": 1.047,
+   "beta_min": 1.036,
+   "beta_max": 1.185,
+   "weighted_mean_depth_ppt_inflated": 1.691,
+   "err_ppt_inflated": 0.232,
+   "snr_inflated": 7.28,
+   "chi2_const_inflated": 8.9,
+   "p_const_inflated": 0.11275573285259635
+  },
+  "sap_kept": {
+   "n": 6,
+   "weighted_mean_depth_ppt": 0.845,
+   "err_ppt": 0.217,
+   "snr": 3.89,
+   "chi2_const": 11.2,
+   "dof": 5,
+   "p_const": 0.07136145827461714,
+   "top_event_n": 92,
+   "top_event_share_of_snr2": 0.56,
+   "snr_without_top_event": 2.47,
+   "n_events_depth_above_2sigma": 2,
+   "n_events_negative": 1,
+   "odd_even": {
+    "odd_ppt": 0.871,
+    "odd_err": 0.396,
+    "even_ppt": 0.835,
+    "even_err": 0.259,
+    "sigma": 0.08
+   },
+   "p_const_white": 0.04802622896999124,
+   "chi2_const_white": 11.2,
+   "snr_white": 3.89,
+   "beta_median": 1.047,
+   "beta_min": 1.036,
+   "beta_max": 1.185,
+   "weighted_mean_depth_ppt_inflated": 0.835,
+   "err_ppt_inflated": 0.231,
+   "snr_inflated": 3.62,
+   "chi2_const_inflated": 10.1,
+   "p_const_inflated": 0.07136145827461714
+  },
+  "stellar": {
+   "radius": 0.37,
+   "radius_err": 0.037,
+   "mass": 0.357,
+   "rho_cgs": 9.923518843898684,
+   "rho_err": 2.977055653169605,
+   "a_rs_catalog": 39.44972593008965
+  },
+  "limb_darkening": {
+   "u1": 0.21168,
+   "u2": 0.40832,
+   "source": "survey Claret interpolation at TIC Teff 3396 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T21:08:36Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\tls\\tic80256158_P10.8184.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\events\\tic80256158_P10.8184_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\neighbours\\tic80256158.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\fit\\tic80256158_P10.8184.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "review_status": {
+  "verdict": "KILL",
+  "final_verdict_stamped": true,
+  "reason": "Background/correction artifact. The fixed target-aperture depths change sign across sectors (1.012, -1.011, 6.578 and -5.333 ppt), with raw variations tracking sky ramps and broad steps [M]. Difference images do not repeat a stable dimming point source or the fitted shallow transit.",
+  "external_submission_performed": false
+ }
+}

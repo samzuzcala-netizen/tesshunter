@@ -1,0 +1,12 @@
+group,tic,period_d,period_err_d,epoch_bjd_tdb,epoch_err_d,depth_ppm,duration_h,rp_rearth,pipeline_verdict,first_detected_utc,vetting_pass_utc,status
+S1 batch 1 (new),382098683,4.351685,8e-06,2458329.13902,0.0033,416.0,1.738,1.31,SUBMIT,2026-10-16,2026-10-18,"4.35 d, ~1.3 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf"
+S1 batch 1 (new),188830138,1.181024,3e-06,2458764.89089,0.00345,347.0,1.64,1.43,SUBMIT,2026-10-16,2026-10-17,"1.18 d, ~1.4 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf"
+S1 batch 1 (new),116046773,5.650272,1.5e-05,2458987.88262,0.00263,866.0,2.054,2.29,SUBMIT,2026-10-16,2026-10-17,"5.65 d, ~2.3 R⊕. Vetting: reports/TESS_batch1_deep_analysis.pdf, reports/TESS_seven_candidate_continuation.pdf"
+S1 batch 1 (new),201247574,16.560576,5.2e-05,2458333.60991,0.00633,1559.0,3.24,2.44,HOLD,2026-10-17,2026-10-17,"16.56 d, ~2.4 R⊕. Archival follow-up: reports/TESS_three_candidate_archival_constraints.pdf"
+S1 batch 1 (new),262843927,24.108929,,2458332.78771,,1245.0,3.71,1.99,HOLD,2026-10-17,2026-10-18,"24.11 d, ~2.0 R⊕. Deep follow-up (FU3): top tier; likely unresolved stellar companion; imaging is the next step"
+S1 batch 1 (new),270573718,41.383701,0.000101,2458334.90375,0.00379,2058.0,3.763,2.12,HOLD,2026-10-16,2026-10-18,"41.38 d, ~2.1 R⊕. Deep follow-up (FU3): second tier; season-level transit-timing offsets unresolved"
+S1 batch 1 (under review),207432717,43.44458,,2458767.3044,,3771,4.56,3.67,HOLD,2026-10-17,,"43.4 d, ~3.7 R⊕; only 4 events; FPP 8% (pipeline)"
+S1 batch 1 (under review),155949537,38.89178,,2458958.84697,,1956,4.26,2.56,HOLD,2026-10-17,,"38.9 d, ~2.6 R⊕; only 3 events; FPP 0.9% (pipeline)"
+S1 batch 1 (under review),18229070,22.94881,,2458996.75547,,1394,5.86,2.18,HOLD,2026-10-17,,"22.9 d, ~2.2 R⊕; strongest raw signal of the rest; pipeline scene used a wrong Gaia source (fixed ID bug); nearby-binary scenario open"
+Earlier lead,9066956,0.71344765,6e-07,2460182.82435,0.0006,4070,0.72,2.6-3.4,SUBMIT,2026-10-05,2026-10-06,Ultra-short period around an M dwarf; signal real and on target over 7 years; main loophole a diluted triple; one ground transit in r' decides it
+Earlier lead,332366289,18.748085,,2459869.87007,,,2.23,,SUBMIT (P12),2026-10-01,,"Weak: period ambiguous, localisation unresolved; needs new data"

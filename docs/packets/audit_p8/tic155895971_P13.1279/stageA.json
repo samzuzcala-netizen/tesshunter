@@ -1,0 +1,1590 @@
+{
+ "key": "tic155895971_P13.1279",
+ "tic_id": 155895971,
+ "planet_num": 3,
+ "rank": 3385,
+ "generated_utc": "2026-09-06T16:53:52Z",
+ "rules_version": "p8.0",
+ "thresholds": {
+  "min_kept_events": 3,
+  "min_kept_event_snr": 7.0,
+  "max_top_event_share_of_snr2": 0.5,
+  "min_snr_without_top_event": 5.0,
+  "kept_depth_over_survey_depth": [
+   0.5,
+   2.0
+  ],
+  "min_p_const": 0.001,
+  "flux": "wotan-detrended corrected flux (det_kept); sap_kept recorded alongside",
+  "ephemeris_choice": "the ephemeris passing the most criteria, ties broken by kept-event SNR"
+ },
+ "survey": {
+  "period": 13.127858925701378,
+  "epoch_btjd": 3195.063554976167,
+  "duration_days": 0.15485273653622544,
+  "depth_ppt": 2.906275859234695,
+  "stitch_snr": 7.436278914440184,
+  "stitch_n_transits": 4,
+  "n_units": 4,
+  "tmag": 13.511
+ },
+ "prepare": {
+  "n_unbinned": 35911,
+  "n_binned": 35911,
+  "baseline_days": 1021.8111925989019,
+  "wotan": {
+   "method": "biweight",
+   "window_days": 0.75,
+   "break_tolerance": 0.5,
+   "edge_cutoff": 0.0
+  },
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "deep_clip_threshold_ppt": 64.25,
+  "n_deep_clipped": 0,
+  "R_star": 0.269,
+  "M_star": 0.242,
+  "expected_t14_hours_b0": 1.94
+ },
+ "forced_tls": {
+  "period": 13.128473089978131,
+  "T0_btjd": 3195.018736829467,
+  "duration_days": 0.00959159363623652,
+  "depth": 0.9958430805609789,
+  "SDE": 5.22488131117483,
+  "distinct_transit_count": 4,
+  "odd_even_mismatch": 0.405384434200824
+ },
+ "ephemerides_examined": [
+  "survey",
+  "tls"
+ ],
+ "has_p4_packet": false,
+ "forced_tls_usable": true,
+ "per_ephemeris": {
+  "survey": {
+   "ephemeris": {
+    "period": 13.127858925701378,
+    "t0": 3195.063554976167,
+    "duration": 0.15485273653622544,
+    "source": "survey",
+    "ref_depth_ppt": 2.906275859234695
+   },
+   "n_predicted_in_span": 77,
+   "n_observed": 6,
+   "n_excluded": 3,
+   "n_kept": 3,
+   "det_all": {
+    "n": 4,
+    "weighted_mean_depth_ppt": 3.705,
+    "err_ppt": 0.421,
+    "snr": 8.81,
+    "chi2_const": 4.9,
+    "dof": 3,
+    "p_const": 0.26611058755725386,
+    "top_event_n": 74,
+    "top_event_share_of_snr2": 0.32,
+    "snr_without_top_event": 7.33,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.866,
+     "odd_err": 0.613,
+     "even_ppt": 3.562,
+     "even_err": 0.578,
+     "sigma": 0.36
+    },
+    "p_const_white": 0.181140424781757,
+    "chi2_const_white": 4.9,
+    "snr_white": 8.81,
+    "beta_median": 1.144,
+    "beta_min": 1.054,
+    "beta_max": 1.177,
+    "weighted_mean_depth_ppt_inflated": 3.783,
+    "err_ppt_inflated": 0.48,
+    "snr_inflated": 7.88,
+    "chi2_const_inflated": 4.0,
+    "p_const_inflated": 0.26611058755725386
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.389,
+    "err_ppt": 0.462,
+    "snr": 7.33,
+    "chi2_const": 2.2,
+    "dof": 2,
+    "p_const": 0.4308067729135745,
+    "top_event_n": 55,
+    "top_event_share_of_snr2": 0.37,
+    "snr_without_top_event": 5.77,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.866,
+     "odd_err": 0.613,
+     "even_ppt": 2.761,
+     "even_err": 0.704,
+     "sigma": 1.18
+    },
+    "p_const_white": 0.3379025097410631,
+    "chi2_const_white": 2.2,
+    "snr_white": 7.33,
+    "beta_median": 1.177,
+    "beta_min": 1.111,
+    "beta_max": 1.177,
+    "weighted_mean_depth_ppt_inflated": 3.419,
+    "err_ppt_inflated": 0.537,
+    "snr_inflated": 6.36,
+    "chi2_const_inflated": 1.7,
+    "p_const_inflated": 0.4308067729135745
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.154,
+    "err_ppt": 0.468,
+    "snr": 6.74,
+    "chi2_const": 1.9,
+    "dof": 2,
+    "p_const": 0.5005331116824436,
+    "top_event_n": 55,
+    "top_event_share_of_snr2": 0.48,
+    "snr_without_top_event": 4.85,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.711,
+     "odd_err": 0.622,
+     "even_ppt": 2.431,
+     "even_err": 0.709,
+     "sigma": 1.36
+    },
+    "p_const_white": 0.39332008648134753,
+    "chi2_const_white": 1.9,
+    "snr_white": 6.74,
+    "beta_median": 1.177,
+    "beta_min": 1.111,
+    "beta_max": 1.177,
+    "weighted_mean_depth_ppt_inflated": 3.17,
+    "err_ppt_inflated": 0.544,
+    "snr_inflated": 5.83,
+    "chi2_const_inflated": 1.4,
+    "p_const_inflated": 0.5005331116824436
+   },
+   "audit_flags": [
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": true,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": true,
+    "depth_within_0.5_2x_survey": true,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 6,
+   "all_passed": true,
+   "kept_snr": 7.33,
+   "top_event_share": 0.37,
+   "snr_without_top": 5.77,
+   "kept_depth_ppt": 3.389,
+   "kept_depth_err_ppt": 0.462,
+   "depth_over_survey_depth": 1.166,
+   "p_const": 0.4308067729135745,
+   "top_event_n": 55,
+   "strongest_event": {
+    "found": true,
+    "n": 74,
+    "tc_btjd": 4166.5251,
+    "sector": 103,
+    "author": "QLP",
+    "det_depth_ppt": 5.221,
+    "det_depth_err_ppt": 1.013,
+    "sap_depth_ppt": -0.297,
+    "snr2": 26.6,
+    "excluded": true,
+    "exclusion_reasons": [
+     "SAP baseline changes by more than one depth across the event (ramp)",
+     "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+     "53% of cadences within one duration carry the scattered-light flag",
+     "dip present in corrected flux (5.22 ppt) but not in SAP (-0.30 +/- 1.02 ppt)"
+    ],
+    "artefact_classes": [
+     "dip_absent_in_sap",
+     "scattered_light_ramp",
+     "scattered_light_flag",
+     "sap_baseline_ramp"
+    ]
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3195.0636,
+     "observed": false,
+     "reason": "in-transit coverage 7% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3208.1914,
+     "observed": false,
+     "reason": "in-transit coverage 18% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3221.3193,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3234.4471,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3247.575,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3260.7028,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3273.8307,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3286.9586,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3300.0864,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3313.2143,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3326.3421,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3339.47,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3352.5979,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3365.7257,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3378.8536,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3391.9814,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3405.1093,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3418.2372,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3431.365,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3444.4929,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3457.6207,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3470.7486,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3483.8765,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3497.0043,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3510.1322,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3523.26,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3536.3879,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3549.5157,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3562.6436,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3575.7715,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3588.8993,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3602.0272,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3615.155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3628.2829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3641.4108,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3654.5386,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3667.6665,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3680.7943,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3693.9222,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3707.0501,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3720.1779,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3733.3058,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3746.4336,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3759.5615,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3772.6893,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3785.8172,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3798.9451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3812.0729,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3825.2008,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3838.3286,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3851.4565,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3864.5844,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3877.7122,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3890.8401,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3903.9679,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3917.0958,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.463,
+     "det_depth_err_ppt": 0.766,
+     "sap_depth_ppt": 3.639,
+     "sap_depth_err_ppt": 0.766,
+     "edge_distance_days": 9.322,
+     "pdc_gap_distance_days": 9.322,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.08,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3930.2237,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.761,
+     "det_depth_err_ppt": 0.704,
+     "sap_depth_ppt": 2.431,
+     "sap_depth_err_ppt": 0.709,
+     "edge_distance_days": 3.224,
+     "pdc_gap_distance_days": 3.224,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3943.3515,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3956.4794,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3969.6072,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3982.7351,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3995.8629,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 4008.9908,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 4022.1187,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 4035.2465,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4048.3744,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4061.5022,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4074.6301,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4087.758,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4100.8858,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4114.0137,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4127.1415,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4140.2694,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4153.3973,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 4.035,
+     "sap_depth_err_ppt": 0.876,
+     "edge_distance_days": 1.37,
+     "pdc_gap_distance_days": 1.368,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.81,
+     "ramp_over_depth": 11.72,
+     "bkg_over_sector_median": 3.2,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "81% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4166.5251,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 5.221,
+     "det_depth_err_ppt": 1.013,
+     "sap_depth_ppt": -0.297,
+     "sap_depth_err_ppt": 1.024,
+     "edge_distance_days": 5.039,
+     "pdc_gap_distance_days": 5.039,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.53,
+     "ramp_over_depth": 8.68,
+     "bkg_over_sector_median": 2.01,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "53% of cadences within one duration carry the scattered-light flag",
+      "dip present in corrected flux (5.22 ppt) but not in SAP (-0.30 +/- 1.02 ppt)"
+     ],
+     "artefact_classes": [
+      "dip_absent_in_sap",
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4179.653,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 0.99,
+     "det_depth_ppt": 4.583,
+     "det_depth_err_ppt": 1.022,
+     "sap_depth_ppt": 3.85,
+     "sap_depth_err_ppt": 1.067,
+     "edge_distance_days": 1.071,
+     "pdc_gap_distance_days": 1.054,
+     "desat": false,
+     "q_frac": 0.06,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.08,
+     "bkg_over_sector_median": 1.79,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4192.7808,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 42.86,
+     "sap_depth_err_ppt": 0.934,
+     "edge_distance_days": 12.42,
+     "pdc_gap_distance_days": 12.42,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.46,
+     "ramp_over_depth": 13.75,
+     "bkg_over_sector_median": 4.1,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "46% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 13.128473089978131,
+    "t0": 3195.018736829467,
+    "duration": 0.15485273653622544,
+    "source": "tls_forced",
+    "ref_depth_ppt": 2.906275859234695
+   },
+   "n_predicted_in_span": 77,
+   "n_observed": 6,
+   "n_excluded": 3,
+   "n_kept": 3,
+   "det_all": {
+    "n": 4,
+    "weighted_mean_depth_ppt": 3.602,
+    "err_ppt": 0.423,
+    "snr": 8.51,
+    "chi2_const": 4.1,
+    "dof": 3,
+    "p_const": 0.34238539338159796,
+    "top_event_n": 74,
+    "top_event_share_of_snr2": 0.32,
+    "snr_without_top_event": 7.09,
+    "n_events_depth_above_2sigma": 4,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.551,
+     "odd_err": 0.612,
+     "even_ppt": 3.65,
+     "even_err": 0.587,
+     "sigma": 0.12
+    },
+    "p_const_white": 0.25078088878452204,
+    "chi2_const_white": 4.1,
+    "snr_white": 8.51,
+    "beta_median": 1.151,
+    "beta_min": 1.064,
+    "beta_max": 1.175,
+    "weighted_mean_depth_ppt_inflated": 3.667,
+    "err_ppt_inflated": 0.485,
+    "snr_inflated": 7.56,
+    "chi2_const_inflated": 3.3,
+    "p_const_inflated": 0.34238539338159796
+   },
+   "det_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 3.293,
+    "err_ppt": 0.464,
+    "snr": 7.09,
+    "chi2_const": 1.4,
+    "dof": 2,
+    "p_const": 0.5720390602653753,
+    "top_event_n": 75,
+    "top_event_share_of_snr2": 0.37,
+    "snr_without_top_event": 5.73,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.551,
+     "odd_err": 0.612,
+     "even_ppt": 2.942,
+     "even_err": 0.713,
+     "sigma": 0.65
+    },
+    "p_const_white": 0.4847062559748977,
+    "chi2_const_white": 1.4,
+    "snr_white": 7.09,
+    "beta_median": 1.175,
+    "beta_min": 1.128,
+    "beta_max": 1.175,
+    "weighted_mean_depth_ppt_inflated": 3.311,
+    "err_ppt_inflated": 0.54,
+    "snr_inflated": 6.13,
+    "chi2_const_inflated": 1.1,
+    "p_const_inflated": 0.5720390602653753
+   },
+   "sap_kept": {
+    "n": 3,
+    "weighted_mean_depth_ppt": 2.751,
+    "err_ppt": 0.475,
+    "snr": 5.79,
+    "chi2_const": 1.0,
+    "dof": 2,
+    "p_const": 0.6960395484860562,
+    "top_event_n": 55,
+    "top_event_share_of_snr2": 0.39,
+    "snr_without_top_event": 4.48,
+    "n_events_depth_above_2sigma": 3,
+    "n_events_negative": 0,
+    "odd_even": {
+     "odd_ppt": 3.068,
+     "odd_err": 0.619,
+     "even_ppt": 2.297,
+     "even_err": 0.741,
+     "sigma": 0.8
+    },
+    "p_const_white": 0.6210504943172097,
+    "chi2_const_white": 1.0,
+    "snr_white": 5.79,
+    "beta_median": 1.175,
+    "beta_min": 1.128,
+    "beta_max": 1.175,
+    "weighted_mean_depth_ppt_inflated": 2.764,
+    "err_ppt_inflated": 0.553,
+    "snr_inflated": 5.0,
+    "chi2_const_inflated": 0.7,
+    "p_const_inflated": 0.6960395484860562
+   },
+   "audit_flags": [
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": true,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": true,
+    "depth_within_0.5_2x_survey": true,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 6,
+   "all_passed": true,
+   "kept_snr": 7.09,
+   "top_event_share": 0.37,
+   "snr_without_top": 5.73,
+   "kept_depth_ppt": 3.293,
+   "kept_depth_err_ppt": 0.464,
+   "depth_over_survey_depth": 1.133,
+   "p_const": 0.5720390602653753,
+   "top_event_n": 75,
+   "strongest_event": {
+    "found": true,
+    "n": 74,
+    "tc_btjd": 4166.5257,
+    "sector": 103,
+    "author": "QLP",
+    "det_depth_ppt": 5.137,
+    "det_depth_err_ppt": 1.033,
+    "sap_depth_ppt": 0.547,
+    "snr2": 24.7,
+    "excluded": true,
+    "exclusion_reasons": [
+     "SAP baseline changes by more than one depth across the event (ramp)",
+     "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+     "53% of cadences within one duration carry the scattered-light flag"
+    ],
+    "artefact_classes": [
+     "scattered_light_ramp",
+     "scattered_light_flag",
+     "sap_baseline_ramp"
+    ]
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 3195.0187,
+     "observed": false,
+     "reason": "in-transit coverage 36% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 1,
+     "tc_btjd": 3208.1472,
+     "observed": false,
+     "reason": "in-transit coverage 46% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 3221.2757,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 3,
+     "tc_btjd": 3234.4042,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 3247.5326,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 3260.6611,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 3273.7896,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 3286.918,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 3300.0465,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 3313.175,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 3326.3035,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 3339.4319,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 3352.5604,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 3365.6889,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 3378.8174,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 3391.9458,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 3405.0743,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 3418.2028,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 3431.3313,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 3444.4597,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 3457.5882,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 3470.7167,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 3483.8451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 3496.9736,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 3510.1021,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 3523.2306,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 3536.359,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 3549.4875,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 3562.616,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 3575.7445,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 3588.8729,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 3602.0014,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 3615.1299,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 3628.2583,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 3641.3868,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 3654.5153,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 3667.6438,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 3680.7722,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 3693.9007,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 3707.0292,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 3720.1577,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 3733.2861,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 3746.4146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 3759.5431,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 3772.6716,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 3785.8,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 3798.9285,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 3812.057,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 3825.1854,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 3838.3139,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 3851.4424,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 3864.5709,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 3877.6993,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 3890.8278,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 3903.9563,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 3917.0848,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 3.071,
+     "det_depth_err_ppt": 0.773,
+     "sap_depth_ppt": 2.813,
+     "sap_depth_err_ppt": 0.767,
+     "edge_distance_days": 9.311,
+     "pdc_gap_distance_days": 9.311,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.06,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 56,
+     "tc_btjd": 3930.2132,
+     "sector": 96,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 2.942,
+     "det_depth_err_ppt": 0.713,
+     "sap_depth_ppt": 2.297,
+     "sap_depth_err_ppt": 0.741,
+     "edge_distance_days": 3.234,
+     "pdc_gap_distance_days": 3.234,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.1,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 57,
+     "tc_btjd": 3943.3417,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 58,
+     "tc_btjd": 3956.4702,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 59,
+     "tc_btjd": 3969.5986,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 60,
+     "tc_btjd": 3982.7271,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 3995.8556,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 4008.9841,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 4022.1125,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 4035.241,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 4048.3695,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 4061.498,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 4074.6264,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 4087.7549,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 4100.8834,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 4114.0119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 4127.1403,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 4140.2688,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 4153.3973,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 4.035,
+     "sap_depth_err_ppt": 0.876,
+     "edge_distance_days": 1.37,
+     "pdc_gap_distance_days": 1.368,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.81,
+     "ramp_over_depth": 11.72,
+     "bkg_over_sector_median": 3.2,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "81% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 74,
+     "tc_btjd": 4166.5257,
+     "sector": 103,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 0.99,
+     "det_depth_ppt": 5.137,
+     "det_depth_err_ppt": 1.033,
+     "sap_depth_ppt": 0.547,
+     "sap_depth_err_ppt": 1.003,
+     "edge_distance_days": 5.038,
+     "pdc_gap_distance_days": 5.038,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.53,
+     "ramp_over_depth": 8.35,
+     "bkg_over_sector_median": 2.01,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "53% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 75,
+     "tc_btjd": 4179.6542,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.353,
+     "det_depth_err_ppt": 1.0,
+     "sap_depth_ppt": 3.542,
+     "sap_depth_err_ppt": 1.047,
+     "edge_distance_days": 1.072,
+     "pdc_gap_distance_days": 1.056,
+     "desat": false,
+     "q_frac": 0.06,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 1.79,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 76,
+     "tc_btjd": 4192.7827,
+     "sector": 104,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 0.99,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 38.232,
+     "sap_depth_err_ppt": 0.882,
+     "edge_distance_days": 12.418,
+     "pdc_gap_distance_days": 12.418,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.45,
+     "ramp_over_depth": 12.4,
+     "bkg_over_sector_median": 4.07,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "45% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    }
+   ]
+  }
+ },
+ "chosen_ephemeris": "survey",
+ "criteria": {
+  "kept_events_ge_3": true,
+  "kept_snr_ge_7": true,
+  "top_share_le_50pct": true,
+  "snr_without_top_ge_5": true,
+  "depth_within_0.5_2x_survey": true,
+  "depths_consistent_p_ge_1e-3": true
+ },
+ "n_criteria_passed": 6,
+ "decision": "PASS",
+ "deep_event_host": {
+  "n_accepted_on_star": 8,
+  "threshold_ppt": 14.53,
+  "n_deep": 0,
+  "deepest_ppt": null,
+  "examples": [],
+  "flag": false
+ },
+ "reason": "survey ephemeris, 3 kept events, SNR 7.33, top share 0.37, SNR w/o top 5.77, depth 3.389 ppt = 1.166x survey, p_const 0.43; all six criteria pass",
+ "seconds": 67.0,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

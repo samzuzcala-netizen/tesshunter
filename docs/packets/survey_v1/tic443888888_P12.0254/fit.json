@@ -1,0 +1,138 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "`ftol` termination condition is satisfied.",
+ "period": 11.870713998150547,
+ "period_err": 0.0001360856627165398,
+ "t0": 1503.1283475065206,
+ "t0_err": 0.017525259945920975,
+ "rp_rs": 0.04153662808095506,
+ "rp_rs_err": 0.0317086877100902,
+ "a_rs": 14.531499711229364,
+ "a_rs_err": 53.354085543819465,
+ "b": 0.5283471844773046,
+ "b_err": 5.047384885226469,
+ "inc_deg": 87.91633774231546,
+ "f0": 0.9997415673298888,
+ "f0_err": 9.450582946235326e-05,
+ "u1": 0.33163664918399993,
+ "u2": 0.31513933526400006,
+ "ld_source": "claret2017_atlas (Teff 3886 K, logg 4.64)",
+ "period_fitted": true,
+ "density_prior_adopted": false,
+ "free_rp_rs": 0.04153662808095506,
+ "free_a_rs": 14.531499711229364,
+ "free_b": 0.5283471844773046,
+ "free_chi2": 12654.637207167778,
+ "duration_days": 0.2336970904097379,
+ "duration_err": 0.0770183365095111,
+ "t23_days": 0.2081825068874827,
+ "depth_ppt": 1.9427877295390417,
+ "depth_err": 1.1830067474818224,
+ "depth_err_shape": 0.7326804765359338,
+ "depth_mean_ppt": 1.6349376916321428,
+ "rp_rearth": 2.7558942611814055,
+ "rp_rearth_err": 2.105410531926048,
+ "rp_rjup": 0.24586567623984462,
+ "rp_rjup_err": 0.1878331079264927,
+ "rho_star_fit_cgs": 0.4119410481699475,
+ "rho_star_fit_err": 0.18537347167647636,
+ "rho_star_cat_cgs": 3.7258223935509056,
+ "rho_star_cat_err": 0.20475274473753904,
+ "rho_source": "tic_rho",
+ "a_rs_star": 30.27653219578172,
+ "a_rs_star_err": 0.554616083234947,
+ "a_rs_ratio": 0.4799591847990427,
+ "density_ratio": 0.11056379093189836,
+ "density_sigma": 13.785057027735071,
+ "density_dchi2": 193.64991295663822,
+ "density_dchi2_eff": 7.745996518265529,
+ "beta_red_noise": 5.0,
+ "depth_err_white": 0.2366013494963645,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "low",
+ "consistency_note": "free-fit a/R* = 14.53 (b = 0.53) against 30.28 +/- 0.55 from the catalog density (0.412 vs 3.726 g/cc, ratio 0.11; profile delta chi2 193.6 with a/R* held in the catalog range, 7.7 after the red-noise beta = 5.00; tic_rho)",
+ "grazing": false,
+ "rp_rs_constrained": false,
+ "n_points": 640,
+ "n_in_transit": 110,
+ "n_transits": 10,
+ "chi2": 12654.637207167778,
+ "chi2_flat": 13782.181812526222,
+ "reduced_chi2": 19.95999559490186,
+ "delta_bic": 1095.2372644766765,
+ "sigma_used": 0.00048224912317745123,
+ "exp_time_days": 0.020833333333484916,
+ "supersample": 7,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 1,
+    "depth_ppt": -0.998370232263592,
+    "depth_err": 0.7007934509544644
+   },
+   {
+    "index": 62,
+    "depth_ppt": 0.7084812470227526,
+    "depth_err": 0.7239790194760487
+   },
+   {
+    "index": 63,
+    "depth_ppt": -0.19131799074489558,
+    "depth_err": 0.717500520107927
+   },
+   {
+    "index": 124,
+    "depth_ppt": 17.69817409972909,
+    "depth_err": 0.7811317745799282
+   },
+   {
+    "index": 125,
+    "depth_ppt": 1.9900326650264222,
+    "depth_err": 0.7278637004720145
+   },
+   {
+    "index": 146,
+    "depth_ppt": 0.8779948243857679,
+    "depth_err": 0.7657757567676791
+   },
+   {
+    "index": 149,
+    "depth_ppt": 0.8493974287760027,
+    "depth_err": 0.7461538574316334
+   },
+   {
+    "index": 150,
+    "depth_ppt": 0.35661610487513684,
+    "depth_err": 0.7406977780749051
+   },
+   {
+    "index": 185,
+    "depth_ppt": -0.4161861246873076,
+    "depth_err": 0.7948642895072167
+   },
+   {
+    "index": 186,
+    "depth_ppt": 0.006427187670922098,
+    "depth_err": 0.8048924334747714
+   }
+  ],
+  "depth_odd_ppt": 0.23998721430090197,
+  "depth_odd_err": 0.5283905103598983,
+  "depth_odd_err_white": 0.32888441836133686,
+  "n_odd": 5,
+  "depth_even_ppt": 3.7726969398663206,
+  "depth_even_err": 3.4454247323064164,
+  "depth_even_err_white": 0.3406345235179415,
+  "n_even": 5,
+  "delta_sigma": 1.0134846323909885,
+  "delta_fraction": 1.760771388845372,
+  "significant": false,
+  "note": "odd 0.240 +/- 0.528 ppt (5 events), even 3.773 +/- 3.445 ppt (5 events), difference 1.0 sigma, 176% of the mean"
+ },
+ "notes": [
+  "Rp/R* is not constrained by the covariance (degenerate with b)"
+ ]
+}

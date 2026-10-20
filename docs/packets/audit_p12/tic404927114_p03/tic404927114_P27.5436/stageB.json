@@ -1,0 +1,231 @@
+{
+ "key": "tic404927114_P27.5436",
+ "tic_id": 404927114,
+ "rank": 1,
+ "survey_period": 27.543625333557717,
+ "survey_depth_ppt": 4.85623790584177,
+ "generated_utc": "2026-09-30T00:43:50Z",
+ "rules_version": "p10.0",
+ "thresholds": {
+  "max_cadence_s": 600.0,
+  "min_span_periods": 1.5,
+  "window_depth_fraction": 0.3333333333333333,
+  "window_noise_fraction": 0.2,
+  "window_fill_fraction": 0.6,
+  "window_length": "expected_t14_hours (central transit)",
+  "ruwe": 1.4,
+  "ipd_frac_multi_peak_pct": 10.0,
+  "aen_sig": 2.0,
+  "deep_event_ppt": 30.0,
+  "deep_event_ratio": 5.0
+ },
+ "phase_independent": {
+  "t14_hours": 3.350163804040778,
+  "window_days": 0.1395901585016991,
+  "depth_ppt": 4.856,
+  "depth_threshold_ppt": 1.619,
+  "noise_threshold_ppt": 0.971,
+  "survey_duration_days": 0.05565118804414251,
+  "survey_duration_over_t14": 0.399,
+  "diagnostic": "the decision uses the central-transit duration T14 as the window, as specified; deepest_depth_ppt_at_survey_duration repeats the measurement with the survey's own box duration and is recorded ONLY so that window dilution is visible, never used",
+  "sectors": [
+   {
+    "sector": 61,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 23.91,
+    "n_points": 9370,
+    "span_periods": 0.868,
+    "tested": false,
+    "why": "spans 0.87 periods < 1.5"
+   },
+   {
+    "sector": 63,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 25.56,
+    "n_points": 10635,
+    "span_periods": 0.928,
+    "tested": false,
+    "why": "spans 0.93 periods < 1.5"
+   },
+   {
+    "sector": 66,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 26.5,
+    "n_points": 10833,
+    "span_periods": 0.962,
+    "tested": false,
+    "why": "spans 0.96 periods < 1.5"
+   },
+   {
+    "sector": 67,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 25.85,
+    "n_points": 9935,
+    "span_periods": 0.938,
+    "tested": false,
+    "why": "spans 0.94 periods < 1.5"
+   },
+   {
+    "sector": 68,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 25.56,
+    "n_points": 9787,
+    "span_periods": 0.928,
+    "tested": false,
+    "why": "spans 0.93 periods < 1.5"
+   },
+   {
+    "sector": 87,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 26.64,
+    "n_points": 10983,
+    "span_periods": 0.967,
+    "tested": false,
+    "why": "spans 0.97 periods < 1.5"
+   },
+   {
+    "sector": 88,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 27.73,
+    "n_points": 11561,
+    "span_periods": 1.007,
+    "tested": false,
+    "why": "spans 1.01 periods < 1.5"
+   },
+   {
+    "sector": 90,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 27.58,
+    "n_points": 11144,
+    "span_periods": 1.001,
+    "tested": false,
+    "why": "spans 1.00 periods < 1.5"
+   },
+   {
+    "sector": 93,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 24.55,
+    "n_points": 9583,
+    "span_periods": 0.891,
+    "tested": false,
+    "why": "spans 0.89 periods < 1.5"
+   },
+   {
+    "sector": 94,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 24.11,
+    "n_points": 9149,
+    "span_periods": 0.875,
+    "tested": false,
+    "why": "spans 0.88 periods < 1.5"
+   },
+   {
+    "sector": 95,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 22.9,
+    "n_points": 7868,
+    "span_periods": 0.831,
+    "tested": false,
+    "why": "spans 0.83 periods < 1.5"
+   },
+   {
+    "sector": 98,
+    "author": "QLP",
+    "cadence_s": 200.0,
+    "span_days": 54.12,
+    "n_points": 21136,
+    "span_periods": 1.965,
+    "deepest_depth_ppt": 6.061,
+    "deepest_at_btjd": 4034.5339,
+    "n_in_deepest_window": 60,
+    "n_windows_tested": 20334,
+    "point_scatter_ppt": 7.126,
+    "median_points_per_window": 61.0,
+    "window_noise_ppt": 0.9124,
+    "expected_points_per_window": 60.3,
+    "deepest_depth_ppt_at_survey_duration": 8.419,
+    "window_noise_ppt_at_survey_duration": 1.4253,
+    "margin_over_threshold": 3.744,
+    "tested": true,
+    "excludes_period": false,
+    "why": "deepest window 6.06 ppt >= 1.62 ppt; noise 0.912 ppt < 0.97 ppt"
+   }
+  ],
+  "n_sectors": 12,
+  "n_sectors_tested": 1,
+  "n_sectors_excluding": 0,
+  "excluding_sectors": [],
+  "median_deepest_window_ppt": 6.061,
+  "median_deepest_window_ppt_at_survey_duration": 8.419,
+  "min_margin_over_threshold": 3.744,
+  "excluded": false
+ },
+ "gaia": {
+  "gaia_error": null,
+  "n_within_1arcmin": 123,
+  "target_match": "nearest_5arcsec",
+  "ruwe": 1.1008936166763306,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 0.0,
+  "phot_variable_flag": "VARIABLE",
+  "vari_class": "SOLAR_LIKE",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 1.785812497138977,
+  "rv_n_transits": 69.0,
+  "n_neighbours_could_produce_depth_within_3px": 42,
+  "simbad_otypes": [
+   "PM*",
+   "EB*"
+  ],
+  "n_vsx_within_1arcmin": 1,
+  "vsx_types": [
+   "ROT"
+  ],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "Gaia phot_variable_flag VARIABLE (SOLAR_LIKE)",
+   "42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed",
+   "VSX entry within 1 arcmin (ROT)"
+  ]
+ },
+ "deep_event_host": {
+  "n_accepted_on_star": 20,
+  "threshold_ppt": 24.28,
+  "n_deep": 0,
+  "deepest_ppt": null,
+  "examples": [],
+  "flag": false
+ },
+ "flags": [
+  "Gaia phot_variable_flag VARIABLE (SOLAR_LIKE)",
+  "42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed",
+  "VSX entry within 1 arcmin (ROT)"
+ ],
+ "decision": "PASS",
+ "reason": "1 sector(s) could test the period phase-independently, none excludes it; 3 star-level flag(s): Gaia phot_variable_flag VARIABLE (SOLAR_LIKE); 42 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed; VSX entry within 1 arcmin (ROT)",
+ "b_flag_cap_p8": "HOLD",
+ "max_verdict": null,
+ "seconds": 0.3,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

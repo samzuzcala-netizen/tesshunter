@@ -1,0 +1,2679 @@
+{
+ "tic_id": 404927114,
+ "ra": 85.137263,
+ "dec": -66.173515,
+ "tic_gaia_id": 4659930359605646336,
+ "tic_gaia_mag": null,
+ "tmag": 13.31,
+ "generated_utc": "2026-09-04T23:29:34Z",
+ "candidate_depths_ppt": [
+  4.856
+ ],
+ "gaia": {
+  "n_within_1arcmin": 123,
+  "target": {
+   "source_id": 4659930359605646592,
+   "ra": 85.13738487221609,
+   "dec": -66.17304928262784,
+   "phot_g_mean_mag": 14.443216323852539,
+   "phot_bp_mean_mag": 15.69062614440918,
+   "phot_rp_mean_mag": 13.335712432861328,
+   "parallax": 10.008429784281718,
+   "parallax_error": 0.01692664623260498,
+   "pmra": 11.08126811734703,
+   "pmdec": 104.77736686686744,
+   "ruwe": 1.1008936166763306,
+   "phot_variable_flag": "VARIABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.011091098189353943,
+   "astrometric_excess_noise": 0.0,
+   "astrometric_excess_noise_sig": 0.0,
+   "radial_velocity": 41.72686767578125,
+   "radial_velocity_error": 1.785812497138977,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 69.0,
+   "phot_g_n_obs": 1397.0,
+   "teff_gspphot": 3580.4052734375,
+   "logg_gspphot": 4.666100025177002,
+   "distance_gspphot": 100.28949737548828,
+   "best_class_name": "SOLAR_LIKE",
+   "best_class_score": 0.5554147958755493,
+   "sep_arcsec": 1.68592483333684
+  },
+  "target_match": "nearest_5arcsec",
+  "neighbours": [
+   {
+    "source_id": 4659930359567234304,
+    "sep_arcsec": 5.7,
+    "sep_px": 0.27,
+    "G": 20.836864471435547,
+    "Rp": 19.76486587524414,
+    "band_used": "rp",
+    "delta_mag": 6.43,
+    "flux_ratio_to_target": 0.00268,
+    "max_observed_depth_ppt_total_eclipse": 2.67,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359567907328,
+    "sep_arcsec": 6.1,
+    "sep_px": 0.29,
+    "G": 21.03353500366211,
+    "Rp": 20.06039047241211,
+    "band_used": "rp",
+    "delta_mag": 6.72,
+    "flux_ratio_to_target": 0.00204,
+    "max_observed_depth_ppt_total_eclipse": 2.04,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942110601069184,
+    "sep_arcsec": 7.6,
+    "sep_px": 0.36,
+    "G": 20.895145416259766,
+    "Rp": 19.869726181030273,
+    "band_used": "rp",
+    "delta_mag": 6.53,
+    "flux_ratio_to_target": 0.00243,
+    "max_observed_depth_ppt_total_eclipse": 2.43,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942110601068672,
+    "sep_arcsec": 9.1,
+    "sep_px": 0.43,
+    "G": 20.955467224121094,
+    "Rp": 20.7987060546875,
+    "band_used": "rp",
+    "delta_mag": 7.46,
+    "flux_ratio_to_target": 0.00103,
+    "max_observed_depth_ppt_total_eclipse": 1.03,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359567350016,
+    "sep_arcsec": 10.5,
+    "sep_px": 0.5,
+    "G": 20.820775985717773,
+    "Rp": 20.36216163635254,
+    "band_used": "rp",
+    "delta_mag": 7.03,
+    "flux_ratio_to_target": 0.00155,
+    "max_observed_depth_ppt_total_eclipse": 1.54,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0490297079086304,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.3317679704608925
+   },
+   {
+    "source_id": 4659930359567061632,
+    "sep_arcsec": 12.6,
+    "sep_px": 0.6,
+    "G": 20.283226013183594,
+    "Rp": 20.086658477783203,
+    "band_used": "rp",
+    "delta_mag": 6.75,
+    "flux_ratio_to_target": 0.00199,
+    "max_observed_depth_ppt_total_eclipse": 1.99,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.029060959815979,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.33110031975797727
+   },
+   {
+    "source_id": 4659942076276901120,
+    "sep_arcsec": 13.3,
+    "sep_px": 0.63,
+    "G": 17.829437255859375,
+    "Rp": 17.877628326416016,
+    "band_used": "rp",
+    "delta_mag": 4.54,
+    "flux_ratio_to_target": 0.01525,
+    "max_observed_depth_ppt_total_eclipse": 15.02,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0601921081542969,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.10049409229421759
+   },
+   {
+    "source_id": 4659942071944202624,
+    "sep_arcsec": 18.3,
+    "sep_px": 0.87,
+    "G": 18.94882583618164,
+    "Rp": 18.370264053344727,
+    "band_used": "rp",
+    "delta_mag": 5.03,
+    "flux_ratio_to_target": 0.00969,
+    "max_observed_depth_ppt_total_eclipse": 9.59,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.00844407081604,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.0018325607463393415
+   },
+   {
+    "source_id": 4659930325207234688,
+    "sep_arcsec": 19.3,
+    "sep_px": 0.92,
+    "G": 18.802364349365234,
+    "Rp": 18.19815444946289,
+    "band_used": "rp",
+    "delta_mag": 4.86,
+    "flux_ratio_to_target": 0.01135,
+    "max_observed_depth_ppt_total_eclipse": 11.22,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0195188522338867,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.06648627503608981
+   },
+   {
+    "source_id": 4659930325207233920,
+    "sep_arcsec": 20.3,
+    "sep_px": 0.97,
+    "G": 19.66339111328125,
+    "Rp": 19.680557250976562,
+    "band_used": "rp",
+    "delta_mag": 6.34,
+    "flux_ratio_to_target": 0.0029,
+    "max_observed_depth_ppt_total_eclipse": 2.89,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9994657635688782,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.22871667226074993
+   },
+   {
+    "source_id": 4659930359567197696,
+    "sep_arcsec": 20.4,
+    "sep_px": 0.97,
+    "G": 20.3558349609375,
+    "Rp": 19.65118980407715,
+    "band_used": "rp",
+    "delta_mag": 6.32,
+    "flux_ratio_to_target": 0.00298,
+    "max_observed_depth_ppt_total_eclipse": 2.97,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0479090213775635,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.582322875835086
+   },
+   {
+    "source_id": 4659930359605646720,
+    "sep_arcsec": 21.4,
+    "sep_px": 1.02,
+    "G": 18.81393051147461,
+    "Rp": 18.042734146118164,
+    "band_used": "rp",
+    "delta_mag": 4.71,
+    "flux_ratio_to_target": 0.0131,
+    "max_observed_depth_ppt_total_eclipse": 12.93,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9482442140579224,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.29879893843492467
+   },
+   {
+    "source_id": 4659930359605646848,
+    "sep_arcsec": 21.9,
+    "sep_px": 1.04,
+    "G": 18.09006118774414,
+    "Rp": 17.349075317382812,
+    "band_used": "rp",
+    "delta_mag": 4.01,
+    "flux_ratio_to_target": 0.02481,
+    "max_observed_depth_ppt_total_eclipse": 24.21,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9685131311416626,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.4322817511184962
+   },
+   {
+    "source_id": 4659930359567023104,
+    "sep_arcsec": 22.6,
+    "sep_px": 1.07,
+    "G": 19.347003936767578,
+    "Rp": 19.164220809936523,
+    "band_used": "rp",
+    "delta_mag": 5.83,
+    "flux_ratio_to_target": 0.00466,
+    "max_observed_depth_ppt_total_eclipse": 4.64,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0147424936294556,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.36403270315061914
+   },
+   {
+    "source_id": 4659930320913669376,
+    "sep_arcsec": 23.2,
+    "sep_px": 1.1,
+    "G": 17.99725914001465,
+    "Rp": 17.168659210205078,
+    "band_used": "rp",
+    "delta_mag": 3.83,
+    "flux_ratio_to_target": 0.0293,
+    "max_observed_depth_ppt_total_eclipse": 28.46,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9473472833633423,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.11212066611880461
+   },
+   {
+    "source_id": 4659930355273426688,
+    "sep_arcsec": 23.6,
+    "sep_px": 1.12,
+    "G": 19.65599822998047,
+    "Rp": 18.839096069335938,
+    "band_used": "rp",
+    "delta_mag": 5.5,
+    "flux_ratio_to_target": 0.00629,
+    "max_observed_depth_ppt_total_eclipse": 6.25,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0207023620605469,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.02996025612213333
+   },
+   {
+    "source_id": 4659942110600164096,
+    "sep_arcsec": 24.4,
+    "sep_px": 1.16,
+    "G": 20.5212345123291,
+    "Rp": 20.35087013244629,
+    "band_used": "rp",
+    "delta_mag": 7.02,
+    "flux_ratio_to_target": 0.00156,
+    "max_observed_depth_ppt_total_eclipse": 1.56,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.161617398262024,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.07061212066491573
+   },
+   {
+    "source_id": 4659942076276900992,
+    "sep_arcsec": 25.3,
+    "sep_px": 1.2,
+    "G": 17.939647674560547,
+    "Rp": 17.232765197753906,
+    "band_used": "rp",
+    "delta_mag": 3.9,
+    "flux_ratio_to_target": 0.02762,
+    "max_observed_depth_ppt_total_eclipse": 26.87,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0157774686813354,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.051656770156005706
+   },
+   {
+    "source_id": 4659930325207234944,
+    "sep_arcsec": 25.5,
+    "sep_px": 1.22,
+    "G": 19.935213088989258,
+    "Rp": 19.740394592285156,
+    "band_used": "rp",
+    "delta_mag": 6.4,
+    "flux_ratio_to_target": 0.00274,
+    "max_observed_depth_ppt_total_eclipse": 2.73,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.050675392150879,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.004734005553722435
+   },
+   {
+    "source_id": 4659930359567240448,
+    "sep_arcsec": 25.9,
+    "sep_px": 1.23,
+    "G": 20.687713623046875,
+    "Rp": 20.26380729675293,
+    "band_used": "rp",
+    "delta_mag": 6.93,
+    "flux_ratio_to_target": 0.00169,
+    "max_observed_depth_ppt_total_eclipse": 1.69,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.2252938747406006,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -1.1667978430161656
+   },
+   {
+    "source_id": 4659942110600075776,
+    "sep_arcsec": 27.5,
+    "sep_px": 1.31,
+    "G": 20.79425811767578,
+    "Rp": 20.735477447509766,
+    "band_used": "rp",
+    "delta_mag": 7.4,
+    "flux_ratio_to_target": 0.0011,
+    "max_observed_depth_ppt_total_eclipse": 1.1,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.8564661741256714,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.922509294529412
+   },
+   {
+    "source_id": 4659942076240320000,
+    "sep_arcsec": 27.7,
+    "sep_px": 1.32,
+    "G": 20.244964599609375,
+    "Rp": 19.639799118041992,
+    "band_used": "rp",
+    "delta_mag": 6.3,
+    "flux_ratio_to_target": 0.00301,
+    "max_observed_depth_ppt_total_eclipse": 3.0,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0342674255371094,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.21511727077115558
+   },
+   {
+    "source_id": 4659930359567352192,
+    "sep_arcsec": 28.1,
+    "sep_px": 1.34,
+    "G": 21.042654037475586,
+    "Rp": 20.208534240722656,
+    "band_used": "rp",
+    "delta_mag": 6.87,
+    "flux_ratio_to_target": 0.00178,
+    "max_observed_depth_ppt_total_eclipse": 1.78,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359605640832,
+    "sep_arcsec": 28.4,
+    "sep_px": 1.35,
+    "G": 19.890233993530273,
+    "Rp": 19.903593063354492,
+    "band_used": "rp",
+    "delta_mag": 6.57,
+    "flux_ratio_to_target": 0.00236,
+    "max_observed_depth_ppt_total_eclipse": 2.35,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.085818886756897,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.510995490434053
+   },
+   {
+    "source_id": 4659930359567347200,
+    "sep_arcsec": 28.7,
+    "sep_px": 1.36,
+    "G": 20.746932983398438,
+    "Rp": 20.593780517578125,
+    "band_used": "rp",
+    "delta_mag": 7.26,
+    "flux_ratio_to_target": 0.00125,
+    "max_observed_depth_ppt_total_eclipse": 1.25,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0786535739898682,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.008784918456651511
+   },
+   {
+    "source_id": 4659942076240846208,
+    "sep_arcsec": 28.9,
+    "sep_px": 1.37,
+    "G": 20.841670989990234,
+    "Rp": 20.26694107055664,
+    "band_used": "rp",
+    "delta_mag": 6.93,
+    "flux_ratio_to_target": 0.00169,
+    "max_observed_depth_ppt_total_eclipse": 1.69,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930325245902336,
+    "sep_arcsec": 29.9,
+    "sep_px": 1.43,
+    "G": 18.675615310668945,
+    "Rp": 18.109420776367188,
+    "band_used": "rp",
+    "delta_mag": 4.77,
+    "flux_ratio_to_target": 0.01232,
+    "max_observed_depth_ppt_total_eclipse": 12.17,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9817158579826355,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.13072933610340012
+   },
+   {
+    "source_id": 4659942110636654720,
+    "sep_arcsec": 30.2,
+    "sep_px": 1.44,
+    "G": 20.438812255859375,
+    "Rp": 19.63260841369629,
+    "band_used": "rp",
+    "delta_mag": 6.3,
+    "flux_ratio_to_target": 0.00303,
+    "max_observed_depth_ppt_total_eclipse": 3.02,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.065696120262146,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.007689843795216355
+   },
+   {
+    "source_id": 4659930359567275264,
+    "sep_arcsec": 30.6,
+    "sep_px": 1.46,
+    "G": 20.587501525878906,
+    "Rp": 20.487016677856445,
+    "band_used": "rp",
+    "delta_mag": 7.15,
+    "flux_ratio_to_target": 0.00138,
+    "max_observed_depth_ppt_total_eclipse": 1.38,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9809131026268005,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -1.1859575635069388
+   },
+   {
+    "source_id": 4659931832742188160,
+    "sep_arcsec": 30.7,
+    "sep_px": 1.46,
+    "G": 18.372560501098633,
+    "Rp": 17.673017501831055,
+    "band_used": "rp",
+    "delta_mag": 4.34,
+    "flux_ratio_to_target": 0.01841,
+    "max_observed_depth_ppt_total_eclipse": 18.08,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0433027744293213,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.08037211941014297
+   },
+   {
+    "source_id": 4659942110601278208,
+    "sep_arcsec": 31.7,
+    "sep_px": 1.51,
+    "G": 20.923383712768555,
+    "Rp": 20.352556228637695,
+    "band_used": "rp",
+    "delta_mag": 7.02,
+    "flux_ratio_to_target": 0.00156,
+    "max_observed_depth_ppt_total_eclipse": 1.56,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942076240750592,
+    "sep_arcsec": 31.8,
+    "sep_px": 1.51,
+    "G": 20.576013565063477,
+    "Rp": 19.43112564086914,
+    "band_used": "rp",
+    "delta_mag": 6.1,
+    "flux_ratio_to_target": 0.00365,
+    "max_observed_depth_ppt_total_eclipse": 3.63,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.05172598361969,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.3751578915658096
+   },
+   {
+    "source_id": 4659930325207360512,
+    "sep_arcsec": 31.9,
+    "sep_px": 1.52,
+    "G": 20.276613235473633,
+    "Rp": 20.32608413696289,
+    "band_used": "rp",
+    "delta_mag": 6.99,
+    "flux_ratio_to_target": 0.0016,
+    "max_observed_depth_ppt_total_eclipse": 1.6,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0843318700790405,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.6098916651562654
+   },
+   {
+    "source_id": 4659930359605655040,
+    "sep_arcsec": 32.0,
+    "sep_px": 1.52,
+    "G": 20.575796127319336,
+    "Rp": 19.29332733154297,
+    "band_used": "rp",
+    "delta_mag": 5.96,
+    "flux_ratio_to_target": 0.00414,
+    "max_observed_depth_ppt_total_eclipse": 4.12,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.1083999872207642,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.6066050536247565
+   },
+   {
+    "source_id": 4659930325207235328,
+    "sep_arcsec": 32.1,
+    "sep_px": 1.53,
+    "G": 19.333314895629883,
+    "Rp": 18.712932586669922,
+    "band_used": "rp",
+    "delta_mag": 5.38,
+    "flux_ratio_to_target": 0.00706,
+    "max_observed_depth_ppt_total_eclipse": 7.02,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0648540258407593,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.2510324590719571
+   },
+   {
+    "source_id": 4659942076240301696,
+    "sep_arcsec": 32.5,
+    "sep_px": 1.55,
+    "G": 20.059925079345703,
+    "Rp": 20.032190322875977,
+    "band_used": "rp",
+    "delta_mag": 6.7,
+    "flux_ratio_to_target": 0.0021,
+    "max_observed_depth_ppt_total_eclipse": 2.09,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0867114067077637,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.45221898583271475
+   },
+   {
+    "source_id": 4659930325207429248,
+    "sep_arcsec": 32.9,
+    "sep_px": 1.57,
+    "G": 20.468076705932617,
+    "Rp": 20.137557983398438,
+    "band_used": "rp",
+    "delta_mag": 6.8,
+    "flux_ratio_to_target": 0.0019,
+    "max_observed_depth_ppt_total_eclipse": 1.9,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.00071382522583,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.04485199438201104
+   },
+   {
+    "source_id": 4659930359567042560,
+    "sep_arcsec": 32.9,
+    "sep_px": 1.57,
+    "G": 20.32754898071289,
+    "Rp": 19.374767303466797,
+    "band_used": "rp",
+    "delta_mag": 6.04,
+    "flux_ratio_to_target": 0.00384,
+    "max_observed_depth_ppt_total_eclipse": 3.83,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.039453387260437,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.11017574415130171
+   },
+   {
+    "source_id": 4659931837035773440,
+    "sep_arcsec": 33.8,
+    "sep_px": 1.61,
+    "G": 20.20130729675293,
+    "Rp": 19.93468475341797,
+    "band_used": "rp",
+    "delta_mag": 6.6,
+    "flux_ratio_to_target": 0.00229,
+    "max_observed_depth_ppt_total_eclipse": 2.29,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9982250332832336,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.19373059128369047
+   },
+   {
+    "source_id": 4659942076241541888,
+    "sep_arcsec": 35.2,
+    "sep_px": 1.67,
+    "G": 20.873302459716797,
+    "Rp": 20.52728271484375,
+    "band_used": "rp",
+    "delta_mag": 7.19,
+    "flux_ratio_to_target": 0.00133,
+    "max_observed_depth_ppt_total_eclipse": 1.33,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359566974208,
+    "sep_arcsec": 35.3,
+    "sep_px": 1.68,
+    "G": 19.19379425048828,
+    "Rp": 18.546369552612305,
+    "band_used": "rp",
+    "delta_mag": 5.21,
+    "flux_ratio_to_target": 0.00824,
+    "max_observed_depth_ppt_total_eclipse": 8.17,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0763444900512695,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.030177912162896697
+   },
+   {
+    "source_id": 4659942076241332480,
+    "sep_arcsec": 35.8,
+    "sep_px": 1.7,
+    "G": 20.87653350830078,
+    "Rp": 20.44561004638672,
+    "band_used": "rp",
+    "delta_mag": 7.11,
+    "flux_ratio_to_target": 0.00143,
+    "max_observed_depth_ppt_total_eclipse": 1.43,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.047191858291626,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -1.0410623075727496
+   },
+   {
+    "source_id": 4659942110600101760,
+    "sep_arcsec": 37.2,
+    "sep_px": 1.77,
+    "G": 20.516780853271484,
+    "Rp": 20.16446876525879,
+    "band_used": "rp",
+    "delta_mag": 6.83,
+    "flux_ratio_to_target": 0.00186,
+    "max_observed_depth_ppt_total_eclipse": 1.85,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9839498996734619,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.756747992233874
+   },
+   {
+    "source_id": 4659942071944190464,
+    "sep_arcsec": 37.7,
+    "sep_px": 1.8,
+    "G": 18.822328567504883,
+    "Rp": 18.257755279541016,
+    "band_used": "rp",
+    "delta_mag": 4.92,
+    "flux_ratio_to_target": 0.01074,
+    "max_observed_depth_ppt_total_eclipse": 10.63,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0240106582641602,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.033450908938284396
+   },
+   {
+    "source_id": 4659930325248888960,
+    "sep_arcsec": 38.2,
+    "sep_px": 1.82,
+    "G": 18.28021240234375,
+    "Rp": 17.1982479095459,
+    "band_used": "rp",
+    "delta_mag": 3.86,
+    "flux_ratio_to_target": 0.02851,
+    "max_observed_depth_ppt_total_eclipse": 27.72,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 5.04155969619751,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.5610109233895706
+   },
+   {
+    "source_id": 4659930320913657216,
+    "sep_arcsec": 38.8,
+    "sep_px": 1.85,
+    "G": 19.44049835205078,
+    "Rp": 18.862764358520508,
+    "band_used": "rp",
+    "delta_mag": 5.53,
+    "flux_ratio_to_target": 0.00615,
+    "max_observed_depth_ppt_total_eclipse": 6.12,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9579704403877258,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.09011812390305504
+   },
+   {
+    "source_id": 4659942110601277824,
+    "sep_arcsec": 38.8,
+    "sep_px": 1.85,
+    "G": 20.98549461364746,
+    "Rp": 21.218521118164062,
+    "band_used": "rp",
+    "delta_mag": 7.88,
+    "flux_ratio_to_target": 0.0007,
+    "max_observed_depth_ppt_total_eclipse": 0.7,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942110640512896,
+    "sep_arcsec": 38.9,
+    "sep_px": 1.85,
+    "G": 20.747201919555664,
+    "Rp": 20.02828598022461,
+    "band_used": "rp",
+    "delta_mag": 6.69,
+    "flux_ratio_to_target": 0.0021,
+    "max_observed_depth_ppt_total_eclipse": 2.1,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942076276896256,
+    "sep_arcsec": 39.0,
+    "sep_px": 1.86,
+    "G": 19.518598556518555,
+    "Rp": 19.0957088470459,
+    "band_used": "rp",
+    "delta_mag": 5.76,
+    "flux_ratio_to_target": 0.00497,
+    "max_observed_depth_ppt_total_eclipse": 4.94,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0464301109313965,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.2670665094612696
+   },
+   {
+    "source_id": 4659930325207909376,
+    "sep_arcsec": 39.0,
+    "sep_px": 1.86,
+    "G": 21.016756057739258,
+    "Rp": 20.244842529296875,
+    "band_used": "rp",
+    "delta_mag": 6.91,
+    "flux_ratio_to_target": 0.00172,
+    "max_observed_depth_ppt_total_eclipse": 1.72,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659931837077381376,
+    "sep_arcsec": 39.8,
+    "sep_px": 1.89,
+    "G": 13.671984672546387,
+    "Rp": 13.17372989654541,
+    "band_used": "rp",
+    "delta_mag": -0.16,
+    "flux_ratio_to_target": 1.1609,
+    "max_observed_depth_ppt_total_eclipse": 537.23,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0045862197875977,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.5442749403596165
+   },
+   {
+    "source_id": 4659942106310531200,
+    "sep_arcsec": 39.8,
+    "sep_px": 1.9,
+    "G": 19.008712768554688,
+    "Rp": 19.06546974182129,
+    "band_used": "rp",
+    "delta_mag": 5.73,
+    "flux_ratio_to_target": 0.00511,
+    "max_observed_depth_ppt_total_eclipse": 5.08,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0065510272979736,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.2799026113899723
+   },
+   {
+    "source_id": 4659942071944180992,
+    "sep_arcsec": 40.5,
+    "sep_px": 1.93,
+    "G": 18.818531036376953,
+    "Rp": 18.200105667114258,
+    "band_used": "rp",
+    "delta_mag": 4.86,
+    "flux_ratio_to_target": 0.01133,
+    "max_observed_depth_ppt_total_eclipse": 11.2,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9759321808815002,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.040126191188895724
+   },
+   {
+    "source_id": 4659942076240337280,
+    "sep_arcsec": 40.5,
+    "sep_px": 1.93,
+    "G": 20.60944938659668,
+    "Rp": 20.187490463256836,
+    "band_used": "rp",
+    "delta_mag": 6.85,
+    "flux_ratio_to_target": 0.00182,
+    "max_observed_depth_ppt_total_eclipse": 1.81,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0705811977386475,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.7939514741244635
+   },
+   {
+    "source_id": 4659942110640513152,
+    "sep_arcsec": 40.5,
+    "sep_px": 1.93,
+    "G": 18.67377471923828,
+    "Rp": 18.062238693237305,
+    "band_used": "rp",
+    "delta_mag": 4.73,
+    "flux_ratio_to_target": 0.01286,
+    "max_observed_depth_ppt_total_eclipse": 12.7,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0426959991455078,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.04889945489952272
+   },
+   {
+    "source_id": 4659931837074401536,
+    "sep_arcsec": 40.7,
+    "sep_px": 1.94,
+    "G": 17.4261417388916,
+    "Rp": 16.459436416625977,
+    "band_used": "rp",
+    "delta_mag": 3.12,
+    "flux_ratio_to_target": 0.0563,
+    "max_observed_depth_ppt_total_eclipse": 53.3,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9669569730758667,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.042378893888711244
+   },
+   {
+    "source_id": 4659942110636760576,
+    "sep_arcsec": 40.7,
+    "sep_px": 1.94,
+    "G": 20.409454345703125,
+    "Rp": 20.114013671875,
+    "band_used": "rp",
+    "delta_mag": 6.78,
+    "flux_ratio_to_target": 0.00194,
+    "max_observed_depth_ppt_total_eclipse": 1.94,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9470602869987488,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.20666266393446736
+   },
+   {
+    "source_id": 4659942076241331712,
+    "sep_arcsec": 41.3,
+    "sep_px": 1.97,
+    "G": 20.84836769104004,
+    "Rp": 21.13536262512207,
+    "band_used": "rp",
+    "delta_mag": 7.8,
+    "flux_ratio_to_target": 0.00076,
+    "max_observed_depth_ppt_total_eclipse": 0.76,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930325207234432,
+    "sep_arcsec": 41.4,
+    "sep_px": 1.97,
+    "G": 19.838417053222656,
+    "Rp": 19.805034637451172,
+    "band_used": "rp",
+    "delta_mag": 6.47,
+    "flux_ratio_to_target": 0.00258,
+    "max_observed_depth_ppt_total_eclipse": 2.58,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0302624702453613,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.006727906630795651
+   },
+   {
+    "source_id": 4659942076240337536,
+    "sep_arcsec": 42.8,
+    "sep_px": 2.04,
+    "G": 20.290874481201172,
+    "Rp": 19.74164581298828,
+    "band_used": "rp",
+    "delta_mag": 6.41,
+    "flux_ratio_to_target": 0.00274,
+    "max_observed_depth_ppt_total_eclipse": 2.73,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9233605861663818,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.4370618386343681
+   },
+   {
+    "source_id": 4659931837036096128,
+    "sep_arcsec": 42.9,
+    "sep_px": 2.04,
+    "G": 20.993799209594727,
+    "Rp": 20.29509925842285,
+    "band_used": "rp",
+    "delta_mag": 6.96,
+    "flux_ratio_to_target": 0.00165,
+    "max_observed_depth_ppt_total_eclipse": 1.64,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359567354752,
+    "sep_arcsec": 43.9,
+    "sep_px": 2.09,
+    "G": 21.019916534423828,
+    "Rp": 20.254575729370117,
+    "band_used": "rp",
+    "delta_mag": 6.92,
+    "flux_ratio_to_target": 0.00171,
+    "max_observed_depth_ppt_total_eclipse": 1.7,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659931837035976320,
+    "sep_arcsec": 44.6,
+    "sep_px": 2.12,
+    "G": 20.708627700805664,
+    "Rp": 20.44889259338379,
+    "band_used": "rp",
+    "delta_mag": 7.11,
+    "flux_ratio_to_target": 0.00143,
+    "max_observed_depth_ppt_total_eclipse": 1.43,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0378999710083008,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.1845661608793459
+   },
+   {
+    "source_id": 4659942110601064448,
+    "sep_arcsec": 44.8,
+    "sep_px": 2.14,
+    "G": 20.673677444458008,
+    "Rp": 20.64951515197754,
+    "band_used": "rp",
+    "delta_mag": 7.31,
+    "flux_ratio_to_target": 0.00119,
+    "max_observed_depth_ppt_total_eclipse": 1.19,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9787814617156982,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.2899576764936528
+   },
+   {
+    "source_id": 4659930325207545600,
+    "sep_arcsec": 45.4,
+    "sep_px": 2.16,
+    "G": 20.6710147857666,
+    "Rp": 20.7415828704834,
+    "band_used": "rp",
+    "delta_mag": 7.41,
+    "flux_ratio_to_target": 0.00109,
+    "max_observed_depth_ppt_total_eclipse": 1.09,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9721804261207581,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.630358499481309
+   },
+   {
+    "source_id": 4659943588105397760,
+    "sep_arcsec": 45.6,
+    "sep_px": 2.17,
+    "G": 19.356613159179688,
+    "Rp": 19.129344940185547,
+    "band_used": "rp",
+    "delta_mag": 5.79,
+    "flux_ratio_to_target": 0.00481,
+    "max_observed_depth_ppt_total_eclipse": 4.79,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0468275547027588,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.3811159621378759
+   },
+   {
+    "source_id": 4659931837035792128,
+    "sep_arcsec": 45.8,
+    "sep_px": 2.18,
+    "G": 20.21546745300293,
+    "Rp": 19.989458084106445,
+    "band_used": "rp",
+    "delta_mag": 6.65,
+    "flux_ratio_to_target": 0.00218,
+    "max_observed_depth_ppt_total_eclipse": 2.18,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.2943130731582642,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.7514022321774916
+   },
+   {
+    "source_id": 4659930325245895424,
+    "sep_arcsec": 46.9,
+    "sep_px": 2.23,
+    "G": 19.241273880004883,
+    "Rp": 19.284128189086914,
+    "band_used": "rp",
+    "delta_mag": 5.95,
+    "flux_ratio_to_target": 0.00417,
+    "max_observed_depth_ppt_total_eclipse": 4.16,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9649894833564758,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.040386201938880345
+   },
+   {
+    "source_id": 4659930359567081216,
+    "sep_arcsec": 47.6,
+    "sep_px": 2.27,
+    "G": 20.4068603515625,
+    "Rp": 19.89335060119629,
+    "band_used": "rp",
+    "delta_mag": 6.56,
+    "flux_ratio_to_target": 0.00238,
+    "max_observed_depth_ppt_total_eclipse": 2.38,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0621153116226196,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.8938382752564886
+   },
+   {
+    "source_id": 4659931837035864576,
+    "sep_arcsec": 47.8,
+    "sep_px": 2.27,
+    "G": 20.62319564819336,
+    "Rp": 20.127634048461914,
+    "band_used": "rp",
+    "delta_mag": 6.79,
+    "flux_ratio_to_target": 0.00192,
+    "max_observed_depth_ppt_total_eclipse": 1.92,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.8943239450454712,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.015594705754950824
+   },
+   {
+    "source_id": 4659930325207342720,
+    "sep_arcsec": 47.9,
+    "sep_px": 2.28,
+    "G": 20.39023780822754,
+    "Rp": 19.903833389282227,
+    "band_used": "rp",
+    "delta_mag": 6.57,
+    "flux_ratio_to_target": 0.00236,
+    "max_observed_depth_ppt_total_eclipse": 2.35,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0112329721450806,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.028920351255728255
+   },
+   {
+    "source_id": 4659942106303967488,
+    "sep_arcsec": 48.1,
+    "sep_px": 2.29,
+    "G": 19.163381576538086,
+    "Rp": 18.488994598388672,
+    "band_used": "rp",
+    "delta_mag": 5.15,
+    "flux_ratio_to_target": 0.00868,
+    "max_observed_depth_ppt_total_eclipse": 8.61,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0015554428100586,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.10335624445169983
+   },
+   {
+    "source_id": 4659930325207204096,
+    "sep_arcsec": 48.3,
+    "sep_px": 2.3,
+    "G": 20.45674705505371,
+    "Rp": 20.399259567260742,
+    "band_used": "rp",
+    "delta_mag": 7.06,
+    "flux_ratio_to_target": 0.00149,
+    "max_observed_depth_ppt_total_eclipse": 1.49,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9740638732910156,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.9432507774196719
+   },
+   {
+    "source_id": 4659930325207361024,
+    "sep_arcsec": 48.8,
+    "sep_px": 2.32,
+    "G": 20.773277282714844,
+    "Rp": 20.172077178955078,
+    "band_used": "rp",
+    "delta_mag": 6.84,
+    "flux_ratio_to_target": 0.00184,
+    "max_observed_depth_ppt_total_eclipse": 1.84,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.2358328104019165,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.06177901507832495
+   },
+   {
+    "source_id": 4659931837035986048,
+    "sep_arcsec": 49.0,
+    "sep_px": 2.33,
+    "G": 20.729930877685547,
+    "Rp": 20.50497817993164,
+    "band_used": "rp",
+    "delta_mag": 7.17,
+    "flux_ratio_to_target": 0.00136,
+    "max_observed_depth_ppt_total_eclipse": 1.35,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0327210426330566,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.5705299273221492
+   },
+   {
+    "source_id": 4659941973161065856,
+    "sep_arcsec": 49.0,
+    "sep_px": 2.33,
+    "G": 18.77546501159668,
+    "Rp": 18.093841552734375,
+    "band_used": "rp",
+    "delta_mag": 4.76,
+    "flux_ratio_to_target": 0.0125,
+    "max_observed_depth_ppt_total_eclipse": 12.34,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0494294166564941,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.27324235428483346
+   },
+   {
+    "source_id": 4659930359566974720,
+    "sep_arcsec": 49.6,
+    "sep_px": 2.36,
+    "G": 18.63530158996582,
+    "Rp": 17.91027069091797,
+    "band_used": "rp",
+    "delta_mag": 4.57,
+    "flux_ratio_to_target": 0.0148,
+    "max_observed_depth_ppt_total_eclipse": 14.58,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0045132637023926,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.06582505272561656
+   },
+   {
+    "source_id": 4659942110600057984,
+    "sep_arcsec": 49.8,
+    "sep_px": 2.37,
+    "G": 20.04466438293457,
+    "Rp": 20.101924896240234,
+    "band_used": "rp",
+    "delta_mag": 6.77,
+    "flux_ratio_to_target": 0.00197,
+    "max_observed_depth_ppt_total_eclipse": 1.96,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9933699369430542,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.6328696981496762
+   },
+   {
+    "source_id": 4659931837036100608,
+    "sep_arcsec": 49.8,
+    "sep_px": 2.37,
+    "G": 20.847455978393555,
+    "Rp": 20.574321746826172,
+    "band_used": "rp",
+    "delta_mag": 7.24,
+    "flux_ratio_to_target": 0.00127,
+    "max_observed_depth_ppt_total_eclipse": 1.27,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659941973161065728,
+    "sep_arcsec": 49.8,
+    "sep_px": 2.37,
+    "G": 20.415441513061523,
+    "Rp": null,
+    "band_used": "g",
+    "delta_mag": 5.97,
+    "flux_ratio_to_target": 0.00408,
+    "max_observed_depth_ppt_total_eclipse": 4.07,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9264945983886719,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.5626094337786914
+   },
+   {
+    "source_id": 4659930325207553280,
+    "sep_arcsec": 50.0,
+    "sep_px": 2.38,
+    "G": 20.839731216430664,
+    "Rp": 20.489423751831055,
+    "band_used": "rp",
+    "delta_mag": 7.15,
+    "flux_ratio_to_target": 0.00138,
+    "max_observed_depth_ppt_total_eclipse": 1.37,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359608627456,
+    "sep_arcsec": 50.3,
+    "sep_px": 2.39,
+    "G": 15.871766090393066,
+    "Rp": 15.003482818603516,
+    "band_used": "rp",
+    "delta_mag": 1.67,
+    "flux_ratio_to_target": 0.21522,
+    "max_observed_depth_ppt_total_eclipse": 177.11,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0384292602539062,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 2.2099418724909
+   },
+   {
+    "source_id": 4659942106310459904,
+    "sep_arcsec": 50.3,
+    "sep_px": 2.4,
+    "G": 19.645591735839844,
+    "Rp": 19.439687728881836,
+    "band_used": "rp",
+    "delta_mag": 6.1,
+    "flux_ratio_to_target": 0.00362,
+    "max_observed_depth_ppt_total_eclipse": 3.6,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.1086598634719849,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.024990824099129436
+   },
+   {
+    "source_id": 4659941973161591808,
+    "sep_arcsec": 51.0,
+    "sep_px": 2.43,
+    "G": 20.558292388916016,
+    "Rp": 20.592212677001953,
+    "band_used": "rp",
+    "delta_mag": 7.26,
+    "flux_ratio_to_target": 0.00125,
+    "max_observed_depth_ppt_total_eclipse": 1.25,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.055460810661316,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -1.0960887759275575
+   },
+   {
+    "source_id": 4659930359567354880,
+    "sep_arcsec": 51.3,
+    "sep_px": 2.44,
+    "G": 20.89173126220703,
+    "Rp": 20.356475830078125,
+    "band_used": "rp",
+    "delta_mag": 7.02,
+    "flux_ratio_to_target": 0.00155,
+    "max_observed_depth_ppt_total_eclipse": 1.55,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.067872166633606,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.9802957666006371
+   },
+   {
+    "source_id": 4659941973161849984,
+    "sep_arcsec": 51.4,
+    "sep_px": 2.45,
+    "G": 20.649293899536133,
+    "Rp": 20.291852951049805,
+    "band_used": "rp",
+    "delta_mag": 6.96,
+    "flux_ratio_to_target": 0.00165,
+    "max_observed_depth_ppt_total_eclipse": 1.65,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9934363961219788,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.11536852368580819
+   },
+   {
+    "source_id": 4659942110600101504,
+    "sep_arcsec": 52.5,
+    "sep_px": 2.5,
+    "G": 20.381847381591797,
+    "Rp": 20.125347137451172,
+    "band_used": "rp",
+    "delta_mag": 6.79,
+    "flux_ratio_to_target": 0.00192,
+    "max_observed_depth_ppt_total_eclipse": 1.92,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9893730878829956,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.8062351501754812
+   },
+   {
+    "source_id": 4659931837036096896,
+    "sep_arcsec": 52.6,
+    "sep_px": 2.51,
+    "G": 21.097244262695312,
+    "Rp": 20.975860595703125,
+    "band_used": "rp",
+    "delta_mag": 7.64,
+    "flux_ratio_to_target": 0.00088,
+    "max_observed_depth_ppt_total_eclipse": 0.88,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930325207911040,
+    "sep_arcsec": 52.8,
+    "sep_px": 2.52,
+    "G": 20.959150314331055,
+    "Rp": 19.952220916748047,
+    "band_used": "rp",
+    "delta_mag": 6.62,
+    "flux_ratio_to_target": 0.00226,
+    "max_observed_depth_ppt_total_eclipse": 2.25,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942071944202752,
+    "sep_arcsec": 53.1,
+    "sep_px": 2.53,
+    "G": 18.250530242919922,
+    "Rp": 17.47014045715332,
+    "band_used": "rp",
+    "delta_mag": 4.13,
+    "flux_ratio_to_target": 0.02219,
+    "max_observed_depth_ppt_total_eclipse": 21.71,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.203277587890625,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.056206404497150544
+   },
+   {
+    "source_id": 4659941973162115456,
+    "sep_arcsec": 53.5,
+    "sep_px": 2.55,
+    "G": 20.821081161499023,
+    "Rp": 20.754318237304688,
+    "band_used": "rp",
+    "delta_mag": 7.42,
+    "flux_ratio_to_target": 0.00108,
+    "max_observed_depth_ppt_total_eclipse": 1.08,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930359567221760,
+    "sep_arcsec": 53.8,
+    "sep_px": 2.56,
+    "G": 20.62941551208496,
+    "Rp": 20.73910903930664,
+    "band_used": "rp",
+    "delta_mag": 7.4,
+    "flux_ratio_to_target": 0.00109,
+    "max_observed_depth_ppt_total_eclipse": 1.09,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0813004970550537,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.0982878147929707
+   },
+   {
+    "source_id": 4659931837077381504,
+    "sep_arcsec": 53.9,
+    "sep_px": 2.57,
+    "G": 19.404699325561523,
+    "Rp": 19.44904136657715,
+    "band_used": "rp",
+    "delta_mag": 6.11,
+    "flux_ratio_to_target": 0.00359,
+    "max_observed_depth_ppt_total_eclipse": 3.57,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9989033937454224,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.26742529511291474
+   },
+   {
+    "source_id": 4659942071944192128,
+    "sep_arcsec": 54.5,
+    "sep_px": 2.6,
+    "G": 19.566953659057617,
+    "Rp": 18.700593948364258,
+    "band_used": "rp",
+    "delta_mag": 5.36,
+    "flux_ratio_to_target": 0.00715,
+    "max_observed_depth_ppt_total_eclipse": 7.1,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9975022077560425,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.5921463546882696
+   },
+   {
+    "source_id": 4659941973161052928,
+    "sep_arcsec": 55.1,
+    "sep_px": 2.62,
+    "G": 18.480207443237305,
+    "Rp": 17.863252639770508,
+    "band_used": "rp",
+    "delta_mag": 4.53,
+    "flux_ratio_to_target": 0.01545,
+    "max_observed_depth_ppt_total_eclipse": 15.22,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.116951584815979,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.0649380345130906
+   },
+   {
+    "source_id": 4659941973162118656,
+    "sep_arcsec": 55.3,
+    "sep_px": 2.63,
+    "G": 20.881315231323242,
+    "Rp": 20.496240615844727,
+    "band_used": "rp",
+    "delta_mag": 7.16,
+    "flux_ratio_to_target": 0.00137,
+    "max_observed_depth_ppt_total_eclipse": 1.37,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659941973161065984,
+    "sep_arcsec": 55.4,
+    "sep_px": 2.64,
+    "G": 20.099990844726562,
+    "Rp": null,
+    "band_used": "g",
+    "delta_mag": 5.66,
+    "flux_ratio_to_target": 0.00546,
+    "max_observed_depth_ppt_total_eclipse": 5.43,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9434986710548401,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.12912426264527765
+   },
+   {
+    "source_id": 4659942076276900864,
+    "sep_arcsec": 55.4,
+    "sep_px": 2.64,
+    "G": 17.437713623046875,
+    "Rp": 16.649919509887695,
+    "band_used": "rp",
+    "delta_mag": 3.31,
+    "flux_ratio_to_target": 0.04724,
+    "max_observed_depth_ppt_total_eclipse": 45.11,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9446823000907898,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.022073666691878737
+   },
+   {
+    "source_id": 4659942110600545152,
+    "sep_arcsec": 55.5,
+    "sep_px": 2.64,
+    "G": 20.522605895996094,
+    "Rp": 20.216053009033203,
+    "band_used": "rp",
+    "delta_mag": 6.88,
+    "flux_ratio_to_target": 0.00177,
+    "max_observed_depth_ppt_total_eclipse": 1.77,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0231530666351318,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.6358564928784389
+   },
+   {
+    "source_id": 4659941968864954752,
+    "sep_arcsec": 55.9,
+    "sep_px": 2.66,
+    "G": 18.729087829589844,
+    "Rp": 17.91038703918457,
+    "band_used": "rp",
+    "delta_mag": 4.57,
+    "flux_ratio_to_target": 0.0148,
+    "max_observed_depth_ppt_total_eclipse": 14.58,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9563160538673401,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.209982466044688
+   },
+   {
+    "source_id": 4659931837036097536,
+    "sep_arcsec": 56.0,
+    "sep_px": 2.67,
+    "G": 20.864118576049805,
+    "Rp": 19.81072235107422,
+    "band_used": "rp",
+    "delta_mag": 6.48,
+    "flux_ratio_to_target": 0.00257,
+    "max_observed_depth_ppt_total_eclipse": 2.56,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659941973161052032,
+    "sep_arcsec": 56.4,
+    "sep_px": 2.68,
+    "G": 17.91876983642578,
+    "Rp": 17.032676696777344,
+    "band_used": "rp",
+    "delta_mag": 3.7,
+    "flux_ratio_to_target": 0.03321,
+    "max_observed_depth_ppt_total_eclipse": 32.14,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0453163385391235,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.20643119848007685
+   },
+   {
+    "source_id": 4659931764022692096,
+    "sep_arcsec": 56.4,
+    "sep_px": 2.69,
+    "G": 18.843751907348633,
+    "Rp": 17.792219161987305,
+    "band_used": "rp",
+    "delta_mag": 4.46,
+    "flux_ratio_to_target": 0.0165,
+    "max_observed_depth_ppt_total_eclipse": 16.23,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9750185608863831,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.24392366760186074
+   },
+   {
+    "source_id": 4659931832742201856,
+    "sep_arcsec": 56.6,
+    "sep_px": 2.69,
+    "G": 19.590490341186523,
+    "Rp": 18.311384201049805,
+    "band_used": "rp",
+    "delta_mag": 4.98,
+    "flux_ratio_to_target": 0.01023,
+    "max_observed_depth_ppt_total_eclipse": 10.12,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0693650245666504,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 3.428646245899735
+   },
+   {
+    "source_id": 4659930325207236224,
+    "sep_arcsec": 56.6,
+    "sep_px": 2.7,
+    "G": 17.781810760498047,
+    "Rp": 17.07609748840332,
+    "band_used": "rp",
+    "delta_mag": 3.74,
+    "flux_ratio_to_target": 0.0319,
+    "max_observed_depth_ppt_total_eclipse": 30.92,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9859435558319092,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.026028433034702727
+   },
+   {
+    "source_id": 4659931837035882240,
+    "sep_arcsec": 56.8,
+    "sep_px": 2.71,
+    "G": 20.26331329345703,
+    "Rp": 20.06275177001953,
+    "band_used": "rp",
+    "delta_mag": 6.73,
+    "flux_ratio_to_target": 0.00204,
+    "max_observed_depth_ppt_total_eclipse": 2.03,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0166071653366089,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.06305333102495728
+   },
+   {
+    "source_id": 4659931837036098304,
+    "sep_arcsec": 57.0,
+    "sep_px": 2.71,
+    "G": 20.900604248046875,
+    "Rp": 20.215227127075195,
+    "band_used": "rp",
+    "delta_mag": 6.88,
+    "flux_ratio_to_target": 0.00177,
+    "max_observed_depth_ppt_total_eclipse": 1.77,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942071944209152,
+    "sep_arcsec": 57.0,
+    "sep_px": 2.72,
+    "G": 18.80311393737793,
+    "Rp": 18.152544021606445,
+    "band_used": "rp",
+    "delta_mag": 4.82,
+    "flux_ratio_to_target": 0.01184,
+    "max_observed_depth_ppt_total_eclipse": 11.7,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.1035144329071045,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.23314761920822852
+   },
+   {
+    "source_id": 4659930359567043456,
+    "sep_arcsec": 57.0,
+    "sep_px": 2.72,
+    "G": 20.476423263549805,
+    "Rp": 20.31752586364746,
+    "band_used": "rp",
+    "delta_mag": 6.98,
+    "flux_ratio_to_target": 0.00161,
+    "max_observed_depth_ppt_total_eclipse": 1.61,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.0136436223983765,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.15256988121137227
+   },
+   {
+    "source_id": 4659941968871534720,
+    "sep_arcsec": 57.3,
+    "sep_px": 2.73,
+    "G": 18.69400405883789,
+    "Rp": 18.095312118530273,
+    "band_used": "rp",
+    "delta_mag": 4.76,
+    "flux_ratio_to_target": 0.01248,
+    "max_observed_depth_ppt_total_eclipse": 12.32,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0610735416412354,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.16638365208193537
+   },
+   {
+    "source_id": 4659931837077383680,
+    "sep_arcsec": 57.5,
+    "sep_px": 2.74,
+    "G": 20.015031814575195,
+    "Rp": 19.434471130371094,
+    "band_used": "rp",
+    "delta_mag": 6.1,
+    "flux_ratio_to_target": 0.00363,
+    "max_observed_depth_ppt_total_eclipse": 3.62,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.98616623878479,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.12476378006156585
+   },
+   {
+    "source_id": 4659941968864954624,
+    "sep_arcsec": 57.9,
+    "sep_px": 2.76,
+    "G": 18.877365112304688,
+    "Rp": 18.161577224731445,
+    "band_used": "rp",
+    "delta_mag": 4.83,
+    "flux_ratio_to_target": 0.01174,
+    "max_observed_depth_ppt_total_eclipse": 11.6,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0694016218185425,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.23280865221968303
+   },
+   {
+    "source_id": 4659930359567649536,
+    "sep_arcsec": 57.9,
+    "sep_px": 2.76,
+    "G": 20.88970947265625,
+    "Rp": 20.374576568603516,
+    "band_used": "rp",
+    "delta_mag": 7.04,
+    "flux_ratio_to_target": 0.00153,
+    "max_observed_depth_ppt_total_eclipse": 1.53,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659930325207620224,
+    "sep_arcsec": 58.0,
+    "sep_px": 2.76,
+    "G": 20.71795654296875,
+    "Rp": 20.551362991333008,
+    "band_used": "rp",
+    "delta_mag": 7.22,
+    "flux_ratio_to_target": 0.0013,
+    "max_observed_depth_ppt_total_eclipse": 1.3,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.1518279314041138,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.11741982181413557
+   },
+   {
+    "source_id": 4659931768316274304,
+    "sep_arcsec": 58.3,
+    "sep_px": 2.77,
+    "G": 18.666431427001953,
+    "Rp": 17.727190017700195,
+    "band_used": "rp",
+    "delta_mag": 4.39,
+    "flux_ratio_to_target": 0.01751,
+    "max_observed_depth_ppt_total_eclipse": 17.21,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0583475828170776,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": -0.08486029481315181
+   },
+   {
+    "source_id": 4659931832748928640,
+    "sep_arcsec": 58.3,
+    "sep_px": 2.77,
+    "G": 19.277711868286133,
+    "Rp": 19.270832061767578,
+    "band_used": "rp",
+    "delta_mag": 5.94,
+    "flux_ratio_to_target": 0.00423,
+    "max_observed_depth_ppt_total_eclipse": 4.21,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9935927987098694,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.13410734748434122
+   },
+   {
+    "source_id": 4659931837036097408,
+    "sep_arcsec": 58.8,
+    "sep_px": 2.8,
+    "G": 20.85216522216797,
+    "Rp": 20.99485969543457,
+    "band_used": "rp",
+    "delta_mag": 7.66,
+    "flux_ratio_to_target": 0.00086,
+    "max_observed_depth_ppt_total_eclipse": 0.86,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659942110636643456,
+    "sep_arcsec": 59.3,
+    "sep_px": 2.82,
+    "G": 16.451807022094727,
+    "Rp": 15.848526954650879,
+    "band_used": "rp",
+    "delta_mag": 2.51,
+    "flux_ratio_to_target": 0.09883,
+    "max_observed_depth_ppt_total_eclipse": 89.94,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0475471019744873,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.029603332692958177
+   },
+   {
+    "source_id": 4659930355273395328,
+    "sep_arcsec": 59.3,
+    "sep_px": 2.82,
+    "G": 17.29730224609375,
+    "Rp": 16.54268455505371,
+    "band_used": "rp",
+    "delta_mag": 3.21,
+    "flux_ratio_to_target": 0.05214,
+    "max_observed_depth_ppt_total_eclipse": 49.56,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9369382858276367,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.15527836040430407
+   },
+   {
+    "source_id": 4659941973161181312,
+    "sep_arcsec": 59.3,
+    "sep_px": 2.83,
+    "G": 20.306888580322266,
+    "Rp": 20.034841537475586,
+    "band_used": "rp",
+    "delta_mag": 6.7,
+    "flux_ratio_to_target": 0.00209,
+    "max_observed_depth_ppt_total_eclipse": 2.09,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 0.9445468783378601,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.7605539921361602
+   },
+   {
+    "source_id": 4659942110601275392,
+    "sep_arcsec": 59.5,
+    "sep_px": 2.83,
+    "G": 21.0998477935791,
+    "Rp": 20.77617073059082,
+    "band_used": "rp",
+    "delta_mag": 7.44,
+    "flux_ratio_to_target": 0.00106,
+    "max_observed_depth_ppt_total_eclipse": 1.06,
+    "can_produce_candidate_depths_total_eclipse": [
+     false
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 4659943588105397632,
+    "sep_arcsec": 59.7,
+    "sep_px": 2.84,
+    "G": 18.251480102539062,
+    "Rp": 17.592573165893555,
+    "band_used": "rp",
+    "delta_mag": 4.26,
+    "flux_ratio_to_target": 0.01983,
+    "max_observed_depth_ppt_total_eclipse": 19.44,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9068500399589539,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.09633185845039659
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 42,
+  "n_neighbours_within_3px_could_make_1ppt": 118
+ },
+ "simbad": {
+  "n_within_1arcmin": 2,
+  "objects": [
+   {
+    "main_id": "UCAC4 120-008270",
+    "otype": "PM*",
+    "otypes": "*|LP*|MIR|NIR|PM*|V*",
+    "sp_type": "",
+    "sep_arcsec": 0.0,
+    "V": null,
+    "G": 14.443216323852539
+   },
+   {
+    "main_id": "OGLE LMC-ECL-36904",
+    "otype": "EB*",
+    "otypes": "*|EB*",
+    "sp_type": "",
+    "sep_arcsec": 45.6,
+    "V": 19.31399917602539,
+    "G": 19.356613159179688
+   }
+  ],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "vsx": {
+  "n_within_1arcmin": 1,
+  "objects": [
+   {
+    "_q": 308.0,
+    "_r": 0.0008,
+    "recno": 1030219.0,
+    "OID": 4333287.0,
+    "Name": "Gaia DR3 4659930359605646592",
+    "V": 0.0,
+    "RAJ2000": 85.13726043701172,
+    "DEJ2000": -66.17350769042969,
+    "Type": "ROT",
+    "l_max": "",
+    "max": 14.42,
+    "u_max": "",
+    "n_max": "G",
+    "f_min": "",
+    "l_min": "",
+    "min": 14.47,
+    "u_min": "",
+    "n_min": "G",
+    "Epoch": null,
+    "u_Epoch": "",
+    "l_Period": "",
+    "Period": null,
+    "u_Period": "",
+    "Sp": "M",
+    "n_OID": "",
+    "sep_arcsec": 0.0
+   }
+  ],
+  "source": "bulk prefetch (prompt 8)"
+ },
+ "summary": "Gaia: 123 sources within 1 arcmin; target RUWE 1.1008936166763306, var flag VARIABLE, NSS 0.0, dup 0.0, ipd_multi_peak 0.0, class SOLAR_LIKE; 42 neighbour(s) within 3 px bright enough to make the depth; SIMBAD 2 (PM*, EB*); VSX 1",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "generated_utc": "2026-10-19T05:58:04Z",
+ "cpu_h": 17.203606770833332,
+ "finished": "2026-10-19T05:57:50Z",
+ "budget_hit": false,
+ "n_done": 51,
+ "n_complete": 51,
+ "n_planned": 51,
+ "not_run": [],
+ "a_not_run": [],
+ "inverted": {
+  "targets": {
+   "planned": 3,
+   "done": 3,
+   "pregate": 5,
+   "max_pregate_snr": 24.299496954030424,
+   "n_A": 5,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.6315968501359612,
+   "real_pregate": 16,
+   "real_A_pass": 5,
+   "a_pass_list": []
+  },
+  "controls_270573718": {
+   "planned": 8,
+   "done": 8,
+   "pregate": 33,
+   "max_pregate_snr": 352.4446266614569,
+   "n_A": 33,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.3123439780663678,
+   "real_pregate": 23,
+   "real_A_pass": 0,
+   "a_pass_list": []
+  },
+  "controls_262843927": {
+   "planned": 8,
+   "done": 8,
+   "pregate": 15,
+   "max_pregate_snr": 12.975620615937775,
+   "n_A": 15,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.3123439780663678,
+   "real_pregate": 21,
+   "real_A_pass": 0,
+   "a_pass_list": []
+  },
+  "controls_193718989": {
+   "planned": 8,
+   "done": 8,
+   "pregate": 15,
+   "max_pregate_snr": 37.79500438066877,
+   "n_A": 15,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.3123439780663678,
+   "real_pregate": 9,
+   "real_A_pass": 0,
+   "a_pass_list": []
+  },
+  "all_controls": {
+   "planned": 24,
+   "done": 24,
+   "pregate": 63,
+   "max_pregate_snr": 352.4446266614569,
+   "n_A": 63,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.11734615615494873,
+   "real_pregate": 53,
+   "real_A_pass": 0,
+   "a_pass_list": []
+  },
+  "all": {
+   "planned": 27,
+   "done": 27,
+   "pregate": 68,
+   "max_pregate_snr": 352.4446266614569,
+   "n_A": 68,
+   "n_A_pass": 0,
+   "stars_with_A_pass": 0,
+   "ul95_star_A_rate": 0.10501923017634426,
+   "real_pregate": 69,
+   "real_A_pass": 5,
+   "a_pass_list": []
+  }
+ },
+ "injected": {
+  "270573718": {
+   "planned": 8,
+   "done": 8,
+   "recovered_accepted": 7,
+   "recovered_pregate": 6,
+   "recovered_A": 5,
+   "frac_pregate": 0.75,
+   "ci68_pregate": [
+    0.5113944153200409,
+    0.9091907038109291
+   ],
+   "frac_A": 0.625,
+   "ci68_A": [
+    0.3909656385660644,
+    0.8204067480712871
+   ],
+   "expected_snr": [
+    12.0,
+    9.1,
+    11.5,
+    15.6,
+    17.4,
+    12.2,
+    10.8,
+    14.5
+   ],
+   "matched_stitch_snr": [
+    7.97,
+    8.93,
+    12.51,
+    8.18,
+    7.28,
+    8.2
+   ],
+   "median_matched_snr": 8.193507692885785,
+   "n_matched_above_discovery": 1,
+   "discovery": {
+    "stitch_snr": 9.91326018394284,
+    "period": 41.38385594197566,
+    "search_rank": 1
+   }
+  },
+  "262843927": {
+   "planned": 8,
+   "done": 8,
+   "recovered_accepted": 8,
+   "recovered_pregate": 6,
+   "recovered_A": 6,
+   "frac_pregate": 0.75,
+   "ci68_pregate": [
+    0.5113944153200409,
+    0.9091907038109291
+   ],
+   "frac_A": 0.75,
+   "ci68_A": [
+    0.5113944153200409,
+    0.9091907038109291
+   ],
+   "expected_snr": [
+    9.2,
+    10.2,
+    10.9,
+    11.5,
+    10.3,
+    9.5,
+    9.7,
+    9.7
+   ],
+   "matched_stitch_snr": [
+    7.4,
+    9.25,
+    7.32,
+    16.15,
+    8.73,
+    7.5
+   ],
+   "median_matched_snr": 8.111899331956838,
+   "n_matched_above_discovery": 2,
+   "discovery": {
+    "stitch_snr": 8.858556571693594,
+    "period": 24.108894507128234,
+    "search_rank": 9
+   }
+  },
+  "193718989": {
+   "planned": 8,
+   "done": 8,
+   "recovered_accepted": 7,
+   "recovered_pregate": 6,
+   "recovered_A": 6,
+   "frac_pregate": 0.75,
+   "ci68_pregate": [
+    0.5113944153200409,
+    0.9091907038109291
+   ],
+   "frac_A": 0.75,
+   "ci68_A": [
+    0.5113944153200409,
+    0.9091907038109291
+   ],
+   "expected_snr": [
+    18.4,
+    18.7,
+    12.0,
+    11.7,
+    10.9,
+    17.3,
+    13.2,
+    14.8
+   ],
+   "matched_stitch_snr": [
+    14.11,
+    13.32,
+    8.32,
+    8.35,
+    11.68,
+    11.95
+   ],
+   "median_matched_snr": 11.816925270358329,
+   "n_matched_above_discovery": 4,
+   "discovery": {
+    "stitch_snr": 10.396837542063418,
+    "period": 24.53353844385921,
+    "search_rank": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,6316 @@
+{
+ "key": "tic212261364_P8.9538",
+ "tic_id": 212261364,
+ "planet_num": 4,
+ "rank": 2,
+ "generated_utc": "2026-09-03T17:36:14Z",
+ "rules_version": "p6.2",
+ "thresholds": {
+  "min_kept_events": 3,
+  "min_kept_event_snr": 7.0,
+  "max_top_event_share_of_snr2": 0.5,
+  "min_snr_without_top_event": 5.0,
+  "kept_depth_over_survey_depth": [
+   0.5,
+   2.0
+  ],
+  "min_p_const": 0.001,
+  "flux": "wotan-detrended corrected flux (det_kept); sap_kept recorded alongside",
+  "ephemeris_choice": "the ephemeris passing the most criteria, ties broken by kept-event SNR"
+ },
+ "survey": {
+  "period": 8.953781892201565,
+  "epoch_btjd": 1330.453431688565,
+  "duration_days": 0.10041494251232544,
+  "depth_ppt": 7.376032266392496,
+  "stitch_snr": 120.16704033491457,
+  "stitch_n_transits": 10,
+  "n_units": 5,
+  "tmag": 11.919
+ },
+ "prepare": {
+  "n_unbinned": 29869,
+  "n_binned": 5124,
+  "baseline_days": 2580.69963091446,
+  "wotan": {
+   "method": "biweight",
+   "window_days": 0.75,
+   "break_tolerance": 0.5,
+   "edge_cutoff": 0.0
+  },
+  "n_isolated_clipped": 0,
+  "n_isolated_bins_clipped": 0,
+  "deep_clip_threshold_ppt": 22.13,
+  "n_deep_clipped": 18,
+  "R_star": 0.49919,
+  "M_star": 0.497255,
+  "expected_t14_hours_b0": 2.49
+ },
+ "forced_tls": {
+  "period": 9.067340737805797,
+  "T0_btjd": 1330.4691256129393,
+  "duration_days": 0.0032262980698606458,
+  "depth": 0.9989100555831567,
+  "SDE": 4.7933510747069645,
+  "distinct_transit_count": 1,
+  "odd_even_mismatch": null
+ },
+ "ephemerides_examined": [
+  "survey",
+  "tls",
+  "packet"
+ ],
+ "has_p4_packet": true,
+ "forced_tls_usable": true,
+ "per_ephemeris": {
+  "survey": {
+   "ephemeris": {
+    "period": 8.953781892201565,
+    "t0": 1330.453431688565,
+    "duration": 0.10041494251232544,
+    "source": "survey",
+    "ref_depth_ppt": 7.376032266392496
+   },
+   "n_predicted_in_span": 288,
+   "n_observed": 13,
+   "n_excluded": 6,
+   "n_kept": 7,
+   "det_all": {
+    "n": 10,
+    "weighted_mean_depth_ppt": 0.251,
+    "err_ppt": 0.132,
+    "snr": 1.89,
+    "chi2_const": 56.6,
+    "dof": 9,
+    "p_const": 6.1118336735526125e-09,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.72,
+    "snr_without_top_event": 0.97,
+    "n_events_depth_above_2sigma": 2,
+    "n_events_negative": 3,
+    "odd_even": {
+     "odd_ppt": 0.009,
+     "odd_err": 0.174,
+     "even_ppt": 0.585,
+     "even_err": 0.204,
+     "sigma": 2.15
+    }
+   },
+   "det_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 0.194,
+    "err_ppt": 0.144,
+    "snr": 1.34,
+    "chi2_const": 5.0,
+    "dof": 6,
+    "p_const": 0.5473618736843879,
+    "top_event_n": 277,
+    "top_event_share_of_snr2": 0.29,
+    "snr_without_top_event": 1.02,
+    "n_events_depth_above_2sigma": 0,
+    "n_events_negative": 2,
+    "odd_even": {
+     "odd_ppt": 0.236,
+     "odd_err": 0.192,
+     "even_ppt": 0.141,
+     "even_err": 0.219,
+     "sigma": 0.33
+    }
+   },
+   "sap_kept": {
+    "n": 7,
+    "weighted_mean_depth_ppt": 0.218,
+    "err_ppt": 0.144,
+    "snr": 1.51,
+    "chi2_const": 4.5,
+    "dof": 6,
+    "p_const": 0.6119060739199009,
+    "top_event_n": 277,
+    "top_event_share_of_snr2": 0.38,
+    "snr_without_top_event": 1.11,
+    "n_events_depth_above_2sigma": 0,
+    "n_events_negative": 2,
+    "odd_even": {
+     "odd_ppt": 0.228,
+     "odd_err": 0.191,
+     "even_ppt": 0.206,
+     "even_err": 0.22,
+     "sigma": 0.08
+    }
+   },
+   "audit_flags": [
+    "SNR of kept events (detrended) < 7",
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": false,
+    "top_share_le_50pct": true,
+    "snr_without_top_ge_5": false,
+    "depth_within_0.5_2x_survey": false,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 3,
+   "all_passed": false,
+   "kept_snr": 1.34,
+   "top_event_share": 0.29,
+   "snr_without_top": 1.02,
+   "kept_depth_ppt": 0.194,
+   "kept_depth_err_ppt": 0.144,
+   "depth_over_survey_depth": 0.026,
+   "p_const": 0.5473618736843879,
+   "top_event_n": 277,
+   "strongest_event": {
+    "found": true,
+    "n": 0,
+    "tc_btjd": 1330.4534,
+    "sector": 1,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 5.373,
+    "det_depth_err_ppt": 0.871,
+    "sap_depth_ppt": 7.325,
+    "snr2": 38.1,
+    "excluded": true,
+    "exclusion_reasons": [
+     "momentum dump within one duration"
+    ],
+    "artefact_classes": [
+     "momentum_dump"
+    ]
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 1330.4534,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 5.373,
+     "det_depth_err_ppt": 0.871,
+     "sap_depth_ppt": 7.325,
+     "sap_depth_err_ppt": 0.99,
+     "edge_distance_days": 5.124,
+     "pdc_gap_distance_days": 4.499,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.04,
+     "bkg_over_sector_median": 1.14,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration"
+     ],
+     "artefact_classes": [
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 1339.4072,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 1348.361,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 0.8,
+     "det_depth_ppt": 2.308,
+     "det_depth_err_ppt": 0.761,
+     "sap_depth_ppt": 8.856,
+     "sap_depth_err_ppt": 1.971,
+     "edge_distance_days": 4.801,
+     "pdc_gap_distance_days": 4.509,
+     "desat": false,
+     "q_frac": 0.25,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.3,
+     "bkg_over_sector_median": 0.98,
+     "excluded": true,
+     "exclusion_reasons": [
+      "25% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 1357.3148,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 1366.2686,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 1375.2223,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 1384.1761,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 1393.1299,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 1402.0837,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 1411.0375,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 1419.9913,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 1428.945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 1437.8988,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 1446.8526,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 1455.8064,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 1464.7602,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 1473.7139,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 1482.6677,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 1491.6215,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 1500.5753,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 1509.5291,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 1518.4829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 1527.4366,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 1536.3904,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 1545.3442,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 1554.298,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 1563.2518,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 1572.2055,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 1581.1593,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 1590.1131,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 1599.0669,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 1608.0207,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 1616.9745,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 1625.9282,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 1634.882,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 1643.8358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 1652.7896,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 1661.7434,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 1670.6971,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 1679.6509,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 1688.6047,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 1697.5585,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 1706.5123,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 1715.4661,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 1724.4198,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 1733.3736,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 1742.3274,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 1751.2812,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 1760.235,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 1769.1887,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 1778.1425,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 1787.0963,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 1796.0501,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 1805.0039,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 1813.9577,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 1822.9114,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 1831.8652,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 57,
+     "tc_btjd": 1840.819,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 58,
+     "tc_btjd": 1849.7728,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 59,
+     "tc_btjd": 1858.7266,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 60,
+     "tc_btjd": 1867.6803,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 1876.6341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 1885.5879,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 1894.5417,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 1903.4955,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 1912.4493,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 1921.403,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 1930.3568,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 1939.3106,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 1948.2644,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 1957.2182,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 1966.1719,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 1975.1257,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 1984.0795,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 1993.0333,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 2001.9871,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 2010.9409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 77,
+     "tc_btjd": 2019.8946,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 78,
+     "tc_btjd": 2028.8484,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 79,
+     "tc_btjd": 2037.8022,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.435,
+     "det_depth_err_ppt": 0.419,
+     "sap_depth_ppt": 0.225,
+     "sap_depth_err_ppt": 0.382,
+     "edge_distance_days": 1.515,
+     "pdc_gap_distance_days": 1.508,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 0.87,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 80,
+     "tc_btjd": 2046.756,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.268,
+     "det_depth_err_ppt": 0.434,
+     "sap_depth_ppt": 0.32,
+     "sap_depth_err_ppt": 0.408,
+     "edge_distance_days": 1.371,
+     "pdc_gap_distance_days": 1.371,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 1.74,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 81,
+     "tc_btjd": 2055.7098,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.39,
+     "det_depth_err_ppt": 0.327,
+     "sap_depth_ppt": 0.367,
+     "sap_depth_err_ppt": 0.351,
+     "edge_distance_days": 4.932,
+     "pdc_gap_distance_days": 4.932,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.1,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 82,
+     "tc_btjd": 2064.6635,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 83,
+     "tc_btjd": 2073.6173,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 84,
+     "tc_btjd": 2082.5711,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 85,
+     "tc_btjd": 2091.5249,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 86,
+     "tc_btjd": 2100.4787,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 87,
+     "tc_btjd": 2109.4325,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 88,
+     "tc_btjd": 2118.3862,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 89,
+     "tc_btjd": 2127.34,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 90,
+     "tc_btjd": 2136.2938,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 91,
+     "tc_btjd": 2145.2476,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 92,
+     "tc_btjd": 2154.2014,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 93,
+     "tc_btjd": 2163.1551,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 94,
+     "tc_btjd": 2172.1089,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 95,
+     "tc_btjd": 2181.0627,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 96,
+     "tc_btjd": 2190.0165,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 97,
+     "tc_btjd": 2198.9703,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 98,
+     "tc_btjd": 2207.9241,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 99,
+     "tc_btjd": 2216.8778,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 100,
+     "tc_btjd": 2225.8316,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 101,
+     "tc_btjd": 2234.7854,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 102,
+     "tc_btjd": 2243.7392,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 103,
+     "tc_btjd": 2252.693,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 104,
+     "tc_btjd": 2261.6467,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 105,
+     "tc_btjd": 2270.6005,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 106,
+     "tc_btjd": 2279.5543,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 107,
+     "tc_btjd": 2288.5081,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 108,
+     "tc_btjd": 2297.4619,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 109,
+     "tc_btjd": 2306.4157,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 110,
+     "tc_btjd": 2315.3694,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 111,
+     "tc_btjd": 2324.3232,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 112,
+     "tc_btjd": 2333.277,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 113,
+     "tc_btjd": 2342.2308,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 114,
+     "tc_btjd": 2351.1846,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 115,
+     "tc_btjd": 2360.1383,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 116,
+     "tc_btjd": 2369.0921,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 117,
+     "tc_btjd": 2378.0459,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 118,
+     "tc_btjd": 2386.9997,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 119,
+     "tc_btjd": 2395.9535,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 120,
+     "tc_btjd": 2404.9073,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 121,
+     "tc_btjd": 2413.861,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 122,
+     "tc_btjd": 2422.8148,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 123,
+     "tc_btjd": 2431.7686,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 124,
+     "tc_btjd": 2440.7224,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 125,
+     "tc_btjd": 2449.6762,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 126,
+     "tc_btjd": 2458.63,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 127,
+     "tc_btjd": 2467.5837,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 128,
+     "tc_btjd": 2476.5375,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 129,
+     "tc_btjd": 2485.4913,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 130,
+     "tc_btjd": 2494.4451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 131,
+     "tc_btjd": 2503.3989,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 132,
+     "tc_btjd": 2512.3526,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 133,
+     "tc_btjd": 2521.3064,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 134,
+     "tc_btjd": 2530.2602,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 135,
+     "tc_btjd": 2539.214,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 136,
+     "tc_btjd": 2548.1678,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 137,
+     "tc_btjd": 2557.1216,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 138,
+     "tc_btjd": 2566.0753,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 139,
+     "tc_btjd": 2575.0291,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 140,
+     "tc_btjd": 2583.9829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 141,
+     "tc_btjd": 2592.9367,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 142,
+     "tc_btjd": 2601.8905,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 143,
+     "tc_btjd": 2610.8442,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 144,
+     "tc_btjd": 2619.798,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 145,
+     "tc_btjd": 2628.7518,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 146,
+     "tc_btjd": 2637.7056,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 147,
+     "tc_btjd": 2646.6594,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 148,
+     "tc_btjd": 2655.6132,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 149,
+     "tc_btjd": 2664.5669,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 150,
+     "tc_btjd": 2673.5207,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 151,
+     "tc_btjd": 2682.4745,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 152,
+     "tc_btjd": 2691.4283,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 153,
+     "tc_btjd": 2700.3821,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 154,
+     "tc_btjd": 2709.3358,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 155,
+     "tc_btjd": 2718.2896,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 156,
+     "tc_btjd": 2727.2434,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 157,
+     "tc_btjd": 2736.1972,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 158,
+     "tc_btjd": 2745.151,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 159,
+     "tc_btjd": 2754.1048,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 160,
+     "tc_btjd": 2763.0585,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 161,
+     "tc_btjd": 2772.0123,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 162,
+     "tc_btjd": 2780.9661,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 163,
+     "tc_btjd": 2789.9199,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 164,
+     "tc_btjd": 2798.8737,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 165,
+     "tc_btjd": 2807.8274,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 166,
+     "tc_btjd": 2816.7812,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 167,
+     "tc_btjd": 2825.735,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 168,
+     "tc_btjd": 2834.6888,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 169,
+     "tc_btjd": 2843.6426,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 170,
+     "tc_btjd": 2852.5964,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 171,
+     "tc_btjd": 2861.5501,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 172,
+     "tc_btjd": 2870.5039,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 173,
+     "tc_btjd": 2879.4577,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 174,
+     "tc_btjd": 2888.4115,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 175,
+     "tc_btjd": 2897.3653,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 176,
+     "tc_btjd": 2906.319,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 177,
+     "tc_btjd": 2915.2728,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 178,
+     "tc_btjd": 2924.2266,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 179,
+     "tc_btjd": 2933.1804,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 180,
+     "tc_btjd": 2942.1342,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 181,
+     "tc_btjd": 2951.088,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 182,
+     "tc_btjd": 2960.0417,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 183,
+     "tc_btjd": 2968.9955,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 184,
+     "tc_btjd": 2977.9493,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 185,
+     "tc_btjd": 2986.9031,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 186,
+     "tc_btjd": 2995.8569,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 187,
+     "tc_btjd": 3004.8106,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 188,
+     "tc_btjd": 3013.7644,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 189,
+     "tc_btjd": 3022.7182,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 190,
+     "tc_btjd": 3031.672,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 191,
+     "tc_btjd": 3040.6258,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 192,
+     "tc_btjd": 3049.5796,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 193,
+     "tc_btjd": 3058.5333,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 194,
+     "tc_btjd": 3067.4871,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 195,
+     "tc_btjd": 3076.4409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 196,
+     "tc_btjd": 3085.3947,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 197,
+     "tc_btjd": 3094.3485,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 198,
+     "tc_btjd": 3103.3022,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 199,
+     "tc_btjd": 3112.256,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 200,
+     "tc_btjd": 3121.2098,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 201,
+     "tc_btjd": 3130.1636,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.304,
+     "det_depth_err_ppt": 0.36,
+     "sap_depth_ppt": -0.186,
+     "sap_depth_err_ppt": 0.356,
+     "edge_distance_days": 3.521,
+     "pdc_gap_distance_days": 3.514,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 0.94,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 202,
+     "tc_btjd": 3139.1174,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 164.519,
+     "sap_depth_err_ppt": 12.933,
+     "edge_distance_days": 12.475,
+     "pdc_gap_distance_days": 1.354,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.86,
+     "ramp_over_depth": 40.41,
+     "bkg_over_sector_median": 20.57,
+     "excluded": true,
+     "exclusion_reasons": [
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "scattered-light ramp (background > 2 x sector median and doubling across the window)",
+      "86% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_ramp",
+      "scattered_light_flag",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 203,
+     "tc_btjd": 3148.0712,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -1.007,
+     "det_depth_err_ppt": 0.407,
+     "sap_depth_ppt": -0.346,
+     "sap_depth_err_ppt": 0.343,
+     "edge_distance_days": 6.329,
+     "pdc_gap_distance_days": 2.473,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.01,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration"
+     ],
+     "artefact_classes": [
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 204,
+     "tc_btjd": 3157.0249,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 205,
+     "tc_btjd": 3165.9787,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 206,
+     "tc_btjd": 3174.9325,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 207,
+     "tc_btjd": 3183.8863,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 208,
+     "tc_btjd": 3192.8401,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 209,
+     "tc_btjd": 3201.7938,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 210,
+     "tc_btjd": 3210.7476,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 211,
+     "tc_btjd": 3219.7014,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 212,
+     "tc_btjd": 3228.6552,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 213,
+     "tc_btjd": 3237.609,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 214,
+     "tc_btjd": 3246.5628,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 215,
+     "tc_btjd": 3255.5165,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 216,
+     "tc_btjd": 3264.4703,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 217,
+     "tc_btjd": 3273.4241,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 218,
+     "tc_btjd": 3282.3779,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 219,
+     "tc_btjd": 3291.3317,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 220,
+     "tc_btjd": 3300.2854,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 221,
+     "tc_btjd": 3309.2392,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 222,
+     "tc_btjd": 3318.193,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 223,
+     "tc_btjd": 3327.1468,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 224,
+     "tc_btjd": 3336.1006,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 225,
+     "tc_btjd": 3345.0544,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 226,
+     "tc_btjd": 3354.0081,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 227,
+     "tc_btjd": 3362.9619,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 228,
+     "tc_btjd": 3371.9157,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 229,
+     "tc_btjd": 3380.8695,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 230,
+     "tc_btjd": 3389.8233,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 231,
+     "tc_btjd": 3398.777,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 232,
+     "tc_btjd": 3407.7308,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 233,
+     "tc_btjd": 3416.6846,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 234,
+     "tc_btjd": 3425.6384,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 235,
+     "tc_btjd": 3434.5922,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 236,
+     "tc_btjd": 3443.546,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 237,
+     "tc_btjd": 3452.4997,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 238,
+     "tc_btjd": 3461.4535,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 239,
+     "tc_btjd": 3470.4073,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 240,
+     "tc_btjd": 3479.3611,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 241,
+     "tc_btjd": 3488.3149,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 242,
+     "tc_btjd": 3497.2686,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 243,
+     "tc_btjd": 3506.2224,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 244,
+     "tc_btjd": 3515.1762,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 245,
+     "tc_btjd": 3524.13,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 246,
+     "tc_btjd": 3533.0838,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 247,
+     "tc_btjd": 3542.0376,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 248,
+     "tc_btjd": 3550.9913,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 249,
+     "tc_btjd": 3559.9451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 250,
+     "tc_btjd": 3568.8989,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 251,
+     "tc_btjd": 3577.8527,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 252,
+     "tc_btjd": 3586.8065,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 253,
+     "tc_btjd": 3595.7603,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 254,
+     "tc_btjd": 3604.714,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 255,
+     "tc_btjd": 3613.6678,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 256,
+     "tc_btjd": 3622.6216,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 257,
+     "tc_btjd": 3631.5754,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 258,
+     "tc_btjd": 3640.5292,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 259,
+     "tc_btjd": 3649.4829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 260,
+     "tc_btjd": 3658.4367,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 261,
+     "tc_btjd": 3667.3905,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 262,
+     "tc_btjd": 3676.3443,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 263,
+     "tc_btjd": 3685.2981,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 264,
+     "tc_btjd": 3694.2519,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 265,
+     "tc_btjd": 3703.2056,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 266,
+     "tc_btjd": 3712.1594,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 267,
+     "tc_btjd": 3721.1132,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 268,
+     "tc_btjd": 3730.067,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 269,
+     "tc_btjd": 3739.0208,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 270,
+     "tc_btjd": 3747.9745,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 271,
+     "tc_btjd": 3756.9283,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 272,
+     "tc_btjd": 3765.8821,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 273,
+     "tc_btjd": 3774.8359,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 274,
+     "tc_btjd": 3783.7897,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 275,
+     "tc_btjd": 3792.7435,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 276,
+     "tc_btjd": 3801.6972,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 277,
+     "tc_btjd": 3810.651,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.605,
+     "det_depth_err_ppt": 0.483,
+     "sap_depth_ppt": 0.713,
+     "sap_depth_err_ppt": 0.474,
+     "edge_distance_days": 7.683,
+     "pdc_gap_distance_days": 7.683,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 278,
+     "tc_btjd": 3819.6048,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.387,
+     "det_depth_err_ppt": 0.473,
+     "sap_depth_ppt": -0.36,
+     "sap_depth_err_ppt": 0.466,
+     "edge_distance_days": 10.039,
+     "pdc_gap_distance_days": 10.039,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 279,
+     "tc_btjd": 3828.5586,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": 0.565,
+     "sap_depth_err_ppt": 0.518,
+     "edge_distance_days": 1.085,
+     "pdc_gap_distance_days": 1.085,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.14,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 280,
+     "tc_btjd": 3837.5124,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 281,
+     "tc_btjd": 3846.4661,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 282,
+     "tc_btjd": 3855.4199,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 283,
+     "tc_btjd": 3864.3737,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 284,
+     "tc_btjd": 3873.3275,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 285,
+     "tc_btjd": 3882.2813,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 286,
+     "tc_btjd": 3891.2351,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.292,
+     "det_depth_err_ppt": 0.3,
+     "sap_depth_ppt": 0.397,
+     "sap_depth_err_ppt": 0.316,
+     "edge_distance_days": 8.901,
+     "pdc_gap_distance_days": 8.864,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 287,
+     "tc_btjd": 3900.1888,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -12.094,
+     "sap_depth_err_ppt": 0.297,
+     "edge_distance_days": 7.374,
+     "pdc_gap_distance_days": 7.374,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 1.0,
+     "bkg_over_sector_median": 0.97,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    }
+   ]
+  },
+  "tls": {
+   "ephemeris": {
+    "period": 9.067340737805797,
+    "t0": 1330.4691256129393,
+    "duration": 0.10041494251232544,
+    "source": "tls_forced",
+    "ref_depth_ppt": 7.376032266392496
+   },
+   "n_predicted_in_span": 285,
+   "n_observed": 13,
+   "n_excluded": 4,
+   "n_kept": 9,
+   "det_all": {
+    "n": 11,
+    "weighted_mean_depth_ppt": 0.527,
+    "err_ppt": 0.126,
+    "snr": 4.19,
+    "chi2_const": 755.5,
+    "dof": 10,
+    "p_const": 7.707107801517317e-156,
+    "top_event_n": 283,
+    "top_event_share_of_snr2": 0.95,
+    "snr_without_top_event": 0.7,
+    "n_events_depth_above_2sigma": 2,
+    "n_events_negative": 6,
+    "odd_even": {
+     "odd_ppt": 1.204,
+     "odd_err": 0.205,
+     "even_ppt": 0.122,
+     "even_err": 0.159,
+     "sigma": 4.17
+    }
+   },
+   "det_kept": {
+    "n": 9,
+    "weighted_mean_depth_ppt": -0.018,
+    "err_ppt": 0.128,
+    "snr": -0.14,
+    "chi2_const": 7.2,
+    "dof": 8,
+    "p_const": 0.5137339746139717,
+    "top_event_n": 200,
+    "top_event_share_of_snr2": 0.82,
+    "snr_without_top_event": -0.88,
+    "n_events_depth_above_2sigma": 0,
+    "n_events_negative": 6,
+    "odd_even": {
+     "odd_ppt": 0.03,
+     "odd_err": 0.21,
+     "even_ppt": -0.047,
+     "even_err": 0.161,
+     "sigma": 0.29
+    }
+   },
+   "sap_kept": {
+    "n": 9,
+    "weighted_mean_depth_ppt": -0.054,
+    "err_ppt": 0.123,
+    "snr": -0.44,
+    "chi2_const": 10.0,
+    "dof": 8,
+    "p_const": 0.26387701849674605,
+    "top_event_n": 200,
+    "top_event_share_of_snr2": 0.89,
+    "snr_without_top_event": -1.34,
+    "n_events_depth_above_2sigma": 1,
+    "n_events_negative": 6,
+    "odd_even": {
+     "odd_ppt": 0.004,
+     "odd_err": 0.208,
+     "even_ppt": -0.086,
+     "even_err": 0.153,
+     "sigma": 0.35
+    }
+   },
+   "audit_flags": [
+    "SNR of kept events (detrended) < 7",
+    "one event carries > 50% of the signal",
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": false,
+    "top_share_le_50pct": false,
+    "snr_without_top_ge_5": false,
+    "depth_within_0.5_2x_survey": false,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 2,
+   "all_passed": false,
+   "kept_snr": -0.14,
+   "top_event_share": 0.82,
+   "snr_without_top": -0.88,
+   "kept_depth_ppt": -0.018,
+   "kept_depth_err_ppt": 0.128,
+   "depth_over_survey_depth": -0.002,
+   "p_const": 0.5137339746139717,
+   "top_event_n": 200,
+   "strongest_event": {
+    "found": true,
+    "n": 283,
+    "tc_btjd": 3896.5266,
+    "sector": 95,
+    "author": "QLP",
+    "det_depth_ppt": 26.291,
+    "det_depth_err_ppt": 0.971,
+    "sap_depth_ppt": 73.102,
+    "snr2": 733.1,
+    "excluded": true,
+    "exclusion_reasons": [
+     "30% of in-transit cadences quality-flagged",
+     "SAP baseline changes by more than one depth across the event (ramp)",
+     "75% of cadences within one duration carry the scattered-light flag"
+    ],
+    "artefact_classes": [
+     "scattered_light_flag",
+     "quality_flagged",
+     "sap_baseline_ramp"
+    ]
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 1330.4691,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 4.918,
+     "det_depth_err_ppt": 0.86,
+     "sap_depth_ppt": 6.8,
+     "sap_depth_err_ppt": 0.924,
+     "edge_distance_days": 5.14,
+     "pdc_gap_distance_days": 4.515,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.04,
+     "bkg_over_sector_median": 1.15,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration"
+     ],
+     "artefact_classes": [
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 1339.5365,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 1348.6038,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -0.134,
+     "sap_depth_err_ppt": 1.304,
+     "edge_distance_days": 4.558,
+     "pdc_gap_distance_days": 4.267,
+     "desat": false,
+     "q_frac": 0.8,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 0.97,
+     "excluded": true,
+     "exclusion_reasons": [
+      "80% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 3,
+     "tc_btjd": 1357.6711,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 1366.7385,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 1375.8058,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 1384.8732,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 1393.9405,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 1403.0079,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 1412.0752,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 1421.1425,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 1430.2099,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 1439.2772,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 1448.3446,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 1457.4119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 1466.4792,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 1475.5466,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 1484.6139,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 1493.6813,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 1502.7486,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 1511.8159,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 1520.8833,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 1529.9506,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 1539.018,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 1548.0853,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 1557.1526,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 1566.22,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 1575.2873,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 1584.3547,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 1593.422,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 1602.4893,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 1611.5567,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 1620.624,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 1629.6914,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 1638.7587,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 1647.8261,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 1656.8934,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 1665.9607,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 1675.0281,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 1684.0954,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 1693.1628,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 1702.2301,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 1711.2974,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 1720.3648,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 1729.4321,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 1738.4995,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 1747.5668,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 1756.6341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 1765.7015,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 1774.7688,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 1783.8362,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 1792.9035,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 1801.9708,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 1811.0382,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 1820.1055,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 1829.1729,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 1838.2402,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 57,
+     "tc_btjd": 1847.3075,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 58,
+     "tc_btjd": 1856.3749,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 59,
+     "tc_btjd": 1865.4422,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 60,
+     "tc_btjd": 1874.5096,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 1883.5769,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 1892.6443,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 1901.7116,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 1910.7789,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 1919.8463,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 1928.9136,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 1937.981,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 1947.0483,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 1956.1156,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 1965.183,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 1974.2503,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 1983.3177,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 1992.385,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 2001.4523,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 2010.5197,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 2019.587,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 77,
+     "tc_btjd": 2028.6544,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 78,
+     "tc_btjd": 2037.7217,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.077,
+     "det_depth_err_ppt": 0.427,
+     "sap_depth_ppt": -0.429,
+     "sap_depth_err_ppt": 0.376,
+     "edge_distance_days": 1.435,
+     "pdc_gap_distance_days": 1.428,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 0.87,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 79,
+     "tc_btjd": 2046.789,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.299,
+     "det_depth_err_ppt": 0.452,
+     "sap_depth_ppt": 0.288,
+     "sap_depth_err_ppt": 0.419,
+     "edge_distance_days": 1.338,
+     "pdc_gap_distance_days": 1.338,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 1.77,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 80,
+     "tc_btjd": 2055.8564,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.301,
+     "det_depth_err_ppt": 0.365,
+     "sap_depth_ppt": -0.413,
+     "sap_depth_err_ppt": 0.349,
+     "edge_distance_days": 4.785,
+     "pdc_gap_distance_days": 4.785,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.12,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 81,
+     "tc_btjd": 2064.9237,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 82,
+     "tc_btjd": 2073.9911,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 83,
+     "tc_btjd": 2083.0584,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 84,
+     "tc_btjd": 2092.1257,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 85,
+     "tc_btjd": 2101.1931,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 86,
+     "tc_btjd": 2110.2604,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 87,
+     "tc_btjd": 2119.3278,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 88,
+     "tc_btjd": 2128.3951,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 89,
+     "tc_btjd": 2137.4625,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 90,
+     "tc_btjd": 2146.5298,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 91,
+     "tc_btjd": 2155.5971,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 92,
+     "tc_btjd": 2164.6645,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 93,
+     "tc_btjd": 2173.7318,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 94,
+     "tc_btjd": 2182.7992,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 95,
+     "tc_btjd": 2191.8665,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 96,
+     "tc_btjd": 2200.9338,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 97,
+     "tc_btjd": 2210.0012,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 98,
+     "tc_btjd": 2219.0685,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 99,
+     "tc_btjd": 2228.1359,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 100,
+     "tc_btjd": 2237.2032,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 101,
+     "tc_btjd": 2246.2705,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 102,
+     "tc_btjd": 2255.3379,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 103,
+     "tc_btjd": 2264.4052,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 104,
+     "tc_btjd": 2273.4726,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 105,
+     "tc_btjd": 2282.5399,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 106,
+     "tc_btjd": 2291.6072,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 107,
+     "tc_btjd": 2300.6746,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 108,
+     "tc_btjd": 2309.7419,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 109,
+     "tc_btjd": 2318.8093,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 110,
+     "tc_btjd": 2327.8766,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 111,
+     "tc_btjd": 2336.9439,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 112,
+     "tc_btjd": 2346.0113,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 113,
+     "tc_btjd": 2355.0786,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 114,
+     "tc_btjd": 2364.146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 115,
+     "tc_btjd": 2373.2133,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 116,
+     "tc_btjd": 2382.2807,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 117,
+     "tc_btjd": 2391.348,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 118,
+     "tc_btjd": 2400.4153,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 119,
+     "tc_btjd": 2409.4827,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 120,
+     "tc_btjd": 2418.55,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 121,
+     "tc_btjd": 2427.6174,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 122,
+     "tc_btjd": 2436.6847,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 123,
+     "tc_btjd": 2445.752,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 124,
+     "tc_btjd": 2454.8194,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 125,
+     "tc_btjd": 2463.8867,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 126,
+     "tc_btjd": 2472.9541,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 127,
+     "tc_btjd": 2482.0214,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 128,
+     "tc_btjd": 2491.0887,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 129,
+     "tc_btjd": 2500.1561,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 130,
+     "tc_btjd": 2509.2234,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 131,
+     "tc_btjd": 2518.2908,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 132,
+     "tc_btjd": 2527.3581,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 133,
+     "tc_btjd": 2536.4254,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 134,
+     "tc_btjd": 2545.4928,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 135,
+     "tc_btjd": 2554.5601,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 136,
+     "tc_btjd": 2563.6275,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 137,
+     "tc_btjd": 2572.6948,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 138,
+     "tc_btjd": 2581.7621,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 139,
+     "tc_btjd": 2590.8295,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 140,
+     "tc_btjd": 2599.8968,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 141,
+     "tc_btjd": 2608.9642,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 142,
+     "tc_btjd": 2618.0315,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 143,
+     "tc_btjd": 2627.0989,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 144,
+     "tc_btjd": 2636.1662,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 145,
+     "tc_btjd": 2645.2335,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 146,
+     "tc_btjd": 2654.3009,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 147,
+     "tc_btjd": 2663.3682,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 148,
+     "tc_btjd": 2672.4356,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 149,
+     "tc_btjd": 2681.5029,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 150,
+     "tc_btjd": 2690.5702,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 151,
+     "tc_btjd": 2699.6376,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 152,
+     "tc_btjd": 2708.7049,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 153,
+     "tc_btjd": 2717.7723,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 154,
+     "tc_btjd": 2726.8396,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 155,
+     "tc_btjd": 2735.9069,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 156,
+     "tc_btjd": 2744.9743,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 157,
+     "tc_btjd": 2754.0416,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 158,
+     "tc_btjd": 2763.109,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 159,
+     "tc_btjd": 2772.1763,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 160,
+     "tc_btjd": 2781.2436,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 161,
+     "tc_btjd": 2790.311,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 162,
+     "tc_btjd": 2799.3783,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 163,
+     "tc_btjd": 2808.4457,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 164,
+     "tc_btjd": 2817.513,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 165,
+     "tc_btjd": 2826.5803,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 166,
+     "tc_btjd": 2835.6477,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 167,
+     "tc_btjd": 2844.715,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 168,
+     "tc_btjd": 2853.7824,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 169,
+     "tc_btjd": 2862.8497,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 170,
+     "tc_btjd": 2871.9171,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 171,
+     "tc_btjd": 2880.9844,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 172,
+     "tc_btjd": 2890.0517,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 173,
+     "tc_btjd": 2899.1191,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 174,
+     "tc_btjd": 2908.1864,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 175,
+     "tc_btjd": 2917.2538,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 176,
+     "tc_btjd": 2926.3211,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 177,
+     "tc_btjd": 2935.3884,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 178,
+     "tc_btjd": 2944.4558,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 179,
+     "tc_btjd": 2953.5231,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 180,
+     "tc_btjd": 2962.5905,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 181,
+     "tc_btjd": 2971.6578,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 182,
+     "tc_btjd": 2980.7251,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 183,
+     "tc_btjd": 2989.7925,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 184,
+     "tc_btjd": 2998.8598,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 185,
+     "tc_btjd": 3007.9272,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 186,
+     "tc_btjd": 3016.9945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 187,
+     "tc_btjd": 3026.0618,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 188,
+     "tc_btjd": 3035.1292,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 189,
+     "tc_btjd": 3044.1965,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 190,
+     "tc_btjd": 3053.2639,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 191,
+     "tc_btjd": 3062.3312,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 192,
+     "tc_btjd": 3071.3985,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 193,
+     "tc_btjd": 3080.4659,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 194,
+     "tc_btjd": 3089.5332,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 195,
+     "tc_btjd": 3098.6006,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 196,
+     "tc_btjd": 3107.6679,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 197,
+     "tc_btjd": 3116.7353,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 198,
+     "tc_btjd": 3125.8026,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 199,
+     "tc_btjd": 3134.8699,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.264,
+     "det_depth_err_ppt": 0.41,
+     "sap_depth_ppt": 0.175,
+     "sap_depth_err_ppt": 0.413,
+     "edge_distance_days": 8.227,
+     "pdc_gap_distance_days": 1.315,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.09,
+     "bkg_over_sector_median": 1.06,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 200,
+     "tc_btjd": 3143.9373,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.737,
+     "det_depth_err_ppt": 0.371,
+     "sap_depth_ppt": 0.824,
+     "sap_depth_err_ppt": 0.353,
+     "edge_distance_days": 10.463,
+     "pdc_gap_distance_days": 3.465,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 0.99,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 201,
+     "tc_btjd": 3153.0046,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 202,
+     "tc_btjd": 3162.072,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 203,
+     "tc_btjd": 3171.1393,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 204,
+     "tc_btjd": 3180.2066,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 205,
+     "tc_btjd": 3189.274,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 206,
+     "tc_btjd": 3198.3413,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 207,
+     "tc_btjd": 3207.4087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 208,
+     "tc_btjd": 3216.476,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 209,
+     "tc_btjd": 3225.5433,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 210,
+     "tc_btjd": 3234.6107,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 211,
+     "tc_btjd": 3243.678,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 212,
+     "tc_btjd": 3252.7454,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 213,
+     "tc_btjd": 3261.8127,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 214,
+     "tc_btjd": 3270.88,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 215,
+     "tc_btjd": 3279.9474,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 216,
+     "tc_btjd": 3289.0147,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 217,
+     "tc_btjd": 3298.0821,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 218,
+     "tc_btjd": 3307.1494,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 219,
+     "tc_btjd": 3316.2167,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 220,
+     "tc_btjd": 3325.2841,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 221,
+     "tc_btjd": 3334.3514,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 222,
+     "tc_btjd": 3343.4188,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 223,
+     "tc_btjd": 3352.4861,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 224,
+     "tc_btjd": 3361.5535,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 225,
+     "tc_btjd": 3370.6208,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 226,
+     "tc_btjd": 3379.6881,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 227,
+     "tc_btjd": 3388.7555,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 228,
+     "tc_btjd": 3397.8228,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 229,
+     "tc_btjd": 3406.8902,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 230,
+     "tc_btjd": 3415.9575,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 231,
+     "tc_btjd": 3425.0248,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 232,
+     "tc_btjd": 3434.0922,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 233,
+     "tc_btjd": 3443.1595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 234,
+     "tc_btjd": 3452.2269,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 235,
+     "tc_btjd": 3461.2942,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 236,
+     "tc_btjd": 3470.3615,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 237,
+     "tc_btjd": 3479.4289,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 238,
+     "tc_btjd": 3488.4962,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 239,
+     "tc_btjd": 3497.5636,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 240,
+     "tc_btjd": 3506.6309,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 241,
+     "tc_btjd": 3515.6982,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 242,
+     "tc_btjd": 3524.7656,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 243,
+     "tc_btjd": 3533.8329,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 244,
+     "tc_btjd": 3542.9003,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 245,
+     "tc_btjd": 3551.9676,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 246,
+     "tc_btjd": 3561.0349,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 247,
+     "tc_btjd": 3570.1023,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 248,
+     "tc_btjd": 3579.1696,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 249,
+     "tc_btjd": 3588.237,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 250,
+     "tc_btjd": 3597.3043,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 251,
+     "tc_btjd": 3606.3717,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 252,
+     "tc_btjd": 3615.439,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 253,
+     "tc_btjd": 3624.5063,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 254,
+     "tc_btjd": 3633.5737,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 255,
+     "tc_btjd": 3642.641,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 256,
+     "tc_btjd": 3651.7084,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 257,
+     "tc_btjd": 3660.7757,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 258,
+     "tc_btjd": 3669.843,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 259,
+     "tc_btjd": 3678.9104,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 260,
+     "tc_btjd": 3687.9777,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 261,
+     "tc_btjd": 3697.0451,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 262,
+     "tc_btjd": 3706.1124,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 263,
+     "tc_btjd": 3715.1797,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 264,
+     "tc_btjd": 3724.2471,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 265,
+     "tc_btjd": 3733.3144,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 266,
+     "tc_btjd": 3742.3818,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 267,
+     "tc_btjd": 3751.4491,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 268,
+     "tc_btjd": 3760.5164,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 269,
+     "tc_btjd": 3769.5838,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 270,
+     "tc_btjd": 3778.6511,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 271,
+     "tc_btjd": 3787.7185,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 272,
+     "tc_btjd": 3796.7858,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 273,
+     "tc_btjd": 3805.8531,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.33,
+     "det_depth_err_ppt": 0.457,
+     "sap_depth_ppt": -0.3,
+     "sap_depth_err_ppt": 0.448,
+     "edge_distance_days": 2.885,
+     "pdc_gap_distance_days": 2.885,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 274,
+     "tc_btjd": 3814.9205,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": null,
+     "det_depth_err_ppt": null,
+     "sap_depth_ppt": -0.747,
+     "sap_depth_err_ppt": 1.086,
+     "edge_distance_days": 11.952,
+     "pdc_gap_distance_days": 11.952,
+     "desat": false,
+     "q_frac": 1.0,
+     "straylight_frac": 1.0,
+     "ramp_over_depth": 0.05,
+     "bkg_over_sector_median": null,
+     "excluded": true,
+     "exclusion_reasons": [
+      "100% of in-transit cadences quality-flagged",
+      "100% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_flag",
+      "quality_flagged"
+     ]
+    },
+    {
+     "n": 275,
+     "tc_btjd": 3823.9878,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.11,
+     "det_depth_err_ppt": 0.377,
+     "sap_depth_ppt": -0.165,
+     "sap_depth_err_ppt": 0.393,
+     "edge_distance_days": 5.656,
+     "pdc_gap_distance_days": 5.656,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 276,
+     "tc_btjd": 3833.0552,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 277,
+     "tc_btjd": 3842.1225,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 278,
+     "tc_btjd": 3851.1899,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 279,
+     "tc_btjd": 3860.2572,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 280,
+     "tc_btjd": 3869.3245,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 281,
+     "tc_btjd": 3878.3919,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 282,
+     "tc_btjd": 3887.4592,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.225,
+     "det_depth_err_ppt": 0.352,
+     "sap_depth_ppt": -0.167,
+     "sap_depth_err_ppt": 0.339,
+     "edge_distance_days": 5.125,
+     "pdc_gap_distance_days": 5.088,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.05,
+     "bkg_over_sector_median": 1.01,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 283,
+     "tc_btjd": 3896.5266,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 26.291,
+     "det_depth_err_ppt": 0.971,
+     "sap_depth_ppt": 73.102,
+     "sap_depth_err_ppt": 0.841,
+     "edge_distance_days": 11.036,
+     "pdc_gap_distance_days": 11.036,
+     "desat": false,
+     "q_frac": 0.3,
+     "straylight_frac": 0.75,
+     "ramp_over_depth": 3.33,
+     "bkg_over_sector_median": 1.7,
+     "excluded": true,
+     "exclusion_reasons": [
+      "30% of in-transit cadences quality-flagged",
+      "SAP baseline changes by more than one depth across the event (ramp)",
+      "75% of cadences within one duration carry the scattered-light flag"
+     ],
+     "artefact_classes": [
+      "scattered_light_flag",
+      "quality_flagged",
+      "sap_baseline_ramp"
+     ]
+    },
+    {
+     "n": 284,
+     "tc_btjd": 3905.5939,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.266,
+     "det_depth_err_ppt": 0.316,
+     "sap_depth_ppt": -0.223,
+     "sap_depth_err_ppt": 0.303,
+     "edge_distance_days": 1.969,
+     "pdc_gap_distance_days": 1.969,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 0.96,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    }
+   ]
+  },
+  "packet": {
+   "ephemeris": {
+    "period": 8.952414938882496,
+    "t0": 1330.464142836059,
+    "duration": 0.10041494251232544,
+    "source": "packet_fit",
+    "ref_depth_ppt": 7.376032266392496
+   },
+   "n_predicted_in_span": 288,
+   "n_observed": 11,
+   "n_excluded": 2,
+   "n_kept": 9,
+   "det_all": {
+    "n": 11,
+    "weighted_mean_depth_ppt": 0.101,
+    "err_ppt": 0.134,
+    "snr": 0.75,
+    "chi2_const": 63.2,
+    "dof": 10,
+    "p_const": 8.893290663789276e-10,
+    "top_event_n": 0,
+    "top_event_share_of_snr2": 0.87,
+    "snr_without_top_event": -0.26,
+    "n_events_depth_above_2sigma": 2,
+    "n_events_negative": 6,
+    "odd_even": {
+     "odd_ppt": -0.025,
+     "odd_err": 0.176,
+     "even_ppt": 0.276,
+     "even_err": 0.207,
+     "sigma": 1.11
+    }
+   },
+   "det_kept": {
+    "n": 9,
+    "weighted_mean_depth_ppt": -0.013,
+    "err_ppt": 0.138,
+    "snr": -0.1,
+    "chi2_const": 10.7,
+    "dof": 8,
+    "p_const": 0.21701890746514513,
+    "top_event_n": 2,
+    "top_event_share_of_snr2": 0.88,
+    "snr_without_top_event": -0.67,
+    "n_events_depth_above_2sigma": 1,
+    "n_events_negative": 5,
+    "odd_even": {
+     "odd_ppt": 0.012,
+     "odd_err": 0.181,
+     "even_ppt": -0.049,
+     "even_err": 0.212,
+     "sigma": 0.22
+    }
+   },
+   "sap_kept": {
+    "n": 9,
+    "weighted_mean_depth_ppt": -0.121,
+    "err_ppt": 0.137,
+    "snr": -0.88,
+    "chi2_const": 30.5,
+    "dof": 8,
+    "p_const": 0.00017269211510097815,
+    "top_event_n": 2,
+    "top_event_share_of_snr2": 0.85,
+    "snr_without_top_event": -1.25,
+    "n_events_depth_above_2sigma": 1,
+    "n_events_negative": 5,
+    "odd_even": {
+     "odd_ppt": -0.049,
+     "odd_err": 0.18,
+     "even_ppt": -0.222,
+     "even_err": 0.213,
+     "sigma": 0.62
+    }
+   },
+   "audit_flags": [
+    "SNR of kept events (detrended) < 7",
+    "one event carries > 50% of the signal",
+    "SNR < 7 without the strongest event"
+   ],
+   "criteria": {
+    "kept_events_ge_3": true,
+    "kept_snr_ge_7": false,
+    "top_share_le_50pct": false,
+    "snr_without_top_ge_5": false,
+    "depth_within_0.5_2x_survey": false,
+    "depths_consistent_p_ge_1e-3": true
+   },
+   "n_criteria_passed": 2,
+   "all_passed": false,
+   "kept_snr": -0.1,
+   "top_event_share": 0.88,
+   "snr_without_top": -0.67,
+   "kept_depth_ppt": -0.013,
+   "kept_depth_err_ppt": 0.138,
+   "depth_over_survey_depth": -0.002,
+   "p_const": 0.21701890746514513,
+   "top_event_n": 2,
+   "strongest_event": {
+    "found": true,
+    "n": 0,
+    "tc_btjd": 1330.4641,
+    "sector": 1,
+    "author": "TESS-SPOC",
+    "det_depth_ppt": 6.952,
+    "det_depth_err_ppt": 0.962,
+    "sap_depth_ppt": 8.767,
+    "snr2": 52.2,
+    "excluded": true,
+    "exclusion_reasons": [
+     "momentum dump within one duration"
+    ],
+    "artefact_classes": [
+     "momentum_dump"
+    ]
+   },
+   "events": [
+    {
+     "n": 0,
+     "tc_btjd": 1330.4641,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 0.8,
+     "det_depth_ppt": 6.952,
+     "det_depth_err_ppt": 0.962,
+     "sap_depth_ppt": 8.767,
+     "sap_depth_err_ppt": 1.033,
+     "edge_distance_days": 5.135,
+     "pdc_gap_distance_days": 4.51,
+     "desat": true,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.04,
+     "bkg_over_sector_median": 1.14,
+     "excluded": true,
+     "exclusion_reasons": [
+      "momentum dump within one duration"
+     ],
+     "artefact_classes": [
+      "momentum_dump"
+     ]
+    },
+    {
+     "n": 1,
+     "tc_btjd": 1339.4166,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 2,
+     "tc_btjd": 1348.369,
+     "sector": 1,
+     "author": "TESS-SPOC",
+     "cadence_s": 1800.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 1.753,
+     "det_depth_err_ppt": 0.659,
+     "sap_depth_ppt": 7.636,
+     "sap_depth_err_ppt": 1.707,
+     "edge_distance_days": 4.793,
+     "pdc_gap_distance_days": 4.501,
+     "desat": false,
+     "q_frac": 0.2,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.31,
+     "bkg_over_sector_median": 0.98,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 3,
+     "tc_btjd": 1357.3214,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 4,
+     "tc_btjd": 1366.2738,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 5,
+     "tc_btjd": 1375.2262,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 6,
+     "tc_btjd": 1384.1786,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 7,
+     "tc_btjd": 1393.131,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 8,
+     "tc_btjd": 1402.0835,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 9,
+     "tc_btjd": 1411.0359,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 10,
+     "tc_btjd": 1419.9883,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 11,
+     "tc_btjd": 1428.9407,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 12,
+     "tc_btjd": 1437.8931,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 13,
+     "tc_btjd": 1446.8455,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 14,
+     "tc_btjd": 1455.798,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 15,
+     "tc_btjd": 1464.7504,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 16,
+     "tc_btjd": 1473.7028,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 17,
+     "tc_btjd": 1482.6552,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 18,
+     "tc_btjd": 1491.6076,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 19,
+     "tc_btjd": 1500.56,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 20,
+     "tc_btjd": 1509.5124,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 21,
+     "tc_btjd": 1518.4649,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 22,
+     "tc_btjd": 1527.4173,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 23,
+     "tc_btjd": 1536.3697,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 24,
+     "tc_btjd": 1545.3221,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 25,
+     "tc_btjd": 1554.2745,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 26,
+     "tc_btjd": 1563.2269,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 27,
+     "tc_btjd": 1572.1793,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 28,
+     "tc_btjd": 1581.1318,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 29,
+     "tc_btjd": 1590.0842,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 30,
+     "tc_btjd": 1599.0366,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 31,
+     "tc_btjd": 1607.989,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 32,
+     "tc_btjd": 1616.9414,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 33,
+     "tc_btjd": 1625.8938,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 34,
+     "tc_btjd": 1634.8463,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 35,
+     "tc_btjd": 1643.7987,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 36,
+     "tc_btjd": 1652.7511,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 37,
+     "tc_btjd": 1661.7035,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 38,
+     "tc_btjd": 1670.6559,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 39,
+     "tc_btjd": 1679.6083,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 40,
+     "tc_btjd": 1688.5607,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 41,
+     "tc_btjd": 1697.5132,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 42,
+     "tc_btjd": 1706.4656,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 43,
+     "tc_btjd": 1715.418,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 44,
+     "tc_btjd": 1724.3704,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 45,
+     "tc_btjd": 1733.3228,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 46,
+     "tc_btjd": 1742.2752,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 47,
+     "tc_btjd": 1751.2276,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 48,
+     "tc_btjd": 1760.1801,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 49,
+     "tc_btjd": 1769.1325,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 50,
+     "tc_btjd": 1778.0849,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 51,
+     "tc_btjd": 1787.0373,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 52,
+     "tc_btjd": 1795.9897,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 53,
+     "tc_btjd": 1804.9421,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 54,
+     "tc_btjd": 1813.8945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 55,
+     "tc_btjd": 1822.847,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 56,
+     "tc_btjd": 1831.7994,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 57,
+     "tc_btjd": 1840.7518,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 58,
+     "tc_btjd": 1849.7042,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 59,
+     "tc_btjd": 1858.6566,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 60,
+     "tc_btjd": 1867.609,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 61,
+     "tc_btjd": 1876.5615,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 62,
+     "tc_btjd": 1885.5139,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 63,
+     "tc_btjd": 1894.4663,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 64,
+     "tc_btjd": 1903.4187,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 65,
+     "tc_btjd": 1912.3711,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 66,
+     "tc_btjd": 1921.3235,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 67,
+     "tc_btjd": 1930.2759,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 68,
+     "tc_btjd": 1939.2284,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 69,
+     "tc_btjd": 1948.1808,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 70,
+     "tc_btjd": 1957.1332,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 71,
+     "tc_btjd": 1966.0856,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 72,
+     "tc_btjd": 1975.038,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 73,
+     "tc_btjd": 1983.9904,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 74,
+     "tc_btjd": 1992.9428,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 75,
+     "tc_btjd": 2001.8953,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 76,
+     "tc_btjd": 2010.8477,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 77,
+     "tc_btjd": 2019.8001,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 78,
+     "tc_btjd": 2028.7525,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 79,
+     "tc_btjd": 2037.7049,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.379,
+     "det_depth_err_ppt": 0.415,
+     "sap_depth_ppt": -0.711,
+     "sap_depth_err_ppt": 0.37,
+     "edge_distance_days": 1.418,
+     "pdc_gap_distance_days": 1.411,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": 0.87,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 80,
+     "tc_btjd": 2046.6573,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.092,
+     "det_depth_err_ppt": 0.501,
+     "sap_depth_ppt": -0.166,
+     "sap_depth_err_ppt": 0.432,
+     "edge_distance_days": 1.47,
+     "pdc_gap_distance_days": 1.47,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.02,
+     "bkg_over_sector_median": 1.61,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 81,
+     "tc_btjd": 2055.6098,
+     "sector": 27,
+     "author": "TESS-SPOC",
+     "cadence_s": 600.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.067,
+     "det_depth_err_ppt": 0.328,
+     "sap_depth_ppt": -0.156,
+     "sap_depth_err_ppt": 0.359,
+     "edge_distance_days": 5.032,
+     "pdc_gap_distance_days": 5.032,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.07,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 82,
+     "tc_btjd": 2064.5622,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 83,
+     "tc_btjd": 2073.5146,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 84,
+     "tc_btjd": 2082.467,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 85,
+     "tc_btjd": 2091.4194,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 86,
+     "tc_btjd": 2100.3718,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 87,
+     "tc_btjd": 2109.3242,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 88,
+     "tc_btjd": 2118.2767,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 89,
+     "tc_btjd": 2127.2291,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 90,
+     "tc_btjd": 2136.1815,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 91,
+     "tc_btjd": 2145.1339,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 92,
+     "tc_btjd": 2154.0863,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 93,
+     "tc_btjd": 2163.0387,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 94,
+     "tc_btjd": 2171.9911,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 95,
+     "tc_btjd": 2180.9436,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 96,
+     "tc_btjd": 2189.896,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 97,
+     "tc_btjd": 2198.8484,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 98,
+     "tc_btjd": 2207.8008,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 99,
+     "tc_btjd": 2216.7532,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 100,
+     "tc_btjd": 2225.7056,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 101,
+     "tc_btjd": 2234.6581,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 102,
+     "tc_btjd": 2243.6105,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 103,
+     "tc_btjd": 2252.5629,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 104,
+     "tc_btjd": 2261.5153,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 105,
+     "tc_btjd": 2270.4677,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 106,
+     "tc_btjd": 2279.4201,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 107,
+     "tc_btjd": 2288.3725,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 108,
+     "tc_btjd": 2297.325,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 109,
+     "tc_btjd": 2306.2774,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 110,
+     "tc_btjd": 2315.2298,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 111,
+     "tc_btjd": 2324.1822,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 112,
+     "tc_btjd": 2333.1346,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 113,
+     "tc_btjd": 2342.087,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 114,
+     "tc_btjd": 2351.0394,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 115,
+     "tc_btjd": 2359.9919,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 116,
+     "tc_btjd": 2368.9443,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 117,
+     "tc_btjd": 2377.8967,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 118,
+     "tc_btjd": 2386.8491,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 119,
+     "tc_btjd": 2395.8015,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 120,
+     "tc_btjd": 2404.7539,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 121,
+     "tc_btjd": 2413.7064,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 122,
+     "tc_btjd": 2422.6588,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 123,
+     "tc_btjd": 2431.6112,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 124,
+     "tc_btjd": 2440.5636,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 125,
+     "tc_btjd": 2449.516,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 126,
+     "tc_btjd": 2458.4684,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 127,
+     "tc_btjd": 2467.4208,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 128,
+     "tc_btjd": 2476.3733,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 129,
+     "tc_btjd": 2485.3257,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 130,
+     "tc_btjd": 2494.2781,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 131,
+     "tc_btjd": 2503.2305,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 132,
+     "tc_btjd": 2512.1829,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 133,
+     "tc_btjd": 2521.1353,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 134,
+     "tc_btjd": 2530.0877,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 135,
+     "tc_btjd": 2539.0402,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 136,
+     "tc_btjd": 2547.9926,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 137,
+     "tc_btjd": 2556.945,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 138,
+     "tc_btjd": 2565.8974,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 139,
+     "tc_btjd": 2574.8498,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 140,
+     "tc_btjd": 2583.8022,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 141,
+     "tc_btjd": 2592.7546,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 142,
+     "tc_btjd": 2601.7071,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 143,
+     "tc_btjd": 2610.6595,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 144,
+     "tc_btjd": 2619.6119,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 145,
+     "tc_btjd": 2628.5643,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 146,
+     "tc_btjd": 2637.5167,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 147,
+     "tc_btjd": 2646.4691,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 148,
+     "tc_btjd": 2655.4216,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 149,
+     "tc_btjd": 2664.374,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 150,
+     "tc_btjd": 2673.3264,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 151,
+     "tc_btjd": 2682.2788,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 152,
+     "tc_btjd": 2691.2312,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 153,
+     "tc_btjd": 2700.1836,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 154,
+     "tc_btjd": 2709.136,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 155,
+     "tc_btjd": 2718.0885,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 156,
+     "tc_btjd": 2727.0409,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 157,
+     "tc_btjd": 2735.9933,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 158,
+     "tc_btjd": 2744.9457,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 159,
+     "tc_btjd": 2753.8981,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 160,
+     "tc_btjd": 2762.8505,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 161,
+     "tc_btjd": 2771.8029,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 162,
+     "tc_btjd": 2780.7554,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 163,
+     "tc_btjd": 2789.7078,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 164,
+     "tc_btjd": 2798.6602,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 165,
+     "tc_btjd": 2807.6126,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 166,
+     "tc_btjd": 2816.565,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 167,
+     "tc_btjd": 2825.5174,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 168,
+     "tc_btjd": 2834.4699,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 169,
+     "tc_btjd": 2843.4223,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 170,
+     "tc_btjd": 2852.3747,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 171,
+     "tc_btjd": 2861.3271,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 172,
+     "tc_btjd": 2870.2795,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 173,
+     "tc_btjd": 2879.2319,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 174,
+     "tc_btjd": 2888.1843,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 175,
+     "tc_btjd": 2897.1368,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 176,
+     "tc_btjd": 2906.0892,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 177,
+     "tc_btjd": 2915.0416,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 178,
+     "tc_btjd": 2923.994,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 179,
+     "tc_btjd": 2932.9464,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 180,
+     "tc_btjd": 2941.8988,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 181,
+     "tc_btjd": 2950.8512,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 182,
+     "tc_btjd": 2959.8037,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 183,
+     "tc_btjd": 2968.7561,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 184,
+     "tc_btjd": 2977.7085,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 185,
+     "tc_btjd": 2986.6609,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 186,
+     "tc_btjd": 2995.6133,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 187,
+     "tc_btjd": 3004.5657,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 188,
+     "tc_btjd": 3013.5182,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 189,
+     "tc_btjd": 3022.4706,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 190,
+     "tc_btjd": 3031.423,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 191,
+     "tc_btjd": 3040.3754,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 192,
+     "tc_btjd": 3049.3278,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 193,
+     "tc_btjd": 3058.2802,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 194,
+     "tc_btjd": 3067.2326,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 195,
+     "tc_btjd": 3076.1851,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 196,
+     "tc_btjd": 3085.1375,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 197,
+     "tc_btjd": 3094.0899,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 198,
+     "tc_btjd": 3103.0423,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 199,
+     "tc_btjd": 3111.9947,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 200,
+     "tc_btjd": 3120.9471,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 201,
+     "tc_btjd": 3129.8995,
+     "sector": 67,
+     "author": "TESS-SPOC",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.13,
+     "det_depth_err_ppt": 0.406,
+     "sap_depth_ppt": 0.054,
+     "sap_depth_err_ppt": 0.392,
+     "edge_distance_days": 3.257,
+     "pdc_gap_distance_days": 3.25,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.03,
+     "bkg_over_sector_median": 0.94,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 202,
+     "tc_btjd": 3138.852,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 203,
+     "tc_btjd": 3147.8044,
+     "observed": false,
+     "reason": "in-transit coverage 0% (< 50%) or too few baseline points"
+    },
+    {
+     "n": 204,
+     "tc_btjd": 3156.7568,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 205,
+     "tc_btjd": 3165.7092,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 206,
+     "tc_btjd": 3174.6616,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 207,
+     "tc_btjd": 3183.614,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 208,
+     "tc_btjd": 3192.5665,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 209,
+     "tc_btjd": 3201.5189,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 210,
+     "tc_btjd": 3210.4713,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 211,
+     "tc_btjd": 3219.4237,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 212,
+     "tc_btjd": 3228.3761,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 213,
+     "tc_btjd": 3237.3285,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 214,
+     "tc_btjd": 3246.2809,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 215,
+     "tc_btjd": 3255.2334,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 216,
+     "tc_btjd": 3264.1858,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 217,
+     "tc_btjd": 3273.1382,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 218,
+     "tc_btjd": 3282.0906,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 219,
+     "tc_btjd": 3291.043,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 220,
+     "tc_btjd": 3299.9954,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 221,
+     "tc_btjd": 3308.9478,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 222,
+     "tc_btjd": 3317.9003,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 223,
+     "tc_btjd": 3326.8527,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 224,
+     "tc_btjd": 3335.8051,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 225,
+     "tc_btjd": 3344.7575,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 226,
+     "tc_btjd": 3353.7099,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 227,
+     "tc_btjd": 3362.6623,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 228,
+     "tc_btjd": 3371.6147,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 229,
+     "tc_btjd": 3380.5672,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 230,
+     "tc_btjd": 3389.5196,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 231,
+     "tc_btjd": 3398.472,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 232,
+     "tc_btjd": 3407.4244,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 233,
+     "tc_btjd": 3416.3768,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 234,
+     "tc_btjd": 3425.3292,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 235,
+     "tc_btjd": 3434.2817,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 236,
+     "tc_btjd": 3443.2341,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 237,
+     "tc_btjd": 3452.1865,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 238,
+     "tc_btjd": 3461.1389,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 239,
+     "tc_btjd": 3470.0913,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 240,
+     "tc_btjd": 3479.0437,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 241,
+     "tc_btjd": 3487.9961,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 242,
+     "tc_btjd": 3496.9486,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 243,
+     "tc_btjd": 3505.901,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 244,
+     "tc_btjd": 3514.8534,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 245,
+     "tc_btjd": 3523.8058,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 246,
+     "tc_btjd": 3532.7582,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 247,
+     "tc_btjd": 3541.7106,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 248,
+     "tc_btjd": 3550.663,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 249,
+     "tc_btjd": 3559.6155,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 250,
+     "tc_btjd": 3568.5679,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 251,
+     "tc_btjd": 3577.5203,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 252,
+     "tc_btjd": 3586.4727,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 253,
+     "tc_btjd": 3595.4251,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 254,
+     "tc_btjd": 3604.3775,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 255,
+     "tc_btjd": 3613.33,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 256,
+     "tc_btjd": 3622.2824,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 257,
+     "tc_btjd": 3631.2348,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 258,
+     "tc_btjd": 3640.1872,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 259,
+     "tc_btjd": 3649.1396,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 260,
+     "tc_btjd": 3658.092,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 261,
+     "tc_btjd": 3667.0444,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 262,
+     "tc_btjd": 3675.9969,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 263,
+     "tc_btjd": 3684.9493,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 264,
+     "tc_btjd": 3693.9017,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 265,
+     "tc_btjd": 3702.8541,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 266,
+     "tc_btjd": 3711.8065,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 267,
+     "tc_btjd": 3720.7589,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 268,
+     "tc_btjd": 3729.7113,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 269,
+     "tc_btjd": 3738.6638,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 270,
+     "tc_btjd": 3747.6162,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 271,
+     "tc_btjd": 3756.5686,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 272,
+     "tc_btjd": 3765.521,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 273,
+     "tc_btjd": 3774.4734,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 274,
+     "tc_btjd": 3783.4258,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 275,
+     "tc_btjd": 3792.3783,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 276,
+     "tc_btjd": 3801.3307,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 277,
+     "tc_btjd": 3810.2831,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.081,
+     "det_depth_err_ppt": 0.49,
+     "sap_depth_ppt": 0.067,
+     "sap_depth_err_ppt": 0.483,
+     "edge_distance_days": 7.315,
+     "pdc_gap_distance_days": 7.315,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 278,
+     "tc_btjd": 3819.2355,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.07,
+     "det_depth_err_ppt": 0.439,
+     "sap_depth_ppt": -0.055,
+     "sap_depth_err_ppt": 0.445,
+     "edge_distance_days": 10.409,
+     "pdc_gap_distance_days": 10.409,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 279,
+     "tc_btjd": 3828.1879,
+     "sector": 92,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": 0.394,
+     "det_depth_err_ppt": 0.436,
+     "sap_depth_ppt": 0.855,
+     "sap_depth_err_ppt": 0.449,
+     "edge_distance_days": 1.456,
+     "pdc_gap_distance_days": 1.456,
+     "desat": false,
+     "q_frac": 0.05,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.01,
+     "bkg_over_sector_median": null,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 280,
+     "tc_btjd": 3837.1403,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 281,
+     "tc_btjd": 3846.0927,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 282,
+     "tc_btjd": 3855.0452,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 283,
+     "tc_btjd": 3863.9976,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 284,
+     "tc_btjd": 3872.95,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 285,
+     "tc_btjd": 3881.9024,
+     "observed": false,
+     "reason": "no product covers the epoch"
+    },
+    {
+     "n": 286,
+     "tc_btjd": 3890.8548,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.408,
+     "det_depth_err_ppt": 0.305,
+     "sap_depth_ppt": -0.56,
+     "sap_depth_err_ppt": 0.297,
+     "edge_distance_days": 8.521,
+     "pdc_gap_distance_days": 8.484,
+     "desat": false,
+     "q_frac": 0.0,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.0,
+     "bkg_over_sector_median": 1.0,
+     "excluded": false,
+     "exclusion_reasons": [],
+     "artefact_classes": []
+    },
+    {
+     "n": 287,
+     "tc_btjd": 3899.8072,
+     "sector": 95,
+     "author": "QLP",
+     "cadence_s": 200.0,
+     "observed": true,
+     "coverage": 1.0,
+     "det_depth_ppt": -0.678,
+     "det_depth_err_ppt": 0.754,
+     "sap_depth_ppt": 0.798,
+     "sap_depth_err_ppt": 0.372,
+     "edge_distance_days": 7.755,
+     "pdc_gap_distance_days": 7.755,
+     "desat": false,
+     "q_frac": 0.73,
+     "straylight_frac": 0.0,
+     "ramp_over_depth": 0.07,
+     "bkg_over_sector_median": 0.97,
+     "excluded": true,
+     "exclusion_reasons": [
+      "73% of in-transit cadences quality-flagged"
+     ],
+     "artefact_classes": [
+      "quality_flagged"
+     ]
+    }
+   ]
+  }
+ },
+ "chosen_ephemeris": "survey",
+ "criteria": {
+  "kept_events_ge_3": true,
+  "kept_snr_ge_7": false,
+  "top_share_le_50pct": true,
+  "snr_without_top_ge_5": false,
+  "depth_within_0.5_2x_survey": false,
+  "depths_consistent_p_ge_1e-3": true
+ },
+ "n_criteria_passed": 3,
+ "decision": "FAIL",
+ "deep_event_host": {
+  "n_accepted_on_star": 8,
+  "threshold_ppt": 30.0,
+  "n_deep": 2,
+  "deepest_ppt": 73.1,
+  "examples": [
+   {
+    "period_days": 17.5476,
+    "depth_ppt": 73.1,
+    "verdict": "ambiguous / manual vetting required",
+    "snr": "264.2459818944386",
+    "same_candidate": false
+   },
+   {
+    "period_days": 57.33271,
+    "depth_ppt": 72.6,
+    "verdict": "likely false positive",
+    "snr": "239.5045492056837",
+    "same_candidate": false
+   }
+  ],
+  "flag": true
+ },
+ "reason": "survey ephemeris, 7 kept events, SNR 1.34, top share 0.29, SNR w/o top 1.02, depth 0.194 ppt = 0.026x survey, p_const 0.55; fails kept_snr_ge_7, snr_without_top_ge_5, depth_within_0.5_2x_survey",
+ "seconds": 11.8
+}

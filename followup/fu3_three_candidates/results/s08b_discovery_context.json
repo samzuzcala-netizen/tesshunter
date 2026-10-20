@@ -1,0 +1,288 @@
+{
+ "generated_utc": "2026-10-18T23:50:39Z",
+ "source": "D:\\tesshunter_s1\\funnel_receipts\\s1_b1",
+ "n_searched": 2000,
+ "per_stage_decisions": {
+  "A": {
+   "FAIL": 4503,
+   "PASS": 141,
+   "ERROR": 11
+  },
+  "S": {
+   "PASS": 127,
+   "FAIL": 14
+  },
+  "B": {
+   "PASS": 127
+  },
+  "C": {
+   "PASS": 32,
+   "FAIL": 95
+  },
+  "D": {
+   "None": 32
+  }
+ },
+ "star_stats": {
+  "A": {
+   "stars_with_job": 1476,
+   "stars_with_pass": 77,
+   "stars_with_2plus_pass": 25
+  },
+  "S": {
+   "stars_with_job": 77,
+   "stars_with_pass": 69,
+   "stars_with_2plus_pass": 21
+  },
+  "B": {
+   "stars_with_job": 69,
+   "stars_with_pass": 69,
+   "stars_with_2plus_pass": 21
+  },
+  "C": {
+   "stars_with_job": 69,
+   "stars_with_pass": 32,
+   "stars_with_2plus_pass": 0
+  },
+  "D": {
+   "stars_with_job": 32,
+   "stars_with_pass": 0,
+   "stars_with_2plus_pass": 0
+  }
+ },
+ "a_pass_last_stage_reached": {
+  "D": 32,
+  "B": 95,
+  "A": 14
+ },
+ "targets": {
+  "270573718": {
+   "n_accepted": 24,
+   "n_pregate": 2,
+   "candidates": [
+    {
+     "candidate_id": "s1_270573718_p01",
+     "search_rank": 1,
+     "period_d": 41.38385594197566,
+     "snr": 9.91326018394284,
+     "stitch_snr": 9.91326018394284,
+     "stitch_n_transits": 15,
+     "depth_ppt": 1.4991078971225285,
+     "fate": {
+      "A": "PASS",
+      "S": "PASS",
+      "B": "PASS",
+      "C": "PASS",
+      "D": null
+     }
+    },
+    {
+     "candidate_id": "s1_270573718_p02",
+     "search_rank": 2,
+     "period_d": 20.692935170753017,
+     "snr": 9.326805564433291,
+     "stitch_snr": 9.446573121968282,
+     "stitch_n_transits": 30,
+     "depth_ppt": 1.6627482950831858,
+     "fate": {
+      "A": "FAIL"
+     }
+    }
+   ]
+  },
+  "262843927": {
+   "n_accepted": 24,
+   "n_pregate": 9,
+   "candidates": [
+    {
+     "candidate_id": "s1_262843927_p01",
+     "search_rank": 1,
+     "period_d": 41.76983113173079,
+     "snr": 27.234243844260046,
+     "stitch_snr": 15.004351555370263,
+     "stitch_n_transits": 4,
+     "depth_ppt": 4.968074683215229,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p02",
+     "search_rank": 2,
+     "period_d": 40.3429369718699,
+     "snr": 19.992403553689776,
+     "stitch_snr": 19.992403553689776,
+     "stitch_n_transits": 8,
+     "depth_ppt": 2.244209767907525,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p04",
+     "search_rank": 4,
+     "period_d": 14.51688126520681,
+     "snr": 11.481367270892775,
+     "stitch_snr": 11.481367270892775,
+     "stitch_n_transits": 25,
+     "depth_ppt": 0.8916051737777793,
+     "fate": {
+      "A": "PASS",
+      "S": "PASS",
+      "B": "PASS",
+      "C": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p05",
+     "search_rank": 5,
+     "period_d": 45.071068994090844,
+     "snr": 11.29805119498247,
+     "stitch_snr": 11.29805119498247,
+     "stitch_n_transits": 4,
+     "depth_ppt": 1.7389451906311577,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p06",
+     "search_rank": 6,
+     "period_d": 49.20470776548005,
+     "snr": 10.900200270071405,
+     "stitch_snr": 10.900200270071405,
+     "stitch_n_transits": 3,
+     "depth_ppt": 2.1207172235973326,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p07",
+     "search_rank": 7,
+     "period_d": 30.2340676932202,
+     "snr": 10.50757918828565,
+     "stitch_snr": 10.50757918828565,
+     "stitch_n_transits": 12,
+     "depth_ppt": 0.9155939929031285,
+     "fate": {
+      "A": "PASS",
+      "S": "PASS",
+      "B": "PASS",
+      "C": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p09",
+     "search_rank": 9,
+     "period_d": 24.108894507128234,
+     "snr": 8.858556571693594,
+     "stitch_snr": 8.858556571693594,
+     "stitch_n_transits": 10,
+     "depth_ppt": 0.8704605631009228,
+     "fate": {
+      "A": "PASS",
+      "S": "PASS",
+      "B": "PASS",
+      "C": "PASS",
+      "D": null
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p10",
+     "search_rank": 10,
+     "period_d": 19.795613343004216,
+     "snr": 8.244715678758922,
+     "stitch_snr": 12.456125582474536,
+     "stitch_n_transits": 15,
+     "depth_ppt": 1.2138786533843795,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_262843927_p14",
+     "search_rank": 14,
+     "period_d": 15.926456950549639,
+     "snr": 6.761340860038977,
+     "stitch_snr": 9.40766574981328,
+     "stitch_n_transits": 22,
+     "depth_ppt": 1.5572129032076285,
+     "fate": {
+      "A": "FAIL"
+     }
+    }
+   ]
+  },
+  "193718989": {
+   "n_accepted": 17,
+   "n_pregate": 5,
+   "candidates": [
+    {
+     "candidate_id": "s1_193718989_p01",
+     "search_rank": 1,
+     "period_d": 24.53353844385921,
+     "snr": 10.396837542063418,
+     "stitch_snr": 10.396837542063418,
+     "stitch_n_transits": 8,
+     "depth_ppt": 1.8418828022360398,
+     "fate": {
+      "A": "PASS",
+      "S": "PASS",
+      "B": "PASS",
+      "C": "PASS",
+      "D": null
+     }
+    },
+    {
+     "candidate_id": "s1_193718989_p02",
+     "search_rank": 2,
+     "period_d": 23.67479540150966,
+     "snr": 10.214641938011201,
+     "stitch_snr": 7.330617117816887,
+     "stitch_n_transits": 8,
+     "depth_ppt": 2.2370542133178586,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_193718989_p03",
+     "search_rank": 3,
+     "period_d": 40.620799228209094,
+     "snr": 10.019305289147074,
+     "stitch_snr": 10.019305289147074,
+     "stitch_n_transits": 4,
+     "depth_ppt": 1.4798939390633792,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_193718989_p05",
+     "search_rank": 5,
+     "period_d": 12.244945225445958,
+     "snr": 7.430462037929669,
+     "stitch_snr": 9.363707677418946,
+     "stitch_n_transits": 14,
+     "depth_ppt": 1.4914226615793833,
+     "fate": {
+      "A": "FAIL"
+     }
+    },
+    {
+     "candidate_id": "s1_193718989_p06",
+     "search_rank": 6,
+     "period_d": 20.567244807505634,
+     "snr": 7.414474058558653,
+     "stitch_snr": 7.414474058558653,
+     "stitch_n_transits": 3,
+     "depth_ppt": 1.1970541418431138,
+     "fate": {
+      "A": "FAIL"
+     }
+    }
+   ]
+  }
+ }
+}

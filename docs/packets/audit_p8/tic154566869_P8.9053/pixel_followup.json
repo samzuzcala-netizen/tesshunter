@@ -1,0 +1,52 @@
+{
+ "assessment": "Pixel review supports HOLD. The radius-one-pixel target aperture retains positive box depths of 3.694 +/- 0.822, 2.076 +/- 0.355 and 5.740 +/- 0.827 ppt in sectors 60, 74 and 75 [M], but the folds have broad, changing structure rather than a stable isolated transit. The difference images do not identify a unique source, and background changes confound a simple centroid interpretation. The pixel follow-up does not resolve the nearby-source ambiguity or the poorly constrained fit geometry. No additional clean EB report is justified.",
+ "what_would_change": "To reconsider: independently reproduce a repeated localized transit while fitting the variable sky/background and nearby sources, and obtain useful transit-geometry uncertainties.",
+ "recommended_verdict": "HOLD",
+ "key": "tic154566869_P8.9053",
+ "status": "complete",
+ "reviewed_utc": "2026-09-06T21:08:37.413205+00:00",
+ "scope": "Final local pixel assessment, retained after the main coordinator completed C and refreshed all six Stage D catalogues. No external submission was made.",
+ "evidence_tag": "M",
+ "source_sha256": {
+  "data/cache/audit_lightkurve/tesscut/tess-s0060-3-2_190.457019_74.280450_21x21_astrocut.fits": "214f80ebc8f74cc513acd18c2311fbd8aa1ad935e565aa77bd26f575ab6f06f9",
+  "data/cache/audit_lightkurve/tesscut/tess-s0074-2-4_190.457019_74.280450_21x21_astrocut.fits": "3bf8a6c5775ec0abb64debd5159757bdccf839beea0678d23066998b6de627d7",
+  "data/cache/audit_lightkurve/tesscut/tess-s0075-2-3_190.457019_74.280450_21x21_astrocut.fits": "b6dc570d3e8773de22229ad3861f4442cac80574c5cb02afc7f5057ebb2ab34d",
+  "data/survey/p8/eb_screen/tic154566869_gaia_cone_300arcsec.json": "da815fde06d6debb926c8752f57ac1c35172a492cd8f2567f19c4087083cf366",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_fit_difference.json": "73546ca6edf829d3448c5ce648a29698613e61673f7738a708c924ba01dcb6fc",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_fit_difference.npz": "066512dc5d3f4e23f3ddd9c4ca0ac1e767bf9f9b75147f279da8b7236ab3cdd5",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_fit_difference.png": "15b33e2a0c1e8b5a5723a3bb2e2b4fe9e56adaa18457651cff4a5e38596bcee5",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_target_aperture.json": "e0cbc86e45893210a155f5a9658111c7081585ee4af751783b123254229f6c4f",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_target_aperture.npz": "2a7608ed564ec3189ad3c11db4b779f43a6d75885b651b253492c6dfd8bf5887",
+  "data/survey/p8/eb_screen/tic154566869_P8.9053_target_aperture.png": "f0299e993fb691cda9023c81d66192c9e4291e1f9ffd8d44d093f379577ef7fc",
+  "data/survey/p8/fit/tic154566869_P8.9053.json": "16d075c7f3af757bf9ba99d0027f18724f10e45b7ea799adf5112b0b14bead97",
+  "data/survey/p8/neighbours/tic154566869.json": "05b670bdf95b6ea449a768f06550df9c4317a2cfa4355a16b442b41b215ec7e5",
+  "data/survey/p8/stageA/tic154566869_P8.9053.json": "10a8beb229acec434a6c4c5570c6265ee85f52c35744f8d1c2b5e42df80efd25",
+  "data/survey/p8/stageC/tic154566869_P8.9053.json": "1cab27836578e2f8523bea97a37fb686402c92e845a97d140e2146d4c245f200",
+  "scripts/p8_eb_aperture.py": "93fe3fde099653a72ce02998d6f9e60d264204765c94401a69863ad06cd11d60",
+  "scripts/p8_eb_difference_image.py": "07c72da7b1d9b148fc8a5435a52528b593faaa79243a29ad949973289daed250",
+  "scripts/p8_target_aperture.py": "400a627b64eb7cd513df1b186fc67c507af82b09f075bf96be09684b1d4250e3"
+ },
+ "figures": [
+  {
+   "path": "data/survey/p8/eb_screen/tic154566869_P8.9053_fit_difference.png",
+   "caption": "Primary and phase-0.5 difference images at the accepted physical-fit ephemeris; Gaia positions are propagated to the sector epoch."
+  },
+  {
+   "path": "data/survey/p8/eb_screen/tic154566869_P8.9053_target_aperture.png",
+   "caption": "Fixed target aperture and sky variations, full phase and transit windows after sky subtraction. All sectors use the same aperture and background geometry. The Gaia mask uses a 300-arcsec cone covering the target aperture and background annulus."
+  }
+ ],
+ "background_mask_review": {
+  "Gaia_cone_radius_arcsec": 300,
+  "scope": "Supplied Gaia sources on the cutout use the same fixed mask geometry. The 300-arcsec cone covers the target aperture and the background annulus, including the two-pixel source-exclusion margin; full corner coverage of a 21-by-21-pixel square is not required for that annulus.",
+  "outcome": "Both rerendered figures inspected; assessment unchanged. No aperture radius, ephemeris, detrending or science gate was tuned."
+ },
+ "initial_reviewed_utc": "2026-09-06T18:26:36.825754+00:00",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

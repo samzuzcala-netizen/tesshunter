@@ -1,0 +1,898 @@
+{
+ "search": {
+  "stellar": {
+   "tic_id": 246937997,
+   "ra": 34.391182604436,
+   "dec": 21.9473290572292,
+   "tmag": 11.738,
+   "teff": 3681.0,
+   "teff_err": 123.317,
+   "logg": 4.33918,
+   "logg_err": 0.154932,
+   "radius": 0.823455,
+   "radius_err": 0.105136,
+   "mass": 0.54,
+   "mass_err": 0.0851638,
+   "rho": 0.967107,
+   "rho_err": 0.442894,
+   "lum": 0.112159885,
+   "distance_pc": 95.104,
+   "contamination_ratio": 0.130263463,
+   "gaia_id": 99958079549899264,
+   "gaia_mag": 12.7414,
+   "gaia_bp": 13.8122,
+   "gaia_rp": 11.5582,
+   "source": "tic",
+   "fetched_utc": "2026-09-03T07:46:26Z",
+   "assumed_errors": false,
+   "notes": []
+  },
+  "target": 246937997,
+  "mission": "TESS",
+  "planets": [
+   {
+    "planet_num": 1,
+    "period_days": 2.457130267588264,
+    "epoch_btjd": 2448.090132112154,
+    "duration_days": 0.29280564880777193,
+    "depth_ppt": 12.414349236792521,
+    "power": 1.235063498198814e-05,
+    "snr": 14.56541794014036,
+    "sde": 4.608807240769652,
+    "event_completeness": 0.824,
+    "n_transits_observed": 17,
+    "single_event": false,
+    "harmonic_label": "P",
+    "odd_even_retest": false,
+    "carves_exclusion_zone": false,
+    "gate_fit": {
+     "success": true,
+     "rp_rs": 0.3721976716940394,
+     "a_rs": 1.546613990998776,
+     "b": 1.199991888272289,
+     "a_rs_star": 7.57784919008855,
+     "density_ratio": 0.008501742165811352,
+     "density_dchi2": 278.84144675061896,
+     "a_rs_inconsistent": true,
+     "grazing": true,
+     "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+     "reason": "Rp/R* 0.372 > 0.2"
+    },
+    "depth_ppt_bls": 9.083639415790236,
+    "depth_ppt_flat": 13.03783543119848,
+    "depth_source": "fit",
+    "fit": {
+     "success": true,
+     "method": "least_squares",
+     "message": "`ftol` termination condition is satisfied.",
+     "period": 2.457924025891604,
+     "period_err": 0.0017684666071175103,
+     "t0": 2448.0713671604653,
+     "t0_err": 0.02134597642640219,
+     "rp_rs": 0.24859692508492182,
+     "rp_rs_err": 4.007939947153489,
+     "a_rs": 1.5526361738526915,
+     "a_rs_err": 2.7643679923175597,
+     "b": 1.0844037837272897,
+     "b_err": 4.834122503387743,
+     "inc_deg": 45.69902304429636,
+     "f0": 0.9942399564348449,
+     "f0_err": 0.000396785440571244,
+     "u1": 0.35820957644800006,
+     "u2": 0.29956370155199996,
+     "ld_source": "claret2017_atlas (Teff 3681 K, logg 4.34)",
+     "period_fitted": true,
+     "density_prior_adopted": false,
+     "free_rp_rs": 0.24859692508492182,
+     "free_a_rs": 1.5526361738526915,
+     "free_b": 1.0844037837272897,
+     "free_chi2": 1057.506933886413,
+     "duration_days": 0.46219560694789114,
+     "duration_err": 0.36064598940004916,
+     "t23_days": 0.0,
+     "depth_ppt": 12.414349236792521,
+     "depth_err": 2.2946142218128136,
+     "depth_err_shape": 85.35412086370569,
+     "depth_mean_ppt": 6.738507259986149,
+     "rp_rearth": 22.328771360044552,
+     "rp_rearth_err": 360.0011580701583,
+     "rp_rjup": 1.9920497485592243,
+     "rp_rjup_err": 32.117316481548556,
+     "rho_star_fit_cgs": 0.011720054506331517,
+     "rho_star_fit_err": 0.005274024527849182,
+     "rho_star_cat_cgs": 1.363449165856845,
+     "rho_star_cat_err": 0.6244019067828084,
+     "rho_source": "tic_rho",
+     "a_rs_star": 7.57948108210842,
+     "a_rs_star_err": 1.1570269868033651,
+     "a_rs_ratio": 0.20484729192315462,
+     "density_ratio": 0.008595886667300994,
+     "density_sigma": 9.87029787684126,
+     "density_dchi2": 31.921049556878643,
+     "density_dchi2_eff": 6.104646880716873,
+     "beta_red_noise": 2.2866953437763717,
+     "depth_err_white": 1.0034630227668913,
+     "a_rs_inconsistent": false,
+     "a_rs_direction": "low",
+     "consistency_note": "free-fit a/R* = 1.55 (b = 1.08) against 7.58 +/- 1.16 from the catalog density (0.012 vs 1.363 g/cc, ratio 0.01; profile delta chi2 31.9 with a/R* held in the catalog range, 6.1 after the red-noise beta = 2.29; tic_rho)",
+     "grazing": true,
+     "rp_rs_constrained": false,
+     "n_points": 1364,
+     "n_in_transit": 374,
+     "n_transits": 17,
+     "chi2": 1057.506933886413,
+     "chi2_flat": 1178.952274058041,
+     "reduced_chi2": 0.7787238099310847,
+     "delta_bic": 85.35445597961098,
+     "sigma_used": 0.01252776724218079,
+     "exp_time_days": 0.020833333333939663,
+     "supersample": 7,
+     "window_durations": 3.0,
+     "odd_even": {
+      "available": true,
+      "per_event": [
+       {
+        "index": 0,
+        "depth_ppt": 20.967365976837716,
+        "depth_err": 4.134007021354449
+       },
+       {
+        "index": 1,
+        "depth_ppt": -1.4322615198698205,
+        "depth_err": 4.134006608207186
+       },
+       {
+        "index": 2,
+        "depth_ppt": 28.218068213866154,
+        "depth_err": 4.134006197504801
+       },
+       {
+        "index": 3,
+        "depth_ppt": 4.104585118470635,
+        "depth_err": 4.134005786854046
+       },
+       {
+        "index": 6,
+        "depth_ppt": 3.2787557153046705,
+        "depth_err": 4.1340044548930575
+       },
+       {
+        "index": 7,
+        "depth_ppt": 12.138824260154575,
+        "depth_err": 4.134004046910098
+       },
+       {
+        "index": 8,
+        "depth_ppt": -1.6990258675770318,
+        "depth_err": 4.134003682848712
+       },
+       {
+        "index": 9,
+        "depth_ppt": 18.62269524351333,
+        "depth_err": 4.134003361276647
+       },
+       {
+        "index": 11,
+        "depth_ppt": 33.43111112296038,
+        "depth_err": 4.134002056080333
+       },
+       {
+        "index": 12,
+        "depth_ppt": -6.733171539037504,
+        "depth_err": 4.13400204828532
+       },
+       {
+        "index": 13,
+        "depth_ppt": 30.729568891479534,
+        "depth_err": 4.134002094554941
+       },
+       {
+        "index": 14,
+        "depth_ppt": -9.530164348401133,
+        "depth_err": 4.134002195282879
+       },
+       {
+        "index": 16,
+        "depth_ppt": 13.663769316709779,
+        "depth_err": 4.19261977287993
+       },
+       {
+        "index": 17,
+        "depth_ppt": 34.10168841999644,
+        "depth_err": 4.134002725820877
+       },
+       {
+        "index": 18,
+        "depth_ppt": 5.413622920561761,
+        "depth_err": 4.134002942864962
+       },
+       {
+        "index": 19,
+        "depth_ppt": 21.27898282609214,
+        "depth_err": 4.1340032001365286
+       },
+       {
+        "index": 20,
+        "depth_ppt": 4.5376413716158295,
+        "depth_err": 4.1340034984840015
+       }
+      ],
+      "depth_odd_ppt": 19.12190843890518,
+      "depth_odd_err": 4.753841344667956,
+      "depth_odd_err_white": 1.4615910372271526,
+      "n_odd": 8,
+      "depth_even_ppt": 6.435119906437164,
+      "depth_even_err": 4.161658573629848,
+      "depth_even_err_white": 1.3801319054344552,
+      "n_even": 9,
+      "delta_sigma": 2.0080063683504807,
+      "delta_fraction": 0.9928218853175179,
+      "significant": false,
+      "note": "odd 19.122 +/- 4.754 ppt (8 events), even 6.435 +/- 4.162 ppt (9 events), difference 2.0 sigma, 99% of the mean"
+     },
+     "notes": [
+      "Rp/R* is not constrained by the covariance (degenerate with b)"
+     ]
+    },
+    "depth_ppt_err": 2.2946142218128136,
+    "rp_rs": 0.24859692508492182,
+    "a_rs": 1.5526361738526915,
+    "impact_b": 1.0844037837272897,
+    "duration_fit_days": 0.46219560694789114,
+    "rp_rearth": 22.328771360044552,
+    "a_rs_inconsistent": false,
+    "verdict": "likely false positive"
+   }
+  ],
+  "vetting": [
+   {
+    "planet_num": 1,
+    "verdict": "likely false positive",
+    "flags_hard": [],
+    "flags_high": [
+     "in-transit centroid shift 0.005 px (0.1 arcsec, 6.5 sigma) over 6 sector(s) \u2014 signal may sit on a neighbour",
+     "TRICERATOPS nearby false-positive probability 0.126 >= 0.1",
+     "nearby star could produce the signal: 3 high-risk and 0 medium-risk neighbour(s) of 17 checked"
+    ],
+    "flags_medium": [
+     "high duration/period ratio (0.119)"
+    ],
+    "notes": [
+     "Implied companion radius 0.89 R_Jup (depth 12.4 ppt, R_star = 0.82 R_Sun) is within the planet regime.",
+     "SNR 14.6 is within the expected range for a planet signal.",
+     "Duration/period = 0.119 exceeds 0.1 \u2014 may indicate a grazing EB, stellar variability, or a systematics artifact.",
+     "Odd depth 2.36 ppt, even depth 0.20 ppt, delta = 3.5\u03c3. FLAGGED \u2014 significant odd/even asymmetry. Primary interpretation: eclipsing binary at half the apparent period. Also consider: BLS period slightly off, or noisy in-transit cadences in one sector.",
+     "Secondary eclipse depth at phase 0.5: -15.16 ppt (3\u03c3 median-error threshold: 3.03 ppt over 332 cadences, red-noise inflation \u00d72).",
+     "V-shape check inconclusive \u2014 fitted depth 3.27 ppt is below 2\u00d7 the binned scatter (5.02 ppt).",
+     "Signal observed across 6 sector(s). Per-unit depths consistent (-2.35\u00b12.55 ppt, 0.92\u00b12.56 ppt, 2.78\u00b12.31 ppt, 1.35\u00b12.06 ppt; max 1.5\u03c3).",
+     "Stellar rotation period not supplied \u2014 rotation-harmonic check skipped.",
+     "Estimated planet radius: 10.01 R_Earth (0.89 R_Jup; R_star = 0.82 R_Sun, depth = 12.41 ppt).",
+     "Odd/even from the transit-fit template: odd 19.122 +/- 4.754 ppt (8 events), even 6.435 +/- 4.162 ppt (9 events), difference 2.0 sigma, 99% of the mean.",
+     "Transit fit: Rp/R* = 0.2486 +/- 4.0079, a/R* = 1.55 +/- 2.76, b = 1.08 +/- 4.83, T14 = 11.09 h, depth = 12.414 +/- 2.295 ppt (least_squares, LD claret2017_atlas (Teff 3681 K, logg 4.34)).",
+     "Fitted planet radius: 22.33 +/- 360.00 R_Earth (1.992 R_Jup).",
+     "a/R* consistency: free-fit a/R* = 1.55 (b = 1.08) against 7.58 +/- 1.16 from the catalog density (0.012 vs 1.363 g/cc, ratio 0.01; profile delta chi2 31.9 with a/R* held in the catalog range, 6.1 after the red-noise beta = 2.29; tic_rho)",
+     "Fitted geometry is grazing (b + Rp/R* = 1.33 > 1).",
+     "Deepest planetary secondary at the fitted a/R* = 1.55: 35.2537 ppt (thermal 9.6175 ppt at T_day <= 2669 K, reflected 25.6361 ppt at A_g = 1); measured -15.1562 ppt.",
+     "Odd/even flag set by the transit-fit template comparison (2.0 sigma, 8/9 events), superseding the median-based test (3.5 sigma).",
+     "Centroid: in-transit centroid shift 0.005 px (0.1 arcsec, 6.5 sigma) over 6 sector(s) FLAGGED.",
+     "TRICERATOPS: FPP 0.2489, NFPP 1.26e-01.",
+     "Contamination: nearby star could produce the signal: 3 high-risk and 0 medium-risk neighbour(s) of 17 checked."
+    ],
+    "result": {
+     "depth_ppt": 12.414349236792521,
+     "duration_days": 0.29280564880777193,
+     "period_days": 2.457130267588264,
+     "snr": 14.56541794014036,
+     "n_sectors": 6,
+     "stellar_radius_rsun": 0.823455,
+     "estimated_radius_rearth": 22.328771360044552,
+     "depth_too_deep": false,
+     "depth_large": false,
+     "snr_absurd": false,
+     "snr_high": false,
+     "duration_fraction_high": true,
+     "odd_even_mismatch": false,
+     "secondary_eclipse_detected": false,
+     "secondary_is_planetary": false,
+     "single_sector_only": false,
+     "sector_depth_mismatch": false,
+     "near_rotation_harmonic": false,
+     "rotation_harmonic_ratio": 0.0,
+     "catalog_ok": true,
+     "odd_even_delta_sigma": 2.0080063683504807,
+     "secondary_depth_ppt": -15.156162054406064,
+     "duration_period_frac": 0.11916570019511752,
+     "implied_radius_rjup": 1.9920497485592243,
+     "v_shape_ratio": null,
+     "v_shape_flag": "none",
+     "fit_available": true,
+     "fit_rp_rs": 0.24859692508492182,
+     "fit_a_rs": 1.5526361738526915,
+     "fit_b": 1.0844037837272897,
+     "fit_rp_rearth": 22.328771360044552,
+     "fit_rp_rearth_err": 360.0011580701583,
+     "fit_duration_days": 0.46219560694789114,
+     "a_rs_star": 7.57948108210842,
+     "a_rs_ratio": 0.20484729192315462,
+     "density_ratio": 0.008595886667300994,
+     "density_dchi2": 31.921049556878643,
+     "a_rs_inconsistent": false,
+     "fit_grazing": true,
+     "secondary_planet_bound_ppt": 35.253658682218955,
+     "secondary_is_stellar": false,
+     "odd_even_fit_sigma": 2.0080063683504807,
+     "odd_even_fit_significant": false,
+     "fit_depth_sigma": 12.371506428370333,
+     "fit_no_dip": false,
+     "snr_high_demoted": false,
+     "hard_veto_flags": [],
+     "high_risk_flags": [
+      "in-transit centroid shift 0.005 px (0.1 arcsec, 6.5 sigma) over 6 sector(s) \u2014 signal may sit on a neighbour",
+      "TRICERATOPS nearby false-positive probability 0.126 >= 0.1",
+      "nearby star could produce the signal: 3 high-risk and 0 medium-risk neighbour(s) of 17 checked"
+     ],
+     "medium_flags": [
+      "high duration/period ratio (0.119)"
+     ],
+     "flags_hard": [],
+     "flags_high": [],
+     "flags_medium": [
+      "high duration/period ratio (0.119)"
+     ],
+     "notes": [
+      "Implied companion radius 0.89 R_Jup (depth 12.4 ppt, R_star = 0.82 R_Sun) is within the planet regime.",
+      "SNR 14.6 is within the expected range for a planet signal.",
+      "Duration/period = 0.119 exceeds 0.1 \u2014 may indicate a grazing EB, stellar variability, or a systematics artifact.",
+      "Odd depth 2.36 ppt, even depth 0.20 ppt, delta = 3.5\u03c3. FLAGGED \u2014 significant odd/even asymmetry. Primary interpretation: eclipsing binary at half the apparent period. Also consider: BLS period slightly off, or noisy in-transit cadences in one sector.",
+      "Secondary eclipse depth at phase 0.5: -15.16 ppt (3\u03c3 median-error threshold: 3.03 ppt over 332 cadences, red-noise inflation \u00d72).",
+      "V-shape check inconclusive \u2014 fitted depth 3.27 ppt is below 2\u00d7 the binned scatter (5.02 ppt).",
+      "Signal observed across 6 sector(s). Per-unit depths consistent (-2.35\u00b12.55 ppt, 0.92\u00b12.56 ppt, 2.78\u00b12.31 ppt, 1.35\u00b12.06 ppt; max 1.5\u03c3).",
+      "Stellar rotation period not supplied \u2014 rotation-harmonic check skipped.",
+      "Estimated planet radius: 10.01 R_Earth (0.89 R_Jup; R_star = 0.82 R_Sun, depth = 12.41 ppt).",
+      "Odd/even from the transit-fit template: odd 19.122 +/- 4.754 ppt (8 events), even 6.435 +/- 4.162 ppt (9 events), difference 2.0 sigma, 99% of the mean.",
+      "Transit fit: Rp/R* = 0.2486 +/- 4.0079, a/R* = 1.55 +/- 2.76, b = 1.08 +/- 4.83, T14 = 11.09 h, depth = 12.414 +/- 2.295 ppt (least_squares, LD claret2017_atlas (Teff 3681 K, logg 4.34)).",
+      "Fitted planet radius: 22.33 +/- 360.00 R_Earth (1.992 R_Jup).",
+      "a/R* consistency: free-fit a/R* = 1.55 (b = 1.08) against 7.58 +/- 1.16 from the catalog density (0.012 vs 1.363 g/cc, ratio 0.01; profile delta chi2 31.9 with a/R* held in the catalog range, 6.1 after the red-noise beta = 2.29; tic_rho)",
+      "Fitted geometry is grazing (b + Rp/R* = 1.33 > 1).",
+      "Deepest planetary secondary at the fitted a/R* = 1.55: 35.2537 ppt (thermal 9.6175 ppt at T_day <= 2669 K, reflected 25.6361 ppt at A_g = 1); measured -15.1562 ppt.",
+      "Odd/even flag set by the transit-fit template comparison (2.0 sigma, 8/9 events), superseding the median-based test (3.5 sigma).",
+      "Centroid: in-transit centroid shift 0.005 px (0.1 arcsec, 6.5 sigma) over 6 sector(s) FLAGGED.",
+      "TRICERATOPS: FPP 0.2489, NFPP 1.26e-01.",
+      "Contamination: nearby star could produce the signal: 3 high-risk and 0 medium-risk neighbour(s) of 17 checked."
+     ],
+     "verdict": "promising planet candidate",
+     "centroid_shift": null,
+     "contamination_fraction": null
+    },
+    "verdict_lc_only": "promising planet candidate"
+   }
+  ],
+  "provenance": {
+   "products": [
+    {
+     "unit": 42,
+     "author": "TESS-SPOC",
+     "n_cadences": 931,
+     "cadence_s": 1800.000000052387
+    },
+    {
+     "unit": 43,
+     "author": "TESS-SPOC",
+     "n_cadences": 961,
+     "cadence_s": 1800.000000052387
+    },
+    {
+     "unit": 58,
+     "author": "TESS-SPOC",
+     "n_cadences": 1115,
+     "cadence_s": 1800.000000052387
+    },
+    {
+     "unit": 70,
+     "author": "TESS-SPOC",
+     "n_cadences": 1024,
+     "cadence_s": 1800.000000052387
+    },
+    {
+     "unit": 71,
+     "author": "TESS-SPOC",
+     "n_cadences": 1041,
+     "cadence_s": 1800.000000052387
+    },
+    {
+     "unit": 85,
+     "author": "TESS-SPOC",
+     "n_cadences": 856,
+     "cadence_s": 1800.000000052387
+    }
+   ],
+   "units_used": [
+    42,
+    43,
+    58,
+    70,
+    71,
+    85
+   ],
+   "units_all": [
+    42,
+    43,
+    58,
+    70,
+    71,
+    85
+   ],
+   "fallback_events": [],
+   "n_products_downloaded": 12
+  },
+  "prep": {
+   "original_cadences": 1892,
+   "after_nan_removal": 1892,
+   "after_quality_mask": 1892,
+   "after_sigma_clip": 1890,
+   "normalised": true,
+   "flattened": true,
+   "flatten_window_length": 1.5208333333775954,
+   "sigma_clip_sigma": 4.0,
+   "effective_window_days": 1.5208333333775954,
+   "effective_window_cadences": 73,
+   "median_branch_segments": 26,
+   "flatten_error": null,
+   "quality_masked_cadences": 0,
+   "notes": [
+    "No quality column present; quality masking skipped",
+    "26 segment(s) were median-subtracted (shorter than the 73-cadence window)",
+    "Removed 2 cadences (0.1%)",
+    "Two-pass flatten: candidate at P=1.6388 d masked (80% of cadences) before the trend fit"
+   ],
+   "two_pass_flatten": true,
+   "two_pass_candidate": {
+    "period_days": 1.6388436265907709,
+    "epoch_btjd": 2448.8984611466994,
+    "duration_days": 0.29280564880777193,
+    "snr": 17.63713896553523,
+    "masked_fraction": 0.7959830866807611
+   },
+   "depth_remeasured": 1
+  },
+  "timings": {
+   "download": 0.0,
+   "preprocess": 0.07361459999810904,
+   "detect": 2.000075799995102,
+   "vet": 0.004260599991539493,
+   "remeasure": 0.6308265999978175
+  },
+  "n_cadences_raw": 1892,
+  "n_cadences_clean": 1890,
+  "n_sectors": 6,
+  "params": {
+   "period_min": 1.0,
+   "period_max": 25.24066157700736,
+   "duration_min": 0.045,
+   "duration_max": 0.5,
+   "max_planets": 3,
+   "bin_minutes": 30.0,
+   "top_n": 8,
+   "n_periods": null,
+   "snr_min": 5.0,
+   "snr_min_resolved": 5.0,
+   "min_event_completeness": 0.5,
+   "min_composite_score": 3.0,
+   "min_transits": 2,
+   "sigma_clip": 4.0,
+   "mask_width_factor": 7.0,
+   "artifact_periods": [],
+   "window_days": null,
+   "stellar_radius_rsun": 0.823455,
+   "is_known_toi": false,
+   "grid_cap": 40000,
+   "local_grid_cap": 1500
+  },
+  "notes": [
+   "Planet 1 at P=2.4571 d does not carve a gate-6 exclusion zone: Rp/R* 0.372 > 0.2",
+   "Detection stopped after planet 1: masking P=2.4571 d (width_factor=7) would remove 100% of cadences",
+   "Depth characterised for 1 planet(s) on an all-transits-masked, unbinned flatten (81% of cadences held out of the trend fit): 1 from the limb-darkened transit fit, 0 from the local flat-bottom estimator, the rest from the BLS box"
+  ],
+  "report_path": null,
+  "crossmatch": {
+   "status": "CLEAN",
+   "summary": "CLEAN: TIC 246937997 absent from all sources (neighbours checked)",
+   "catalog_versions": "ctoi=2026-09-03:f6964541;nasa_ps=2026-09-03:85f3c196;nasa_pscomppars=2026-09-03:4843e49c;spoc_tce=2026-09-03:e580dde7;tess_eb=2026-09-03:43555226;toi=2026-09-03:4704bb7c",
+   "hard_stop": {
+    "tic_id": 246937997,
+    "status": "CLEAN",
+    "tic_matches": [],
+    "neighbour_matches": [],
+    "catalog_stamp": "ctoi=2026-09-03:f6964541;nasa_ps=2026-09-03:85f3c196;nasa_pscomppars=2026-09-03:4843e49c;spoc_tce=2026-09-03:e580dde7;tess_eb=2026-09-03:43555226;toi=2026-09-03:4704bb7c",
+    "neighbours_resolved": true,
+    "rejected": false,
+    "flagged": false,
+    "summary": "CLEAN: TIC 246937997 absent from all sources (neighbours checked)",
+    "checked_utc": "2026-09-03T07:46:27Z"
+   }
+  },
+  "survey_candidate": {
+   "rank": "27",
+   "score": "3.0411",
+   "stitch_snr": "22.76176713425142",
+   "stitch_n_transits": "53.0",
+   "search": "chunk0",
+   "snr": "14.56541794014036",
+   "verdict": "promising planet candidate",
+   "s_snr": "0.5411",
+   "s_ntr": "1.0",
+   "s_fpp": "0.5",
+   "s_rho": "1.0"
+  }
+ },
+ "planet_num": 1,
+ "centroid": {
+  "available": true,
+  "n_sectors_requested": 6,
+  "n_sectors_with_pixels": 6,
+  "n_sectors_used": 6,
+  "sectors_used": [
+   42,
+   43,
+   58,
+   70,
+   71,
+   85
+  ],
+  "sources": {
+   "SPOC": 0,
+   "TESS-SPOC": 6,
+   "TESScut": 0
+  },
+  "per_sector": [
+   {
+    "sector": 42,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": 0.0008622614070645795,
+    "row_shift_px": 0.009142175907101091,
+    "total_shift_px": 0.009182748774222926,
+    "shift_err_px": 0.004092387724513586,
+    "sigma": 2.243860893047316,
+    "n_in": 652,
+    "n_out": 2087,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = +0.001 px, \u0394row = +0.009 px, total = 0.009 px (0.2 arcsec), significance = 2.2\u03c3  (652 in-transit, 2087 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 43,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": 0.0006685371480443791,
+    "row_shift_px": 0.006109897015903698,
+    "total_shift_px": 0.006146363434036766,
+    "shift_err_px": 0.001966380827422506,
+    "sigma": 3.1257238416493816,
+    "n_in": 659,
+    "n_out": 2063,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = +0.001 px, \u0394row = +0.006 px, total = 0.006 px (0.1 arcsec), significance = 3.1\u03c3  (659 in-transit, 2063 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 58,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": 0.00046461084059501445,
+    "row_shift_px": 0.005658460785625152,
+    "total_shift_px": 0.005677503121589281,
+    "shift_err_px": 0.0019387137518163849,
+    "sigma": 2.928489631989259,
+    "n_in": 2311,
+    "n_out": 7060,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = +0.000 px, \u0394row = +0.006 px, total = 0.006 px (0.1 arcsec), significance = 2.9\u03c3  (2311 in-transit, 7060 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 70,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": -0.009696247562260396,
+    "row_shift_px": 0.0014215361845799634,
+    "total_shift_px": 0.0097998970358219,
+    "shift_err_px": 0.0015461758211453196,
+    "sigma": 6.338151781834675,
+    "n_in": 1902,
+    "n_out": 6814,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = -0.010 px, \u0394row = +0.001 px, total = 0.010 px (0.2 arcsec), significance = 6.3\u03c3  (1902 in-transit, 6814 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 71,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": -0.0001794114214135334,
+    "row_shift_px": 0.010120770450384953,
+    "total_shift_px": 0.010122360543248736,
+    "shift_err_px": 0.0014407301138378951,
+    "sigma": 7.025854770456794,
+    "n_in": 2185,
+    "n_out": 6621,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = -0.000 px, \u0394row = +0.010 px, total = 0.010 px (0.2 arcsec), significance = 7.0\u03c3  (2185 in-transit, 6621 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 85,
+    "source": "TESS-SPOC",
+    "available": true,
+    "col_shift_px": 0.006127311672457836,
+    "row_shift_px": -0.005141611288635772,
+    "total_shift_px": 0.007998757089377376,
+    "shift_err_px": 0.0022283984736332445,
+    "sigma": 3.5894644445416324,
+    "n_in": 1905,
+    "n_out": 6599,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = +0.006 px, \u0394row = -0.005 px, total = 0.008 px (0.2 arcsec), significance = 3.6\u03c3  (1905 in-transit, 6599 OOT cadences, 1 px = 21 arcsec)."
+   }
+  ],
+  "log": [
+   "pixel plan: 6 pipeline TPF sector(s) ([42, 43, 58, 70, 71, 85]), 6 TESScut sector(s); plan took 12 s"
+  ],
+  "seconds": 25.0,
+  "pixel_scale_arcsec": 21.0,
+  "method": "P0 in/out-of-transit median centroid per TPF, inverse-variance combined over sectors",
+  "col_shift_px": -0.0015187894357069473,
+  "row_shift_px": 0.004784915122809549,
+  "total_shift_px": 0.005020172714409988,
+  "shift_arcsec": 0.10542362700260974,
+  "shift_err_px": 0.0007701826277530469,
+  "sigma": 6.518158854161622,
+  "n_in_transit": 9614,
+  "n_out_transit": 31244,
+  "flagged": true,
+  "n_sectors_flagged_individually": 4,
+  "note": "Centroid shift (weighted over 6 sectors): dcol = -0.002 px, drow = +0.005 px, total = 0.005 px (0.1 arcsec), significance = 6.5 sigma; 4 of 6 sectors flagged on their own."
+ },
+ "contamination": {
+  "available": true,
+  "search_radius_arcsec": 126.0,
+  "aperture_radius_px": 1.5436666666666667,
+  "n_neighbours_checked": 17,
+  "n_ruled_out": 12,
+  "flagged": true,
+  "note": "17 neighbour(s) checked within 126 arcsec (\u03c3_PRF = 1.5 px = 32 arcsec; aperture radius \u2248 1.5 px from Tmag 11.7).\n  12 star(s) ruled out \u2014 insufficient PRF leakage into the aperture to produce the 12.41 ppt signal at their separation.\n    TIC 620277660  sep=66.6\" (3.2 px)  \u0394Tmag=+7.0  leakage=55%  corrected depth=13561 ppt (> 1000 ppt threshold \u2192 not viable)\n    TIC 620277656  sep=71.8\" (3.4 px)  \u0394Tmag=+7.7  leakage=46%  corrected depth=32372 ppt (> 1000 ppt threshold \u2192 not viable)\n    TIC 620277653  sep=75.6\" (3.6 px)  \u0394Tmag=+7.3  leakage=39%  corrected depth=26415 ppt (> 1000 ppt threshold \u2192 not viable)\n  3 HIGH-RISK neighbour(s) [FLAGGED]:\n    TIC 246938000  sep=39.9\" (1.9 px)  Tmag=15.9 (\u0394+4.1)  leakage=97%  corrected undiluted depth = 582 ppt\n    TIC 246938003  sep=56.5\" (2.7 px)  Tmag=15.5 (\u0394+3.8)  leakage=75%  corrected undiluted depth = 550 ppt\n    TIC 246937996  sep=59.4\" (2.8 px)  Tmag=14.0 (\u0394+2.3)  leakage=69%  corrected undiluted depth = 160 ppt\n  2 INFO neighbour(s) [noted]:\n    TIC 620277658  sep=14.4\" (0.7 px)  Tmag=18.2 (\u0394+6.5)  leakage=1e+02%  corrected undiluted depth = 4891 ppt\n    TIC 620277657  sep=17.1\" (0.8 px)  Tmag=18.5 (\u0394+6.7)  leakage=1e+02%  corrected undiluted depth = 6170 ppt"
+ },
+ "fpp": {
+  "available": true,
+  "fpp": 0.24885871539706717,
+  "nfpp": 0.12555844557904342,
+  "tic_id": 246937997,
+  "sectors": [
+   42,
+   43,
+   58
+  ],
+  "n_stars": 43,
+  "n_scenarios": 18,
+  "aperture_source": "circular_from_tmag",
+  "aperture_radius_px": 1.5436666666666667,
+  "depth_frac_used": 0.012414349236792521,
+  "period_used": 2.457130267588264,
+  "n_points_used": 107,
+  "window_days": 2.1975590858750733,
+  "top_scenarios": [
+   {
+    "scenario": "TP",
+    "ID": 246937997,
+    "prob": 0.6378025159092529
+   },
+   {
+    "scenario": "PTP",
+    "ID": 246937997,
+    "prob": 0.11244307148534383
+   },
+   {
+    "scenario": "NTP",
+    "ID": 620277659,
+    "prob": 0.08065380654330602
+   },
+   {
+    "scenario": "STP",
+    "ID": 246937997,
+    "prob": 0.05434993169326453
+   },
+   {
+    "scenario": "NEB",
+    "ID": 620277659,
+    "prob": 0.037791510523244996
+   },
+   {
+    "scenario": "EBx2P",
+    "ID": 246937997,
+    "prob": 0.02762870372571547
+   },
+   {
+    "scenario": "SEB",
+    "ID": 246937997,
+    "prob": 0.02389740975392264
+   },
+   {
+    "scenario": "NEBx2P",
+    "ID": 620277659,
+    "prob": 0.007113128512492406
+   }
+  ],
+  "scenario_totals": {
+   "TP": 0.6378025159092529,
+   "PTP": 0.11244307148534383,
+   "NTP": 0.08065380654330602,
+   "STP": 0.05434993169326453,
+   "NEB": 0.037791510523244996,
+   "EBx2P": 0.02762870372571547,
+   "SEB": 0.02389740975392264,
+   "NEBx2P": 0.007113128512492406,
+   "PEBx2P": 0.006788169972624709,
+   "SEBx2P": 0.006648597229464144,
+   "EB": 0.00143175510249019,
+   "PEB": 0.001061663226488366,
+   "DTP": 0.0008956972083361452,
+   "BTP": 0.0006840859712554206,
+   "BEB": 0.000583305494452711,
+   "BEBx2P": 0.00018465035022641497,
+   "DEBx2P": 4.007181676820057e-05,
+   "DEB": 1.925481356648124e-06
+  },
+  "probs_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic246937997\\P2.4571_58b7a0f187\\probs.csv",
+  "stars_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic246937997\\P2.4571_58b7a0f187\\stars.csv",
+  "result_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\tic246937997\\P2.4571_58b7a0f187\\result.json",
+  "settings": {
+   "n_draws": 100000,
+   "nsamples": 20,
+   "search_radius_px": 10,
+   "flatpriors": false,
+   "drop_scenario": [],
+   "seed": 20260902,
+   "aperture": "auto",
+   "exp_time_days": 0.020833333333333332,
+   "window_durations": 3.0,
+   "mission": "TESS",
+   "red_noise_beta": 1.0,
+   "fold_mode": "binned",
+   "bins_per_duration": 25,
+   "bin_width_days": 0.020833333333333332,
+   "fold_mode_used": "binned",
+   "n_cadences_folded": 1703,
+   "flux_err_used": 0.008840319406347196,
+   "gaia_background": "Gaia background queried",
+   "gaia_background_file": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\cache\\fpp\\gaia_background\\246937997_gaia_background.csv"
+  },
+  "versions": {
+   "triceratops": "1.1.0",
+   "pytransit": "2.9.1",
+   "lightkurve": "2.6.0",
+   "astroquery": "0.4.11"
+  },
+  "seconds": 127.68515389999084,
+  "cached": false,
+  "note": "TRICERATOPS 1.1.0: FPP 0.2489, NFPP 0.1256 over 18 scenarios and 43 TIC stars within 10 px; aperture circular_from_tmag; 100000 draws; fold binned (107 points, error 8840 ppm); sectors [42, 43, 58].",
+  "error": ""
+ },
+ "crossmatch": {
+  "tic_id": 246937997,
+  "status": "CLEAN",
+  "tic_matches": [],
+  "neighbour_matches": [],
+  "catalog_stamp": "ctoi=2026-09-03:f6964541;nasa_ps=2026-09-03:85f3c196;nasa_pscomppars=2026-09-03:4843e49c;spoc_tce=2026-09-03:e580dde7;tess_eb=2026-09-03:43555226;toi=2026-09-03:4704bb7c",
+  "neighbours_resolved": true,
+  "rejected": false,
+  "flagged": false,
+  "summary": "CLEAN: TIC 246937997 absent from all sources (neighbours checked)",
+  "checked_utc": "2026-09-03T07:46:27Z"
+ },
+ "packet": {
+  "label": "TIC 246937997",
+  "tic_id": 246937997,
+  "planet_num": 1,
+  "period_days": 2.457130267588264,
+  "verdict": "likely false positive",
+  "fpp": 0.24885871539706717,
+  "nfpp": 0.12555844557904342,
+  "fpp_blocks_packet": false,
+  "completeness": {
+   "available": true,
+   "snr": 14.13364533196936,
+   "source": "data\\survey\\completeness_v1.json",
+   "logistic_recovery": 0.25750585926998404,
+   "snr50": 26.493347630126138,
+   "snr90": 97.57338917328404,
+   "bin": {
+    "lo": 12,
+    "hi": 20,
+    "n": 207,
+    "k": 77,
+    "frac": 0.3719806763285024
+   },
+   "config": "survey_v1",
+   "n_injections": 2100,
+   "sample_size_stars": 300,
+   "generated_utc": "2026-09-02T06:10:33Z",
+   "note": "Curve measured in P2 with batman injections into the survey preset (survey_v1: FFI stitches binned to 30 min, periods 1-40 d, Rp/R* 0.01-0.12); the matched-filter SNR here is computed on this candidate's own detrended data with the same definition. Outside that regime the number is an extrapolation.",
+   "matched_filter": {
+    "available": true,
+    "snr": 14.13364533196936,
+    "sigma_bin": 0.009586987211442027,
+    "n_in_bins": 298,
+    "bin_minutes": 30.0
+   }
+  },
+  "files": {
+   "packet_md": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\packet.md",
+   "summary_png": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\summary.png",
+   "ctoi_fields_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\ctoi_fields.json",
+   "fit_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\fit.json",
+   "fpp_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\fpp.json",
+   "vetting_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\vetting.json",
+   "neighbours_csv": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571\\neighbours.csv"
+  },
+  "generated_utc": "2026-09-03T07:49:04Z"
+ },
+ "job": {
+  "tic_id": 246937997,
+  "period_days": 2.457130267588264,
+  "planet_num": "4",
+  "rank": "27",
+  "score": "3.0411",
+  "stitch_snr": "22.76176713425142",
+  "stitch_n_transits": "53.0",
+  "search": "chunk0",
+  "snr": "14.56541794014036",
+  "verdict": "promising planet candidate",
+  "s_snr": "0.5411",
+  "s_ntr": "1.0",
+  "s_fpp": "0.5",
+  "s_rho": "1.0",
+  "target": {
+   "tic_id": "246937997",
+   "ra_deg": "34.391183",
+   "dec_deg": "21.947329",
+   "tmag": "11.738",
+   "teff_k": "3681.0",
+   "radius_rsun": "0.823",
+   "mass_msun": "0.54",
+   "contamination_ratio": "0.1303",
+   "contamination_ratio_missing": "False",
+   "contamination_ratio_used": "0.1303",
+   "contamination_policy": "measured",
+   "galactic_lat_deg": "-36.69",
+   "n_sectors_predicted": "6",
+   "sectors_predicted": "42,43,58,70,71,85",
+   "n_sectors_with_lc": "6",
+   "sectors_qlp": "42,43,58,70,71,85",
+   "sectors_tess_spoc": "42,43,58,70,71,85",
+   "lc_products_available": "qlp;tess-spoc",
+   "crossmatch_status": "CLEAN",
+   "nearest_known_object_sep_arcsec": "",
+   "expected_new_signals_mid": "5.04e-03",
+   "class_A_detectable": "1.50e-03",
+   "class_B_detectable": "1.03e-02",
+   "class_C_detectable": "5.85e-03",
+   "tile": "149",
+   "stratum": "3_multisector_stitch_bright_dwarfs_p_le_100d",
+   "occurrence_model": "fgk=km2020;m=dc15_grid",
+   "catalog_versions": "ctoi=2026-09-01:f6964541;nasa_ps=2026-09-01:85f3c196;nasa_pscomppars=2026-09-01:4843e49c;spoc_tce=2026-09-01:e580dde7;tess_eb=2026-09-01:43555226;toi=2026-09-01:5f54a285"
+  },
+  "packet_dir": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic246937997_P2.4571",
+  "n_draws": 100000,
+  "max_centroid_sectors": 40,
+  "no_fpp": false,
+  "no_centroid": false,
+  "key": "tic246937997_P2.4571",
+  "crossmatch_prev": {
+   "tic_id": 246937997,
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "catalog_stamp": "ctoi=2026-09-03:f6964541;nasa_ps=2026-09-03:85f3c196;nasa_pscomppars=2026-09-03:4843e49c;spoc_tce=2026-09-03:e580dde7;tess_eb=2026-09-03:43555226;toi=2026-09-03:4704bb7c",
+   "neighbours_resolved": true,
+   "rejected": false,
+   "flagged": false,
+   "summary": "CLEAN: TIC 246937997 absent from all sources (neighbours checked)",
+   "checked_utc": "2026-09-03T06:07:05Z"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "label": "TIC 21124154",
+ "tic_id": 21124154,
+ "planet_num": 1,
+ "period_days": 89.22844534536465,
+ "verdict": "likely false positive",
+ "fpp": 0.14312861781217334,
+ "nfpp": 0.14309900433231426,
+ "fpp_blocks_packet": false,
+ "completeness": {
+  "available": true,
+  "snr": 21.99413080710329,
+  "source": "data\\survey\\completeness_v1.json",
+  "logistic_recovery": 0.42221768217627803,
+  "snr50": 26.493347630126138,
+  "snr90": 97.57338917328404,
+  "bin": {
+   "lo": 20,
+   "hi": 50,
+   "n": 368,
+   "k": 237,
+   "frac": 0.6440217391304348
+  },
+  "config": "survey_v1",
+  "n_injections": 2100,
+  "sample_size_stars": 300,
+  "generated_utc": "2026-09-02T06:10:33Z",
+  "note": "Curve measured in P2 with batman injections into the survey preset (survey_v1: FFI stitches binned to 30 min, periods 1-40 d, Rp/R* 0.01-0.12); the matched-filter SNR here is computed on this candidate's own detrended data with the same definition. Outside that regime the number is an extrapolation.",
+  "matched_filter": {
+   "available": true,
+   "snr": 21.99413080710329,
+   "sigma_bin": 0.0006486634200937096,
+   "n_in_bins": 365,
+   "bin_minutes": 30.0
+  }
+ },
+ "files": {
+  "packet_md": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\packet.md",
+  "summary_png": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\summary.png",
+  "ctoi_fields_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\ctoi_fields.json",
+  "fit_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\fit.json",
+  "fpp_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\fpp.json",
+  "vetting_json": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\vetting.json",
+  "neighbours_csv": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\docs\\packets\\survey_v1\\tic21124154_P89.2278\\neighbours.csv"
+ },
+ "generated_utc": "2026-09-03T07:46:22Z"
+}

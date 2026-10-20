@@ -1,0 +1,109 @@
+{
+ "tic_id": 212261364,
+ "survey_period": 8.953781892201565,
+ "generated_utc": "2026-09-03T17:36:16Z",
+ "rules_version": "p6.2",
+ "lc_npz": "data\\survey\\p6\\tls\\tic212261364_P8.9538_lc.npz",
+ "products": [
+  {
+   "sector": 1,
+   "author": "TESS-SPOC",
+   "cadence_s": 1800.0
+  },
+  {
+   "sector": 27,
+   "author": "TESS-SPOC",
+   "cadence_s": 600.0
+  },
+  {
+   "sector": 67,
+   "author": "TESS-SPOC",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 92,
+   "author": "QLP",
+   "cadence_s": 200.0
+  },
+  {
+   "sector": 95,
+   "author": "QLP",
+   "cadence_s": 200.0
+  }
+ ],
+ "n_unbinned": 29869,
+ "n_binned": 5124,
+ "bin_minutes": 30.0,
+ "wotan": {
+  "method": "biweight",
+  "window_days": 0.75,
+  "break_tolerance": 0.5,
+  "edge_cutoff": 0.0
+ },
+ "quality_bitmask": "default(17087)",
+ "upward_clip_sigma": 4.0,
+ "R_star": 0.49919,
+ "M_star": 0.497255,
+ "expected_t14_hours_b0": 2.49,
+ "baseline_days": 2580.69963091446,
+ "mask_btjd_ranges": [],
+ "n_unbinned_masked": 0,
+ "n_isolated_clipped": 0,
+ "n_isolated_bins_clipped": 0,
+ "deep_clip_threshold_ppt": 22.13,
+ "n_deep_clipped": 18,
+ "reference_depth_ppt": 7.376,
+ "per_product": [
+  {
+   "sector": 1,
+   "author": "TESS-SPOC",
+   "n_used": 1130,
+   "n_masked_quality": 142,
+   "n_clipped_up": 10,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.12,
+   "dropped": false
+  },
+  {
+   "sector": 27,
+   "author": "TESS-SPOC",
+   "n_used": 3350,
+   "n_masked_quality": 10,
+   "n_clipped_up": 0,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 1.479,
+   "dropped": false
+  },
+  {
+   "sector": 67,
+   "author": "TESS-SPOC",
+   "n_used": 8093,
+   "n_masked_quality": 3622,
+   "n_clipped_up": 4,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.607,
+   "dropped": false
+  },
+  {
+   "sector": 92,
+   "author": "QLP",
+   "n_used": 9337,
+   "n_masked_quality": 1915,
+   "n_clipped_up": 1,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.918,
+   "dropped": false
+  },
+  {
+   "sector": 95,
+   "author": "QLP",
+   "n_used": 7959,
+   "n_masked_quality": 2386,
+   "n_clipped_up": 281,
+   "n_isolated_clipped": 0,
+   "scatter_ppt": 2.323,
+   "dropped": false
+  }
+ ],
+ "seconds": 1.8
+}

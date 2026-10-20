@@ -1,0 +1,167 @@
+{
+ "form_fields": {
+  "target": "TIC 154566869",
+  "tic_id": 154566869,
+  "discovery_source": "TESS",
+  "period_days": 8.885255331734069,
+  "period_err_days": 0.00021221664437999857,
+  "epoch_bjd": 2459942.360624076,
+  "epoch_err_days": 0.007362511814997891,
+  "depth_ppm": 2714.0,
+  "depth_err_ppm": 1008.0,
+  "duration_hours": 3.83,
+  "duration_err_hours": 4.443,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "Local P8 audit verdict: HOLD. Source unresolved. Target-aperture dimming varies across sectors and is mixed with background changes; the difference images do not isolate a unique eclipsing source. FPP is 0.988154 and NFPP is 0.918773 [M], so the current evidence does not support a planet interpretation. The density prior is rejected and transit geometry remains poorly constrained."
+ },
+ "supplementary": {
+  "rp_rs": 0.04842415733602351,
+  "rp_rs_err": 0.010408094392254494,
+  "rp_rearth": 1.505,
+  "rp_rearth_err": 0.357,
+  "a_rs": 18.455237320708576,
+  "a_rs_err": 26.284227823713017,
+  "impact_parameter": 0.12354053520045669,
+  "impact_parameter_err": 11.311903899078684,
+  "inclination_deg": 89.61645553465948,
+  "depth_duration_averaged_ppm": 2367.0,
+  "density_prior_adopted": false,
+  "delta_chi2_prior_minus_free": 21.367661308159313,
+  "beta_red_noise": 1.48,
+  "n_transits_in_fit": 6,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.04951487131586243,
+    "rp_rs_err": 0.00600169704600371,
+    "depth_ppt": 2.452,
+    "n_transits": 2
+   },
+   "even": {
+    "rp_rs": 0.04796180078856591,
+    "rp_rs_err": 0.00399826850785474,
+    "depth_ppt": 2.3,
+    "n_transits": 4
+   },
+   "sigma": 0.21
+  },
+  "tls_blind": {
+   "period": 8.885036320383568,
+   "SDE": 13.737098242644013,
+   "snr": 4.065694215741204,
+   "distinct_transit_count": 6
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 8,
+   "n_excluded": 3,
+   "n_kept": 5
+  },
+  "det_kept": {
+   "n": 5,
+   "weighted_mean_depth_ppt": 2.234,
+   "err_ppt": 0.251,
+   "snr": 8.9,
+   "chi2_const": 11.5,
+   "dof": 4,
+   "p_const": 0.151865467107223,
+   "top_event_n": 46,
+   "top_event_share_of_snr2": 0.31,
+   "snr_without_top_event": 7.35,
+   "n_events_depth_above_2sigma": 5,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 2.199,
+    "odd_err": 0.448,
+    "even_ppt": 2.25,
+    "even_err": 0.303,
+    "sigma": 0.09
+   },
+   "p_const_white": 0.02116803970495944,
+   "chi2_const_white": 11.5,
+   "snr_white": 8.9,
+   "beta_median": 1.308,
+   "beta_min": 1.288,
+   "beta_max": 1.42,
+   "weighted_mean_depth_ppt_inflated": 2.269,
+   "err_ppt_inflated": 0.34,
+   "snr_inflated": 6.68,
+   "chi2_const_inflated": 6.7,
+   "p_const_inflated": 0.151865467107223
+  },
+  "sap_kept": {
+   "n": 5,
+   "weighted_mean_depth_ppt": 1.146,
+   "err_ppt": 0.223,
+   "snr": 5.13,
+   "chi2_const": 10.2,
+   "dof": 4,
+   "p_const": 0.21634215454561015,
+   "top_event_n": 47,
+   "top_event_share_of_snr2": 0.41,
+   "snr_without_top_event": 4.13,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 1.202,
+    "odd_err": 0.396,
+    "even_ppt": 1.12,
+    "even_err": 0.271,
+    "sigma": 0.17
+   },
+   "p_const_white": 0.037384252966129024,
+   "chi2_const_white": 10.2,
+   "snr_white": 5.13,
+   "beta_median": 1.308,
+   "beta_min": 1.288,
+   "beta_max": 1.42,
+   "weighted_mean_depth_ppt_inflated": 1.16,
+   "err_ppt_inflated": 0.302,
+   "snr_inflated": 3.84,
+   "chi2_const_inflated": 5.8,
+   "p_const_inflated": 0.21634215454561015
+  },
+  "stellar": {
+   "radius": 0.285,
+   "radius_err": 0.028499999999999998,
+   "mass": 0.26,
+   "rho_cgs": 15.81398864967899,
+   "rho_err": 4.744196594903697,
+   "a_rs_catalog": 40.41111181484104
+  },
+  "limb_darkening": {
+   "u1": 0.20536,
+   "u2": 0.41464,
+   "source": "survey Claret interpolation at TIC Teff 3317 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T21:08:37Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\tls\\tic154566869_P8.9053.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\events\\tic154566869_P8.9053_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\neighbours\\tic154566869.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\fit\\tic154566869_P8.9053.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "review_status": {
+  "verdict": "HOLD",
+  "final_verdict_stamped": true,
+  "reason": "Source unresolved. Target-aperture dimming varies across sectors and is mixed with background changes; the difference images do not isolate a unique eclipsing source. FPP is 0.988154 and NFPP is 0.918773 [M], so the current evidence does not support a planet interpretation. The density prior is rejected and transit geometry remains poorly constrained.",
+  "external_submission_performed": false
+ }
+}

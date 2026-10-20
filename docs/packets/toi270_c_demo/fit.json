@@ -1,0 +1,141 @@
+{
+ "success": true,
+ "method": "least_squares",
+ "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+ "period": 5.66020136392659,
+ "period_err": 6.0181819692127784e-05,
+ "t0": 1389.5023201974159,
+ "t0_err": 0.0005003338476012025,
+ "rp_rs": 0.05888010590792647,
+ "rp_rs_err": 0.0015395593638319405,
+ "a_rs": 26.756522899491507,
+ "a_rs_err": 3.681297686536548,
+ "b": 0.29828583021949323,
+ "b_err": 0.41895414482751775,
+ "inc_deg": 89.3612446112843,
+ "f0": 1.0000709155599454,
+ "f0_err": 3.096650078590857e-05,
+ "u1": 0.27203943918400003,
+ "u2": 0.373449595792,
+ "ld_source": "claret2017_atlas (Teff 3532 K, logg 4.85)",
+ "period_fitted": true,
+ "density_prior_adopted": true,
+ "free_rp_rs": 0.05838872672568136,
+ "free_a_rs": 28.002549523448423,
+ "free_b": 1.372173994359156e-06,
+ "free_chi2": 2357.5545566717965,
+ "duration_days": 0.06843476168551456,
+ "duration_err": 0.008145961491323237,
+ "t23_days": 0.060119603798550164,
+ "depth_ppt": 4.037552303472691,
+ "depth_err": 0.09053678518547645,
+ "depth_err_shape": 0.215327494141739,
+ "depth_mean_ppt": 3.408278674710719,
+ "rp_rearth": 2.404279227075518,
+ "rp_rearth_err": 0.09696883800404435,
+ "rp_rjup": 0.21449652345548478,
+ "rp_rjup_err": 0.008651024557029246,
+ "rho_star_fit_cgs": 12.965459890413571,
+ "rho_star_fit_err": 5.834456950686107,
+ "rho_star_cat_cgs": 9.735091924247293,
+ "rho_star_cat_err": 0.34589289044247185,
+ "rho_source": "tic_rho",
+ "a_rs_star": 25.45159189395657,
+ "a_rs_star_err": 0.30143610884097205,
+ "a_rs_ratio": 1.1002278222957664,
+ "density_ratio": 1.3318271662253511,
+ "density_sigma": 1.8589077535002188,
+ "density_dchi2": 0.16329487357688777,
+ "density_dchi2_eff": 0.08674994633245174,
+ "beta_red_noise": 1.3719922811668388,
+ "depth_err_white": 0.06598928173887217,
+ "a_rs_inconsistent": false,
+ "a_rs_direction": "high",
+ "consistency_note": "free-fit a/R* = 28.00 (b = 0.00) against 25.45 +/- 0.30 from the catalog density (12.965 vs 9.735 g/cc, ratio 1.33; profile delta chi2 0.2 with a/R* held in the catalog range, 0.1 after the red-noise beta = 1.37; tic_rho); catalog density adopted as a prior for the reported parameters",
+ "grazing": false,
+ "rp_rs_constrained": true,
+ "n_points": 2442,
+ "n_in_transit": 539,
+ "n_transits": 11,
+ "chi2": 2357.7178515453734,
+ "chi2_flat": 5330.6958319911955,
+ "reduced_chi2": 0.9678644710777394,
+ "delta_bic": 2933.975117172469,
+ "sigma_used": 0.0013457338681489035,
+ "exp_time_days": 0.0013888885621327063,
+ "supersample": 1,
+ "window_durations": 3.0,
+ "odd_even": {
+  "available": true,
+  "per_event": [
+   {
+    "index": 0,
+    "depth_ppt": 4.1135995160511145,
+    "depth_err": 0.21664974376833726
+   },
+   {
+    "index": 2,
+    "depth_ppt": 3.70373284459232,
+    "depth_err": 0.21477095379902428
+   },
+   {
+    "index": 4,
+    "depth_ppt": 4.9553876869886375,
+    "depth_err": 0.21737104060791299
+   },
+   {
+    "index": 5,
+    "depth_ppt": 3.2739929601387225,
+    "depth_err": 0.21747836897215528
+   },
+   {
+    "index": 7,
+    "depth_ppt": 4.278308682269321,
+    "depth_err": 0.21714232668508396
+   },
+   {
+    "index": 8,
+    "depth_ppt": 3.9271875131171314,
+    "depth_err": 0.2168971447957789
+   },
+   {
+    "index": 9,
+    "depth_ppt": 4.536016992848413,
+    "depth_err": 0.22105481238068594
+   },
+   {
+    "index": 10,
+    "depth_ppt": 3.769958222689141,
+    "depth_err": 0.2209970529064758
+   },
+   {
+    "index": 11,
+    "depth_ppt": 3.700800127315327,
+    "depth_err": 0.2240208270695898
+   },
+   {
+    "index": 12,
+    "depth_ppt": 4.28516269412395,
+    "depth_err": 0.22085168686704812
+   },
+   {
+    "index": 13,
+    "depth_ppt": 3.874336650646093,
+    "depth_err": 0.22076360946191942
+   }
+  ],
+  "depth_odd_ppt": 3.9320311095324727,
+  "depth_odd_err": 0.22073916174795227,
+  "depth_odd_err_white": 0.0984084785715677,
+  "n_odd": 5,
+  "depth_even_ppt": 4.12506227973177,
+  "depth_even_err": 0.18779173001753252,
+  "depth_even_err_white": 0.08895223097190462,
+  "n_even": 6,
+  "delta_sigma": 0.6660544670395528,
+  "delta_fraction": 0.047915832887453845,
+  "significant": false,
+  "note": "odd 3.932 +/- 0.221 ppt (5 events), even 4.125 +/- 0.188 ppt (6 events), difference 0.7 sigma, 5% of the mean"
+ },
+ "notes": []
+}

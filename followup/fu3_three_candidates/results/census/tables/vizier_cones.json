@@ -1,0 +1,2378 @@
+{
+ "script": "c04_vizier",
+ "utc": "2026-10-18T21:57:31Z",
+ "radius_arcsec": 60,
+ "catalogues": [
+  [
+   "J/ApJS/258/16",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "Prsa+2022 TESS EBs S1-26 (2-min), TIC positions"
+  ],
+  [
+   "J/ApJ/912/123",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "Justesen & Albrecht 2021 TESS (FFI) EB orbital parameters"
+  ],
+  [
+   "J/ApJS/259/50",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "Shi+2022 EA-type EBs observed by TESS"
+  ],
+  [
+   "J/AJ/170/356",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "Tang+2025 TESS catalog of eccentric EBs"
+  ],
+  [
+   "J/ApJS/279/50",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "Kostov+2025 TESS EBs from FFIs (TESS Ten Thousand)"
+  ],
+  [
+   "J/MNRAS/511/4285",
+   "tess_eb",
+   "tess21",
+   2015.5,
+   "Battley+2022 CDIPS Year-1 EB candidates"
+  ],
+  [
+   "J/A+A/652/A120",
+   "tess_eb",
+   "tess21",
+   2000.0,
+   "IJspeert+2021 OBA-type EBs from TESS"
+  ],
+  [
+   "J/ApJS/254/39",
+   "toi",
+   "tess21",
+   2000.0,
+   "Guerrero+2021 TOI catalogue (S1-26 snapshot)"
+  ],
+  [
+   "B/vsx",
+   "variable",
+   "var",
+   2000.0,
+   "AAVSO VSX (VizieR live copy)"
+  ],
+  [
+   "II/366",
+   "variable",
+   "var",
+   2015.5,
+   "ASAS-SN variable stars (catv2021)"
+  ],
+  [
+   "J/AJ/156/241",
+   "variable",
+   "var",
+   2017.0,
+   "ATLAS variables (Heinze+2018)"
+  ],
+  [
+   "J/ApJS/249/18",
+   "variable",
+   "var",
+   2018.5,
+   "ZTF periodic variables (Chen+2020)"
+  ],
+  [
+   "J/ApJS/237/28",
+   "variable",
+   "var",
+   2010.5,
+   "WISE periodic variables (Chen+2018)"
+  ],
+  [
+   "J/ApJS/213/9",
+   "variable",
+   "var",
+   2008.0,
+   "Catalina CSS periodic variables (Drake+2014)"
+  ],
+  [
+   "J/MNRAS/469/3688",
+   "variable",
+   "var",
+   2008.0,
+   "Catalina CSS/SSS periodic variables (Drake+2017)"
+  ],
+  [
+   "V/164",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "LAMOST DR5 (Luo+2019)"
+  ],
+  [
+   "V/162",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "LAMOST DR11 (Luo+2026)"
+  ],
+  [
+   "J/ApJS/282/29",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "LAMOST DR11 low-resolution M-type star catalogue"
+  ],
+  [
+   "J/MNRAS/506/150",
+   "spectro",
+   "gaia2",
+   2015.5,
+   "GALAH DR3 (Buder+2021)"
+  ],
+  [
+   "J/other/PASA/42.51",
+   "spectro",
+   "gaia2",
+   2016.0,
+   "GALAH DR4 (Buder+2025)"
+  ],
+  [
+   "III/283",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "RAVE DR6 (Steinmetz+2020)"
+  ],
+  [
+   "III/286",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "APOGEE-2 DR17 allStar (Abdurro'uf+2022)"
+  ],
+  [
+   "J/A+A/636/A74",
+   "spectro",
+   "gaia2",
+   2000.0,
+   "HARPS RV database (Trifonov+2020)"
+  ],
+  [
+   "J/AJ/159/19",
+   "imaging",
+   "tess21",
+   2000.0,
+   "SOAR TESS survey I (Ziegler+2020)"
+  ],
+  [
+   "J/AJ/162/192",
+   "imaging",
+   "tess21",
+   2000.0,
+   "SOAR TESS survey II (Ziegler+2021)"
+  ],
+  [
+   "J/AJ/161/164",
+   "imaging",
+   "tess21",
+   2000.0,
+   "Gemini/WIYN speckle of TESS stars (Howell+2021)"
+  ],
+  [
+   "J/AJ/165/180",
+   "imaging",
+   "gaia2",
+   2000.0,
+   "SOAR speckle survey results (Tokovinin 2023)"
+  ],
+  [
+   "B/wds",
+   "imaging",
+   "gaia2",
+   2000.0,
+   "Washington Double Star catalogue (VizieR live copy)"
+  ]
+ ],
+ "results": {
+  "270573718": {
+   "J/ApJS/258/16": {
+    "catalogue": "J/ApJS/258/16",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Prsa+2022 TESS EBs S1-26 (2-min), TIC positions",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0001_vizier_J_ApJS_258_16_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0001_vizier_J_ApJS_258_16_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJ/912/123": {
+    "catalogue": "J/ApJ/912/123",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Justesen & Albrecht 2021 TESS (FFI) EB orbital parameters",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0002_vizier_J_ApJ_912_123_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0002_vizier_J_ApJ_912_123_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/259/50": {
+    "catalogue": "J/ApJS/259/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Shi+2022 EA-type EBs observed by TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0003_vizier_J_ApJS_259_50_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0003_vizier_J_ApJS_259_50_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/170/356": {
+    "catalogue": "J/AJ/170/356",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Tang+2025 TESS catalog of eccentric EBs",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0004_vizier_J_AJ_170_356_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0004_vizier_J_AJ_170_356_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/279/50": {
+    "catalogue": "J/ApJS/279/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Kostov+2025 TESS EBs from FFIs (TESS Ten Thousand)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0005_vizier_J_ApJS_279_50_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0005_vizier_J_ApJS_279_50_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/511/4285": {
+    "catalogue": "J/MNRAS/511/4285",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2015.5,
+    "note": "Battley+2022 CDIPS Year-1 EB candidates",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0006_vizier_J_MNRAS_511_4285_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0006_vizier_J_MNRAS_511_4285_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/652/A120": {
+    "catalogue": "J/A+A/652/A120",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "IJspeert+2021 OBA-type EBs from TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0007_vizier_J_A_A_652_A120_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0007_vizier_J_A_A_652_A120_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/254/39": {
+    "catalogue": "J/ApJS/254/39",
+    "group": "toi",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Guerrero+2021 TOI catalogue (S1-26 snapshot)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0008_vizier_J_ApJS_254_39_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0008_vizier_J_ApJS_254_39_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/vsx": {
+    "catalogue": "B/vsx",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2000.0,
+    "note": "AAVSO VSX (VizieR live copy)",
+    "tables": {
+     "B/vsx/vsx": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 86.7229004,
+        "_DEJ2000": -52.8166313,
+        "_r": 0.02,
+        "recno": 1067816,
+        "OID": 4360355,
+        "Name": "Gaia DR3 4792202879700135040",
+        "V": 0,
+        "RAJ2000": 86.722900390625,
+        "DEJ2000": -52.81663131713867,
+        "Type": "ROT",
+        "l_max": "",
+        "max": 13.69,
+        "u_max": "",
+        "n_max": "G",
+        "f_min": "",
+        "l_min": "",
+        "min": 13.72,
+        "u_min": "",
+        "n_min": "G",
+        "Epoch": null,
+        "u_Epoch": "",
+        "l_Period": "",
+        "Period": null,
+        "u_Period": "",
+        "Sp": "M",
+        "n_OID": "",
+        "sep_tic2000": 0.013,
+        "sep_cat_epoch": 0.013,
+        "min_sep_1990_2025": 0.013,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": null,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "Variable Star indeX, Version 2026-10-05 (\\originalcolumnnames)"
+     }
+    },
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0009_vizier_B_vsx_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0009_vizier_B_vsx_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "II/366": {
+    "catalogue": "II/366",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2015.5,
+    "note": "ASAS-SN variable stars (catv2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0010_vizier_II_366_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0010_vizier_II_366_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/156/241": {
+    "catalogue": "J/AJ/156/241",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2017.0,
+    "note": "ATLAS variables (Heinze+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0011_vizier_J_AJ_156_241_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0011_vizier_J_AJ_156_241_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/249/18": {
+    "catalogue": "J/ApJS/249/18",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2018.5,
+    "note": "ZTF periodic variables (Chen+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0012_vizier_J_ApJS_249_18_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0012_vizier_J_ApJS_249_18_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/237/28": {
+    "catalogue": "J/ApJS/237/28",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2010.5,
+    "note": "WISE periodic variables (Chen+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0013_vizier_J_ApJS_237_28_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0013_vizier_J_ApJS_237_28_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/213/9": {
+    "catalogue": "J/ApJS/213/9",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS periodic variables (Drake+2014)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0014_vizier_J_ApJS_213_9_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0014_vizier_J_ApJS_213_9_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/469/3688": {
+    "catalogue": "J/MNRAS/469/3688",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS/SSS periodic variables (Drake+2017)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0015_vizier_J_MNRAS_469_3688_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0015_vizier_J_MNRAS_469_3688_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/164": {
+    "catalogue": "V/164",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR5 (Luo+2019)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0016_vizier_V_164_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0016_vizier_V_164_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/162": {
+    "catalogue": "V/162",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 (Luo+2026)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0017_vizier_V_162_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0017_vizier_V_162_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/282/29": {
+    "catalogue": "J/ApJS/282/29",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 low-resolution M-type star catalogue",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0018_vizier_J_ApJS_282_29_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0018_vizier_J_ApJS_282_29_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/506/150": {
+    "catalogue": "J/MNRAS/506/150",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2015.5,
+    "note": "GALAH DR3 (Buder+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0019_vizier_J_MNRAS_506_150_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0019_vizier_J_MNRAS_506_150_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/other/PASA/42.51": {
+    "catalogue": "J/other/PASA/42.51",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2016.0,
+    "note": "GALAH DR4 (Buder+2025)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0020_vizier_J_other_PASA_42.51_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0020_vizier_J_other_PASA_42.51_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/283": {
+    "catalogue": "III/283",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "RAVE DR6 (Steinmetz+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0021_vizier_III_283_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0021_vizier_III_283_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/286": {
+    "catalogue": "III/286",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "APOGEE-2 DR17 allStar (Abdurro'uf+2022)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0022_vizier_III_286_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0022_vizier_III_286_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/636/A74": {
+    "catalogue": "J/A+A/636/A74",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "HARPS RV database (Trifonov+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0023_vizier_J_A_A_636_A74_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0023_vizier_J_A_A_636_A74_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/159/19": {
+    "catalogue": "J/AJ/159/19",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey I (Ziegler+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0024_vizier_J_AJ_159_19_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0024_vizier_J_AJ_159_19_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/162/192": {
+    "catalogue": "J/AJ/162/192",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey II (Ziegler+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0025_vizier_J_AJ_162_192_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0025_vizier_J_AJ_162_192_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/161/164": {
+    "catalogue": "J/AJ/161/164",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Gemini/WIYN speckle of TESS stars (Howell+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0026_vizier_J_AJ_161_164_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0026_vizier_J_AJ_161_164_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/165/180": {
+    "catalogue": "J/AJ/165/180",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR speckle survey results (Tokovinin 2023)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0027_vizier_J_AJ_165_180_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0027_vizier_J_AJ_165_180_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/wds": {
+    "catalogue": "B/wds",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "Washington Double Star catalogue (VizieR live copy)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0028_vizier_B_wds_270573718.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0028_vizier_B_wds_270573718.xml"
+    ],
+    "http": [
+     200
+    ]
+   }
+  },
+  "262843927": {
+   "J/ApJS/258/16": {
+    "catalogue": "J/ApJS/258/16",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Prsa+2022 TESS EBs S1-26 (2-min), TIC positions",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0029_vizier_J_ApJS_258_16_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0029_vizier_J_ApJS_258_16_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJ/912/123": {
+    "catalogue": "J/ApJ/912/123",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Justesen & Albrecht 2021 TESS (FFI) EB orbital parameters",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0030_vizier_J_ApJ_912_123_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0030_vizier_J_ApJ_912_123_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/259/50": {
+    "catalogue": "J/ApJS/259/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Shi+2022 EA-type EBs observed by TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0031_vizier_J_ApJS_259_50_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0031_vizier_J_ApJS_259_50_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/170/356": {
+    "catalogue": "J/AJ/170/356",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Tang+2025 TESS catalog of eccentric EBs",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0032_vizier_J_AJ_170_356_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0032_vizier_J_AJ_170_356_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/279/50": {
+    "catalogue": "J/ApJS/279/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Kostov+2025 TESS EBs from FFIs (TESS Ten Thousand)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0033_vizier_J_ApJS_279_50_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0033_vizier_J_ApJS_279_50_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/511/4285": {
+    "catalogue": "J/MNRAS/511/4285",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2015.5,
+    "note": "Battley+2022 CDIPS Year-1 EB candidates",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0034_vizier_J_MNRAS_511_4285_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0034_vizier_J_MNRAS_511_4285_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/652/A120": {
+    "catalogue": "J/A+A/652/A120",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "IJspeert+2021 OBA-type EBs from TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0035_vizier_J_A_A_652_A120_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0035_vizier_J_A_A_652_A120_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/254/39": {
+    "catalogue": "J/ApJS/254/39",
+    "group": "toi",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Guerrero+2021 TOI catalogue (S1-26 snapshot)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0036_vizier_J_ApJS_254_39_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0036_vizier_J_ApJS_254_39_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/vsx": {
+    "catalogue": "B/vsx",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2000.0,
+    "note": "AAVSO VSX (VizieR live copy)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0037_vizier_B_vsx_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0037_vizier_B_vsx_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "II/366": {
+    "catalogue": "II/366",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2015.5,
+    "note": "ASAS-SN variable stars (catv2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0038_vizier_II_366_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0038_vizier_II_366_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/156/241": {
+    "catalogue": "J/AJ/156/241",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2017.0,
+    "note": "ATLAS variables (Heinze+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0039_vizier_J_AJ_156_241_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0039_vizier_J_AJ_156_241_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/249/18": {
+    "catalogue": "J/ApJS/249/18",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2018.5,
+    "note": "ZTF periodic variables (Chen+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0040_vizier_J_ApJS_249_18_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0040_vizier_J_ApJS_249_18_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/237/28": {
+    "catalogue": "J/ApJS/237/28",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2010.5,
+    "note": "WISE periodic variables (Chen+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0041_vizier_J_ApJS_237_28_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0041_vizier_J_ApJS_237_28_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/213/9": {
+    "catalogue": "J/ApJS/213/9",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS periodic variables (Drake+2014)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0042_vizier_J_ApJS_213_9_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0042_vizier_J_ApJS_213_9_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/469/3688": {
+    "catalogue": "J/MNRAS/469/3688",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS/SSS periodic variables (Drake+2017)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0043_vizier_J_MNRAS_469_3688_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0043_vizier_J_MNRAS_469_3688_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/164": {
+    "catalogue": "V/164",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR5 (Luo+2019)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0044_vizier_V_164_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0044_vizier_V_164_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/162": {
+    "catalogue": "V/162",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 (Luo+2026)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0045_vizier_V_162_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0045_vizier_V_162_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/282/29": {
+    "catalogue": "J/ApJS/282/29",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 low-resolution M-type star catalogue",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0046_vizier_J_ApJS_282_29_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0046_vizier_J_ApJS_282_29_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/506/150": {
+    "catalogue": "J/MNRAS/506/150",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2015.5,
+    "note": "GALAH DR3 (Buder+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0047_vizier_J_MNRAS_506_150_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0047_vizier_J_MNRAS_506_150_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/other/PASA/42.51": {
+    "catalogue": "J/other/PASA/42.51",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2016.0,
+    "note": "GALAH DR4 (Buder+2025)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0048_vizier_J_other_PASA_42.51_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0048_vizier_J_other_PASA_42.51_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/283": {
+    "catalogue": "III/283",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "RAVE DR6 (Steinmetz+2020)",
+    "tables": {
+     "III/283/ravedr6": {
+      "n": 2,
+      "rows": [
+       {
+        "_RAJ2000": 52.5732083333,
+        "_DEJ2000": -63.5018055556,
+        "_r": 0.01,
+        "recno": 458879,
+        "Sp": 1,
+        "ObsID": "20110822_0319m62_103",
+        "IRFM": 1,
+        "ID": "J033017.6-633007",
+        "objID": "J033017.5-633006",
+        "HRV": 3.08,
+        "e_HRV": 3.4700000286102295,
+        "R": 12.350000381469727,
+        "cHRV": -0.30000001192092896,
+        "Chi2": 904.2,
+        "S/N": 18.43000030517578,
+        "Simbad": "Simbad",
+        "P": "n",
+        "S": "e",
+        "T": "c",
+        "w_P": 0.8668000102043152,
+        "w_S": 0.0676250010728836,
+        "w_T": 0.06559199839830399,
+        "RAJ2000": 52.57320833,
+        "DEJ2000": -63.50180556,
+        "Field": "20110822_0319m62",
+        "Obs.date": "2011-08-22",
+        "FName": "0319m62",
+        "Fiber": 103,
+        "Obs.st": "18:14:58.0",
+        "Obs.end": "20:05:55.0",
+        "Stsid": "02:14:05.0",
+        "Endsid": "04:05:34.1",
+        "Exp": 4970.021,
+        "RAPdeg": 49.8125,
+        "DEPdeg": -62.78333333,
+        "Plate": 3,
+        "Airmass": 1.2000000476837158,
+        "LPhase": 0.49000000953674316,
+        "Pix": 136024053,
+        "Cluster": "",
+        "Nrep": 2,
+        "Ftpr": 1,
+        "posX": 0.91757558,
+        "posY": -1.1083156,
+        "sep_tic2000": 0.02,
+        "sep_cat_epoch": 0.02,
+        "min_sep_1990_2025": 0.02,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       },
+       {
+        "_RAJ2000": 52.5734166667,
+        "_DEJ2000": -63.5018888889,
+        "_r": 0.458,
+        "recno": 19447,
+        "Sp": 1,
+        "ObsID": "20040103_0336m62_009",
+        "IRFM": 1,
+        "ID": "J033017.6-633007",
+        "objID": "C0330176-633006",
+        "HRV": 7.48,
+        "e_HRV": 2.009999990463257,
+        "R": 27.329999923706055,
+        "cHRV": 0.6000000238418579,
+        "Chi2": 1164.1,
+        "S/N": 31.329999923706055,
+        "Simbad": "Simbad",
+        "P": "n",
+        "S": "e",
+        "T": "p",
+        "w_P": 0.847000002861023,
+        "w_S": 0.11388999968767166,
+        "w_T": 0.03914799913764,
+        "RAJ2000": 52.57341667,
+        "DEJ2000": -63.50188889,
+        "Field": "20040103_0336m62",
+        "Obs.date": "2004-01-03",
+        "FName": "0336m62",
+        "Fiber": 9,
+        "Obs.st": "10:00:11.0",
+        "Obs.end": "12:05:48.0",
+        "Stsid": "02:46:00.0",
+        "Endsid": "04:51:56.7",
+        "Exp": 4203.2769,
+        "RAPdeg": 54.10833,
+        "DEPdeg": -62.34222222,
+        "Plate": 2,
+        "Airmass": 1.2000000476837158,
+        "LPhase": 0.7400000095367432,
+        "Pix": 136024053,
+        "Cluster": "",
+        "Nrep": 2,
+        "Ftpr": 1,
+        "posX": 0.91757922,
+        "posY": -1.108317,
+        "sep_tic2000": 0.46,
+        "sep_cat_epoch": 0.46,
+        "min_sep_1990_2025": 0.458,
+        "min_sep_epoch": 2000.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "RAVE DR6 master file and classification and observation diagnostic data (ravedr6.dr6_sparv, ravedr6.dr6_classification and ravedr6.dr6_obsdata)"
+     },
+     "III/283/xgaia2": {
+      "n": 2,
+      "rows": [
+       {
+        "_RAJ2000": 52.5732109675992,
+        "_DEJ2000": -63.5018000445467,
+        "_r": 1.348,
+        "recno": 19530,
+        "ObsID": "20040103_0336m62_009",
+        "Gaia": 4673750877131752832,
+        "ID": "Gaia DR2 4673750877131752832",
+        "Epoch": 2015.5,
+        "RA_ICRS": 52.57384829293,
+        "e_RA_ICRS": 0.02473,
+        "DE_ICRS": -63.50156136448,
+        "e_DE_ICRS": 0.022,
+        "plx": 11.970000267028809,
+        "e_plx": 0.026000000536441803,
+        "pmRA": 66.04000091552734,
+        "e_pmRA": 0.04699999839067459,
+        "pmDE": 55.439998626708984,
+        "e_pmDE": 0.04800000041723251,
+        "Nmatch": 44,
+        "Dup": "False",
+        "NG": 378,
+        "FG": 118049.818,
+        "e_FG": 58.029,
+        "Gmag": 13.008000373840332,
+        "HRV": 8.930000305175781,
+        "e_HRV": 0.5099999904632568,
+        "Nrv": 14,
+        "Teff": 4000,
+        "logg": 3.0,
+        "[Fe/H]": 0.0,
+        "Var": "NOT_AVAILABLE",
+        "_RA.icrs": 52.573210967153,
+        "_DE.icrs": -63.501800044502,
+        "sep_tic2000": 0.0,
+        "sep_cat_epoch": 0.0,
+        "min_sep_1990_2025": 0.0,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       },
+       {
+        "_RAJ2000": 52.5732109675992,
+        "_DEJ2000": -63.5018000445467,
+        "_r": 1.348,
+        "recno": 458775,
+        "ObsID": "20110822_0319m62_103",
+        "Gaia": 4673750877131752832,
+        "ID": "Gaia DR2 4673750877131752832",
+        "Epoch": 2015.5,
+        "RA_ICRS": 52.57384829293,
+        "e_RA_ICRS": 0.02473,
+        "DE_ICRS": -63.50156136448,
+        "e_DE_ICRS": 0.022,
+        "plx": 11.970000267028809,
+        "e_plx": 0.026000000536441803,
+        "pmRA": 66.04000091552734,
+        "e_pmRA": 0.04699999839067459,
+        "pmDE": 55.439998626708984,
+        "e_pmDE": 0.04800000041723251,
+        "Nmatch": 44,
+        "Dup": "False",
+        "NG": 378,
+        "FG": 118049.818,
+        "e_FG": 58.029,
+        "Gmag": 13.008000373840332,
+        "HRV": 8.930000305175781,
+        "e_HRV": 0.5099999904632568,
+        "Nrv": 14,
+        "Teff": 4000,
+        "logg": 3.0,
+        "[Fe/H]": 0.0,
+        "Var": "NOT_AVAILABLE",
+        "_RA.icrs": 52.573210967153,
+        "_DE.icrs": -63.501800044502,
+        "sep_tic2000": 0.0,
+        "sep_cat_epoch": 0.0,
+        "min_sep_1990_2025": 0.0,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "Rave DR6 cross-match with Gaia DR2 (ravedr6.dr6_x_gaiadr2)"
+     },
+     "III/283/xgaiae3": {
+      "n": 2,
+      "rows": [
+       {
+        "_RAJ2000": 52.5732113037504,
+        "_DEJ2000": -63.5017992833589,
+        "_r": 1.392,
+        "recno": 19410,
+        "ObsID": "20040103_0336m62_009",
+        "Gaiae3": 4673750877131752832,
+        "ID": "Gaia EDR3 4673750877131752832",
+        "Epoch": 2016,
+        "RA_ICRS": 52.57386888114,
+        "e_RA_ICRS": 0.01474,
+        "DE_ICRS": -63.50155366221,
+        "e_DE_ICRS": 0.01353,
+        "plx": 11.956999778747559,
+        "e_plx": 0.01600000075995922,
+        "pmRA": 66.01000213623047,
+        "e_pmRA": 0.017999999225139618,
+        "pmDE": 55.27000045776367,
+        "e_pmDE": 0.017999999225139618,
+        "Dup": "false",
+        "NG": 477,
+        "FG": 118874.177,
+        "e_FG": 29.755,
+        "Gmag": 13.0,
+        "_RA.icrs": 52.5732113042029,
+        "_DE.icrs": -63.5017992834587,
+        "sep_tic2000": 0.003,
+        "sep_cat_epoch": 0.003,
+        "min_sep_1990_2025": 0.003,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       },
+       {
+        "_RAJ2000": 52.5732113037504,
+        "_DEJ2000": -63.5017992833589,
+        "_r": 1.392,
+        "recno": 459012,
+        "ObsID": "20110822_0319m62_103",
+        "Gaiae3": 4673750877131752832,
+        "ID": "Gaia EDR3 4673750877131752832",
+        "Epoch": 2016,
+        "RA_ICRS": 52.57386888114,
+        "e_RA_ICRS": 0.01474,
+        "DE_ICRS": -63.50155366221,
+        "e_DE_ICRS": 0.01353,
+        "plx": 11.956999778747559,
+        "e_plx": 0.01600000075995922,
+        "pmRA": 66.01000213623047,
+        "e_pmRA": 0.017999999225139618,
+        "pmDE": 55.27000045776367,
+        "e_pmDE": 0.017999999225139618,
+        "Dup": "false",
+        "NG": 477,
+        "FG": 118874.177,
+        "e_FG": 29.755,
+        "Gmag": 13.0,
+        "_RA.icrs": 52.5732113042029,
+        "_DE.icrs": -63.5017992834587,
+        "sep_tic2000": 0.003,
+        "sep_cat_epoch": 0.003,
+        "min_sep_1990_2025": 0.003,
+        "min_sep_epoch": 2000.0,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "Crossmatch RAVE DR6 to Gaia EDR3 (ravedr6.dr6_x_gaiaedr3)"
+     }
+    },
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0049_vizier_III_283_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0049_vizier_III_283_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/286": {
+    "catalogue": "III/286",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "APOGEE-2 DR17 allStar (Abdurro'uf+2022)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0050_vizier_III_286_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0050_vizier_III_286_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/636/A74": {
+    "catalogue": "J/A+A/636/A74",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "HARPS RV database (Trifonov+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0051_vizier_J_A_A_636_A74_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0051_vizier_J_A_A_636_A74_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/159/19": {
+    "catalogue": "J/AJ/159/19",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey I (Ziegler+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0052_vizier_J_AJ_159_19_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0052_vizier_J_AJ_159_19_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/162/192": {
+    "catalogue": "J/AJ/162/192",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey II (Ziegler+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0053_vizier_J_AJ_162_192_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0053_vizier_J_AJ_162_192_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/161/164": {
+    "catalogue": "J/AJ/161/164",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Gemini/WIYN speckle of TESS stars (Howell+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0054_vizier_J_AJ_161_164_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0054_vizier_J_AJ_161_164_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/165/180": {
+    "catalogue": "J/AJ/165/180",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR speckle survey results (Tokovinin 2023)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0055_vizier_J_AJ_165_180_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0055_vizier_J_AJ_165_180_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/wds": {
+    "catalogue": "B/wds",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "Washington Double Star catalogue (VizieR live copy)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0056_vizier_B_wds_262843927.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0056_vizier_B_wds_262843927.xml"
+    ],
+    "http": [
+     200
+    ]
+   }
+  },
+  "193718989": {
+   "J/ApJS/258/16": {
+    "catalogue": "J/ApJS/258/16",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Prsa+2022 TESS EBs S1-26 (2-min), TIC positions",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0057_vizier_J_ApJS_258_16_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0057_vizier_J_ApJS_258_16_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJ/912/123": {
+    "catalogue": "J/ApJ/912/123",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Justesen & Albrecht 2021 TESS (FFI) EB orbital parameters",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0058_vizier_J_ApJ_912_123_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0058_vizier_J_ApJ_912_123_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/259/50": {
+    "catalogue": "J/ApJS/259/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Shi+2022 EA-type EBs observed by TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0059_vizier_J_ApJS_259_50_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0059_vizier_J_ApJS_259_50_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/170/356": {
+    "catalogue": "J/AJ/170/356",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Tang+2025 TESS catalog of eccentric EBs",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0060_vizier_J_AJ_170_356_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0060_vizier_J_AJ_170_356_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/279/50": {
+    "catalogue": "J/ApJS/279/50",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Kostov+2025 TESS EBs from FFIs (TESS Ten Thousand)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0061_vizier_J_ApJS_279_50_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0061_vizier_J_ApJS_279_50_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/511/4285": {
+    "catalogue": "J/MNRAS/511/4285",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2015.5,
+    "note": "Battley+2022 CDIPS Year-1 EB candidates",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0062_vizier_J_MNRAS_511_4285_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0062_vizier_J_MNRAS_511_4285_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/652/A120": {
+    "catalogue": "J/A+A/652/A120",
+    "group": "tess_eb",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "IJspeert+2021 OBA-type EBs from TESS",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0063_vizier_J_A_A_652_A120_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0063_vizier_J_A_A_652_A120_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/254/39": {
+    "catalogue": "J/ApJS/254/39",
+    "group": "toi",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Guerrero+2021 TOI catalogue (S1-26 snapshot)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0064_vizier_J_ApJS_254_39_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0064_vizier_J_ApJS_254_39_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/vsx": {
+    "catalogue": "B/vsx",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2000.0,
+    "note": "AAVSO VSX (VizieR live copy)",
+    "tables": {
+     "B/vsx/vsx": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 267.5544739,
+        "_DEJ2000": 42.1096306,
+        "_r": 0.02,
+        "recno": 6334640,
+        "OID": 6651428,
+        "Name": "Gaia DR3 1346023547769345792",
+        "V": 0,
+        "RAJ2000": 267.5544738769531,
+        "DEJ2000": 42.1096305847168,
+        "Type": "ROT",
+        "l_max": "",
+        "max": 13.21,
+        "u_max": "",
+        "n_max": "G",
+        "f_min": "",
+        "l_min": "",
+        "min": 13.24,
+        "u_min": "",
+        "n_min": "G",
+        "Epoch": null,
+        "u_Epoch": "",
+        "l_Period": "",
+        "Period": null,
+        "u_Period": "",
+        "Sp": "M",
+        "n_OID": "",
+        "sep_tic2000": 0.027,
+        "sep_cat_epoch": 0.027,
+        "min_sep_1990_2025": 0.022,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": null,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "Variable Star indeX, Version 2026-10-05 (\\originalcolumnnames)"
+     }
+    },
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0065_vizier_B_vsx_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0065_vizier_B_vsx_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "II/366": {
+    "catalogue": "II/366",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2015.5,
+    "note": "ASAS-SN variable stars (catv2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0066_vizier_II_366_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0066_vizier_II_366_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/156/241": {
+    "catalogue": "J/AJ/156/241",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2017.0,
+    "note": "ATLAS variables (Heinze+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0067_vizier_J_AJ_156_241_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0067_vizier_J_AJ_156_241_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/249/18": {
+    "catalogue": "J/ApJS/249/18",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2018.5,
+    "note": "ZTF periodic variables (Chen+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0068_vizier_J_ApJS_249_18_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0068_vizier_J_ApJS_249_18_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/237/28": {
+    "catalogue": "J/ApJS/237/28",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2010.5,
+    "note": "WISE periodic variables (Chen+2018)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0069_vizier_J_ApJS_237_28_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0069_vizier_J_ApJS_237_28_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/213/9": {
+    "catalogue": "J/ApJS/213/9",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS periodic variables (Drake+2014)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0070_vizier_J_ApJS_213_9_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0070_vizier_J_ApJS_213_9_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/469/3688": {
+    "catalogue": "J/MNRAS/469/3688",
+    "group": "variable",
+    "rule": "var",
+    "assumed_epoch": 2008.0,
+    "note": "Catalina CSS/SSS periodic variables (Drake+2017)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0071_vizier_J_MNRAS_469_3688_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0071_vizier_J_MNRAS_469_3688_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/164": {
+    "catalogue": "V/164",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR5 (Luo+2019)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0072_vizier_V_164_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0072_vizier_V_164_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "V/162": {
+    "catalogue": "V/162",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 (Luo+2026)",
+    "tables": {
+     "V/162/dr11l": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.10963611,
+        "_r": 0.008,
+        "recno": 10109558,
+        "sp": "sp",
+        "ObsID": 901105152,
+        "uID": "G14366458526748",
+        "gpID": 1346023547769345792,
+        "Target": "J175013.07+420634.6",
+        "Obs.Date": "2021-04-10",
+        "LMJD": 59315,
+        "MJD": 59314,
+        "PlanID": "HD175209N425125V01",
+        "spID": 5,
+        "FiberID": 152,
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "snru": 0.43,
+        "snrg": 8.49,
+        "snrr": 32.93,
+        "snri": 59.24,
+        "snrz": 48.56,
+        "Class": "STAR",
+        "subClass": "dM0",
+        "z": -2.46e-05,
+        "e_z": 6.62e-06,
+        "PanSTARRS": 158532675545241700,
+        "gmag": -999.0,
+        "rmag": -999.0,
+        "imag": 15.2271,
+        "zmag": -999.0,
+        "ymag": -999.0,
+        "GaiaDR3": 1346023547769345792,
+        "Gmag": 13.226968,
+        "FiberType": "Obj",
+        "offsets": 0,
+        "offsetsv": 0.0,
+        "RAOdeg": 267.55447,
+        "DEOdeg": 42.109636,
+        "FiberMask": 64,
+        "fNFlux": 0,
+        "nMRS": "",
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "LAMOST LRS General Catalog"
+     },
+     "V/162/dr11ml": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.10963611,
+        "_r": 0.008,
+        "recno": 748343,
+        "sp": "sp",
+        "ObsID": 901105152,
+        "uID": "G14366458526748",
+        "gpID": 1346023547769345792,
+        "Target": "J175013.07+420634.6",
+        "Obs.Date": "2021-04-10",
+        "LMJD": 59315,
+        "MJD": 59314,
+        "PlanID": "HD175209N425125V01",
+        "spID": 5,
+        "FiberID": 152,
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "snru": 0.43,
+        "snrg": 8.49,
+        "snrr": 32.93,
+        "snri": 59.24,
+        "snrz": 48.56,
+        "Class": "STAR",
+        "subClass": "dM0",
+        "z": -2.46e-05,
+        "e_z": 6.62e-06,
+        "PanSTARRS": 158532675545241700,
+        "gmag": -999.0,
+        "rmag": -999.0,
+        "imag": 15.2271,
+        "zmag": -999.0,
+        "ymag": -999.0,
+        "GaiaDR3": 1346023547769345792,
+        "Gmag": 13.226968,
+        "FiberType": "Obj",
+        "offsets": 0,
+        "offsetsv": 0.0,
+        "RAOdeg": 267.55447,
+        "DEOdeg": 42.109636,
+        "Teff": 3745.58,
+        "e_Teff": 54.01,
+        "logg": 4.635,
+        "e_logg": 0.06,
+        "Z": -0.2333,
+        "e_Z": 0.11,
+        "EWHa": -0.011537,
+        "e_EWHa": 0.002761,
+        "TiO5": 0.741834,
+        "CaH2": 0.686784,
+        "CaH3": 0.853131,
+        "TiO1": 0.846994,
+        "TiO2": 0.852684,
+        "TiO3": 0.886996,
+        "TiO4": 0.850769,
+        "CaH1": 0.83581,
+        "CaOH": 0.696921,
+        "e_TiO5": 0.000515,
+        "e_CaH2": 0.000412,
+        "e_CaH3": 0.000497,
+        "e_TiO1": 0.00073,
+        "e_TiO2": 0.000795,
+        "e_TiO3": 0.000678,
+        "e_TiO4": 0.000675,
+        "e_CaH1": 0.000397,
+        "e_CaOH": 0.000497,
+        "zeta": 1.188474,
+        "e_zeta": 0.003476,
+        "MA": 0.0,
+        "NA": 0.934846,
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "LAMOST LRS Catalog of gM, dM, and sdM Stars"
+     },
+     "V/162/dr11il": {
+      "n": 2,
+      "rows": [
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.10963611,
+        "_r": 0.008,
+        "recno": 4794907,
+        "ObsID": 154705157,
+        "Obs.Date": "2013-05-22",
+        "PlanID": "HD175209N425125B01",
+        "spID": 5,
+        "FiberID": 157,
+        "unitID": "E2829",
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "objType": "Star",
+        "magType": "gri",
+        "mag1": 14.699999809265137,
+        "mag2": 13.390000343322754,
+        "mag3": 12.550000190734863,
+        "mag4": null,
+        "mag5": null,
+        "mag6": null,
+        "mag7": null,
+        "tSource": "LEGUE_LCH",
+        "FiberType": "Obj",
+        "tFrom": "UCAC4_add",
+        "tComment": "155503985",
+        "offsets": 0,
+        "offsetsv": 0.0,
+        "RAOdeg": 267.55447,
+        "DEOdeg": 42.109636,
+        "Epoch": "J2000.0",
+        "TName": "229863336431300",
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       },
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.10963611,
+        "_r": 0.008,
+        "recno": 21901652,
+        "ObsID": 901105152,
+        "Obs.Date": "2021-04-10",
+        "PlanID": "HD175209N425125V01",
+        "spID": 5,
+        "FiberID": 152,
+        "unitID": "E2729",
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "objType": "Star",
+        "magType": "gri",
+        "mag1": 14.710000038146973,
+        "mag2": 13.390000343322754,
+        "mag3": 12.550000190734863,
+        "mag4": null,
+        "mag5": null,
+        "mag6": null,
+        "mag7": null,
+        "tSource": "LEGUE_LCH",
+        "FiberType": "Obj",
+        "tFrom": "LCH000003",
+        "tComment": "14711253531603232",
+        "offsets": 0,
+        "offsetsv": 0.0,
+        "RAOdeg": 267.55447,
+        "DEOdeg": 42.109636,
+        "Epoch": "J2000.0",
+        "TName": "229863336431300",
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "LAMOST LRS Input Catalog"
+     }
+    },
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0073_vizier_V_162_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0073_vizier_V_162_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/ApJS/282/29": {
+    "catalogue": "J/ApJS/282/29",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "LAMOST DR11 low-resolution M-type star catalogue",
+    "tables": {
+     "J/ApJS/282/29/table1": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.109636,
+        "_r": 0.008,
+        "recno": 326503,
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "SNR": 48.56,
+        "SpT": "dM0",
+        "logg": 5.050000190734863,
+        "e_logg": 0.18000000715255737,
+        "Teff": 3800,
+        "e_Teff": 85,
+        "EW8498": -0.21,
+        "e_EW8498": 0.132,
+        "EW8542": -2.559,
+        "e_EW8542": 0.488,
+        "EW8662": null,
+        "e_EW8662": null,
+        "All": "All",
+        "DR11": "DR11",
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "LAMOST DR11 low-resolution M-type star catalog"
+     },
+     "J/ApJS/282/29/table4": {
+      "n": 1,
+      "rows": [
+       {
+        "_RAJ2000": 267.55447,
+        "_DEJ2000": 42.109636,
+        "_r": 0.008,
+        "recno": 232813,
+        "RAJ2000": 267.55447,
+        "DEJ2000": 42.109636,
+        "SpT": "dM0",
+        "EW8498": 0.14630000293254852,
+        "EW8542": 0.3384999930858612,
+        "EW8662": 0.23199999332427979,
+        "e_EW8498": 0.2071000039577484,
+        "e_EW8542": 0.0,
+        "e_EW8662": 0.10750000178813934,
+        "All": "All",
+        "DR11": "DR11",
+        "sep_tic2000": 0.03,
+        "sep_cat_epoch": 0.03,
+        "min_sep_1990_2025": 0.005,
+        "min_sep_epoch": 1999.5,
+        "period_columns": {},
+        "position_match": true,
+        "position_within_2arcsec_cat_epoch": true
+       }
+      ],
+      "description": "Remaining chromospheric emission data table"
+     }
+    },
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0074_vizier_J_ApJS_282_29_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0074_vizier_J_ApJS_282_29_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/MNRAS/506/150": {
+    "catalogue": "J/MNRAS/506/150",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2015.5,
+    "note": "GALAH DR3 (Buder+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0075_vizier_J_MNRAS_506_150_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0075_vizier_J_MNRAS_506_150_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/other/PASA/42.51": {
+    "catalogue": "J/other/PASA/42.51",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2016.0,
+    "note": "GALAH DR4 (Buder+2025)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0076_vizier_J_other_PASA_42.51_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0076_vizier_J_other_PASA_42.51_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/283": {
+    "catalogue": "III/283",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "RAVE DR6 (Steinmetz+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0077_vizier_III_283_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0077_vizier_III_283_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "III/286": {
+    "catalogue": "III/286",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "APOGEE-2 DR17 allStar (Abdurro'uf+2022)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0078_vizier_III_286_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0078_vizier_III_286_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/A+A/636/A74": {
+    "catalogue": "J/A+A/636/A74",
+    "group": "spectro",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "HARPS RV database (Trifonov+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0079_vizier_J_A_A_636_A74_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0079_vizier_J_A_A_636_A74_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/159/19": {
+    "catalogue": "J/AJ/159/19",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey I (Ziegler+2020)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0080_vizier_J_AJ_159_19_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0080_vizier_J_AJ_159_19_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/162/192": {
+    "catalogue": "J/AJ/162/192",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR TESS survey II (Ziegler+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0081_vizier_J_AJ_162_192_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0081_vizier_J_AJ_162_192_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/161/164": {
+    "catalogue": "J/AJ/161/164",
+    "group": "imaging",
+    "rule": "tess21",
+    "assumed_epoch": 2000.0,
+    "note": "Gemini/WIYN speckle of TESS stars (Howell+2021)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0082_vizier_J_AJ_161_164_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0082_vizier_J_AJ_161_164_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "J/AJ/165/180": {
+    "catalogue": "J/AJ/165/180",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "SOAR speckle survey results (Tokovinin 2023)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0083_vizier_J_AJ_165_180_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0083_vizier_J_AJ_165_180_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   },
+   "B/wds": {
+    "catalogue": "B/wds",
+    "group": "imaging",
+    "rule": "gaia2",
+    "assumed_epoch": 2000.0,
+    "note": "Washington Double Star catalogue (VizieR live copy)",
+    "tables": {},
+    "error": null,
+    "receipts": [
+     "C:\\Users\\seanj\\Documents\\TESS_followup_262_193_270\\results\\census\\receipts\\20261018T215643_17852_0084_vizier_B_wds_193718989.json"
+    ],
+    "raw": [
+     "D:\\tess_fu3_cache\\census_raw\\20261018T215643_17852_0084_vizier_B_wds_193718989.xml"
+    ],
+    "http": [
+     200
+    ]
+   }
+  }
+ }
+}

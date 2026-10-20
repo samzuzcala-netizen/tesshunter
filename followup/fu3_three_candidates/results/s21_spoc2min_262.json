@@ -1,0 +1,202 @@
+{
+ "tic": 262843927,
+ "generated_utc": "2026-10-18T23:36:16Z",
+ "sectors": {
+  "1_pdcsap_flux": {
+   "n": 18277,
+   "header_version": "spoc-5.0.10-20200904",
+   "crowdsap": 0.99877471,
+   "flfrcsap": 0.84243965
+  },
+  "2_pdcsap_flux": {
+   "n": 18181,
+   "header_version": "spoc-5.0.11-20200915",
+   "crowdsap": 0.99690479,
+   "flfrcsap": 0.80625349
+  },
+  "3_pdcsap_flux": {
+   "n": 12456,
+   "header_version": "spoc-5.0.20-20201120",
+   "crowdsap": 0.99453926,
+   "flfrcsap": 0.86249352
+  },
+  "1_sap_flux": {
+   "n": 18277,
+   "header_version": "spoc-5.0.10-20200904",
+   "crowdsap": 0.99877471,
+   "flfrcsap": 0.84243965
+  },
+  "2_sap_flux": {
+   "n": 18299,
+   "header_version": "spoc-5.0.11-20200915",
+   "crowdsap": 0.99690479,
+   "flfrcsap": 0.80625349
+  },
+  "3_sap_flux": {
+   "n": 13538,
+   "header_version": "spoc-5.0.20-20201120",
+   "crowdsap": 0.99453926,
+   "flfrcsap": 0.86249352
+  }
+ },
+ "events": [
+  {
+   "sector": 1,
+   "cycle": 0,
+   "column": "pdcsap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 1.133765250045829,
+   "depth_err_ppt": 0.37456546665593604,
+   "oc_d": -0.000468487418279236,
+   "oc_err_d": 0.004218487418278684,
+   "timing_status": "ok",
+   "beta": 1.1260380144482487
+  },
+  {
+   "sector": 2,
+   "cycle": 1,
+   "column": "pdcsap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 1.0653183133389326,
+   "depth_err_ppt": 0.3624100480780029,
+   "oc_d": 0.018826315119724307,
+   "oc_err_d": 0.002979240435830633,
+   "timing_status": "ok",
+   "beta": 1.0298716674366724
+  },
+  {
+   "sector": 2,
+   "cycle": 2,
+   "column": "pdcsap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 0.9987991179459494,
+   "depth_err_ppt": 0.4023167489257015,
+   "oc_d": -0.01302606657276061,
+   "oc_err_d": 0.006835044538350968,
+   "timing_status": "ok",
+   "beta": 1.0458684187146414
+  },
+  {
+   "sector": 3,
+   "cycle": 3,
+   "column": "pdcsap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 0.9093791332202841,
+   "depth_err_ppt": 0.3677351886381266,
+   "oc_d": 0.0069155593862812595,
+   "oc_err_d": 0.009334440613718145,
+   "timing_status": "ok",
+   "beta": 1.0
+  },
+  {
+   "sector": 1,
+   "cycle": 0,
+   "column": "sap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 1.4031124180145755,
+   "depth_err_ppt": 0.39514266481110943,
+   "oc_d": -0.0006331337122133077,
+   "oc_err_d": 0.003950199621120548,
+   "timing_status": "ok",
+   "beta": 1.2120726006346427
+  },
+  {
+   "sector": 2,
+   "cycle": 1,
+   "column": "sap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 0.9410512713413174,
+   "depth_err_ppt": 0.41031121640029045,
+   "oc_d": 0.018989243121673306,
+   "oc_err_d": 0.004205201322770517,
+   "timing_status": "ok",
+   "beta": 1.1320947636437
+  },
+  {
+   "sector": 2,
+   "cycle": 2,
+   "column": "sap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 1.4827380334645286,
+   "depth_err_ppt": 0.38645938634006183,
+   "oc_d": 0.021174309940118676,
+   "oc_err_d": 0.03547986549567472,
+   "timing_status": "multimodal",
+   "beta": 1.0
+  },
+  {
+   "sector": 3,
+   "cycle": 3,
+   "column": "sap_flux",
+   "admitted": true,
+   "reason": "ok",
+   "depth_ppt": 0.811441463058793,
+   "depth_err_ppt": 0.4179983153561048,
+   "oc_d": 0.006834833655856651,
+   "oc_err_d": 0.01219294412192052,
+   "timing_status": "ok",
+   "beta": 1.1091658753094964
+  }
+ ],
+ "pooled_pdcsap_flux": {
+  "n": 4,
+  "depth_ppt": 1.0273075534773464,
+  "err_ppt": 0.187929868969333,
+  "snr": 5.466441067146095,
+  "err_white_ppt": 0.187929868969333,
+  "chi2_const": 0.199641844499162,
+  "dof": 3,
+  "p_const": 0.9776470955991216,
+  "n_positive": 4,
+  "top_share_snr2": 0.3045717342074709
+ },
+ "pooled_sap_flux": {
+  "n": 4,
+  "depth_ppt": 1.1770628938135874,
+  "err_ppt": 0.20095308011637253,
+  "snr": 5.857401604055767,
+  "err_white_ppt": 0.20095308011637253,
+  "chi2_const": 2.048837312897705,
+  "dof": 3,
+  "p_const": 0.5623324582078129,
+  "n_positive": 4,
+  "top_share_snr2": 0.40487527817794194
+ },
+ "tess_spoc_1800s_same_events": [
+  {
+   "sector": 1,
+   "cycle": 0,
+   "depth": 0.9155779675891031,
+   "err": 0.46509919857526233,
+   "oc_min": -15.147695933103762
+  },
+  {
+   "sector": 2,
+   "cycle": 1,
+   "depth": 1.2396348198531593,
+   "err": 0.4328589122986472,
+   "oc_min": 20.80492662379223
+  },
+  {
+   "sector": 2,
+   "cycle": 2,
+   "depth": 0.8623854296474187,
+   "err": 0.4331420296038152,
+   "oc_min": -18.729380546433227
+  },
+  {
+   "sector": 3,
+   "cycle": 3,
+   "depth": 0.9372937975854856,
+   "err": 0.3876229052955118,
+   "oc_min": 2.796587567887018
+  }
+ ]
+}

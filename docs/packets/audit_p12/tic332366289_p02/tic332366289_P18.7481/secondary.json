@@ -1,0 +1,103 @@
+{
+ "key": "tic332366289_P18.7481",
+ "tic_id": 332366289,
+ "rank": 1,
+ "survey_period": 18.748084871649127,
+ "survey_depth_ppt": 5.780551094214444,
+ "generated_utc": "2026-09-30T00:31:26Z",
+ "rules_version": "p10.0",
+ "stageA_sample": false,
+ "thresholds": {
+  "min_sigma": 5.0,
+  "min_phase_separation": 0.02,
+  "phase_step": 0.002,
+  "refine_step": 0.0004,
+  "refine_half": 0.01,
+  "primary_phase_tolerance": 0.03,
+  "albedo": 0.3,
+  "gate_sigma_over_bound": 3.0,
+  "max_dips_before_variability": 5,
+  "gate_mode": "bound",
+  "quiet_max_dips": 2
+ },
+ "secondary": {
+  "period_days": 18.748084871649127,
+  "epoch_btjd": 2869.8700663100585,
+  "box_width_days": 0.0928317766722556,
+  "n_points": 46083,
+  "n_dips_above_5sigma": 1,
+  "thresholds": {
+   "min_sigma": 5.0,
+   "min_phase_separation": 0.02,
+   "gate_sigma_over_bound": 3.0,
+   "max_dips_before_variability": 5,
+   "albedo": 0.3
+  },
+  "scan_sigma_percentiles": {
+   "p50": -0.05,
+   "p90": 2.26,
+   "p99": 3.89,
+   "max": 8.82
+  },
+  "primary": {
+   "phase": 0.0,
+   "depth_ppt": 6.9018,
+   "err_ppt": 0.7825,
+   "sigma": 8.8196,
+   "n_in": 140,
+   "n_out": 841,
+   "point_scatter_ppt": 9.2592
+  },
+  "secondaries": [],
+  "primary_shoulder_dips": [],
+  "planet_secondary_bound": {
+   "a_over_rstar": 69.9,
+   "rp_over_rstar": 0.08308,
+   "T_day_K": 353.0,
+   "T_eq_K": 276.0,
+   "thermal_ppt": 7.640240033090561e-17,
+   "reflected_ppt": 0.00042376462444709834,
+   "albedo": 0.3,
+   "max_planetary_secondary_ppt": 0.0004237646244471747
+  },
+  "variability_flag": false,
+  "gate": "PASS",
+  "gate_by_mode": {
+   "bound": "PASS",
+   "quiet_bound": "PASS",
+   "quiet_zero": "PASS",
+   "quiet_bound_hold": "PASS",
+   "quiet_zero_N2": "PASS",
+   "quiet_zero_N3": "PASS",
+   "quiet_zero_N5": "PASS",
+   "quiet_bound_N2": "PASS",
+   "quiet_bound_N3": "PASS",
+   "quiet_bound_N5": "PASS"
+  },
+  "gate_by_mode_p10": {
+   "empirical_bound": "PASS",
+   "recurrent_bound": "PASS",
+   "recurrent_bound_corr": "PASS"
+  },
+  "p10": {
+   "applicable": false
+  },
+  "verdict": "CLEAN: no dip above 5 sigma at any other phase",
+  "teff_K": 3265.0,
+  "sap_products_used": 6
+ },
+ "gate": "PASS",
+ "variability_flag": false,
+ "stageA_decision": "PASS",
+ "chosen_ephemeris": "survey",
+ "reason": "CLEAN: no dip above 5 sigma at any other phase",
+ "seconds": 3.1,
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

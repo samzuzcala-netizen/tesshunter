@@ -1,0 +1,211 @@
+{
+ "generated_utc": "2026-10-18T21:05:44Z",
+ "groups": {
+  "tic270573718:survey_store_lightcurves": {
+   "files": 24,
+   "bytes": 2968844,
+   "missing": 0
+  },
+  "tic270573718:survey_search_outputs": {
+   "files": 3,
+   "bytes": 4675541,
+   "missing": 0
+  },
+  "tic270573718:survey_funnel_case_roots": {
+   "files": 31,
+   "bytes": 25086863,
+   "missing": 0
+  },
+  "tic270573718:survey_funnel_receipts": {
+   "files": 6,
+   "bytes": 139744,
+   "missing": 0
+  },
+  "tic270573718:survey_packet": {
+   "files": 14,
+   "bytes": 529683,
+   "missing": 0
+  },
+  "tic270573718:survey_neighbours": {
+   "files": 1,
+   "bytes": 6571,
+   "missing": 0
+  },
+  "tic270573718:survey_runtimes": {
+   "files": 6,
+   "bytes": 100227,
+   "missing": 0
+  },
+  "tic270573718:survey_controller_records": {
+   "files": 18,
+   "bytes": 342137,
+   "missing": 0
+  },
+  "tic270573718:survey_download_receipts": {
+   "files": 1,
+   "bytes": 478,
+   "missing": 0
+  },
+  "tic270573718:deep_analysis_files": {
+   "files": 26,
+   "bytes": 268458857,
+   "missing": 0
+  },
+  "tic270573718:continuation_files": {
+   "files": 79,
+   "bytes": 3515067,
+   "missing": 0
+  },
+  "tic270573718:batch_review_files": {
+   "files": 4,
+   "bytes": 1900260,
+   "missing": 0
+  },
+  "tic262843927:survey_store_lightcurves": {
+   "files": 16,
+   "bytes": 2053350,
+   "missing": 0
+  },
+  "tic262843927:survey_search_outputs": {
+   "files": 3,
+   "bytes": 3512804,
+   "missing": 0
+  },
+  "tic262843927:survey_funnel_case_roots": {
+   "files": 103,
+   "bytes": 66394592,
+   "missing": 0
+  },
+  "tic262843927:survey_funnel_receipts": {
+   "files": 19,
+   "bytes": 611920,
+   "missing": 0
+  },
+  "tic262843927:survey_packet": {
+   "files": 14,
+   "bytes": 573786,
+   "missing": 0
+  },
+  "tic262843927:survey_neighbours": {
+   "files": 1,
+   "bytes": 4321,
+   "missing": 0
+  },
+  "tic262843927:survey_runtimes": {
+   "files": 19,
+   "bytes": 317273,
+   "missing": 0
+  },
+  "tic262843927:survey_controller_records": {
+   "files": 46,
+   "bytes": 213434,
+   "missing": 0
+  },
+  "tic262843927:survey_download_receipts": {
+   "files": 1,
+   "bytes": 430,
+   "missing": 0
+  },
+  "tic262843927:deep_analysis_files": {
+   "files": 20,
+   "bytes": 151593444,
+   "missing": 0
+  },
+  "tic262843927:continuation_files": {
+   "files": 85,
+   "bytes": 72191026,
+   "missing": 0
+  },
+  "tic262843927:batch_review_files": {
+   "files": 4,
+   "bytes": 1900260,
+   "missing": 0
+  },
+  "tic193718989:survey_store_lightcurves": {
+   "files": 8,
+   "bytes": 799072,
+   "missing": 0
+  },
+  "tic193718989:survey_search_outputs": {
+   "files": 3,
+   "bytes": 2116028,
+   "missing": 0
+  },
+  "tic193718989:survey_funnel_case_roots": {
+   "files": 59,
+   "bytes": 15088841,
+   "missing": 0
+  },
+  "tic193718989:survey_funnel_receipts": {
+   "files": 9,
+   "bytes": 206635,
+   "missing": 0
+  },
+  "tic193718989:survey_packet": {
+   "files": 14,
+   "bytes": 416796,
+   "missing": 0
+  },
+  "tic193718989:survey_neighbours": {
+   "files": 1,
+   "bytes": 6850,
+   "missing": 0
+  },
+  "tic193718989:survey_runtimes": {
+   "files": 9,
+   "bytes": 109561,
+   "missing": 0
+  },
+  "tic193718989:survey_controller_records": {
+   "files": 24,
+   "bytes": 140689,
+   "missing": 0
+  },
+  "tic193718989:survey_download_receipts": {
+   "files": 1,
+   "bytes": 384,
+   "missing": 0
+  },
+  "tic193718989:deep_analysis_files": {
+   "files": 20,
+   "bytes": 119964189,
+   "missing": 0
+  },
+  "tic193718989:continuation_files": {
+   "files": 89,
+   "bytes": 6396320,
+   "missing": 0
+  },
+  "tic193718989:batch_review_files": {
+   "files": 4,
+   "bytes": 1900260,
+   "missing": 0
+  },
+  "shared:deep_analysis_shared": {
+   "files": 7,
+   "bytes": 4105832,
+   "missing": 0
+  },
+  "shared:continuation_shared": {
+   "files": 177,
+   "bytes": 32392169,
+   "missing": 0
+  },
+  "shared:discovery_code_s1": {
+   "files": 10,
+   "bytes": 9007676,
+   "missing": 0
+  },
+  "shared:discovery_code_k1_k2": {
+   "files": 55,
+   "bytes": 436591,
+   "missing": 0
+  },
+  "shared:discovery_code_src": {
+   "files": 125,
+   "bytes": 2155258,
+   "missing": 0
+  }
+ },
+ "n_rows": 1159
+}

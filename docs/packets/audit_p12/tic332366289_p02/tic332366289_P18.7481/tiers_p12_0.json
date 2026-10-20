@@ -1,0 +1,818 @@
+{
+ "rules_version": "p12.0",
+ "key": "tic332366289_P18.7481",
+ "verdict": "SUBMIT",
+ "deciding_condition": null,
+ "deciding_detail": null,
+ "reference_depth": {
+  "depth_ppt": 6.6,
+  "err_ppt": 1.092,
+  "source": "fit.adopted.depth_avg_ppt"
+ },
+ "ephemeris": {
+  "period": 18.748273038412112,
+  "t0": 2869.85249375544,
+  "duration": 0.08041666666666666,
+  "source": "fit.adopted"
+ },
+ "conditions": {
+  "K0": {
+   "fired": false,
+   "measurable": true,
+   "detail": "hard stop CLEAN",
+   "status": "CLEAN"
+  },
+  "K1": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage A PASS",
+   "decision": "PASS",
+   "failed_criteria": []
+  },
+  "K2": {
+   "fired": false,
+   "measurable": true,
+   "detail": "secondary gate PASS (mode bound)",
+   "gate": "PASS",
+   "mode": "bound"
+  },
+  "K3": {
+   "fired": false,
+   "measurable": true,
+   "detail": "phase-independent exclusion False (1 sector(s) tested)",
+   "excluded": false,
+   "n_sectors_tested": 1
+  },
+  "K4": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage C PASS (strongest): strongest peak 18.74835 d is within 1% of the survey period at SDE 10.8",
+   "decision": "PASS",
+   "peak_rule": "strongest"
+  },
+  "K5": {
+   "fired": false,
+   "measurable": true,
+   "detail": "no alias match among 14 accepted signals and 0 catalogued periods",
+   "matches": [],
+   "n_catalogue_periods": 0
+  },
+  "K6": {
+   "fired": false,
+   "measurable": true,
+   "detail": "odd/even 0.65 sigma (2 odd, 2 even transits)",
+   "sigma": 0.65,
+   "n_odd": 2,
+   "n_even": 2
+  },
+  "K7": {
+   "fired": null,
+   "measurable": false,
+   "detail": "K7a in 0 sector(s) (literal whole-cutout form: 0), K7b in 0 sector(s) (0 K7a-measurable, 0 K7b-measurable)",
+   "n_elsewhere": 0,
+   "n_elsewhere_literal": 0,
+   "n_absent": 0,
+   "elsewhere": [
+    {
+     "sector": 57,
+     "fired": null,
+     "row": 11,
+     "column": 9,
+     "difference_e_per_s": 0.4776205769659043,
+     "literal": {
+      "fired": null,
+      "row": 7,
+      "column": 16,
+      "difference_e_per_s": 0.8079825443231812,
+      "dist_target_px": 7.13,
+      "dist_nearest_neighbour_px": 0.632,
+      "nearest_neighbour_source_id": 1415291302849955072,
+      "nearest_neighbour_G": 13.588974952697754,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.975,
+     "dist_nearest_neighbour_px": 2.196,
+     "nearest_neighbour_source_id": 1415338306971353600,
+     "nearest_neighbour_G": 20.401439666748047,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 79,
+     "fired": null,
+     "row": 13,
+     "column": 10,
+     "difference_e_per_s": -0.388802992699965,
+     "literal": {
+      "fired": null,
+      "row": 14,
+      "column": 2,
+      "difference_e_per_s": 0.5487693981598483,
+      "dist_target_px": 9.159,
+      "dist_nearest_neighbour_px": 1.033,
+      "nearest_neighbour_source_id": 1415314731895704704,
+      "nearest_neighbour_G": 17.347543716430664,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 2.926,
+     "dist_nearest_neighbour_px": 1.308,
+     "nearest_neighbour_source_id": 1415338203892828416,
+     "nearest_neighbour_G": 17.546497344970703,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 80,
+     "fired": null,
+     "row": 11,
+     "column": 11,
+     "difference_e_per_s": -2.044122241538645,
+     "literal": {
+      "fired": null,
+      "row": 16,
+      "column": 12,
+      "difference_e_per_s": -1.9695255094381992,
+      "dist_target_px": 5.388,
+      "dist_nearest_neighbour_px": 0.249,
+      "nearest_neighbour_source_id": 1415291298553814656,
+      "nearest_neighbour_G": 12.372442245483398,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.326,
+     "dist_nearest_neighbour_px": 1.443,
+     "nearest_neighbour_source_id": 1415338306971353600,
+     "nearest_neighbour_G": 20.401439666748047,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    },
+    {
+     "sector": 84,
+     "fired": null,
+     "row": 10,
+     "column": 10,
+     "difference_e_per_s": -0.06390042588429878,
+     "literal": {
+      "fired": null,
+      "row": 8,
+      "column": 16,
+      "difference_e_per_s": 0.3525359126748526,
+      "dist_target_px": 6.178,
+      "dist_nearest_neighbour_px": 0.555,
+      "nearest_neighbour_source_id": 1415291298554128000,
+      "nearest_neighbour_G": 19.98226547241211,
+      "event_scatter_e_per_s": 0.0,
+      "significance": null,
+      "detail": "event scatter unavailable at the maximum pixel"
+     },
+     "dist_target_px": 0.52,
+     "dist_nearest_neighbour_px": 1.886,
+     "nearest_neighbour_source_id": 1415338306971353600,
+     "nearest_neighbour_G": 20.401439666748047,
+     "event_scatter_e_per_s": 0.0,
+     "significance": null,
+     "detail": "local (3 px) event scatter unavailable at the maximum pixel; literal: event scatter unavailable at the maximum pixel"
+    }
+   ],
+   "absent": [
+    {
+     "sector": 57,
+     "fired": null,
+     "net_depth_ppt": 5.5572,
+     "net_err_ppt": 2.0701,
+     "detail": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 6.210 ppt"
+    },
+    {
+     "sector": 79,
+     "fired": null,
+     "net_depth_ppt": -0.5763,
+     "net_err_ppt": 1.4079,
+     "detail": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 4.224 ppt"
+    },
+    {
+     "sector": 80,
+     "fired": null,
+     "net_depth_ppt": 3.772,
+     "net_err_ppt": 1.9222,
+     "detail": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 5.767 ppt"
+    },
+    {
+     "sector": 84,
+     "fired": null,
+     "net_depth_ppt": 3.6212,
+     "net_err_ppt": 1.9326,
+     "detail": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 5.798 ppt"
+    }
+   ]
+  },
+  "K8": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Rp 2.449 Re (limit 16.81); density prior delta chi2 0.5620344600642966, converged True, non-grazing True, rho_fit/rho_cat 1.688",
+   "rp_rearth": 2.449,
+   "radius_kill": false,
+   "density_kill": false,
+   "delta_chi2_prior_minus_free": 0.5620344600642966,
+   "density_ratio": 1.6876752346319916,
+   "converged": true,
+   "non_grazing": true
+  },
+  "K9": {
+   "fired": false,
+   "measurable": true,
+   "detail": "criterion does not hold: K9a in 3, K9b in 0 sector(s) of 4 measurable; reviewer decision not recorded",
+   "criterion_holds": false,
+   "n_correlated": 3,
+   "n_disagreeing": 0,
+   "n_measurable": 4,
+   "reviewer_decision": null,
+   "reviewer_note": null,
+   "correlation": [
+    {
+     "sector": 57,
+     "n_points": 209,
+     "r": 0.1635,
+     "fired": false,
+     "detail": "|r| = 0.164 over 209 event-window cadences"
+    },
+    {
+     "sector": 79,
+     "n_points": 209,
+     "r": 0.8834,
+     "fired": true,
+     "detail": "|r| = 0.883 over 209 event-window cadences"
+    },
+    {
+     "sector": 80,
+     "n_points": 209,
+     "r": 0.999,
+     "fired": true,
+     "detail": "|r| = 0.999 over 209 event-window cadences"
+    },
+    {
+     "sector": 84,
+     "n_points": 209,
+     "r": 0.9976,
+     "fired": true,
+     "detail": "|r| = 0.998 over 209 event-window cadences"
+    }
+   ],
+   "disagreement": [
+    {
+     "sector": 57,
+     "fired": false,
+     "net_depth_ppt": 5.5572,
+     "net_err_ppt": 2.0701,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 5.557 +/- 2.070 ppt against D_ref 6.600 +/- 1.092 ppt"
+    },
+    {
+     "sector": 79,
+     "fired": false,
+     "net_depth_ppt": -0.5763,
+     "net_err_ppt": 1.4079,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net -0.576 +/- 1.408 ppt against D_ref 6.600 +/- 1.092 ppt"
+    },
+    {
+     "sector": 80,
+     "fired": false,
+     "net_depth_ppt": 3.772,
+     "net_err_ppt": 1.9222,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 3.772 +/- 1.922 ppt against D_ref 6.600 +/- 1.092 ppt"
+    },
+    {
+     "sector": 84,
+     "fired": false,
+     "net_depth_ppt": 3.6212,
+     "net_err_ppt": 1.9326,
+     "too_deep": false,
+     "too_shallow": false,
+     "brightening": false,
+     "detail": "net 3.621 +/- 1.933 ppt against D_ref 6.600 +/- 1.092 ppt"
+    }
+   ]
+  },
+  "H1": {
+   "fired": false,
+   "measurable": true,
+   "detail": "NFPP 0, FPP 0.048611849678553254",
+   "nfpp": 0.0,
+   "fpp": 0.048611849678553254,
+   "fpp_uniform": false
+  },
+  "H2": {
+   "fired": false,
+   "measurable": true,
+   "detail": "converged",
+   "uncertainty_issues": [],
+   "grazing": false,
+   "grazing_rail": false,
+   "b_err": 0.10564612382840273
+  },
+  "H3": {
+   "fired": false,
+   "measurable": true,
+   "detail": "every D measurement executed",
+   "missing": []
+  },
+  "H4": {
+   "fired": false,
+   "measurable": true,
+   "detail": "0 VSX entr(ies) within 21 arcsec, 0 eclipsing class(es)",
+   "entries": []
+  },
+  "H5": {
+   "fired": false,
+   "measurable": true,
+   "detail": "K9b disagreement in 0 of 4 measurable sector(s)",
+   "n_disagreeing": 0,
+   "n_measurable": 4,
+   "sectors": []
+  },
+  "H6": {
+   "fired": false,
+   "measurable": true,
+   "detail": "Stage C PASS",
+   "decision": "PASS",
+   "attempts": null,
+   "deadlines_s": null
+  }
+ },
+ "not_measurable": [
+  "K7"
+ ],
+ "flags": {
+  "F1": [
+   {
+    "source_id": 1415338306971353600,
+    "sep_arcsec": 25.7,
+    "sep_px": 1.22,
+    "G": 20.401439666748047,
+    "delta_mag": 5.41,
+    "max_depth_ppt_total_eclipse": 6.82,
+    "required_eclipse_fraction": 0.8476
+   },
+   {
+    "source_id": 1415338337035983488,
+    "sep_arcsec": 33.6,
+    "sep_px": 1.6,
+    "G": 19.719402313232422,
+    "delta_mag": 5.1,
+    "max_depth_ppt_total_eclipse": 9.04,
+    "required_eclipse_fraction": 0.6394
+   },
+   {
+    "source_id": 1415338337035990528,
+    "sep_arcsec": 39.2,
+    "sep_px": 1.87,
+    "G": 18.963878631591797,
+    "delta_mag": 4.4,
+    "max_depth_ppt_total_eclipse": 17.15,
+    "required_eclipse_fraction": 0.3371
+   },
+   {
+    "source_id": 1415338405755460480,
+    "sep_arcsec": 47.8,
+    "sep_px": 2.28,
+    "G": 18.515827178955078,
+    "delta_mag": 4.11,
+    "max_depth_ppt_total_eclipse": 22.13,
+    "required_eclipse_fraction": 0.2612
+   }
+  ],
+  "F2": {
+   "ruwe": 1.0966936349868774,
+   "ipd_frac_multi_peak": 0.0,
+   "astrometric_excess_noise_sig": 2.165614604949951,
+   "non_single_star": 0.0,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "best_class_name": "",
+   "duplicated_source": 0.0
+  },
+  "F3": {
+   "vsx": [],
+   "simbad": [
+    {
+     "main_id": "Gaia DR3 1415338513130475136",
+     "otype": "PM*",
+     "sp_type": "",
+     "sep_arcsec": 0.0
+    }
+   ]
+  },
+  "F4": {
+   "fpp": 0.048611849678553254,
+   "nfpp": 0.0,
+   "available": true,
+   "fpp_uniform": false,
+   "sectors": [
+    57,
+    77,
+    78
+   ],
+   "caveats": "binned fold; circular aperture from Tmag; first three selected sectors; probabilities are conditional on TRICERATOPS's astrophysical scenarios and do not price instrumental artefacts"
+  },
+  "F5": {
+   "localisation": "unlocalised",
+   "n_sectors_measurable": 4,
+   "per_sector": [
+    {
+     "sector": 57,
+     "net_depth_ppt": 5.5572,
+     "net_err_ppt": 2.0701,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 6.210 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.975,
+     "centroid_sigma": 0.45077140808824556,
+     "centroid_shift_px": 0.0018317219282664755
+    },
+    {
+     "sector": 77,
+     "centroid_sigma": 0.0,
+     "centroid_shift_px": 0.0
+    },
+    {
+     "sector": 78,
+     "centroid_sigma": 0.0,
+     "centroid_shift_px": 0.0
+    },
+    {
+     "sector": 79,
+     "net_depth_ppt": -0.5763,
+     "net_err_ppt": 1.4079,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 4.224 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 2.926,
+     "centroid_sigma": 1.4305152898413886,
+     "centroid_shift_px": 0.012776668338338446
+    },
+    {
+     "sector": 80,
+     "net_depth_ppt": 3.772,
+     "net_err_ppt": 1.9222,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 5.767 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.326,
+     "centroid_sigma": 0.823571766361594,
+     "centroid_shift_px": 0.002464377268444345
+    },
+    {
+     "sector": 84,
+     "net_depth_ppt": 3.6212,
+     "net_err_ppt": 1.9326,
+     "k7_absent": null,
+     "note": "unmeasurable: 0.5 x D_ref 3.300 < 3 sigma_s 5.798 ppt",
+     "k7_elsewhere": null,
+     "difference_max_dist_target_px": 0.52,
+     "centroid_sigma": 5.433321023072705,
+     "centroid_shift_px": 0.013162710976557902
+    }
+   ]
+  },
+  "F6": [
+   {
+    "period_days": "27.328428819835562",
+    "depth_ppt": "5.196797474857549",
+    "snr": "7.3656546159827965",
+    "verdict": "ambiguous / manual vetting required",
+    "stitch_snr": "7.099485621543694",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "14.571888156379137",
+    "depth_ppt": "3.051960217171476",
+    "snr": "7.293273191245426",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "7.293273191245426",
+    "passes_pregate": "True"
+   },
+   {
+    "period_days": "25.06989216440334",
+    "depth_ppt": "4.422936730344997",
+    "snr": "6.988720264677921",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "6.824976743445252",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "17.842978675404183",
+    "depth_ppt": "7.886194436384107",
+    "snr": "6.689832576944206",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "6.060898365497981",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "17.323271538812786",
+    "depth_ppt": "7.33443374873535",
+    "snr": "6.6698630077888295",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "6.6698630077888295",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "14.977421422775759",
+    "depth_ppt": "4.13120667645563",
+    "snr": "6.5710945514629655",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "6.891555425847294",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "15.896454650054096",
+    "depth_ppt": "3.17069976394936",
+    "snr": "6.553891677930608",
+    "verdict": "ambiguous / manual vetting required",
+    "stitch_snr": "6.553891677930608",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "11.5597138951567",
+    "depth_ppt": "9.44281847520921",
+    "snr": "6.044107162072626",
+    "verdict": "ambiguous / manual vetting required",
+    "stitch_snr": "5.247100856135591",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "10.182778775504316",
+    "depth_ppt": "2.8236859267238943",
+    "snr": "6.038382474416409",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "5.3565909072797115",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "21.00422705110314",
+    "depth_ppt": "2.9924288480330103",
+    "snr": "5.831416227167561",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "5.831416227167561",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "3.631206601234564",
+    "depth_ppt": "4.348315013354783",
+    "snr": "5.602044417466723",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "5.171841239807996",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "5.656018522396237",
+    "depth_ppt": "4.522271029475934",
+    "snr": "5.462345407949487",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "5.38511642253951",
+    "passes_pregate": "False"
+   },
+   {
+    "period_days": "3.6846517588801433",
+    "depth_ppt": "2.145550014674957",
+    "snr": "5.119777380419905",
+    "verdict": "promising planet candidate",
+    "stitch_snr": "5.187527226219193",
+    "passes_pregate": "False"
+   }
+  ],
+  "F7": {
+   "status": "CLEAN",
+   "tic_matches": [],
+   "neighbour_matches": [],
+   "tce_association": null
+  },
+  "F8": {
+   "n_observed": 4,
+   "n_excluded": 1,
+   "n_kept": 3,
+   "removed_by_class": {
+    "dip_absent_in_sap": 0,
+    "pdc_gap": 1,
+    "scattered_light_ramp": 0,
+    "scattered_light_flag": 1,
+    "momentum_dump": 0,
+    "sector_orbit_edge": 0,
+    "quality_flagged": 0,
+    "sap_baseline_ramp": 0
+   },
+   "strongest_event_removed": false
+  },
+  "F9": "4 Gaia neighbour(s) within 63 arcsec could produce the depth by total eclipse (nearest 25.7 arcsec, G 20.401439666748047, needing an eclipse of 85% of its light). Seeing-limited ground photometry at the predicted epochs, resolving each of them, would settle the source. TESS fixed-aperture photometry is consistent with the target in 4 sector(s) but cannot separate the target from the listed neighbours. TRICERATOPS FPP 0.0486, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+  "F10": {
+   "word": "K10_FLAG",
+   "or_variants": [
+    "K10e",
+    "K10s"
+   ],
+   "or_fired": false,
+   "K10e": {
+    "fired": false,
+    "measurable": true,
+    "detail": "n_excluded / n_observed = 1/4 = 0.250 (> 0.5 fires)",
+    "n_observed": 4,
+    "n_excluded": 1,
+    "fraction": 0.25
+   },
+   "K10s": {
+    "fired": false,
+    "measurable": true,
+    "detail": "SAP 3.755 +/- 0.838 ppt vs corrected 6.500 +/- 0.859 ppt; SAP < 0.5x False; difference > 3 sigma False; kept events in 3 sector(s)",
+    "det_ppt": 6.5,
+    "det_err_ppt": 0.859,
+    "sap_ppt": 3.755,
+    "sap_err_ppt": 0.838,
+    "quadrature_err_ppt": 1.2000520822031018,
+    "kept_sectors": [
+     57,
+     79,
+     80
+    ],
+    "sap_below_half": false,
+    "difference_significant": false,
+    "kept_sectors_ge_2": true
+   },
+   "deciding": false
+  }
+ },
+ "thresholds": {
+  "alias_ratios": {
+   "2:1": 2.0,
+   "1:2": 0.5,
+   "3:1": 3.0,
+   "1:3": 0.3333333333333333,
+   "3:2": 1.5,
+   "2:3": 0.6666666666666666
+  },
+  "alias_tolerance": 0.01,
+  "catalogue_radius_arcsec": 60.0,
+  "odd_even_sigma": 3.5,
+  "odd_even_min_transits": 2,
+  "k7_neighbour_px": 1.0,
+  "k7_target_px": 1.5,
+  "k7_search_px": 3.0,
+  "pixel_sigma": 3.0,
+  "min_sectors": 2,
+  "dilution_allowance": 0.5,
+  "max_radius_rjup": 1.5,
+  "r_jup_in_r_earth": 11.209,
+  "density_reject_dchi2": 9.0,
+  "density_ratio_range": [
+   0.5,
+   2.5
+  ],
+  "k9_correlation": 0.7,
+  "k9_window_durations": 3.0,
+  "k9_min_points": 10,
+  "nfpp_hold": 0.5,
+  "grazing_b_err": 0.5,
+  "vsx_eb_classes": [
+   "EA",
+   "EB",
+   "EW",
+   "ELL"
+  ],
+  "vsx_target_radius_arcsec": 21.0,
+  "neighbour_radius_arcsec": 63.0,
+  "min_sky_pixels": 16
+ },
+ "note": "SUBMIT is a local CTOI-grade verdict, not a validation; F9 states what would settle the source. Nothing is submitted by the pipeline.",
+ "base_rules": "p10.0",
+ "k_order": [
+  "K0",
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5",
+  "K6",
+  "K7",
+  "K8",
+  "K9"
+ ],
+ "h_order": [
+  "H1",
+  "H2",
+  "H3",
+  "H4",
+  "H5",
+  "H6"
+ ],
+ "install_hash": "e56936ea444f6486d45ba40a7b6e9747db64f6420e12ce8ed5a47138634c6c67",
+ "amended_constants": {
+  "TIER_DENSITY_RATIO_RANGE": [
+   0.5,
+   2.5
+  ],
+  "TIER_ODD_EVEN_SIGMA": 3.5
+ },
+ "candidate_tier": {
+  "candidate_tier": 2,
+  "label": "pixel-supported candidate",
+  "route": [
+   "informative_centroid"
+  ],
+  "centroid": {
+   "per_sector": [
+    {
+     "sector": 57,
+     "status": "informative",
+     "total_shift_px": 0.0018317219282664755,
+     "shift_err_px": 0.004063527312069197,
+     "radius_3sigma_px": 0.01219058193620759,
+     "radius_ok": true,
+     "capable_neighbours_in_region": []
+    },
+    {
+     "sector": 77,
+     "status": "not_measurable"
+    },
+    {
+     "sector": 78,
+     "status": "not_measurable"
+    },
+    {
+     "sector": 79,
+     "status": "informative",
+     "total_shift_px": 0.012776668338338446,
+     "shift_err_px": 0.008931514698983109,
+     "radius_3sigma_px": 0.026794544096949327,
+     "radius_ok": true,
+     "capable_neighbours_in_region": []
+    },
+    {
+     "sector": 80,
+     "status": "informative",
+     "total_shift_px": 0.002464377268444345,
+     "shift_err_px": 0.0029923042157352754,
+     "radius_3sigma_px": 0.008976912647205827,
+     "radius_ok": true,
+     "capable_neighbours_in_region": []
+    },
+    {
+     "sector": 84,
+     "status": "offset",
+     "total_shift_px": 0.013162710976557902,
+     "shift_err_px": 0.0024225903311551424,
+     "radius_3sigma_px": 0.007267770993465428,
+     "radius_ok": true,
+     "capable_neighbours_in_region": []
+    }
+   ],
+   "capable_neighbours": [
+    {
+     "source_id": 1415338306971353600,
+     "sep_px": 1.22,
+     "delta_mag": 5.41,
+     "flux_ratio": 0.006854882264526613
+    },
+    {
+     "source_id": 1415338337035983488,
+     "sep_px": 1.6,
+     "delta_mag": 5.1,
+     "flux_ratio": 0.009120108393559097
+    },
+    {
+     "source_id": 1415338337035990528,
+     "sep_px": 1.87,
+     "delta_mag": 4.4,
+     "flux_ratio": 0.017378008287493744
+    },
+    {
+     "source_id": 1415338405755460480,
+     "sep_px": 2.28,
+     "delta_mag": 4.11,
+     "flux_ratio": 0.022698648518838214
+    }
+   ],
+   "depth_fraction": 0.0066,
+   "n_informative": 3
+  }
+ },
+ "validation_status": "4 Gaia neighbour(s) within 63 arcsec could produce the depth by total eclipse (nearest 25.7 arcsec, G 20.401439666748047, needing an eclipse of 85% of its light). Seeing-limited ground photometry at the predicted epochs, resolving each of them, would settle the source. TESS fixed-aperture photometry is consistent with the target in 4 sector(s) but cannot separate the target from the listed neighbours. TRICERATOPS FPP 0.0486, NFPP 0 on the binned fold; a low value does not price instrumental artefacts. Statistical validation additionally needs a resolved source, repeated localised dimming and a low FPP with the scene fixed; this candidate is submitted as a candidate, not as a validated planet.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

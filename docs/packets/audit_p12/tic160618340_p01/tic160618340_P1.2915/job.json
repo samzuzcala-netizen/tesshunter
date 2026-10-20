@@ -1,0 +1,14 @@
+{
+ "rank": 0,
+ "tic_id": 160618340,
+ "period": 1.2915077491327633,
+ "depth_ppt": 3.4749557183104223,
+ "key": "tic160618340_P1.2915",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

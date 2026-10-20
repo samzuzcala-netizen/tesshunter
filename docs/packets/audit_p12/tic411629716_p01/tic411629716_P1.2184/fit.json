@@ -1,0 +1,124 @@
+{
+ "tic_id": 411629716,
+ "survey_period": 1.218430606587379,
+ "generated_utc": "2026-10-01T09:02:06Z",
+ "ephemeris_start": {
+  "period": 1.2118473277255493,
+  "t0": 2853.89571317508,
+  "duration": 0.2,
+  "source": "stageC.blind",
+  "ref_depth_ppt": 2.0352771047743974
+ },
+ "rules_version": "p10.0",
+ "data": {
+  "n_points_in_windows": 29601,
+  "n_transits_with_data": 60,
+  "sectors": [
+   57,
+   70,
+   84
+  ],
+  "window_half_days": 0.6000000000000001,
+  "beta_red_noise": 1.5,
+  "sigma_white_median_ppt": 7.157
+ },
+ "limb_darkening": {
+  "u1": 0.1908,
+  "u2": 0.4292,
+  "source": "survey Claret interpolation at TIC Teff 3135 K"
+ },
+ "stellar": {
+  "radius": 0.269112,
+  "radius_err": 0.026911200000000003,
+  "mass": 0.241818,
+  "rho_cgs": 17.469967141956722,
+  "rho_err": 5.240990142587017,
+  "a_rs_catalog": 11.069045067633988
+ },
+ "free_fit": {
+  "t0": 2853.933386936987,
+  "period": 1.2118986125712465,
+  "rp_rs": 0.04039287167520862,
+  "a_rs": 1.5000000000000002,
+  "b": 3.144773810134938e-13,
+  "chi2": 13390.476425389279,
+  "rho_fit_cgs": 0.043470900905712526
+ },
+ "prior_fit": {
+  "t0": 2853.8945712453055,
+  "period": 1.2118255857577396,
+  "rp_rs": 0.04919635535772615,
+  "a_rs": 11.069045067633988,
+  "b": 9.785084415794574e-08,
+  "chi2": 13523.751052770705
+ },
+ "chi2_flat": 13574.575487944441,
+ "delta_chi2_prior_minus_free": 133.2746273814264,
+ "density_prior_adopted": false,
+ "uncertainty_issues": [
+  "singular fit covariance: parameter uncertainties are unavailable"
+ ],
+ "impact_parameter_near_zero": true,
+ "adopted": {
+  "t0_btjd": 2853.933386936987,
+  "t0_err": null,
+  "epoch_bjd": 2459853.933386937,
+  "period": 1.2118986125712465,
+  "period_err": null,
+  "rp_rs": 0.04039287167520862,
+  "rp_rs_err": null,
+  "a_rs": 1.5000000000000002,
+  "a_rs_err": null,
+  "b": 3.144773810134938e-13,
+  "b_err": null,
+  "inc_deg": 89.99999999998799,
+  "depth_max_ppt": 1.886,
+  "depth_avg_ppt": 1.632,
+  "depth_err_ppt": null,
+  "t14_hours": 7.094,
+  "t14_err_hours": null,
+  "rp_rearth": 1.186,
+  "rp_rearth_err": null,
+  "rho_fit_cgs": 0.043470900905712526,
+  "density_ratio_fit_over_cat": 0.0024883218470005417,
+  "grazing": false,
+  "delta_chi2_vs_flat": 184.09906255516216,
+  "n_transits": 60
+ },
+ "odd_even": {
+  "odd": {
+   "rp_rs": 0.03965709242632451,
+   "rp_rs_err": 0.002167164578825263,
+   "depth_ppt": 1.573,
+   "n_transits": 33
+  },
+  "even": {
+   "rp_rs": 0.0410907498127197,
+   "rp_rs_err": 0.002052423622033462,
+   "depth_ppt": 1.688,
+   "n_transits": 32
+  },
+  "sigma": 0.48
+ },
+ "timing_s": 2.3,
+ "fit_input": {
+  "version": 1,
+  "stage_c_sha256": "1ca2107201f3a1fe795b5514f2ec20021bffed1b65dedef0e3a5acb40b85b12f",
+  "ephemeris": {
+   "period": 1.2118473277255493,
+   "t0": 2853.89571317508,
+   "duration": 0.2,
+   "source": "stageC.blind",
+   "ref_depth_ppt": 2.0352771047743974
+  },
+  "depth_flux": 0.9972549530404067
+ },
+ "survey_preset": "survey_p10",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

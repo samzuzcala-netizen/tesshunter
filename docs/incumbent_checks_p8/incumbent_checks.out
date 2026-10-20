@@ -1,0 +1,63 @@
+pool 117171 targets 2000 per_star 2000 toi 8148 ctoi 5137
+gaia_dwarf_check values: {'pass': 107121, 'no_parallax': 8871, 'overluminous_for_colour': 1052, 'underluminous_for_colour': 127}
+
+DOMAIN before hard stop: 11491 | gaia pass: 10513
+xmatch_status in domain: {'CLEAN': 10903, 'REJECT': 552, 'FLAG': 36}
+REJECT sources in domain: any toi 16 | toi only via spoc_tce 0 | spoc_tce only 531 | ctoi(any) 12 | tess_eb(any) 6 | nasa(any) 0
+
+sigma model: ln sigma_ppt = -8.878 + 0.810*Tmag ; resid sd 0.223 dex-e ; cadences/sector median 9127
+detectable_through_funnel: sum actual 19.00, sum fit 18.54, resid sd 0.237
+detectable_search_only: sum actual 25.29, sum fit 24.57, resid sd 0.265
+
+Model extrapolated to the domain: funnel-detectable planets = 78.7 over 11491 stars (0.0069/star); search-only 102.5
+  2,000 selected stars actual: funnel 19.0 (0.0095/star) ; metric median 2000=1964 domain=656
+
+TOIs on domain stars: 6 rows on 6 hosts | planet-like 2 | FP/FA 4 | in 0.5-30 d & planet-like 2
+  Detection: {'SPOC': 5, 'CTOI': 1}
+  tfop: {'FP': 2, 'FA': 2, 'PC': 2}
+  hosts' xmatch_status: {'REJECT': 6}
+  TOIs alerted after 2026-09-04 on domain stars: 0 
+
+Planet-like in-band TOIs on domain stars by P8-condition SNR:
+         n  p_funnel  p_search  snr_pipe_med
+snr_bin                                     
+<7.1     0  0.000000  0.000000           NaN
+7.1-12   1  0.262634  0.398894     12.651691
+12-20    1  0.470833  0.717380      8.495152
+20-50    0  0.000000  0.000000           NaN
+>50      0  0.000000  0.000000           NaN
+
+CLAIMED funnel-grade planets (sum p_funnel) = 0.7 ; search-grade = 1.1 ; raw count 2 ; hosts 2
+  by disposition: KP 0.0/0, CP 0.0/0, PC 0.7/2, APC 0.0/0
+  MODEL funnel-detectable in the same 11491 stars = 78.7 -> claimed/model = 0.01 (search-grade: 1.1/102.5 = 0.01)
+  sigma low: claimed funnel 0.9
+  sigma high: claimed funnel 0.6
+  full list -> domain_tois.csv (top 12 by P8 SNR):
+    TOI tfop Detection         P       rp   depth_ppm    Tmag  n_sectors_200s  snr_pipe    snr_p8  p_funnel
+7688.01   PC      CTOI  2.539561 2.949185 4894.950338 13.5883               4  8.495152 19.084341  0.470833
+7694.01   PC      SPOC 13.671565 2.067966 2261.551937 13.2528              12 12.651691 11.165235  0.262634
+
+TOIs on the 2,000 searched stars: 0 
+CTOI columns: ['source', 'tic_id', 'ra', 'dec', 'label', 'detail']
+CTOIs on domain stars: 13
+
+=== CHECK 2: joint SPOC/QLP detection among TOIs (all sky) ===
+  all stars Tmag 0.0-10.5                SPOC-found  681 | QLP-found  796 | both  212 | c_QLP|SPOC-found = 0.31 (0.28-0.35)
+    M dwarfs (Teff<4000) same Tmag       SPOC-found   50 | QLP-found   24 | both   17 | c_QLP|SPOC-found = 0.34 (0.22-0.48)
+  all stars Tmag 10.5-12.5               SPOC-found  727 | QLP-found 1666 | both   83 | c_QLP|SPOC-found = 0.11 (0.09-0.14)
+    M dwarfs (Teff<4000) same Tmag       SPOC-found  160 | QLP-found   37 | both   15 | c_QLP|SPOC-found = 0.09 (0.06-0.15)
+  all stars Tmag 12.5-13.5               SPOC-found  169 | QLP-found 1915 | both   12 | c_QLP|SPOC-found = 0.07 (0.04-0.12)
+    M dwarfs (Teff<4000) same Tmag       SPOC-found   51 | QLP-found   38 | both    2 | c_QLP|SPOC-found = 0.04 (0.01-0.13)
+  all stars Tmag 13.5-15.0               SPOC-found  148 | QLP-found  179 | both    2 | c_QLP|SPOC-found = 0.01 (0.00-0.05)
+    M dwarfs (Teff<4000) same Tmag       SPOC-found   43 | QLP-found  128 | both    2 | c_QLP|SPOC-found = 0.05 (0.01-0.15)
+  by pipeline SNR, M dwarfs Tmag<13.5:
+      SNR 0-10                           SPOC-found   76 | QLP-found    9 | both    1 | c_QLP|SPOC-found = 0.01 (0.00-0.07)
+      SNR 10-15                          SPOC-found   84 | QLP-found   22 | both    5 | c_QLP|SPOC-found = 0.06 (0.03-0.13)
+      SNR 15-20                          SPOC-found   35 | QLP-found   13 | both    3 | c_QLP|SPOC-found = 0.09 (0.03-0.22)
+      SNR 20-50                          SPOC-found   41 | QLP-found   44 | both   15 | c_QLP|SPOC-found = 0.37 (0.24-0.52)
+      SNR 50-1e+09                       SPOC-found   29 | QLP-found   19 | both   10 | c_QLP|SPOC-found = 0.34 (0.20-0.53)
+
+  Reverse direction inside the pool (2-min coverage known): QLP/FAINT-found TOIs on pool stars with >=1 2-min sector
+    n=10, also SPOC-found 0 -> c_SPOC|QLP-found = 0.00 (-0.00-0.28)
+
+  Pipeline SNR of planet-like in-band TOIs on domain stars: quantiles 10/25/50/75/90 = [ 8.9  9.5 10.6 11.6 12.2] | fraction with SNR<15: 1.00

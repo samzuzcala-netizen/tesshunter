@@ -1,0 +1,154 @@
+{
+  "form_fields": {
+    "target": "TIC 259377017",
+    "tic_id": 259377017,
+    "discovery_source": "TESS",
+    "period_days": 5.660480750002586,
+    "period_err_days": 1.8561313689538959E-06,
+    "epoch_bjd": 2458389.5031180345,
+    "epoch_err_days": 0.0005336040428212355,
+    "depth_ppm": 3667.0,
+    "depth_err_ppm": 80.0,
+    "duration_hours": 1.733,
+    "duration_err_hours": 0.024,
+    "disposition": "PC",
+    "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+    "candidate_name": null,
+    "paper_url": null,
+    "notes": "DEMO EXERCISE (prompt 8, Part 4): TOI-270 c is a known planet; this file exists only to show the ctoi-fields writer runs to completion. Do not submit."
+  },
+  "supplementary": {
+    "rp_rs": 0.05691023980264571,
+    "rp_rs_err": 0.0006990348582589669,
+    "rp_rearth": 2.324,
+    "rp_rearth_err": 0.077,
+    "a_rs": 22.698334163001793,
+    "a_rs_err": 0.2688278814061923,
+    "impact_parameter": 0.5350745635585369,
+    "impact_parameter_err": 0.015667290439215487,
+    "inclination_deg": 88.64922447148889,
+    "depth_duration_averaged_ppm": 3010.0,
+    "density_prior_adopted": true,
+    "delta_chi2_prior_minus_free": 7.5455594406193995,
+    "beta_red_noise": 1.99,
+    "n_transits_in_fit": 34,
+    "odd_even": {
+      "odd": {
+        "rp_rs": 0.05698652081469809,
+        "rp_rs_err": 0.0008693587911258188,
+        "depth_ppt": 3.247,
+        "n_transits": 19
+      },
+      "even": {
+        "rp_rs": 0.05683264867101176,
+        "rp_rs_err": 0.0008781110474891368,
+        "depth_ppt": 3.23,
+        "n_transits": 18
+      },
+      "sigma": 0.12
+    },
+    "tls_blind": {
+      "period": 5.660490414062107,
+      "SDE": 215.17193360004268,
+      "snr": 21.282822705347577,
+      "distinct_transit_count": 8
+    },
+    "tls_verdict": "PASS",
+    "events": {
+      "n_observed": 43,
+      "n_excluded": 15,
+      "n_kept": 28
+    },
+    "det_kept": {
+      "n": 28,
+      "weighted_mean_depth_ppt": 3.154,
+      "err_ppt": 0.036,
+      "snr": 86.89,
+      "chi2_const": 40.8,
+      "dof": 27,
+      "p_const": 0.672193994186359,
+      "top_event_n": 454,
+      "top_event_share_of_snr2": 0.05,
+      "snr_without_top_event": 84.68,
+      "n_events_depth_above_2sigma": 28,
+      "n_events_negative": 0,
+      "odd_even": {
+        "odd_ppt": 3.144,
+        "odd_err": 0.048,
+        "even_ppt": 3.167,
+        "even_err": 0.056,
+        "sigma": 0.31
+      },
+      "p_const_white": 0.043158622756650306,
+      "chi2_const_white": 40.8,
+      "snr_white": 86.89,
+      "beta_median": 1.29,
+      "beta_min": 1.234,
+      "beta_max": 1.389,
+      "weighted_mean_depth_ppt_inflated": 3.152,
+      "err_ppt_inflated": 0.047,
+      "snr_inflated": 67.08,
+      "chi2_const_inflated": 23.2,
+      "p_const_inflated": 0.672193994186359
+    },
+    "sap_kept": {
+      "n": 28,
+      "weighted_mean_depth_ppt": 3.214,
+      "err_ppt": 0.037,
+      "snr": 87.63,
+      "chi2_const": 47.5,
+      "dof": 27,
+      "p_const": 0.38415998276613167,
+      "top_event_n": 454,
+      "top_event_share_of_snr2": 0.05,
+      "snr_without_top_event": 85.42,
+      "n_events_depth_above_2sigma": 28,
+      "n_events_negative": 0,
+      "odd_even": {
+        "odd_ppt": 3.254,
+        "odd_err": 0.048,
+        "even_ppt": 3.158,
+        "even_err": 0.056,
+        "sigma": 1.28
+      },
+      "p_const_white": 0.008659153625501782,
+      "chi2_const_white": 47.5,
+      "snr_white": 87.63,
+      "beta_median": 1.29,
+      "beta_min": 1.234,
+      "beta_max": 1.389,
+      "weighted_mean_depth_ppt_inflated": 3.212,
+      "err_ppt_inflated": 0.047,
+      "snr_inflated": 67.74,
+      "chi2_const_inflated": 28.5,
+      "p_const_inflated": 0.38415998276613167
+    },
+    "stellar": {
+      "radius": 0.374358,
+      "radius_err": 0.0114957,
+      "mass": 0.362274,
+      "rho_cgs": 6.90519,
+      "rho_err": 0.245345,
+      "a_rs_catalog": 22.698334163001793
+    },
+    "limb_darkening": {
+      "u1": 0.45,
+      "u2": 0.2,
+      "source": "default quadratic (no packet)"
+    }
+  },
+  "provenance": {
+    "generated_utc": "2026-09-04T22:59:58Z",
+    "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+    "catalog_versions": "ctoi=2026-09-03:f6964541;nasa_ps=2026-09-03:a77e0fbc;nasa_pscomppars=2026-09-03:0ade67b2;spoc_tce=2026-09-03:e580dde7;tess_eb=2026-09-03:43555226;toi=2026-09-03:cf05fbb7",
+    "crossmatch_status": "REJECT",
+    "audit_files": [
+      "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_toi270\\tls\\tic259377017_P5.6602.json",
+      "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_toi270\\events\\tic259377017_P5.6602_tls.json",
+      "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_toi270\\neighbours\\tic259377017.json",
+      "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\demo_toi270\\fit\\tic259377017_P5.6602.json"
+    ],
+    "rules_version": "p7.0"
+  },
+  "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits."
+}

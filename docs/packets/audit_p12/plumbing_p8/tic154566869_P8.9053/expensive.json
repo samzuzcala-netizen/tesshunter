@@ -1,0 +1,469 @@
+{
+ "key": "tic154566869_P8.9053",
+ "tic_id": 154566869,
+ "rules_version": "p8.0",
+ "source_sha256": {
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/stageA/tic154566869_P8.9053.json": "10a8beb229acec434a6c4c5570c6265ee85f52c35744f8d1c2b5e42df80efd25",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/secondary/tic154566869_P8.9053.json": "52b155907e8ee691a13b4ec57682fd809228181afb6291fefc0cbc9f3a086f7d",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/stageB/tic154566869_P8.9053.json": "36c027f3d689abfde9f92aa5ec049b072a86162cee3a3a3dc2ae3dc9ae9b71c6",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/stageC/tic154566869_P8.9053.json": "1cab27836578e2f8523bea97a37fb686402c92e845a97d140e2146d4c245f200",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/fit/tic154566869_P8.9053.json": "2020dd9e95b3deb64e6cec7ea28cdf669cbb0c5aa64096466dfc1543daed4aad",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/tls/tic154566869_P8.9053.json": "6560cfdf60266392489883aa69af36c9c412664f10e35fd38cec9f0d1a198131",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/neighbours/tic154566869.json": "2254663bcb6e9631f9749369f26e89a290ce0148f2fdb047796d9d01bf4233f0",
+  "data/survey/p12/plumbing_p8/tic154566869_P8.9053/tls/tic154566869_P8.9053_lc.npz": "f0c6844b49e033206d010fd4ef2c0854774cc5ae1f1c86d1a0bc708584ce6c1f"
+ },
+ "input_fingerprint": "cf52d91c16493ba07a4b636abc748acdea0986600683ab0ebc5de8e85dc2bf77",
+ "n_draws": 100000,
+ "status": "complete",
+ "timings": {
+  "centroid": {
+   "wall_seconds": 11.7
+  },
+  "fpp": {
+   "wall_seconds": 78.8
+  },
+  "total_seconds": 90.6
+ },
+ "ephemeris_source": "P12 all-transit physical fit (Stage C seeded)",
+ "cadence_s": 200.0,
+ "period": 8.885255331734069,
+ "t0_btjd": 2942.36062407595,
+ "duration_days": 0.15958333333333333,
+ "gaia_context": {
+  "gaia_error": null,
+  "n_within_1arcmin": 9,
+  "target_match": "tic_gaia_id",
+  "ruwe": 1.171926736831665,
+  "ipd_frac_multi_peak": 0.0,
+  "astrometric_excess_noise_sig": 3.387705087661743,
+  "phot_variable_flag": "NOT_AVAILABLE",
+  "vari_class": "",
+  "non_single_star": 0.0,
+  "duplicated_source": 0.0,
+  "rv_amplitude_robust": null,
+  "rv_error": 1.9642521142959595,
+  "rv_n_transits": 21.0,
+  "n_neighbours_could_produce_depth_within_3px": 8,
+  "simbad_otypes": [
+   "PM*"
+  ],
+  "n_vsx_within_1arcmin": 0,
+  "vsx_types": [],
+  "rv_expected_peak_to_peak": null,
+  "rv_above_noise_expectation": null,
+  "flags": [
+   "astrometric_excess_noise_sig 3.4 > 2.0",
+   "8 neighbour(s) within 3 px bright enough to make the depth if totally eclipsed"
+  ]
+ },
+ "gaia_neighbours": {
+  "n_within_1arcmin": 9,
+  "target": {
+   "source_id": 1691594417381436928,
+   "ra": 190.45355845052975,
+   "dec": 74.2806678534019,
+   "phot_g_mean_mag": 14.074954986572266,
+   "phot_bp_mean_mag": 15.598316192626953,
+   "phot_rp_mean_mag": 12.878613471984863,
+   "parallax": 23.045068277390154,
+   "parallax_error": 0.015078913420438766,
+   "pmra": -210.9945015657816,
+   "pmdec": 49.09274997486761,
+   "ruwe": 1.171926736831665,
+   "phot_variable_flag": "NOT_AVAILABLE",
+   "non_single_star": 0.0,
+   "duplicated_source": 0.0,
+   "ipd_frac_multi_peak": 0.0,
+   "ipd_gof_harmonic_amplitude": 0.004452589433640242,
+   "astrometric_excess_noise": 0.08121997117996216,
+   "astrometric_excess_noise_sig": 3.387705087661743,
+   "radial_velocity": 7.403204917907715,
+   "radial_velocity_error": 1.9642521142959595,
+   "rv_amplitude_robust": null,
+   "rv_nb_transits": 21.0,
+   "phot_g_n_obs": 404.0,
+   "teff_gspphot": null,
+   "logg_gspphot": null,
+   "distance_gspphot": null,
+   "best_class_name": "",
+   "best_class_score": null,
+   "sep_arcsec": 3.4651237570180675
+  },
+  "target_match": "tic_gaia_id",
+  "neighbours": [
+   {
+    "source_id": 1691594417380687744,
+    "sep_arcsec": 6.3,
+    "sep_px": 0.3,
+    "G": 17.94512176513672,
+    "Rp": 17.23067855834961,
+    "band_used": "rp",
+    "delta_mag": 4.35,
+    "flux_ratio_to_target": 0.01816,
+    "max_observed_depth_ppt_total_eclipse": 17.84,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0933209657669067,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.699215511192028
+   },
+   {
+    "source_id": 1691594417381929984,
+    "sep_arcsec": 28.3,
+    "sep_px": 1.35,
+    "G": 16.07878875732422,
+    "Rp": 14.750699996948242,
+    "band_used": "rp",
+    "delta_mag": 1.87,
+    "flux_ratio_to_target": 0.17831,
+    "max_observed_depth_ppt_total_eclipse": 151.32,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   },
+   {
+    "source_id": 1691594486100312448,
+    "sep_arcsec": 29.4,
+    "sep_px": 1.4,
+    "G": 19.778501510620117,
+    "Rp": 18.92885971069336,
+    "band_used": "rp",
+    "delta_mag": 6.05,
+    "flux_ratio_to_target": 0.0038,
+    "max_observed_depth_ppt_total_eclipse": 3.79,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     false
+    ],
+    "ruwe": 1.026809573173523,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.26082378347991114
+   },
+   {
+    "source_id": 1691594378725852928,
+    "sep_arcsec": 34.1,
+    "sep_px": 1.62,
+    "G": 19.802095413208008,
+    "Rp": 18.607412338256836,
+    "band_used": "rp",
+    "delta_mag": 5.73,
+    "flux_ratio_to_target": 0.00511,
+    "max_observed_depth_ppt_total_eclipse": 5.08,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.9971904754638672,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.9523923805961231
+   },
+   {
+    "source_id": 1691594451741175424,
+    "sep_arcsec": 41.6,
+    "sep_px": 1.98,
+    "G": 18.614042282104492,
+    "Rp": 17.919904708862305,
+    "band_used": "rp",
+    "delta_mag": 5.04,
+    "flux_ratio_to_target": 0.00963,
+    "max_observed_depth_ppt_total_eclipse": 9.54,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 0.967488706111908,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.5911295766085123
+   },
+   {
+    "source_id": 1691594791042714368,
+    "sep_arcsec": 42.7,
+    "sep_px": 2.03,
+    "G": 18.02066993713379,
+    "Rp": 17.164928436279297,
+    "band_used": "rp",
+    "delta_mag": 4.29,
+    "flux_ratio_to_target": 0.0193,
+    "max_observed_depth_ppt_total_eclipse": 18.93,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.0553759336471558,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 0.8881727729632996
+   },
+   {
+    "source_id": 1691547477682980352,
+    "sep_arcsec": 47.6,
+    "sep_px": 2.27,
+    "G": 16.223960876464844,
+    "Rp": 15.532609939575195,
+    "band_used": "rp",
+    "delta_mag": 2.65,
+    "flux_ratio_to_target": 0.08678,
+    "max_observed_depth_ppt_total_eclipse": 79.85,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": 1.042549729347229,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": 1.031439499505382
+   },
+   {
+    "source_id": 1691547481978983040,
+    "sep_arcsec": 54.9,
+    "sep_px": 2.61,
+    "G": 21.525117874145508,
+    "Rp": 18.497472763061523,
+    "band_used": "rp",
+    "delta_mag": 5.62,
+    "flux_ratio_to_target": 0.00566,
+    "max_observed_depth_ppt_total_eclipse": 5.62,
+    "can_produce_candidate_depths_total_eclipse": [
+     true
+    ],
+    "can_produce_candidate_depths_50pct_eclipse": [
+     true
+    ],
+    "ruwe": null,
+    "variable_flag": "NOT_AVAILABLE",
+    "vari_class": "",
+    "parallax": null
+   }
+  ],
+  "n_neighbours_that_could_produce_depth_total_eclipse_within_63arcsec": 8,
+  "n_neighbours_within_3px_could_make_1ppt": 8
+ },
+ "gaia_usage": "Cached neighbour table for the resolved-neighbour assessment; TRICERATOPS uses its TIC scene and its own wider Gaia field population.",
+ "centroid": {
+  "available": true,
+  "n_sectors_requested": 3,
+  "n_sectors_with_pixels": 3,
+  "n_sectors_used": 3,
+  "sectors_used": [
+   60,
+   74,
+   75
+  ],
+  "sources": {
+   "SPOC": 0,
+   "TESS-SPOC": 0,
+   "TESScut": 3
+  },
+  "per_sector": [
+   {
+    "sector": 60,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.01814893989740085,
+    "row_shift_px": 0.002687016727804803,
+    "total_shift_px": 0.01834677296679095,
+    "shift_err_px": 0.0027810102002579717,
+    "sigma": 6.597161335506454,
+    "n_in": 138,
+    "n_out": 8275,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = +0.018 px, \u0394row = +0.003 px, total = 0.018 px (0.4 arcsec), significance = 6.6\u03c3  (138 in-transit, 8275 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 74,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": -0.00026973457579515525,
+    "row_shift_px": 0.0048442887026567405,
+    "total_shift_px": 0.004851792429202544,
+    "shift_err_px": 0.0026329706162650517,
+    "sigma": 1.8427066368423655,
+    "n_in": 206,
+    "n_out": 10854,
+    "flagged": false,
+    "note": "Centroid shift: \u0394col = -0.000 px, \u0394row = +0.005 px, total = 0.005 px (0.1 arcsec), significance = 1.8\u03c3  (206 in-transit, 10854 OOT cadences, 1 px = 21 arcsec)."
+   },
+   {
+    "sector": 75,
+    "source": "TESScut",
+    "available": true,
+    "col_shift_px": 0.012049201603076654,
+    "row_shift_px": -0.012697314588876907,
+    "total_shift_px": 0.01750442964053646,
+    "shift_err_px": 0.0033314113411226764,
+    "sigma": 5.254358543018442,
+    "n_in": 207,
+    "n_out": 11266,
+    "flagged": true,
+    "note": "Centroid shift: \u0394col = +0.012 px, \u0394row = -0.013 px, total = 0.018 px (0.4 arcsec), significance = 5.3\u03c3  (207 in-transit, 11266 OOT cadences, 1 px = 21 arcsec)."
+   }
+  ],
+  "log": [
+   "tesscut_only: 9 pipeline TPF sector(s) ignored",
+   "pixel plan: 0 pipeline TPF sector(s) ([]), 10 TESScut sector(s); plan took 11 s"
+  ],
+  "seconds": 11.7,
+  "pixel_scale_arcsec": 21.0,
+  "method": "P0 in/out-of-transit median centroid per TPF, inverse-variance combined over sectors",
+  "col_shift_px": 0.009331521129372428,
+  "row_shift_px": -0.0002691403780648482,
+  "total_shift_px": 0.009335401605235254,
+  "shift_arcsec": 0.19604343370994035,
+  "shift_err_px": 0.0016582809081708576,
+  "sigma": 5.629565871039625,
+  "n_in_transit": 551,
+  "n_out_transit": 30395,
+  "flagged": true,
+  "n_sectors_flagged_individually": 2,
+  "note": "Centroid shift (weighted over 3 sectors): dcol = +0.009 px, drow = -0.000 px, total = 0.009 px (0.2 arcsec), significance = 5.6 sigma; 2 of 3 sectors flagged on their own."
+ },
+ "fpp": {
+  "available": true,
+  "fpp": 0.9888071352713687,
+  "nfpp": 0.8681054034540543,
+  "tic_id": 154566869,
+  "sectors": [
+   60,
+   74,
+   75
+  ],
+  "n_stars": 46,
+  "n_scenarios": 27,
+  "aperture_source": "circular_from_tmag",
+  "aperture_radius_px": 1.5,
+  "depth_frac_used": 0.002714,
+  "period_used": 8.885255331734069,
+  "n_points_used": 150,
+  "window_days": 0.9512130563488058,
+  "top_scenarios": [
+   {
+    "scenario": "NEBx2P",
+    "ID": 154566867,
+    "prob": 0.4805814113899903
+   },
+   {
+    "scenario": "NEBx2P",
+    "ID": 950776935,
+    "prob": 0.13608314551849163
+   },
+   {
+    "scenario": "BEBx2P",
+    "ID": 154566869,
+    "prob": 0.12020214422434038
+   },
+   {
+    "scenario": "NEB",
+    "ID": 950776935,
+    "prob": 0.11544924479634244
+   },
+   {
+    "scenario": "NEB",
+    "ID": 154566873,
+    "prob": 0.0652140199616523
+   },
+   {
+    "scenario": "NEB",
+    "ID": 154566867,
+    "prob": 0.0505249204228224
+   },
+   {
+    "scenario": "TP",
+    "ID": 154566869,
+    "prob": 0.011041891299829194
+   },
+   {
+    "scenario": "NTP",
+    "ID": 154566872,
+    "prob": 0.009474548637863898
+   }
+  ],
+  "scenario_totals": {
+   "NEBx2P": 0.6184747589367579,
+   "NEB": 0.2399185039084289,
+   "BEBx2P": 0.12020214422434038,
+   "TP": 0.011041891299829194,
+   "NTP": 0.009712140608867489,
+   "BTP": 0.0004991604356500666,
+   "PTP": 0.00015096811764756204,
+   "STP": 2.563377655396806e-07,
+   "BEB": 1.7081774441493353e-07,
+   "DTP": 5.311154578198824e-09,
+   "EBx2P": 1.820197335999643e-12,
+   "PEBx2P": 8.606375705486048e-17,
+   "SEBx2P": 8.295855605051917e-17,
+   "DEBx2P": 1.7236513940883286e-18,
+   "EB": 1.3056494454910502e-20,
+   "SEB": 9.331328523077202e-21,
+   "PEB": 1.842923457326208e-21,
+   "DEB": 1.4058426303162984e-23
+  },
+  "probs_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\plumbing_p8\\tic154566869_P8.9053\\expensive\\fpp_cache\\tic154566869\\P8.8853_0639cfc293\\probs.csv",
+  "stars_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\plumbing_p8\\tic154566869_P8.9053\\expensive\\fpp_cache\\tic154566869\\P8.8853_0639cfc293\\stars.csv",
+  "result_path": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\plumbing_p8\\tic154566869_P8.9053\\expensive\\fpp_cache\\tic154566869\\P8.8853_0639cfc293\\result.json",
+  "settings": {
+   "n_draws": 100000,
+   "nsamples": 20,
+   "search_radius_px": 10,
+   "flatpriors": false,
+   "drop_scenario": [],
+   "seed": 20260902,
+   "aperture": "circular",
+   "exp_time_days": 0.0023148148148148147,
+   "window_durations": 3.0,
+   "mission": "TESS",
+   "red_noise_beta": 1.0,
+   "fold_mode": "binned",
+   "bins_per_duration": 25,
+   "input_fingerprint": "cf52d91c16493ba07a4b636abc748acdea0986600683ab0ebc5de8e85dc2bf77",
+   "bin_width_days": 0.006383333333333333,
+   "fold_mode_used": "binned",
+   "n_cadences_folded": 2308,
+   "flux_err_used": 0.001250625011341401,
+   "gaia_background": "Gaia background cached",
+   "gaia_background_file": "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p12\\plumbing_p8\\tic154566869_P8.9053\\expensive\\fpp_cache\\gaia_background\\154566869_gaia_background.csv"
+  },
+  "versions": {
+   "triceratops": "1.1.0",
+   "pytransit": "2.9.1",
+   "lightkurve": "2.6.0",
+   "astroquery": "0.4.11"
+  },
+  "seconds": 78.83267850000993,
+  "cached": false,
+  "note": "TRICERATOPS 1.1.0: FPP 0.9888, NFPP 0.8681 over 27 scenarios and 46 TIC stars within 10 px; aperture circular_from_tmag; 100000 draws; fold binned (150 points, error 1251 ppm); sectors [60, 74, 75].",
+  "error": ""
+ },
+ "fpp_uniform": false,
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "form_fields": {
+  "target": "TIC 259377017",
+  "tic_id": 259377017,
+  "discovery_source": "TESS",
+  "period_days": 5.66020136392659,
+  "period_err_days": 6.0181819692127784e-05,
+  "epoch_bjd": 2458389.5023201974,
+  "epoch_err_days": 0.0005003338476012025,
+  "depth_ppm": 4037.552303472691,
+  "depth_err_ppm": 90.53678518547645,
+  "duration_hours": 1.6424342804523495,
+  "duration_err_hours": 0.19550307579175769,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "tesshunter candidate on TIC 259377017: P = 5.66020 d, depth = 4038 ppm, T14 = 1.64 h, SNR 54.3, 11 transits in sectors 3,4,5. Limb-darkened fit: Rp/R* = 0.0589, a/R* = 26.76 (catalog 25.45), b = 0.30; Rp = 2.40 R_Earth. TRICERATOPS FPP = 0.080, NFPP = 0.000. Automated verdict: promising planet candidate. Cross-match: not attempted."
+ },
+ "supplementary": {
+  "rp_rs": 0.05888010590792647,
+  "rp_rs_err": 0.0015395593638319405,
+  "rp_rearth": 2.404279227075518,
+  "rp_rearth_err": 0.09696883800404435,
+  "rp_rjup": 0.21449652345548478,
+  "rp_rjup_err": 0.008651024557029246,
+  "a_rs": 26.756522899491507,
+  "a_rs_err": 3.681297686536548,
+  "a_rs_catalog": 25.45159189395657,
+  "impact_parameter": 0.29828583021949323,
+  "impact_parameter_err": 0.41895414482751775,
+  "inclination_deg": 89.3612446112843,
+  "depth_duration_averaged_ppm": 3408.278674710719,
+  "stellar_density_fit_cgs": 12.965459890413571,
+  "stellar_density_catalog_cgs": 9.735091924247293,
+  "density_prior_adopted": true,
+  "a_rs_inconsistent": false,
+  "snr_bls": 54.2772657603757,
+  "n_transits": 11,
+  "fpp": 0.08018339918238726,
+  "nfpp": 6.883185969570694e-77,
+  "fpp_aperture": "spoc",
+  "verdict": "promising planet candidate",
+  "flags_hard": [],
+  "flags_high": [],
+  "flags_medium": [
+   "nearby star could produce the signal: 1 high-risk and 2 medium-risk neighbour(s) of 13 checked (medium: TRICERATOPS NFPP 6.88e-77 with the real aperture)"
+  ],
+  "sectors": [
+   3,
+   4,
+   5
+  ],
+  "stellar": {
+   "teff": 3532.0,
+   "logg": 4.85053,
+   "radius": 0.374358,
+   "radius_err": 0.0114957,
+   "mass": 0.362274,
+   "mass_err": 0.020491,
+   "rho": 6.90519,
+   "tmag": 10.4981,
+   "contamination_ratio": 0.0103179086,
+   "source": "tic"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-02T18:52:09Z",
+  "fit_method": "least_squares",
+  "limb_darkening": "claret2017_atlas (Teff 3532 K, logg 4.85)",
+  "catalog_versions": null,
+  "crossmatch_status": null,
+  "packet_dir": "docs\\packets\\toi270_c_demo"
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php, read 2026-09-02): TID name, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition (PC/FP). Period, epoch, depth and duration must all be > 0 for TOI working-group consideration. The human fills the tag and submits."
+}

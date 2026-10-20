@@ -1,0 +1,3 @@
+# C_local — not reached
+
+No C_local architecture was implemented, calibrated or timed after the input stop. The D/E grid, S0/S1/S2 families and contractual boundaries in the prospective registration are proposals, not measured or selected policies. No local-template implementation seal or joint-policy freeze was created. The historical 40 secondary controls and 41 EB C records were not joined by host alone; no missing blend measurement was inferred. No broad TLS references ran. Validation predictions, evaluator truth and paired efficacy tables are absent because this permitted phase was not reached. See results/validation_status.json.

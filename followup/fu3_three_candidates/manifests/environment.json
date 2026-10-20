@@ -1,0 +1,20 @@
+{
+ "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+ "executable": "C:\\Users\\seanj\\Downloads\\tesshunter_venv\\Scripts\\python.exe",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "packages": {
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "astropy": "8.0.1",
+  "batman": "2.5.1",
+  "emcee": "3.1.6",
+  "lightkurve": "2.6.0",
+  "astroquery": "0.4.11",
+  "wotan": "?",
+  "transitleastsquares": "?",
+  "triceratops": "?",
+  "pandas": "2.3.3",
+  "matplotlib": "3.11.1",
+  "numba": "0.67.0"
+ }
+}

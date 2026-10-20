@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these planet candidates or this software, please cite this repository."
+title: "tesshunter: a calibrated search for small transiting planets around M and K dwarfs in TESS full-frame images"
+type: software
+authors:
+  - name: "Samuel Zachary Edwards"
+date-released: "2026-10-20"
+url: "https://github.com/samzuzcala-netizen/tesshunter"
+repository-code: "https://github.com/samzuzcala-netizen/tesshunter"
+license: MIT
+keywords:
+  - exoplanets
+  - TESS
+  - transit search
+  - M dwarfs
+  - planet candidates

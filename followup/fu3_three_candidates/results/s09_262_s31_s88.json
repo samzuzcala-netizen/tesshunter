@@ -1,0 +1,296 @@
+[
+ {
+  "sector": 31,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s31.fits",
+  "camera": 4,
+  "ccd": 2,
+  "cutout_origin_rowcol": [
+   225,
+   2102
+  ],
+  "target_xy": [
+   10.172011476353678,
+   10.50463823023961
+  ],
+  "target_ccd_row": 235.5046382302396,
+  "target_ccd_col": 2112.172011476354,
+  "n_cadences": 3459,
+  "n_good_default_mask": 3445,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   2,
+   5,
+   7
+  ],
+  "frac_quality_nonzero": 0.004047412546978896,
+  "ref_peak_3x3": 0.009638378396630287,
+  "ref_sum_3x3": 0.03024734673090279,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": -0.003968259319663048,
+  "ref_min": -0.03561394289135933,
+  "ref_max": 0.15258361399173737,
+  "brightest_pixel_xy": [
+   12,
+   11
+  ],
+  "header": {
+   "1CRV4P": "2102",
+   "2CRV4P": "225",
+   "1CRPX4": "11.00599714924",
+   "2CRPX4": "11.003938827585",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.006944444444444444"
+  },
+  "bkg_sky_median": -0.003098884131759405,
+  "brightest_minus_target_px": 1.8939179827866903
+ },
+ {
+  "sector": 88,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s88.fits",
+  "camera": 4,
+  "ccd": 3,
+  "cutout_origin_rowcol": [
+   354,
+   21
+  ],
+  "target_xy": [
+   10.272441615767056,
+   10.655471806630915
+  ],
+  "target_ccd_row": 364.65547180663094,
+  "target_ccd_col": 31.272441615767057,
+  "n_cadences": 11730,
+  "n_good_default_mask": 11625,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   2,
+   3,
+   5,
+   7
+  ],
+  "frac_quality_nonzero": 0.008951406649616368,
+  "ref_peak_3x3": 0.3356435000896454,
+  "ref_sum_3x3": 2.9399795532226562,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": 0.3356435000896454,
+  "ref_min": -0.08944804966449738,
+  "ref_max": 0.45665350556373596,
+  "brightest_pixel_xy": [
+   13,
+   13
+  ],
+  "header": {
+   "1CRV4P": "21",
+   "2CRV4P": "354",
+   "1CRPX4": "11.005585240023",
+   "2CRPX4": "10.990386478905",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.0023148148148148"
+  },
+  "bkg_sky_median": 0.3395606130361557,
+  "brightest_minus_target_px": 3.596718947721928
+ },
+ {
+  "sector": 28,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s28.fits",
+  "camera": 3,
+  "ccd": 4,
+  "cutout_origin_rowcol": [
+   238,
+   1480
+  ],
+  "target_xy": [
+   10.581643516572946,
+   10.587952818146086
+  ],
+  "target_ccd_row": 248.58795281814608,
+  "target_ccd_col": 1490.581643516573,
+  "n_cadences": 3464,
+  "n_good_default_mask": 3449,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   2,
+   5,
+   7
+  ],
+  "frac_quality_nonzero": 0.0043302540415704385,
+  "ref_peak_3x3": 559.4719848632812,
+  "ref_sum_3x3": 2723.071807861328,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": 88.27142333984375,
+  "ref_min": 84.161865234375,
+  "ref_max": 559.4719848632812,
+  "brightest_pixel_xy": [
+   11,
+   11
+  ],
+  "header": {
+   "1CRV4P": "1480",
+   "2CRV4P": "238",
+   "1CRPX4": "10.991442858651",
+   "2CRPX4": "11.001934659833",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.006944444444444444"
+  },
+  "bkg_sky_median": 88.03919982910156,
+  "brightest_minus_target_px": 0.5872010109827842
+ },
+ {
+  "sector": 64,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s64.fits",
+  "camera": 4,
+  "ccd": 4,
+  "cutout_origin_rowcol": [
+   125,
+   1493
+  ],
+  "target_xy": [
+   10.663388546997053,
+   10.937164614012062
+  ],
+  "target_ccd_row": 135.93716461401206,
+  "target_ccd_col": 1503.663388546997,
+  "n_cadences": 11356,
+  "n_good_default_mask": 11276,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   3,
+   5,
+   7
+  ],
+  "frac_quality_nonzero": 0.007044734061289186,
+  "ref_peak_3x3": 606.7462768554688,
+  "ref_sum_3x3": 2560.2076454162598,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": 77.44842910766602,
+  "ref_min": 72.73575210571289,
+  "ref_max": 606.7462768554688,
+  "brightest_pixel_xy": [
+   11,
+   11
+  ],
+  "header": {
+   "1CRV4P": "1493",
+   "2CRV4P": "125",
+   "1CRPX4": "11.020606215873",
+   "2CRPX4": "11.004800186108",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.002314814814815"
+  },
+  "bkg_sky_median": 77.10707092285156,
+  "brightest_minus_target_px": 0.34242598619994974
+ },
+ {
+  "sector": 69,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s69.fits",
+  "camera": 3,
+  "ccd": 4,
+  "cutout_origin_rowcol": [
+   923,
+   246
+  ],
+  "target_xy": [
+   10.855174723060259,
+   10.224989045797589
+  ],
+  "target_ccd_row": 933.2249890457975,
+  "target_ccd_col": 256.85517472306026,
+  "n_cadences": 10856,
+  "n_good_default_mask": 9735,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   2,
+   3,
+   5,
+   7,
+   11,
+   14
+  ],
+  "frac_quality_nonzero": 0.13126381724392042,
+  "ref_peak_3x3": 872.4011840820312,
+  "ref_sum_3x3": 2874.438003540039,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": 86.57919311523438,
+  "ref_min": 81.18072509765625,
+  "ref_max": 872.4011840820312,
+  "brightest_pixel_xy": [
+   11,
+   10
+  ],
+  "header": {
+   "1CRV4P": "246",
+   "2CRV4P": "923",
+   "1CRPX4": "10.973774270872",
+   "2CRPX4": "11.045150681992",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.002314814814815"
+  },
+  "bkg_sky_median": 86.39784240722656,
+  "brightest_minus_target_px": 0.267571357902116
+ },
+ {
+  "sector": 96,
+  "file": "D:\\tess_fu3_cache\\cutouts\\262843927_s96.fits",
+  "camera": 3,
+  "ccd": 4,
+  "cutout_origin_rowcol": [
+   880,
+   455
+  ],
+  "target_xy": [
+   10.33957140602321,
+   10.875865604207547
+  ],
+  "target_ccd_row": 890.8758656042075,
+  "target_ccd_col": 465.3395714060232,
+  "n_cadences": 10819,
+  "n_good_default_mask": 10337,
+  "frac_all_nan_frames": 0.0,
+  "frac_frames_any_nan": 0.0,
+  "frac_pixels_nan_in_median": 0.0,
+  "quality_bits_present": [
+   3,
+   5,
+   7,
+   11,
+   14
+  ],
+  "frac_quality_nonzero": 0.05961733986505222,
+  "ref_peak_3x3": 768.0520629882812,
+  "ref_sum_3x3": 2699.060256958008,
+  "expected_target_e_per_s": 2414.188957096112,
+  "expected_peak_pixel": 844.9661349836392,
+  "ref_median_image": 84.73382568359375,
+  "ref_min": 80.14473724365234,
+  "ref_max": 768.0520629882812,
+  "brightest_pixel_xy": [
+   10,
+   11
+  ],
+  "header": {
+   "1CRV4P": "455",
+   "2CRV4P": "880",
+   "1CRPX4": "10.979597296932",
+   "2CRPX4": "11.046781985657",
+   "TELESCOP": "TESS",
+   "TIMEDEL": "0.0023148148148148"
+  },
+  "bkg_sky_median": 84.5345458984375,
+  "brightest_minus_target_px": 0.36154956507695657
+ }
+]

@@ -1,0 +1,82 @@
+{
+ "tic_id": 212261364,
+ "n_products": 5,
+ "note": "one product per sector, exactly what audit_p5.choose_per_sector keeps",
+ "products": [
+  {
+   "file": "s001_TESSSPOC.npz",
+   "author": "TESS-SPOC",
+   "exptime_s": 1800.0,
+   "cadence_s": 1800.0,
+   "sector": 1,
+   "n": 1282,
+   "flux_column": "pdcsap_flux",
+   "t_start": 1325.3292443788062,
+   "t_end": 1353.1619930263537,
+   "camera": 1,
+   "ccd": 4,
+   "n_quality_nonzero": 142,
+   "n_desat": 15
+  },
+  {
+   "file": "s027_TESSSPOC.npz",
+   "author": "TESS-SPOC",
+   "exptime_s": 600.0,
+   "cadence_s": 600.0,
+   "sector": 27,
+   "n": 3360,
+   "flux_column": "pdcsap_flux",
+   "t_start": 2036.286912184813,
+   "t_end": 2060.6413979327313,
+   "camera": 1,
+   "ccd": 3,
+   "n_quality_nonzero": 10,
+   "n_desat": 8
+  },
+  {
+   "file": "s067_TESSSPOC.npz",
+   "author": "TESS-SPOC",
+   "exptime_s": 200.0,
+   "cadence_s": 200.0,
+   "sector": 67,
+   "n": 11719,
+   "flux_column": "pdcsap_flux",
+   "t_start": 3126.64273088255,
+   "t_end": 3154.400203747124,
+   "camera": 1,
+   "ccd": 3,
+   "n_quality_nonzero": 3622,
+   "n_desat": 11
+  },
+  {
+   "file": "s092_QLP.npz",
+   "author": "QLP",
+   "exptime_s": 200.0,
+   "cadence_s": 200.0,
+   "sector": 92,
+   "n": 11253,
+   "flux_column": "det_flux",
+   "t_start": 3802.9681570048897,
+   "t_end": 3829.644075202237,
+   "camera": 2,
+   "ccd": 1,
+   "n_quality_nonzero": 1964,
+   "n_desat": 12
+  },
+  {
+   "file": "s095_QLP.npz",
+   "author": "QLP",
+   "exptime_s": 200.0,
+   "cadence_s": 200.0,
+   "sector": 95,
+   "n": 10626,
+   "flux_column": "det_flux",
+   "t_start": 3882.3337228270834,
+   "t_end": 3907.56240116715,
+   "camera": 1,
+   "ccd": 4,
+   "n_quality_nonzero": 2788,
+   "n_desat": 12
+  }
+ ]
+}

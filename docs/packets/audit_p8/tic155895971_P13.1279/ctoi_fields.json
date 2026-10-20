@@ -1,0 +1,167 @@
+{
+ "form_fields": {
+  "target": "TIC 155895971",
+  "tic_id": 155895971,
+  "discovery_source": "TESS",
+  "period_days": 13.128105648889258,
+  "period_err_days": 0.0004743061783958103,
+  "epoch_bjd": 2460195.045187952,
+  "epoch_err_days": 0.030234980670136954,
+  "depth_ppm": 3926.0,
+  "depth_err_ppm": 1103.0,
+  "duration_hours": 4.315,
+  "duration_err_hours": 4.85,
+  "disposition": "PC",
+  "tag": "FILL_ME: YYYYMMDD_username_tesshunter_NNN",
+  "candidate_name": null,
+  "paper_url": null,
+  "notes": "Local P8 audit verdict: KILL. Background/correction artifact. Three primary-event difference images are dominated by whole-cutout background changes, and the fixed target aperture alternates between large brightening, a weak dip and unstable gap-adjacent structure instead of a repeatable transit [M]. FPP 0.000659 is conditional on astrophysical hypotheses and does not account for this instrumental evidence."
+ },
+ "supplementary": {
+  "rp_rs": 0.058158218788470994,
+  "rp_rs_err": 0.00948110050165836,
+  "rp_rearth": 1.706,
+  "rp_rearth_err": 0.326,
+  "a_rs": 24.57020951696529,
+  "a_rs_err": 25.860282259246155,
+  "impact_parameter": 0.025663784401244637,
+  "impact_parameter_err": 40.73917591018276,
+  "inclination_deg": 89.94015407972482,
+  "depth_duration_averaged_ppm": 3396.0,
+  "density_prior_adopted": false,
+  "delta_chi2_prior_minus_free": 51.07424354667978,
+  "beta_red_noise": 1.07,
+  "n_transits_in_fit": 4,
+  "odd_even": {
+   "odd": {
+    "rp_rs": 0.057446357995855145,
+    "rp_rs_err": 0.0048526577493747764,
+    "depth_ppt": 3.3,
+    "n_transits": 4
+   },
+   "even": {
+    "rp_rs": 0.05887353203193266,
+    "rp_rs_err": 0.004706900896385649,
+    "depth_ppt": 3.466,
+    "n_transits": 4
+   },
+   "sigma": 0.21
+  },
+  "tls_blind": {
+   "period": 13.128077367157442,
+   "SDE": 10.228206629720273,
+   "snr": 2.079001812743427,
+   "distinct_transit_count": 4
+  },
+  "tls_verdict": "PASS",
+  "events": {
+   "n_observed": 6,
+   "n_excluded": 3,
+   "n_kept": 3
+  },
+  "det_kept": {
+   "n": 3,
+   "weighted_mean_depth_ppt": 3.293,
+   "err_ppt": 0.464,
+   "snr": 7.09,
+   "chi2_const": 1.4,
+   "dof": 2,
+   "p_const": 0.5720390602653753,
+   "top_event_n": 75,
+   "top_event_share_of_snr2": 0.37,
+   "snr_without_top_event": 5.73,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 3.551,
+    "odd_err": 0.612,
+    "even_ppt": 2.942,
+    "even_err": 0.713,
+    "sigma": 0.65
+   },
+   "p_const_white": 0.4847062559748977,
+   "chi2_const_white": 1.4,
+   "snr_white": 7.09,
+   "beta_median": 1.175,
+   "beta_min": 1.128,
+   "beta_max": 1.175,
+   "weighted_mean_depth_ppt_inflated": 3.311,
+   "err_ppt_inflated": 0.54,
+   "snr_inflated": 6.13,
+   "chi2_const_inflated": 1.1,
+   "p_const_inflated": 0.5720390602653753
+  },
+  "sap_kept": {
+   "n": 3,
+   "weighted_mean_depth_ppt": 2.751,
+   "err_ppt": 0.475,
+   "snr": 5.79,
+   "chi2_const": 1.0,
+   "dof": 2,
+   "p_const": 0.6960395484860562,
+   "top_event_n": 55,
+   "top_event_share_of_snr2": 0.39,
+   "snr_without_top_event": 4.48,
+   "n_events_depth_above_2sigma": 3,
+   "n_events_negative": 0,
+   "odd_even": {
+    "odd_ppt": 3.068,
+    "odd_err": 0.619,
+    "even_ppt": 2.297,
+    "even_err": 0.741,
+    "sigma": 0.8
+   },
+   "p_const_white": 0.6210504943172097,
+   "chi2_const_white": 1.0,
+   "snr_white": 5.79,
+   "beta_median": 1.175,
+   "beta_min": 1.128,
+   "beta_max": 1.175,
+   "weighted_mean_depth_ppt_inflated": 2.764,
+   "err_ppt_inflated": 0.553,
+   "snr_inflated": 5.0,
+   "chi2_const_inflated": 0.7,
+   "p_const_inflated": 0.6960395484860562
+  },
+  "stellar": {
+   "radius": 0.269,
+   "radius_err": 0.026900000000000004,
+   "mass": 0.242,
+   "rho_cgs": 17.504962340565363,
+   "rho_err": 5.251488702169609,
+   "a_rs_catalog": 54.22946648903929
+  },
+  "limb_darkening": {
+   "u1": 0.21272,
+   "u2": 0.40728000000000003,
+   "source": "survey Claret interpolation at TIC Teff 3409 K"
+  }
+ },
+ "provenance": {
+  "generated_utc": "2026-09-06T21:08:39Z",
+  "fit_method": "audit_p5: batman quadratic-LD least squares on wotan-biweight-detrended SPOC/TESS-SPOC/QLP flux, all transits, per-cadence supersampling, errors x beta",
+  "rules_version": "p8.0",
+  "catalog_versions": "ctoi=2026-09-06:f6964541;nasa_ps=2026-09-06:a77e0fbc;nasa_pscomppars=2026-09-06:0ade67b2;spoc_tce=2026-09-06:e580dde7;tess_eb=2026-09-06:43555226;toi=2026-09-06:f60c6873",
+  "crossmatch_status": "CLEAN",
+  "audit_files": [
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\tls\\tic155895971_P13.1279.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\events\\tic155895971_P13.1279_tls.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\neighbours\\tic155895971.json",
+   "C:\\Users\\seanj\\Downloads\\tess-exoplanet-candidate-hunter\\tess-exoplanet-candidate-hunter\\data\\survey\\p8\\fit\\tic155895971_P13.1279.json"
+  ]
+ },
+ "field_source": "ExoFOP-TESS candidate guidelines (candidate_help.php): TID, discovery source, period, transit midpoint (BJD), depth (ppm), duration, tag, paper URL, initial note; optional candidate name and disposition. The human fills the tag and submits.",
+ "input_config": {
+  "ingest_key": "3d160359ad",
+  "sector_min": 56,
+  "target_cadence_minutes": 3.3333333333333335,
+  "bin_minutes": null,
+  "audit_input_version": 1
+ },
+ "review_status": {
+  "verdict": "KILL",
+  "final_verdict_stamped": true,
+  "reason": "Background/correction artifact. Three primary-event difference images are dominated by whole-cutout background changes, and the fixed target aperture alternates between large brightening, a weak dip and unstable gap-adjacent structure instead of a repeatable transit [M]. FPP 0.000659 is conditional on astrophysical hypotheses and does not account for this instrumental evidence.",
+  "external_submission_performed": false
+ }
+}
